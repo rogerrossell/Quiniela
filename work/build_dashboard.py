@@ -2,6 +2,7 @@ import json, math, html
 from datetime import date, datetime, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
+from coupons import coupon_for_round
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'outputs/seguiment.json'
@@ -24,6 +25,7 @@ def build():
     data=json.loads(DATA.read_text())
     for r in data['rounds']:
         r['metrics']=metrics(r['matches'])
+        r['coupon']=coupon_for_round(r)
     template=(ROOT/'work/dashboard.template.html').read_text()
     rendered=template.replace('__DATA__',json.dumps(data,ensure_ascii=False).replace('<','\\u003c'))
     for path in [ROOT/'site/dist/index.html',ROOT/'outputs/quiniela.html']:

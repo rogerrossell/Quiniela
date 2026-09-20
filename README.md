@@ -36,3 +36,11 @@ Sense validació històrica, xG ni garantia d'encert. La jornada 7 conté cinc p
 Les mètriques consideren només partits amb previsió i resultat final verificat. Cal preservar la data de tall, les fonts i la versió del model. Cap compra d'apostes s'executa des d'aquest projecte.
 
 Aquest repositori no inclou credencials, identificadors de xats, configuració privada d'automatitzacions ni dades personals.
+
+## Quatre apostes per jornada
+
+El generador calcula les quatre columnes 1/X/2 diferents amb major probabilitat conjunta, amb probabilitats sense arrodonir i assumint independència entre partits. L’objectiu és encertar tots els signes (14 en un cupó complet), no qualsevol premi ni rendibilitat. El Ple al 15 fa servir la categoria de gols més probable i es mostra separat del percentatge de 14 encerts.
+
+Sense cupó oficial verificat, es mostren només combinacions parcials. Per activar el cupó complet, la jornada ha d’incloure `official_coupon`: `verified_at`, `source`, `deadline`, `match_indices` (14 índexs diferents, base zero, de `matches` en ordre oficial) i `pleno15` amb `home`, `away`, `kickoff` i `probabilities` (les 16 categories `0-0` a `M-M`, on M és 3+ gols). Tots els partits han de tenir previsió anterior a l’inici i al tancament. Cal verificar aquests camps amb SELAE; mai inventar partits ni probabilitats absents.
+
+`work/coupons.py` s’executa en regenerar el tauler. La revisió de resultats no altera les columnes. Comprovació del càlcul: `python3 work/test_coupons.py`.
