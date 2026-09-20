@@ -1,0 +1,50 @@
+{
+  "cutoff": "2026-09-19T21:22:00+02:00",
+  "season": "2026/27",
+  "round": 7,
+  "data_mode": "Transcripció manual de fonts consultades; no és un servei en directe",
+  "stats_source": "https://www.laliga.com/laliga-easports/clasificacion",
+  "assumptions": "Poisson independent. Mitjana prèvia suposada 1.3 gols/equip/partit, pes de 4 partits; 75% total i 25% seu. Avantatge local 1.10/0.90. Paràmetres i ajustos heurístics, sense calibratge històric. No són xG observats. Baixes no verificades exhaustivament.",
+  "matches": [
+    {
+      "time": "2026-09-20T14:00:00+02:00",
+      "home": {"name": "Getafe", "pj": 6, "gf": 3, "gc": 7, "venue_pj": 3, "venue_gf": 3, "venue_gc": 2},
+      "away": {"name": "Màlaga", "pj": 6, "gf": 3, "gc": 11, "venue_pj": 3, "venue_gf": 1, "venue_gc": 7},
+      "adjust_home": 1.0, "adjust_away": 1.03,
+      "adjustment_reason": "Petit augment del gol visitant per la sanció de Mario Martín, segons AS. Magnitud assumida, no estimada amb dades.",
+      "news_sources": ["https://as.com/futbol/primera/a-que-hora-es-el-getafe-malaga-tv-horario-y-como-ver-laliga-ea-sports-online-hoy-f202609-n/", "https://cadenaser.com/andalucia/2026/09/19/funes-el-getafe-nos-va-a-llevar-a-un-numero-de-disputas-muy-alto-ser-malaga/"]
+    },
+    {
+      "time": "2026-09-20T16:15:00+02:00",
+      "home": {"name": "Atlètic de Madrid", "pj": 6, "gf": 14, "gc": 6, "venue_pj": 3, "venue_gf": 8, "venue_gc": 2},
+      "away": {"name": "Real Madrid", "pj": 6, "gf": 17, "gc": 6, "venue_pj": 3, "venue_gf": 5, "venue_gc": 4},
+      "adjust_home": 1.0, "adjust_away": 1.0,
+      "adjustment_reason": "Sense ajust: Mbappé i Vinícius convocats; Julián ha tornat al grup segons AS, però no es pressuposa titularitat ni plena forma.",
+      "news_sources": ["https://www.realmadrid.com/fr-FR/actualites/football/equipe-premiere/convocations/convocatoria-del-real-madrid-contra-el-atletico-19-09-2026", "https://as.com/futbol/primera/julian-alvarez-con-el-grupo-preparado-para-el-derbi-f202609-n/"]
+    },
+    {
+      "time": "2026-09-20T18:30:00+02:00",
+      "home": {"name": "Deportivo", "pj": 6, "gf": 9, "gc": 7, "venue_pj": 3, "venue_gf": 4, "venue_gc": 3},
+      "away": {"name": "Betis", "pj": 6, "gf": 8, "gc": 6, "venue_pj": 3, "venue_gf": 5, "venue_gc": 6},
+      "adjust_home": 1.0, "adjust_away": 0.97,
+      "adjustment_reason": "Ajust petit pel dia menys de descans del Betis a la jornada 6; manca verificació completa del calendari de totes les competicions. Gols dels jugadors ja inclosos als totals, sense sumar-los un altre cop.",
+      "news_sources": ["https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-real-betis-7", "https://www.eldesmarque.com/futbol/liga-1a-division/20260919/real-betis-video-entrenamiento-pique-abde-antony-bromas-pellegrini-bellerin-bartra_18_020214417.html", "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-6"]
+    },
+    {
+      "time": "2026-09-20T18:30:00+02:00",
+      "home": {"name": "Villarreal", "pj": 6, "gf": 10, "gc": 11, "venue_pj": 2, "venue_gf": 3, "venue_gc": 5},
+      "away": {"name": "Llevant", "pj": 5, "gf": 7, "gc": 9, "venue_pj": 3, "venue_gf": 0, "venue_gc": 3},
+      "adjust_home": 0.95, "adjust_away": 1.03,
+      "adjustment_reason": "Escenari prudent per les molèsties de Comesaña i major càrrega recent del Villarreal. Etta Eyong: informació insuficient per aplicar ajust. Magnituds heurístiques.",
+      "news_sources": ["https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-levante-ud-7", "https://as.com/futbol/comesana-abandona-la-rosaleda-con-muletas-f202609-n/", "https://as.com/futbol/primera/villarreal-levante-tv-horario-y-como-ver-laliga-ea-sports-online-hoy-f202609-n/"]
+    },
+    {
+      "time": "2026-09-20T21:00:00+02:00",
+      "home": {"name": "València", "pj": 6, "gf": 2, "gc": 10, "venue_pj": 3, "venue_gf": 0, "venue_gc": 6},
+      "away": {"name": "Reial Societat", "pj": 6, "gf": 6, "gc": 11, "venue_pj": 3, "venue_gf": 4, "venue_gc": 7},
+      "adjust_home": 0.95, "adjust_away": 1.05,
+      "adjustment_reason": "Ajust limitat per les baixes ofensives i defensives del València segons AS. Possible doble recompte amb el rendiment acumulat: per això només 5%. Retorn de Guido i Danjuma sense bonificació addicional.",
+      "news_sources": ["https://as.com/futbol/primera/guido-y-danjuma-se-apuntan-a-la-real-f202609-n/", "https://www.laliga.com/es-FR/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-real-sociedad-7"]
+    }
+  ]
+}
