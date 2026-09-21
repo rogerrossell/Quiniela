@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-19T21:22:00+02:00",
+  "updated": "2026-09-21T10:13:45.624+02:00",
   "automation_note": "Revisió diària activada a Codex; necessita que l’entorn local estigui disponible. Aquest web és una instantània, no un marcador en directe.",
   "rounds": [
     {
       "number": 7,
-      "label": "Previsió parcial",
+      "label": "Revisió parcial · 4/5",
       "period": "18–20 de setembre de 2026",
       "forecast_at": "2026-09-19T21:22:00+02:00",
       "model": "0.1",
@@ -47,14 +47,18 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            1,
+            0
+          ],
           "confidence": "Confiança baixa",
           "note": "Petit augment del gol visitant per la sanció de Mario Martín, segons AS. Magnitud assumida, no estimada amb dades.",
           "sources": [
             "https://as.com/futbol/primera/a-que-hora-es-el-getafe-malaga-tv-horario-y-como-ver-laliga-ea-sports-online-hoy-f202609-n/",
             "https://cadenaser.com/andalucia/2026/09/19/funes-el-getafe-nos-va-a-llevar-a-un-numero-de-disputas-muy-alto-ser-malaga/"
-          ]
+          ],
+          "result_source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-7"
         },
         {
           "home": "Atlètic de Madrid",
@@ -92,14 +96,18 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            2,
+            1
+          ],
           "confidence": "Confiança baixa",
           "note": "Sense ajust: Mbappé i Vinícius convocats; Julián ha tornat al grup segons AS, però no es pressuposa titularitat ni plena forma.",
           "sources": [
             "https://www.realmadrid.com/fr-FR/actualites/football/equipe-premiere/convocations/convocatoria-del-real-madrid-contra-el-atletico-19-09-2026",
             "https://as.com/futbol/primera/julian-alvarez-con-el-grupo-preparado-para-el-derbi-f202609-n/"
-          ]
+          ],
+          "result_source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-7"
         },
         {
           "home": "Deportivo",
@@ -137,15 +145,19 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            1,
+            1
+          ],
           "confidence": "Confiança baixa",
           "note": "Ajust petit pel dia menys de descans del Betis a la jornada 6; manca verificació completa del calendari de totes les competicions. Gols dels jugadors ja inclosos als totals, sense sumar-los un altre cop.",
           "sources": [
             "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-real-betis-7",
             "https://www.eldesmarque.com/futbol/liga-1a-division/20260919/real-betis-video-entrenamiento-pique-abde-antony-bromas-pellegrini-bellerin-bartra_18_020214417.html",
             "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-6"
-          ]
+          ],
+          "result_source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-7"
         },
         {
           "home": "Villarreal",
@@ -183,15 +195,19 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            3,
+            1
+          ],
           "confidence": "Confiança baixa",
           "note": "Escenari prudent per les molèsties de Comesaña i major càrrega recent del Villarreal. Etta Eyong: informació insuficient per aplicar ajust. Magnituds heurístiques.",
           "sources": [
             "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-levante-ud-7",
             "https://as.com/futbol/comesana-abandona-la-rosaleda-con-muletas-f202609-n/",
             "https://as.com/futbol/primera/villarreal-levante-tv-horario-y-como-ver-laliga-ea-sports-online-hoy-f202609-n/"
-          ]
+          ],
+          "result_source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-7"
         },
         {
           "home": "València",
@@ -229,14 +245,18 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            2,
+            3
+          ],
           "confidence": "Confiança molt baixa",
           "note": "Ajust limitat per les baixes ofensives i defensives del València segons AS. Possible doble recompte amb el rendiment acumulat: per això només 5%. Retorn de Guido i Danjuma sense bonificació addicional.",
           "sources": [
             "https://as.com/futbol/primera/guido-y-danjuma-se-apuntan-a-la-real-f202609-n/",
             "https://www.laliga.com/es-FR/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-real-sociedad-7"
-          ]
+          ],
+          "result_source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-7"
         },
         {
           "home": "Espanyol",
@@ -282,14 +302,158 @@
           "home": "Sevilla",
           "away": "Barcelona",
           "forecast": null,
-          "result": null,
-          "status": "started_at_cutoff"
+          "result": [
+            1,
+            3
+          ],
+          "status": "final",
+          "result_source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-7"
         }
       ],
       "review": {
-        "summary": "Pendent que acabin els partits previstos.",
-        "next": "Primera revisió prevista el 21/09 a les 10:00, si la jornada ha finalitzat.",
-        "changes": []
+        "summary": "4 encerts de signe sobre 5 (80%). Únic error: Deportivo–Betis, previst 1 i resultat 1–1. Marcador més probable: 2/5; entre els tres marcadors proposats: 3/5. Dobles: 4/5. Les quatre columnes parcials fan 4, 3, 3 i 2 encerts; cap encerta els cinc signes.",
+        "next": "Es manté el model 0.1. Cinc partits no permeten validar una millora. Propera previsió: 7/10/2026 a les 10:00, subjecta al calendari oficial.",
+        "changes": [
+          "Deportivo–Betis: l’empat ja tenia probabilitat 0.2615678170749931. L’error és compatible amb la incertesa prevista; el resultat no prova una causa concreta.",
+          "Dades absents: xG homogeni, verificació completa del descans de totes les competicions i impacte individual de baixes. No es pot afirmar retrospectivament que aquestes absències causessin l’error.",
+          "Hipòtesi pendent: comparar un model sense ajustos heurístics de descans i baixes amb el vigent, amb dades disponibles abans de cada partit. Validació cronològica sobre una mostra més gran, Brier i logloss; sense ajustar pesos amb aquesta jornada.",
+          "Referències: predir sempre victòria local dona 3/5. Probabilitats uniformes: Brier 0.666667 i logloss 1.098612. La comparació de cinc partits no acredita superioritat estable."
+        ],
+        "metrics": {
+          "n": 5,
+          "hits": 4,
+          "accuracy": 0.8,
+          "brier": 0.5576063433581778,
+          "logloss": 0.9436935446349738,
+          "exact_top1": 2,
+          "exact_top3": 3,
+          "double_hits": 4,
+          "uniform_baseline_brier": 0.6666666666666666,
+          "uniform_baseline_logloss": 1.0986122886681098,
+          "always_home_baseline_hits": 3
+        },
+        "column_results": [
+          {
+            "signs": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "2"
+            ],
+            "probability": 0.015245847428795464,
+            "hits": 4
+          },
+          {
+            "signs": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 0.014509502594429438,
+            "hits": 3
+          },
+          {
+            "signs": [
+              "1",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "probability": 0.011598716371241555,
+            "hits": 3
+          },
+          {
+            "signs": [
+              "1",
+              "1",
+              "1",
+              "2",
+              "1"
+            ],
+            "probability": 0.01103852088685613,
+            "hits": 2
+          }
+        ],
+        "reviewed_at": "2026-09-21T10:13:45.624+02:00",
+        "result_source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-7",
+        "publication_status": "pending_site"
+      },
+      "coupon": {
+        "complete": false,
+        "reason": "Falta verificar el cupó oficial de 14 partits i el Ple al 15.",
+        "matches": [
+          {
+            "home": "Getafe",
+            "away": "Màlaga"
+          },
+          {
+            "home": "Atlètic de Madrid",
+            "away": "Real Madrid"
+          },
+          {
+            "home": "Deportivo",
+            "away": "Betis"
+          },
+          {
+            "home": "Villarreal",
+            "away": "Llevant"
+          },
+          {
+            "home": "València",
+            "away": "Reial Societat"
+          }
+        ],
+        "columns": [
+          {
+            "signs": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "2"
+            ],
+            "probability": 0.015245847428795464
+          },
+          {
+            "signs": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 0.014509502594429438
+          },
+          {
+            "signs": [
+              "1",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "probability": 0.011598716371241555
+          },
+          {
+            "signs": [
+              "1",
+              "1",
+              "1",
+              "2",
+              "1"
+            ],
+            "probability": 0.01103852088685613
+          }
+        ],
+        "coverage": 0.05239258728132258,
+        "objective": "all_signs",
+        "generated_from": "2026-09-19T21:22:00+02:00",
+        "published_at": "2026-09-20T10:47:47.737609+02:00",
+        "publication_note": "Publicació confirmada de les quatre combinacions parcials. Probabilitats originals del 19/09, sense recalcular."
       }
     }
   ]
