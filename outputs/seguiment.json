@@ -1,7 +1,607 @@
 {
-  "updated": "2026-09-21T10:13:45.624+02:00",
+  "updated": "2026-09-23T16:58:50+02:00",
   "automation_note": "Revisió diària activada a Codex; necessita que l’entorn local estigui disponible. Aquest web és una instantània, no un marcador en directe.",
   "rounds": [
+    {
+      "number": 8,
+      "label": "Anticipada · 4 combinacions parcials",
+      "period": "9–12 d’octubre de 2026",
+      "forecast_at": "2026-09-23T16:58:50+02:00",
+      "forecast_version": "j8-20260923-anticipada",
+      "model": "0.1",
+      "warning": "Previsió anticipada del 23/09. Falta verificar lesions, sancions, convocatòries i càrrega de totes les competicions prop del partit. Revisió ordinària prevista el 7/10 a les 10:00; serà una versió nova, sense substituir aquesta.",
+      "coupon_note": "No és el cupó SELAE del proper cap de setmana. Només cobreix els 10 partits de Primera de la jornada 8; falten els 14 partits oficials, ordre, tancament i Ple al 15 verificats.",
+      "matches": [
+        {
+          "home": "Màlaga",
+          "away": "Espanyol",
+          "kickoff": "2026-10-09T21:00:00+02:00",
+          "forecast": {
+            "match": "Màlaga – Espanyol",
+            "time": "2026-10-09T21:00:00+02:00",
+            "lambda_home": 1.1996428571428572,
+            "lambda_away": 1.2898051948051947,
+            "probabilities": {
+              "1": 0.34329060411333284,
+              "X": 0.2703810724407921,
+              "2": 0.38632832344587503
+            },
+            "percentages": {
+              "1": 34,
+              "X": 27,
+              "2": 39
+            },
+            "sign": "2",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12835788200465056
+              },
+              {
+                "score": "0-1",
+                "probability": 0.10699674594016718
+              },
+              {
+                "score": "1-0",
+                "probability": 0.09951726239095901
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "confidence": "Provisional · confiança baixa",
+          "note": "Màlaga arriba sense victòries i amb 3 gols en 7 partits; l’Espanyol també ve de perdre. Roberto suma 6 dels 10 gols de l’Espanyol: la seva disponibilitat serà rellevant, encara no confirmada per al 9/10. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+            "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
+          ]
+        },
+        {
+          "home": "Rayo",
+          "away": "Athletic",
+          "kickoff": "2026-10-10T14:00:00+02:00",
+          "forecast": {
+            "match": "Rayo – Athletic",
+            "time": "2026-10-10T14:00:00+02:00",
+            "lambda_home": 1.4545000000000001,
+            "lambda_away": 1.3450616883116884,
+            "probabilities": {
+              "1": 0.3986075066861581,
+              "X": 0.2523992055496096,
+              "2": 0.3489932877642322
+            },
+            "percentages": {
+              "1": 40,
+              "X": 25,
+              "2": 35
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.11902049040205069
+              },
+              {
+                "score": "1-0",
+                "probability": 0.08848701248151998
+              },
+              {
+                "score": "2-1",
+                "probability": 0.08655765164489138
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "confidence": "Provisional · confiança baixa",
+          "note": "Rayo és invicte a casa (2 victòries i 1 empat), però ha encaixat 16 gols totals. Camello n’ha marcat 7 dels 11. Athletic només ha jugat dos partits fora: mostra molt petita. Cal comprovar disponibilitat ofensiva i el partit pendent. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+            "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
+          ]
+        },
+        {
+          "home": "Alabès",
+          "away": "Atlètic de Madrid",
+          "kickoff": "2026-10-10T16:15:00+02:00",
+          "forecast": {
+            "match": "Alabès – Atlètic de Madrid",
+            "time": "2026-10-10T16:15:00+02:00",
+            "lambda_home": 1.4897767857142858,
+            "lambda_away": 1.289403409090909,
+            "probabilities": {
+              "1": 0.41929115896448754,
+              "X": 0.2524465769106074,
+              "2": 0.328262264124905
+            },
+            "percentages": {
+              "1": 42,
+              "X": 25,
+              "2": 33
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.11926894946285768
+              },
+              {
+                "score": "1-0",
+                "probability": 0.09249932846613768
+              },
+              {
+                "score": "2-1",
+                "probability": 0.08884205608314787
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "confidence": "Provisional · confiança baixa",
+          "note": "Alabès: 3 victòries en 4 partits a casa i 9–3 en gols. Atlètic arriba del 2–1 al Madrid i té 16 gols totals. Lucas Boyé (4 gols) i Álex B. (4) són referències estadístiques; Jonathan David porta 3 gols en 3 partits. Duel més equilibrat que el nom dels equips podria suggerir. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+            "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
+          ]
+        },
+        {
+          "home": "Barcelona",
+          "away": "Getafe",
+          "kickoff": "2026-10-10T18:30:00+02:00",
+          "forecast": {
+            "match": "Barcelona – Getafe",
+            "time": "2026-10-10T18:30:00+02:00",
+            "lambda_home": 2.3925,
+            "lambda_away": 0.8880194805194804,
+            "probabilities": {
+              "1": 0.7070791436320245,
+              "X": 0.17142090663968318,
+              "2": 0.12149994972829241
+            },
+            "percentages": {
+              "1": 71,
+              "X": 17,
+              "2": 12
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "2-0",
+                "probability": 0.10763719932263842
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09558392982706114
+              },
+              {
+                "score": "1-0",
+                "probability": 0.08997885000847516
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "confidence": "Provisional · confiança baixa",
+          "note": "Barcelona ha guanyat els 7 partits i suma 31 gols; Getafe ha perdut les 3 sortides i no hi ha marcat. Raphinha (12) i Lamine Yamal (7) concentren 19 gols. La convocatòria de la jornada 6 els incloïa, però no acredita disponibilitat futura. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+            "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
+          ]
+        },
+        {
+          "home": "Real Madrid",
+          "away": "Villarreal",
+          "kickoff": "2026-10-10T21:00:00+02:00",
+          "forecast": {
+            "match": "Real Madrid – Villarreal",
+            "time": "2026-10-10T21:00:00+02:00",
+            "lambda_home": 2.0453571428571427,
+            "lambda_away": 1.2506858766233766,
+            "probabilities": {
+              "1": 0.5573832058471021,
+              "X": 0.2126074668452883,
+              "2": 0.23000932730760956
+            },
+            "percentages": {
+              "1": 56,
+              "X": 21,
+              "2": 23
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "2-1",
+                "probability": 0.09687311346112304
+              },
+              {
+                "score": "1-1",
+                "probability": 0.09472488831539883
+              },
+              {
+                "score": "2-0",
+                "probability": 0.07745599056628251
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "confidence": "Provisional · confiança baixa",
+          "note": "Madrid suma 3 victòries a casa, 12 gols a favor i 2 en contra. Villarreal arriba del 3–1 al Llevant, amb 13 gols a favor i 12 en contra totals. Mbappé (7) i Bellingham (3); Gueye (3) al Villarreal. Les molèsties anteriors de Comesaña requereixen nova comprovació, sense arrossegar una baixa fins a octubre. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+            "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
+          ]
+        },
+        {
+          "home": "Elx",
+          "away": "Celta",
+          "kickoff": "2026-10-11T14:00:00+02:00",
+          "forecast": {
+            "match": "Elx – Celta",
+            "time": "2026-10-11T14:00:00+02:00",
+            "lambda_home": 1.33,
+            "lambda_away": 1.4461363636363636,
+            "probabilities": {
+              "1": 0.34679381902288453,
+              "X": 0.2535689303427255,
+              "2": 0.39963725063438993
+            },
+            "percentages": {
+              "1": 35,
+              "X": 25,
+              "2": 40
+            },
+            "sign": "2",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.11978437852647777
+              },
+              {
+                "score": "0-1",
+                "probability": 0.0900634425011111
+              },
+              {
+                "score": "1-2",
+                "probability": 0.08661227279136113
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "confidence": "Provisional · confiança baixa",
+          "note": "Elx arriba d’un 1–3 a l’Espanyol; Celta d’un 5–0 al Racing. Elx ha perdut els tres partits de casa, però Celta ha empatat les tres sortides. Fer Niño suma 5 gols. El 5–0 pot inflar la lectura d’una sola jornada: es manté la regularització del model. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+            "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
+          ]
+        },
+        {
+          "home": "Reial Societat",
+          "away": "Deportivo",
+          "kickoff": "2026-10-11T16:15:00+02:00",
+          "forecast": {
+            "match": "Reial Societat – Deportivo",
+            "time": "2026-10-11T16:15:00+02:00",
+            "lambda_home": 1.3496428571428571,
+            "lambda_away": 1.3365584415584417,
+            "probabilities": {
+              "1": 0.37355061739652135,
+              "X": 0.2589426550652139,
+              "2": 0.36750672753826485
+            },
+            "percentages": {
+              "1": 37,
+              "X": 26,
+              "2": 37
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12291486612749006
+              },
+              {
+                "score": "1-0",
+                "probability": 0.09196370491975643
+              },
+              {
+                "score": "0-1",
+                "probability": 0.09107214214262296
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "confidence": "Provisional · confiança baixa",
+          "note": "Reial Societat ve del 2–3 a València; Deportivo, de l’1–1 amb Betis. Deportivo segueix invicte fora (1 victòria i 2 empats); Sucic té 3 gols i Aubameyang 5. Favorit poc clar: l’empat és una possibilitat important, sense retocar pesos per l’error de la jornada 7. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+            "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
+          ]
+        },
+        {
+          "home": "Betis",
+          "away": "Osasuna",
+          "kickoff": "2026-10-11T18:30:00+02:00",
+          "forecast": {
+            "match": "Betis – Osasuna",
+            "time": "2026-10-11T18:30:00+02:00",
+            "lambda_home": 1.6746428571428573,
+            "lambda_away": 0.9493831168831169,
+            "probabilities": {
+              "1": 0.544235952018055,
+              "X": 0.2425665210813293,
+              "2": 0.21319752690061564
+            },
+            "percentages": {
+              "1": 55,
+              "X": 24,
+              "2": 21
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "1-0",
+                "probability": 0.12142893904846994
+              },
+              {
+                "score": "1-1",
+                "probability": 0.11528258463364642
+              },
+              {
+                "score": "2-0",
+                "probability": 0.1016750527139778
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "confidence": "Provisional · confiança baixa",
+          "note": "Betis ha guanyat els tres partits a casa sense encaixar (3–0 total). Osasuna ha encaixat 10 gols en tres sortides. Budimir suma 5 dels 6 gols d’Osasuna. El volum de gol local del Betis és modest malgrat els bons resultats; cal revisar golejadors disponibles i calendari europeu. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+            "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
+          ]
+        },
+        {
+          "home": "Racing",
+          "away": "València",
+          "kickoff": "2026-10-11T21:00:00+02:00",
+          "forecast": {
+            "match": "Racing – València",
+            "time": "2026-10-11T21:00:00+02:00",
+            "lambda_home": 1.7103571428571431,
+            "lambda_away": 1.3657792207792208,
+            "probabilities": {
+              "1": 0.4566847558966346,
+              "X": 0.23581131571774874,
+              "2": 0.3075039283856166
+            },
+            "percentages": {
+              "1": 46,
+              "X": 23,
+              "2": 31
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.10777505629792908
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09216691868049685
+              },
+              {
+                "score": "1-0",
+                "probability": 0.07891103822508001
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "confidence": "Provisional · confiança baixa",
+          "note": "Racing arriba del 5–0 a Vigo però és invicte a casa (2 victòries i 1 empat, 7–5). València suma 4 gols i 13 encaixats. Zabiri té 6 dels 11 gols del Racing. No es donen per vigents les baixes del València de la jornada anterior. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+            "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
+          ]
+        },
+        {
+          "home": "Llevant",
+          "away": "Sevilla",
+          "kickoff": "2026-10-12T21:00:00+02:00",
+          "forecast": {
+            "match": "Llevant – Sevilla",
+            "time": "2026-10-12T21:00:00+02:00",
+            "lambda_home": 1.4980119047619045,
+            "lambda_away": 1.4207922077922077,
+            "probabilities": {
+              "1": 0.39386830176325727,
+              "X": 0.24663729347078603,
+              "2": 0.3594944047659568
+            },
+            "percentages": {
+              "1": 39,
+              "X": 25,
+              "2": 36
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.11492785773340027
+              },
+              {
+                "score": "2-1",
+                "probability": 0.08608164953670806
+              },
+              {
+                "score": "1-2",
+                "probability": 0.08164430236293325
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "confidence": "Provisional · confiança baixa",
+          "note": "Llevant només ha jugat dos partits a casa (7–6 en gols); Sevilla és invicte fora (2 victòries i 1 empat, 5–2). R. Brugué suma 3 gols i Miguel Sierra 2. La mostra local del Llevant i el seu partit pendent augmenten la incertesa. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+            "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
+          ]
+        }
+      ],
+      "review": {
+        "summary": "Pendent de disputar-se. Aquesta versió anticipada s’avaluarà separadament de la previsió ordinària del 7/10.",
+        "next": "Revalidar cupó SELAE i notícies el 7/10/2026 a les 10:00.",
+        "changes": []
+      },
+      "coupon": {
+        "complete": false,
+        "reason": "No és el cupó SELAE del proper cap de setmana. Només cobreix els 10 partits de Primera de la jornada 8; falten els 14 partits oficials, ordre, tancament i Ple al 15 verificats.",
+        "matches": [
+          {
+            "home": "Màlaga",
+            "away": "Espanyol"
+          },
+          {
+            "home": "Rayo",
+            "away": "Athletic"
+          },
+          {
+            "home": "Alabès",
+            "away": "Atlètic de Madrid"
+          },
+          {
+            "home": "Barcelona",
+            "away": "Getafe"
+          },
+          {
+            "home": "Real Madrid",
+            "away": "Villarreal"
+          },
+          {
+            "home": "Elx",
+            "away": "Celta"
+          },
+          {
+            "home": "Reial Societat",
+            "away": "Deportivo"
+          },
+          {
+            "home": "Betis",
+            "away": "Osasuna"
+          },
+          {
+            "home": "Racing",
+            "away": "València"
+          },
+          {
+            "home": "Llevant",
+            "away": "Sevilla"
+          }
+        ],
+        "columns": [
+          {
+            "signs": [
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 0.0003718859993439968
+          },
+          {
+            "signs": [
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "2",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 0.00036586904229670884
+          },
+          {
+            "signs": [
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "2"
+            ],
+            "probability": 0.0003394305542651179
+          },
+          {
+            "signs": [
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "2",
+              "1",
+              "1",
+              "2"
+            ],
+            "probability": 0.0003339387124933034
+          }
+        ],
+        "coverage": 0.001411124308399127,
+        "objective": "all_signs",
+        "generated_from": "2026-09-23T16:58:50+02:00",
+        "prepared_at": "2026-09-23T16:58:50+02:00",
+        "published_at": null
+      }
+    },
     {
       "number": 7,
       "label": "Revisió parcial · 4/5",

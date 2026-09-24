@@ -25,7 +25,8 @@ def build():
     data=json.loads(DATA.read_text())
     for r in data['rounds']:
         r['metrics']=metrics(r['matches'])
-        r['coupon']=coupon_for_round(r)
+        if not r.get('coupon'):
+            r['coupon']=coupon_for_round(r)
     template=(ROOT/'work/dashboard.template.html').read_text()
     rendered=template.replace('__DATA__',json.dumps(data,ensure_ascii=False).replace('<','\\u003c'))
     for path in [ROOT/'site/dist/index.html',ROOT/'outputs/quiniela.html']:
