@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T16:58:50+02:00",
+  "updated": "2026-10-04T11:39:45+02:00",
   "automation_note": "Revisió diària activada a Codex; necessita que l’entorn local estigui disponible. Aquest web és una instantània, no un marcador en directe.",
   "rounds": [
     {
@@ -599,7 +599,7 @@
         "objective": "all_signs",
         "generated_from": "2026-09-23T16:58:50+02:00",
         "prepared_at": "2026-09-23T16:58:50+02:00",
-        "published_at": null
+        "published_at": "2026-10-04T11:39:40.638397+02:00"
       }
     },
     {
@@ -980,7 +980,8 @@
         ],
         "reviewed_at": "2026-09-21T10:13:45.624+02:00",
         "result_source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-7",
-        "publication_status": "pending_site"
+        "publication_status": "published_site",
+        "published_at": "2026-10-04T11:39:40.638397+02:00"
       },
       "coupon": {
         "complete": false,

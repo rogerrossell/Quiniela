@@ -6,8 +6,11 @@ from coupons import coupon_for_round
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'outputs/seguiment.json'
-def metrics(matches):
-    eligible = [m for m in matches if m.get('forecast') and m.get('result') is not None and m.get('status') == 'final']
+def metrics(matches, forecast_at):
+    cutoff = datetime.fromisoformat(forecast_at)
+    eligible = [m for m in matches if m.get('forecast') and m.get('result') is not None
+                and m.get('status') == 'final' and m.get('kickoff')
+                and cutoff < datetime.fromisoformat(m['kickoff'])]
     if not eligible:
         return {'n': 0, 'hits': 0, 'accuracy': None, 'brier': None, 'logloss': None}
     hits=brier=loss=0
@@ -24,7 +27,7 @@ def metrics(matches):
 def build():
     data=json.loads(DATA.read_text())
     for r in data['rounds']:
-        r['metrics']=metrics(r['matches'])
+        r['metrics']=metrics(r['matches'], r['forecast_at'])
         if not r.get('coupon'):
             r['coupon']=coupon_for_round(r)
     template=(ROOT/'work/dashboard.template.html').read_text()
