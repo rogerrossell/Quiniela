@@ -1,0 +1,384 @@
+{
+  "cutoff": "2026-10-08T15:17:59+02:00",
+  "round": 8,
+  "source": "https://www.laliga.com/laliga-easports/clasificacion",
+  "assumptions": "Poisson 0.1 sense canvi de pesos. Gols totals i per seu verificats el 8/10; ajustos 1.0. Lesions, retorns de seleccions i canvis de tècnic documentats qualitativament, sense impacte numèric calibrat. No incorpora xG, força de rivals ni una sèrie homogènia de minuts internacionals. Les probabilitats de Primera coincideixen amb l’anticipada perquè els inputs de gols no han canviat; això no implica que les baixes no importin.",
+  "matches": [
+    {
+      "time": "2026-10-09T21:00:00+02:00",
+      "home": {
+        "name": "Màlaga",
+        "pj": 7,
+        "gf": 3,
+        "gc": 12,
+        "venue_pj": 3,
+        "venue_gf": 2,
+        "venue_gc": 4
+      },
+      "away": {
+        "name": "Espanyol",
+        "pj": 7,
+        "gf": 10,
+        "gc": 10,
+        "venue_pj": 3,
+        "venue_gf": 4,
+        "venue_gc": 4
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-10T14:00:00+02:00",
+      "home": {
+        "name": "Rayo",
+        "pj": 7,
+        "gf": 11,
+        "gc": 16,
+        "venue_pj": 3,
+        "venue_gf": 6,
+        "venue_gc": 4
+      },
+      "away": {
+        "name": "Athletic",
+        "pj": 6,
+        "gf": 7,
+        "gc": 6,
+        "venue_pj": 2,
+        "venue_gf": 2,
+        "venue_gc": 2
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-10T16:15:00+02:00",
+      "home": {
+        "name": "Alabès",
+        "pj": 7,
+        "gf": 11,
+        "gc": 6,
+        "venue_pj": 4,
+        "venue_gf": 9,
+        "venue_gc": 3
+      },
+      "away": {
+        "name": "Atlètic de Madrid",
+        "pj": 7,
+        "gf": 16,
+        "gc": 7,
+        "venue_pj": 3,
+        "venue_gf": 6,
+        "venue_gc": 4
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-10T18:30:00+02:00",
+      "home": {
+        "name": "Barcelona",
+        "pj": 7,
+        "gf": 31,
+        "gc": 7,
+        "venue_pj": 3,
+        "venue_gf": 14,
+        "venue_gc": 4
+      },
+      "away": {
+        "name": "Getafe",
+        "pj": 7,
+        "gf": 4,
+        "gc": 7,
+        "venue_pj": 3,
+        "venue_gf": 0,
+        "venue_gc": 5
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-10T21:00:00+02:00",
+      "home": {
+        "name": "Real Madrid",
+        "pj": 7,
+        "gf": 18,
+        "gc": 8,
+        "venue_pj": 3,
+        "venue_gf": 12,
+        "venue_gc": 2
+      },
+      "away": {
+        "name": "Villarreal",
+        "pj": 7,
+        "gf": 13,
+        "gc": 12,
+        "venue_pj": 4,
+        "venue_gf": 7,
+        "venue_gc": 6
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-11T14:00:00+02:00",
+      "home": {
+        "name": "Elx",
+        "pj": 7,
+        "gf": 11,
+        "gc": 17,
+        "venue_pj": 3,
+        "venue_gf": 4,
+        "venue_gc": 11
+      },
+      "away": {
+        "name": "Celta",
+        "pj": 7,
+        "gf": 8,
+        "gc": 6,
+        "venue_pj": 3,
+        "venue_gf": 1,
+        "venue_gc": 1
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-11T16:15:00+02:00",
+      "home": {
+        "name": "Reial Societat",
+        "pj": 7,
+        "gf": 9,
+        "gc": 13,
+        "venue_pj": 3,
+        "venue_gf": 2,
+        "venue_gc": 4
+      },
+      "away": {
+        "name": "Deportivo",
+        "pj": 7,
+        "gf": 10,
+        "gc": 8,
+        "venue_pj": 3,
+        "venue_gf": 5,
+        "venue_gc": 4
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-11T18:30:00+02:00",
+      "home": {
+        "name": "Betis",
+        "pj": 7,
+        "gf": 9,
+        "gc": 7,
+        "venue_pj": 3,
+        "venue_gf": 3,
+        "venue_gc": 0
+      },
+      "away": {
+        "name": "Osasuna",
+        "pj": 7,
+        "gf": 6,
+        "gc": 13,
+        "venue_pj": 3,
+        "venue_gf": 4,
+        "venue_gc": 10
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-11T21:00:00+02:00",
+      "home": {
+        "name": "Racing",
+        "pj": 7,
+        "gf": 11,
+        "gc": 21,
+        "venue_pj": 3,
+        "venue_gf": 7,
+        "venue_gc": 5
+      },
+      "away": {
+        "name": "València",
+        "pj": 7,
+        "gf": 4,
+        "gc": 13,
+        "venue_pj": 3,
+        "venue_gf": 2,
+        "venue_gc": 4
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-12T21:00:00+02:00",
+      "home": {
+        "name": "Llevant",
+        "pj": 6,
+        "gf": 8,
+        "gc": 12,
+        "venue_pj": 2,
+        "venue_gf": 7,
+        "venue_gc": 6
+      },
+      "away": {
+        "name": "Sevilla",
+        "pj": 7,
+        "gf": 10,
+        "gc": 9,
+        "venue_pj": 3,
+        "venue_gf": 5,
+        "venue_gc": 2
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-10T18:30:00+02:00",
+      "home": {
+        "name": "Eldense",
+        "pj": 8,
+        "gf": 8,
+        "gc": 10,
+        "venue_pj": 4,
+        "venue_gf": 7,
+        "venue_gc": 5
+      },
+      "away": {
+        "name": "Còrdova",
+        "pj": 8,
+        "gf": 13,
+        "gc": 18,
+        "venue_pj": 4,
+        "venue_gf": 7,
+        "venue_gc": 10
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-11T14:00:00+02:00",
+      "home": {
+        "name": "Andorra",
+        "pj": 8,
+        "gf": 12,
+        "gc": 15,
+        "venue_pj": 4,
+        "venue_gf": 7,
+        "venue_gc": 8
+      },
+      "away": {
+        "name": "Castelló",
+        "pj": 8,
+        "gf": 15,
+        "gc": 3,
+        "venue_pj": 4,
+        "venue_gf": 7,
+        "venue_gc": 2
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-11T16:15:00+02:00",
+      "home": {
+        "name": "Almeria",
+        "pj": 8,
+        "gf": 13,
+        "gc": 5,
+        "venue_pj": 4,
+        "venue_gf": 10,
+        "venue_gc": 3
+      },
+      "away": {
+        "name": "Leganés",
+        "pj": 8,
+        "gf": 6,
+        "gc": 11,
+        "venue_pj": 5,
+        "venue_gf": 2,
+        "venue_gc": 7
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-11T18:30:00+02:00",
+      "home": {
+        "name": "Mallorca",
+        "pj": 8,
+        "gf": 8,
+        "gc": 3,
+        "venue_pj": 4,
+        "venue_gf": 7,
+        "venue_gc": 1
+      },
+      "away": {
+        "name": "Las Palmas",
+        "pj": 8,
+        "gf": 12,
+        "gc": 13,
+        "venue_pj": 4,
+        "venue_gf": 7,
+        "venue_gc": 8
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-12T16:15:00+02:00",
+      "home": {
+        "name": "Burgos",
+        "pj": 8,
+        "gf": 12,
+        "gc": 9,
+        "venue_pj": 4,
+        "venue_gf": 9,
+        "venue_gc": 5
+      },
+      "away": {
+        "name": "Granada",
+        "pj": 8,
+        "gf": 13,
+        "gc": 13,
+        "venue_pj": 5,
+        "venue_gf": 8,
+        "venue_gc": 9
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    },
+    {
+      "time": "2026-10-12T18:30:00+02:00",
+      "home": {
+        "name": "Oviedo",
+        "pj": 8,
+        "gf": 8,
+        "gc": 8,
+        "venue_pj": 4,
+        "venue_gf": 2,
+        "venue_gc": 1
+      },
+      "away": {
+        "name": "Eibar",
+        "pj": 8,
+        "gf": 18,
+        "gc": 7,
+        "venue_pj": 4,
+        "venue_gf": 10,
+        "venue_gc": 2
+      },
+      "adjust_home": 1.0,
+      "adjust_away": 1.0
+    }
+  ],
+  "verified_at": "2026-10-08T15:17:59+02:00",
+  "version": "j8-20261008-cupo12",
+  "sources": [
+    "https://www.laliga.com/laliga-easports/clasificacion",
+    "https://www.laliga.com/laliga-hypermotion/clasificacion",
+    "https://www.laliga.com/laliga-hypermotion/resultados",
+    "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores"
+  ]
+}

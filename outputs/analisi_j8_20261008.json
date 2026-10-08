@@ -1,0 +1,580 @@
+{
+  "cutoff": "2026-10-08T15:17:59+02:00",
+  "primary": {
+    "checked_at_utc": "2026-10-08 11:55:59 UTC",
+    "earliest_cutoff_utc": "2026-10-08T11:51:33Z",
+    "timezone": "Europe/Madrid",
+    "round": 8,
+    "season": "2026-27",
+    "limitations": [
+      "Informació consultada el 8 d’octubre abans del partit inicial; convocatòries i onzes definitius encara no disponibles.",
+      "No s’ha obtingut una base completa i verificable de minuts internacionals, vols o hores reals de descans per a tots els jugadors. Només s’inclouen els minuts explícitament publicats.",
+      "Les baixes en recuperació no equivalen sempre a exclusió de la convocatòria: prevalen els parts del club i s’explicita la incertesa.",
+      "No s’assignen impactes percentuals ad hoc: notes qualitatives per a un model Poisson base no calibrat amb disponibilitat de jugadors.",
+      "No s’ha verificat directament el conjunt de resolucions disciplinàries RFEF; les sancions de font secundària es marquen com a tals."
+    ],
+    "matches": [
+      {
+        "index": 0,
+        "home": "Màlaga",
+        "away": "Espanyol",
+        "note": "Rafita i Chupe ja han tornat de la sub-21; Rafita acumula dos partits complets. Recuperacions i retorns internacionals fan prudent esperar convocatòries.",
+        "absences": [
+          {
+            "team": "Màlaga",
+            "players": [
+              "Cajuste",
+              "Diego Murillo",
+              "Aarón Ochoa",
+              "Julen Lobete"
+            ],
+            "status": "continuaven al marge el 7/10; font local"
+          }
+        ],
+        "doubts": [
+          {
+            "team": "Espanyol",
+            "players": [
+              "Omar El Hilali"
+            ],
+            "status": "sanció indicada per SER 5/10 però contradita per un XI probable de BeSoccer 8/10; no confirmada"
+          },
+          {
+            "team": "Espanyol",
+            "players": [
+              "Jofre Carreras",
+              "Kike García"
+            ],
+            "status": "disponibilitat pendent de convocatòria; SER assenyala dubte i lesió respectivament"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.axarquiaplus.es/rafita-gran-novedad-del-penultimo-entrenamiento-del-malaga-cf/",
+            "published": "2026-10-07",
+            "kind": "local_news"
+          },
+          {
+            "url": "https://as.com/futbol/primera/la-rojita-da-lustre-al-modelo-del-malaga-f202610-n/",
+            "published": "2026-10-07T13:12:00+02:00",
+            "kind": "sports_news"
+          },
+          {
+            "url": "https://cadenaser.com/nacional/2026/10/05/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-8-y-posibles-sustitutos-cadena-ser/",
+            "published": "2026-10-05T15:05:00+02:00",
+            "kind": "secondary_compilation"
+          },
+          {
+            "url": "https://es.besoccer.com/noticia/alineaciones-probables-malaga-espanyol-onces-bajas-dudas-1433159",
+            "published": "2026-10-08",
+            "kind": "conflicting_probable_lineup"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "home": "Rayo",
+        "away": "Athletic",
+        "note": "Nico Williams presenta una lesió confirmada amb Espanya. Sancet és dubte segons AS. Laporte torna després de 270 minuts internacionals; això suggereix risc de rotació, no una baixa confirmada.",
+        "absences": [
+          {
+            "team": "Athletic",
+            "players": [
+              "Nico Williams"
+            ],
+            "status": "club confirma lesió muscular moderada al recte anterior esquerre; pendent evolució"
+          }
+        ],
+        "doubts": [
+          {
+            "team": "Athletic",
+            "players": [
+              "Oihan Sancet"
+            ],
+            "status": "molèsties al soli segons AS 8/10"
+          },
+          {
+            "team": "Rayo",
+            "players": [
+              "Augusto Batalla",
+              "Luiz Felipe"
+            ],
+            "status": "SER 5/10 indica lesió de Batalla i dubte de Luiz Felipe; cal convocatòria"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.athletic-club.eus/noticias/2026/10/01/parte-medico-de-nico-williams/",
+            "published": "2026-10-01",
+            "kind": "club_medical"
+          },
+          {
+            "url": "https://as.com/futbol/primera/unai-simon-laporte-y-canales-en-modo-rayo-f202610-n/",
+            "published": "2026-10-08T09:43:39Z",
+            "kind": "sports_news"
+          },
+          {
+            "url": "https://cadenaser.com/nacional/2026/10/05/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-8-y-posibles-sustitutos-cadena-ser/",
+            "published": "2026-10-05T15:05:00+02:00",
+            "kind": "secondary_compilation"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "home": "Alabès",
+        "away": "Atlètic",
+        "note": "L’Alabès afronta una defensa condicionada per la lesió de Koski i l’absència de Garcés segons AS. L’Atlètic ha tingut 17 convocats internacionals; la càrrega individual completa no està quantificada.",
+        "absences": [
+          {
+            "team": "Alabès",
+            "players": [
+              "Ville Koski",
+              "Facundo Garcés"
+            ],
+            "status": "AS 4/10 informa lesió muscular al quàdriceps de Koski i indisponibilitat de Garcés"
+          }
+        ],
+        "doubts": [
+          {
+            "team": "Atlètic",
+            "players": [
+              "Grimaldo"
+            ],
+            "status": "molèsties al musle confirmades pel club durant seleccions; AS 6/10 el situa treballant en camp annex, sense alta definitiva"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://as.com/futbol/ville-koski-regresa-a-vitoria-lesionado-f202610-n/",
+            "published": "2026-10-04T12:56:39Z",
+            "kind": "sports_news"
+          },
+          {
+            "url": "https://www.atleticodemadrid.com/noticias/grimaldo-regresa-a-la-disciplina-rojiblanca-tras-sufrir-unas-molestias-en-el-muslo-izquierdo",
+            "published": null,
+            "kind": "club_medical"
+          },
+          {
+            "url": "https://as.com/futbol/primera/grimaldo-se-suma-a-la-fiesta-f202610-n/",
+            "published": "2026-10-06T10:08:31Z",
+            "kind": "sports_news"
+          },
+          {
+            "url": "https://www.atleticodemadrid.com/noticias",
+            "published": "2026-10-06",
+            "kind": "club_international_list"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "home": "Barça",
+        "away": "Getafe",
+        "note": "Raphinha continuava separat del grup el matí del 8/10: disponibilitat i minuts no confirmats. Els internacionals espanyols s’han reincorporat. Evitem donar per feta la titularitat del golejador.",
+        "absences": [],
+        "doubts": [
+          {
+            "team": "Barça",
+            "players": [
+              "Raphinha"
+            ],
+            "status": "treball individual; participació dissabte pendent"
+          },
+          {
+            "team": "Getafe",
+            "players": [
+              "Mario Martín"
+            ],
+            "status": "SER 5/10 assenyala sanció, pendent contrast directe amb RFEF"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.fcbarcelona.es/es/noticias/4586808/el-primer-equipo-vuelve-al-trabajo/featured",
+            "published": null,
+            "kind": "club_training"
+          },
+          {
+            "url": "https://as.com/futbol/raphinha-sigue-al-margen-del-equipo-y-apunta-al-banquillo-f202610-n/",
+            "published": "2026-10-08T11:12:52Z",
+            "kind": "sports_news"
+          },
+          {
+            "url": "https://cadenaser.com/cataluna/2026/10/08/raphinha-continua-al-marge-pero-dema-es-provara-amb-lequip-i-se-lespera-per-dissabte-sercat/",
+            "published": "2026-10-08T09:53:47Z",
+            "kind": "sports_news"
+          },
+          {
+            "url": "https://cadenaser.com/nacional/2026/10/05/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-8-y-posibles-sustitutos-cadena-ser/",
+            "published": "2026-10-05T15:05:00+02:00",
+            "kind": "secondary_compilation"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "home": "Real Madrid",
+        "away": "Villarreal",
+        "note": "Mbappé ha tornat al grup després de la recuperació; Valverde encara és dubte. El Villarreal recupera Comesaña i Foyth als entrenaments, sense convertir-ho en una garantia de titularitat.",
+        "absences": [
+          {
+            "team": "Real Madrid",
+            "players": [
+              "Dean Huijsen"
+            ],
+            "status": "un partit de sanció comunicat per EFE/Mundo Deportivo el 23/9"
+          }
+        ],
+        "doubts": [
+          {
+            "team": "Real Madrid",
+            "players": [
+              "Fede Valverde"
+            ],
+            "status": "recuperació d’esquinç; possible convocatòria encara no confirmada"
+          },
+          {
+            "team": "Villarreal",
+            "players": [
+              "Santi Comesaña",
+              "Juan Foyth"
+            ],
+            "status": "ja amb grup el 6/10; convocatòria pendent"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/entrenamientos/entrenamiento-mbappe-ciudad-real-madrid",
+            "published": "2026-10-05",
+            "kind": "club_training"
+          },
+          {
+            "url": "https://cadenaser.com/nacional/2026/10/07/kylian-mbappe-se-reincorpora-a-los-entrenamientos-con-el-grupo-ya-con-casi-todos-los-internacionales-al-real-madrid-cadena-ser/",
+            "published": "2026-10-07T16:30:14Z",
+            "kind": "sports_news"
+          },
+          {
+            "url": "https://as.com/futbol/valverde-un-rayo-de-esperanza-f202610-n/",
+            "published": "2026-10-08T11:26:27Z",
+            "kind": "sports_news"
+          },
+          {
+            "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20260923/1004230437/partido-sancion-pablo-vercellone-preprador-porteros-atletico.html?facet=amp",
+            "published": "2026-09-23T13:59:00+02:00",
+            "kind": "EFE_disciplinary_report"
+          },
+          {
+            "url": "https://cadenaser.com/comunitat-valenciana/2026/10/06/comesana-vuelve-al-grupo-y-foyth-avanza-hacia-el-bernabeu-radio-castellon/",
+            "published": "2026-10-06T08:41:47Z",
+            "kind": "local_news"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "home": "Elx",
+        "away": "Celta",
+        "note": "Starfelt torna lesionat de Suècia, amb ruptura muscular confirmada pel Celta. L’Elx perd Redondo per la sanció de la jornada anterior segons Plaza Deportiva. Dades de minuts i descans incompletes.",
+        "absences": [
+          {
+            "team": "Celta",
+            "players": [
+              "Carl Starfelt"
+            ],
+            "status": "ruptura muscular confirmada pel club el 5/10"
+          },
+          {
+            "team": "Elx",
+            "players": [
+              "Federico Redondo"
+            ],
+            "status": "sanció d’un partit segons informació sobre resolució RFEF"
+          }
+        ],
+        "doubts": [],
+        "sources": [
+          {
+            "url": "https://rccelta.es/en/equipo/actualidad/carl-starfelts-medical-report/",
+            "published": "2026-10-05",
+            "kind": "club_medical"
+          },
+          {
+            "url": "https://plazadeportiva.valenciaplaza.com/plazadeportiva/futbol/un-partido-de-suspension-para-redondo",
+            "published": "2026-09-23T14:33:00+02:00",
+            "kind": "local_disciplinary_report"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "home": "Reial Societat",
+        "away": "Deportivo",
+        "note": "La Reial confirma una lesió al soli d’Aramburu. El Deportivo perd una peça ofensiva amb la recuperació de la cirurgia d’Aubameyang. És un partit amb força incertesa d’alineacions.",
+        "absences": [
+          {
+            "team": "Reial Societat",
+            "players": [
+              "Jon Mikel Aramburu"
+            ],
+            "status": "lesió muscular al soli confirmada el 7/10; pendent evolució"
+          },
+          {
+            "team": "Deportivo",
+            "players": [
+              "Pierre-Emerick Aubameyang"
+            ],
+            "status": "operació de menisc anunciada el 23/9, retorn subjecte a evolució"
+          },
+          {
+            "team": "Reial Societat",
+            "players": [
+              "Orri Óskarsson"
+            ],
+            "status": "doble groga i sanció per al partit segons Riazor.org"
+          }
+        ],
+        "doubts": [
+          {
+            "team": "Deportivo",
+            "players": [
+              "Angeliño"
+            ],
+            "status": "SER5/10 assenyala sanció; pendent contrast directe amb RFEF"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.realsociedad.eus/es/noticias/detalle/parte-medico-259",
+            "published": "2026-10-07",
+            "kind": "club_medical"
+          },
+          {
+            "url": "https://www.rcdeportivo.es/es/noticias/parte-medico-de-pierre-emerick-aubameyang",
+            "published": "2026-09-23",
+            "kind": "club_medical"
+          },
+          {
+            "url": "https://www.riazor.org/zubeldia-oskarsson-cara-cruz-recibir-deportivo/",
+            "published": "2026-10-06T17:00:00+02:00",
+            "kind": "local_news"
+          },
+          {
+            "url": "https://cadenaser.com/nacional/2026/10/05/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-8-y-posibles-sustitutos-cadena-ser/",
+            "published": "2026-10-05T15:05:00+02:00",
+            "kind": "secondary_compilation"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "home": "Betis",
+        "away": "Osasuna",
+        "note": "Junior Firpo s’ha lesionat amb la República Dominicana; Ruibal continua recuperant-se. Osasuna confirma recuperació de Moro i Herrando; Budimir va jugar amb Croàcia el 6/10 i falta quantificar tota la seva càrrega.",
+        "absences": [
+          {
+            "team": "Betis",
+            "players": [
+              "Junior Firpo"
+            ],
+            "status": "lesió muscular reportada per Estadio Deportivo 6/10"
+          },
+          {
+            "team": "Osasuna",
+            "players": [
+              "Raúl Moro",
+              "Jorge Herrando"
+            ],
+            "status": "encara en recuperació segons club7/10"
+          }
+        ],
+        "doubts": [
+          {
+            "team": "Betis",
+            "players": [
+              "Aitor Ruibal"
+            ],
+            "status": "retorn proper però sense convocatòria confirmada"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.estadiodeportivo.com/futbol/betis/pequena-ayuda-fuente-pellegrini-pero-solo-corto-plazo-20261006-548047.html",
+            "published": "2026-10-06",
+            "kind": "local_news"
+          },
+          {
+            "url": "https://as.com/futbol/la-prueba-de-los-11-dias-a-fondo-de-armario-del-betis-f202610-n/",
+            "published": "2026-10-07T10:27:00+02:00",
+            "kind": "sports_news"
+          },
+          {
+            "url": "https://www.osasuna.es/entrenamiento-07-10-26",
+            "published": "2026-10-07",
+            "kind": "club_training"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "home": "Racing",
+        "away": "València",
+        "note": "El València estrena projecte amb Javier Aguirre: no assumim automàticament una millora estadística. Andrés Martín ha reprès part del treball amb el Racing però la disponibilitat definitiva segueix pendent.",
+        "absences": [],
+        "doubts": [
+          {
+            "team": "Racing",
+            "players": [
+              "Andrés Martín"
+            ],
+            "status": "retorn parcial al grup segons AS1/10, convocatòria pendent"
+          },
+          {
+            "team": "València",
+            "players": [
+              "Sadiq Umar"
+            ],
+            "status": "lesió publicada pel club1/9 sense alta posterior verificada en aquesta consulta"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.valenciacf.com/comunicado-oficial-javier-aguirre",
+            "published": "2026-09-23",
+            "kind": "club_coach_appointment"
+          },
+          {
+            "url": "https://as.com/futbol/primera/andres-martin-apunta-al-valencia-f202610-n/",
+            "published": "2026-10-01T10:28:22Z",
+            "kind": "sports_news"
+          },
+          {
+            "url": "https://www.valenciacf.com/informe-medic-sadiq-umar1",
+            "published": "2026-09-01",
+            "kind": "club_medical"
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "home": "Llevant",
+        "away": "Sevilla",
+        "note": "El Sevilla confirma que Iker Muñoz, Marcao i Stassin encara treballen en recuperació. Eyong i Sotelo són pendents de retorn al Llevant. El partit de dilluns dona més marge, però no confirma recuperacions.",
+        "absences": [
+          {
+            "team": "Sevilla",
+            "players": [
+              "Iker Muñoz",
+              "Marcao",
+              "Lucas Stassin"
+            ],
+            "status": "gimnàs i recuperació segons club7/10; disponibilitat12/10 pendent"
+          }
+        ],
+        "doubts": [
+          {
+            "team": "Llevant",
+            "players": [
+              "Karl Etta Eyong",
+              "Hugo Sotelo"
+            ],
+            "status": "recuperació descrita per AS29/9; sense alta posterior verificada"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://sevillafc.es/actualidad/noticias/entrenamiento-7-octubre-2026",
+            "published": "2026-10-07",
+            "kind": "club_training"
+          },
+          {
+            "url": "https://as.com/futbol/primera/etta-eyong-y-sotelo-con-la-mira-puesta-en-el-sevilla-f202609-n/",
+            "published": "2026-09-29T23:11:56Z",
+            "kind": "sports_news"
+          }
+        ]
+      }
+    ]
+  },
+  "second": [
+    {
+      "home": "Eldense",
+      "away": "Còrdova",
+      "note": "L’Eldense suma 7–5 en gols a casa; el Còrdova, 7–10 fora. L’últim 4–1 de l’Eldense és una dada de forma, però no s’afegeix un premi numèric per un sol partit. Percan suma 3 gols segons LALIGA. Disponibilitat de tots els atacants i sancions pendents de confirmació.",
+      "sources": [
+        "https://www.laliga.com/laliga-hypermotion/clasificacion",
+        "https://www.laliga.com/laliga-hypermotion/resultados",
+        "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores",
+        "https://cadenaser.com/comunitat-valenciana/2026/10/02/el-eldense-de-messi-golea-para-lograr-la-primera-victoria-en-casa-ante-el-oviedo-4-1-radio-elda/"
+      ]
+    },
+    {
+      "home": "Andorra",
+      "away": "Castelló",
+      "note": "Castelló només ha encaixat 3 gols en 8 jornades i té 7–2 fora; Andorra, 7–8 a casa. Jordi Cano porta 4 gols; Camara, 4 i Suero, 3 al Castelló, segons LALIGA. SER informa que Mellot i els internacionals tornen, però Nieto, Vlak, Cámara i Fran Castillo continuen fora; pendent de convocatòria.",
+      "sources": [
+        "https://www.laliga.com/laliga-hypermotion/clasificacion",
+        "https://www.laliga.com/laliga-hypermotion/resultados",
+        "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores",
+        "https://cadenaser.com/comunitat-valenciana/2026/10/08/pablo-hernandez-pide-al-castellon-recuperar-su-mejor-version-tenemos-que-reencontrarnos-radio-castellon/"
+      ]
+    },
+    {
+      "home": "Almeria",
+      "away": "Leganés",
+      "note": "Almeria té 4 victòries en 4 partits a casa i 10–3 en gols; Leganés marca 2 gols en 5 desplaçaments. Miguel suma 3 gols a l’Almeria segons LALIGA. Franquesa i Leiva són baixes defensives reportades per premsa local, sense resolució mèdica completa verificada aquí. No es dona per confirmat l’onze.",
+      "sources": [
+        "https://www.laliga.com/laliga-hypermotion/clasificacion",
+        "https://www.laliga.com/laliga-hypermotion/resultados",
+        "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores",
+        "https://www.marcadoralmeria.com/2026/10/07/leganes-7/",
+        "https://www.udalmeriasad.com/noticias/ya-estan-a-la-venta-las-entradas-para-el-almeria-leganes-del-domingo"
+      ]
+    },
+    {
+      "home": "Mallorca",
+      "away": "Las Palmas",
+      "note": "Mallorca té 7–1 en gols a casa; Las Palmas, 7–8 fora. Fuentes porta 4 gols segons LALIGA. SER comunica tres setmanes de baixa per Jesé. Valjent, Luvumbo i Bergström havien de tornar de les seleccions el 8/10 segons Última Hora: retorn previst no equival a disponibilitat confirmada. No s’aplica un impacte de baixes inventat.",
+      "sources": [
+        "https://www.laliga.com/laliga-hypermotion/clasificacion",
+        "https://www.laliga.com/laliga-hypermotion/resultados",
+        "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores",
+        "https://cadenaser.com/canarias/2026/10/06/jese-rodrigues-tres-semanas-de-baja-ser-las-palmas/",
+        "https://www.ultimahora.es/videos/2026/10/07/4800347.html"
+      ]
+    },
+    {
+      "home": "Burgos",
+      "away": "Granada",
+      "note": "Burgos és invicte a casa amb 9–5 en gols; Granada té 8–9 fora. A. Forés i David G. sumen 3 gols cadascun segons LALIGA. AS informa retorns d’internacionals i recuperacions de Grego Sierra, Sergio González i Lizancos, amb Expósito a prop. No s’ha verificat una llista mèdica completa del Granada.",
+      "sources": [
+        "https://www.laliga.com/laliga-hypermotion/clasificacion",
+        "https://www.laliga.com/laliga-hypermotion/resultados",
+        "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores",
+        "https://as.com/futbol/segunda/la-enfermeria-del-burgos-se-vacia-f202610-n/",
+        "https://www.granadacf.es/noticias/el-granada-cf-pone-a-la-venta-las-entradas-de-visitante-para-el-partido-ante-el-burgos-cf"
+      ]
+    },
+    {
+      "home": "Oviedo",
+      "away": "Eibar",
+      "note": "Oviedo només ha encaixat 1 gol en 4 partits a casa, però també n’ha marcat 2. Eibar arriba amb 4 victòries fora i 10–2 en gols; Guruzeta en suma 3 segons LALIGA. AS informa que Morales ja entrena, amb debut incert, Escandell és dubte i diversos atacants de l’Oviedo segueixen lesionats. Nolaskoain podria tornar a l’Eibar, sense alta definitiva verificada.",
+      "sources": [
+        "https://www.laliga.com/laliga-hypermotion/clasificacion",
+        "https://www.laliga.com/laliga-hypermotion/resultados",
+        "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores",
+        "https://as.com/futbol/segunda/el-oviedo-ya-cuenta-con-morales-en-el-requexon-f202610-n/",
+        "https://as.com/futbol/nolaskoain-ansioso-de-volver-estoy-como-un-nino-con-un-caramelo-f202610-n/"
+      ]
+    }
+  ],
+  "limitations": [
+    "Informació consultada el 8 d’octubre abans del partit inicial; convocatòries i onzes definitius encara no disponibles.",
+    "No s’ha obtingut una base completa i verificable de minuts internacionals, vols o hores reals de descans per a tots els jugadors. Només s’inclouen els minuts explícitament publicats.",
+    "Les baixes en recuperació no equivalen sempre a exclusió de la convocatòria: prevalen els parts del club i s’explicita la incertesa.",
+    "No s’assignen impactes percentuals ad hoc: notes qualitatives per a un model Poisson base no calibrat amb disponibilitat de jugadors.",
+    "No s’ha verificat directament el conjunt de resolucions disciplinàries RFEF; les sancions de font secundària es marquen com a tals.",
+    "Model sense ajust calibrat per força dels rivals, xG o disponibilitat individual.",
+    "Llistes de sancions i minuts internacionals incompletes; cap absència desconeguda es tracta com a disponibilitat confirmada."
+  ]
+}

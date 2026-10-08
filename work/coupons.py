@@ -4,6 +4,18 @@ from datetime import datetime
 
 SIGNS = ('1', 'X', '2')
 
+def condensed_columns(columns):
+    """Cartesian envelope; explicitly count any columns added by doubles/triples."""
+    if not columns:
+        return {'signs': [], 'expanded_count': 0, 'additional_count': 0, 'exact': True}
+    size = len(columns[0]['signs'])
+    if any(len(c['signs']) != size or any(s not in SIGNS for s in c['signs']) for c in columns):
+        raise ValueError('Columnes incompatibles')
+    choices = [''.join(s for s in SIGNS if any(c['signs'][i] == s for c in columns)) for i in range(size)]
+    expanded = math.prod(len(s) for s in choices)
+    distinct = len({tuple(c['signs']) for c in columns})
+    return {'signs': choices, 'expanded_count': expanded, 'additional_count': expanded - distinct, 'exact': expanded == distinct}
+
 def top_columns(probabilities, count=4):
     if not probabilities:
         return []
@@ -38,6 +50,7 @@ def coupon_for_round(r):
                 matches = ordered
     columns = top_columns([m['forecast']['probabilities'] for m in matches])
     result = {'complete': complete, 'reason': '' if complete else reason, 'matches': [{'home':m['home'], 'away':m['away']} for m in matches], 'columns':columns, 'coverage':sum(c['probability'] for c in columns), 'objective':'all_signs', 'generated_from':r['forecast_at']}
+    result['condensed'] = condensed_columns(columns)
     if complete:
         score = min(pp, key=lambda s: (-pp[s], s))
         result['pleno15'] = {'home':pleno['home'], 'away':pleno['away'], 'score':score, 'probability':pp[score]}

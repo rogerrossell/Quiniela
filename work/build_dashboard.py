@@ -28,6 +28,8 @@ def build():
     data=json.loads(DATA.read_text())
     for r in data['rounds']:
         r['metrics']=metrics(r['matches'], r['forecast_at'])
+        for previous in r.get('history', []):
+            previous['metrics']=metrics(previous['matches'], previous['forecast_at'])
         if not r.get('coupon'):
             r['coupon']=coupon_for_round(r)
     template=(ROOT/'work/dashboard.template.html').read_text()

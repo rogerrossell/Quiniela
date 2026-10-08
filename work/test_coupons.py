@@ -1,8 +1,14 @@
 import itertools
 import unittest
-from coupons import top_columns, coupon_for_round
+from coupons import top_columns, coupon_for_round, condensed_columns
 
 class CouponsTests(unittest.TestCase):
+    def test_condensed_envelope_is_not_always_four_bets(self):
+        exact=[{'signs':list(s)} for s in ('111','121','211','221')]
+        self.assertEqual(condensed_columns(exact),{'signs':['12','12','1'],'expanded_count':4,'additional_count':0,'exact':True})
+        larger=[{'signs':list(s)} for s in ('111','121','211','X11')]
+        c=condensed_columns(larger)
+        self.assertFalse(c['exact']);self.assertEqual(c['expanded_count'],6);self.assertEqual(c['additional_count'],2)
     def test_matches_exhaustive_search(self):
         ps=[{'1':.48,'X':.27,'2':.25},{'1':.44,'X':.24,'2':.32},{'1':.36,'X':.27,'2':.37}]
         import math

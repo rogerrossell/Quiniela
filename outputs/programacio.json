@@ -1,6 +1,6 @@
 {
   "timezone": "Europe/Madrid",
-  "verified_at": "2026-10-04",
+  "verified_at": "2026-10-08",
   "execution_hour": 10,
   "mac_ready_minutes": 10,
   "rounds": [
@@ -16,9 +16,12 @@
       "number": 8,
       "first_match": "2026-10-09",
       "last_match": "2026-10-12",
-      "forecast_status": "pending",
+      "forecast_status": "completed",
       "review_status": "pending",
-      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8"
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+      "forecast_actual_at": "2026-10-08T15:17:59+02:00",
+      "forecast_note": "Publicació confirmada el 8/10; la previsió prevista el 7/10 s’ha completat amb retard, abans del primer partit.",
+      "forecast_published_at": "2026-10-08T15:28:10.955607+02:00"
     },
     {
       "number": 9,
