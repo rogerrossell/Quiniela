@@ -1,0 +1,110 @@
+{
+  "checked_at": "2026-10-11T10:08:03.426347+02:00",
+  "round": 8,
+  "coupon_number": 12,
+  "forecast_version": "j8-20261008-cupo12",
+  "final_results": [
+    {
+      "home": "Màlaga",
+      "away": "Espanyol",
+      "result": [
+        1,
+        1
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-rcd-espanyol-de-barcelona-8"
+    },
+    {
+      "home": "Alabès",
+      "away": "Atlètic de Madrid",
+      "result": [
+        1,
+        2
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-atletico-de-madrid-8"
+    },
+    {
+      "home": "Barcelona",
+      "away": "Getafe",
+      "result": [
+        3,
+        0
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-getafe-cf-8"
+    },
+    {
+      "home": "Real Madrid",
+      "away": "Villarreal",
+      "result": [
+        1,
+        0
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-villarreal-cf-8"
+    },
+    {
+      "home": "Eldense",
+      "away": "Còrdova",
+      "result": [
+        2,
+        1
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-cd-eldense-cordoba-cf-9"
+    }
+  ],
+  "suspensions": [
+    {
+      "home": "Rayo",
+      "away": "Athletic",
+      "result": null,
+      "new_date": null,
+      "sources": [
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
+        "https://www.athletic-club.eus/noticias/2026/10/10/la-expedicion-del-athletic-club-regresa-a-bilbao/"
+      ]
+    }
+  ],
+  "coupon_results": {
+    "checked_at": "2026-10-11T10:08:03.426347+02:00",
+    "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+    "status": "partial",
+    "signs": {
+      "2": {
+        "status": "verified",
+        "sign": "2",
+        "method": "match",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+      },
+      "3": {
+        "status": "verified",
+        "sign": "1",
+        "method": "match",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+      },
+      "9": {
+        "status": "verified",
+        "sign": "1",
+        "method": "match",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+      }
+    },
+    "pleno15": {
+      "status": "verified",
+      "score": "1-0",
+      "method": "match",
+      "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+    },
+    "pending_special_cases": [
+      {
+        "position": 1,
+        "match": "Rayo – Athletic",
+        "status": "pending_official_resolution",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+        "note": "Sense signe assignat per SELAE en aquesta comprovació. No s’utilitza el 0–0 de la suspensió."
+      }
+    ]
+  },
+  "provisional_review_at": "2026-10-13T10:00:00+02:00",
+  "next_forecast_at": "2026-10-14T10:00:00+02:00",
+  "next_calendar_source": "https://www.laliga.com/noticias/horarios-de-la-novena-jornada-de-laliga-ea-sports-2026-27",
+  "forecast_changes": false,
+  "model_changes": false
+}

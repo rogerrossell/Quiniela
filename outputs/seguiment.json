@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T15:28:10.955607+02:00",
+  "updated": "2026-10-11T10:08:03.426347+02:00",
   "automation_note": "Revisió diària activada a Codex; necessita que l’entorn local estigui disponible. Aquest web és una instantània, no un marcador en directe.",
   "rounds": [
     {
@@ -48,8 +48,11 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            1,
+            1
+          ],
           "confidence": "Confiança baixa · model experimental",
           "note": "Màlaga arriba sense victòries i amb 3 gols en 7 partits; l’Espanyol també ve de perdre. Roberto suma 6 dels 10 gols de l’Espanyol: la seva disponibilitat serà rellevant, encara no confirmada per al 9/10. Actualització 8/10: Rafita i Chupe ja han tornat de la sub-21; Rafita acumula dos partits complets. Recuperacions i retorns internacionals fan prudent esperar convocatòries. Màlaga: Cajuste, Diego Murillo, Aarón Ochoa, Julen Lobete (continuaven al marge el 7/10; font local). Espanyol: Omar El Hilali (sanció indicada per SER 5/10 però contradita per un XI probable de BeSoccer 8/10; no confirmada). Espanyol: Jofre Carreras, Kike García (disponibilitat pendent de convocatòria; SER assenyala dubte i lesió respectivament). Ajustos numèrics: 1.0; informació mèdica com a context, no com a probabilitat calibrada.",
           "sources": [
@@ -61,7 +64,9 @@
             "https://cadenaser.com/nacional/2026/10/05/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-8-y-posibles-sustitutos-cadena-ser/",
             "https://es.besoccer.com/noticia/alineaciones-probables-malaga-espanyol-onces-bajas-dudas-1433159"
           ],
-          "competition": "LALIGA EA SPORTS"
+          "competition": "LALIGA EA SPORTS",
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-rcd-espanyol-de-barcelona-8",
+          "result_verified_at": "2026-10-11T10:08:03.426347+02:00"
         },
         {
           "home": "Rayo",
@@ -99,7 +104,7 @@
               }
             ]
           },
-          "status": "scheduled",
+          "status": "suspended",
           "result": null,
           "confidence": "Confiança baixa · model experimental",
           "note": "Rayo és invicte a casa (2 victòries i 1 empat), però ha encaixat 16 gols totals. Camello n’ha marcat 7 dels 11. Athletic només ha jugat dos partits fora: mostra molt petita. Cal comprovar disponibilitat ofensiva i el partit pendent. Actualització 8/10: Nico Williams presenta una lesió confirmada amb Espanya. Sancet és dubte segons AS. Laporte torna després de 270 minuts internacionals; això suggereix risc de rotació, no una baixa confirmada. Athletic: Nico Williams (club confirma lesió muscular moderada al recte anterior esquerre; pendent evolució). Athletic: Oihan Sancet (molèsties al soli segons AS 8/10). Rayo: Augusto Batalla, Luiz Felipe (SER 5/10 indica lesió de Batalla i dubte de Luiz Felipe; cal convocatòria). Ajustos numèrics: 1.0; informació mèdica com a context, no com a probabilitat calibrada.",
@@ -111,7 +116,11 @@
             "https://as.com/futbol/primera/unai-simon-laporte-y-canales-en-modo-rayo-f202610-n/",
             "https://cadenaser.com/nacional/2026/10/05/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-8-y-posibles-sustitutos-cadena-ser/"
           ],
-          "competition": "LALIGA EA SPORTS"
+          "competition": "LALIGA EA SPORTS",
+          "status_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
+          "status_verified_at": "2026-10-11T10:08:03.426347+02:00",
+          "rescheduled_kickoff": null,
+          "status_note": "Suspès el 10/10. Nova data pendent de confirmació oficial; sense resultat final."
         },
         {
           "home": "Alabès",
@@ -149,8 +158,11 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            1,
+            2
+          ],
           "confidence": "Confiança baixa · model experimental",
           "note": "Alabès: 3 victòries en 4 partits a casa i 9–3 en gols. Atlètic arriba del 2–1 al Madrid i té 16 gols totals. Lucas Boyé (4 gols) i Álex B. (4) són referències estadístiques; Jonathan David porta 3 gols en 3 partits. Duel més equilibrat que el nom dels equips podria suggerir. Actualització 8/10: L’Alabès afronta una defensa condicionada per la lesió de Koski i l’absència de Garcés segons AS. L’Atlètic ha tingut 17 convocats internacionals; la càrrega individual completa no està quantificada. Alabès: Ville Koski, Facundo Garcés (AS 4/10 informa lesió muscular al quàdriceps de Koski i indisponibilitat de Garcés). Atlètic: Grimaldo (molèsties al musle confirmades pel club durant seleccions; AS 6/10 el situa treballant en camp annex, sense alta definitiva). Ajustos numèrics: 1.0; informació mèdica com a context, no com a probabilitat calibrada.",
           "sources": [
@@ -162,7 +174,9 @@
             "https://as.com/futbol/primera/grimaldo-se-suma-a-la-fiesta-f202610-n/",
             "https://www.atleticodemadrid.com/noticias"
           ],
-          "competition": "LALIGA EA SPORTS"
+          "competition": "LALIGA EA SPORTS",
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-atletico-de-madrid-8",
+          "result_verified_at": "2026-10-11T10:08:03.426347+02:00"
         },
         {
           "home": "Barcelona",
@@ -200,8 +214,11 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            3,
+            0
+          ],
           "confidence": "Confiança baixa · model experimental",
           "note": "Barcelona ha guanyat els 7 partits i suma 31 gols; Getafe ha perdut les 3 sortides i no hi ha marcat. Raphinha (12) i Lamine Yamal (7) concentren 19 gols. La convocatòria de la jornada 6 els incloïa, però no acredita disponibilitat futura. Actualització 8/10: Raphinha continuava separat del grup el matí del 8/10: disponibilitat i minuts no confirmats. Els internacionals espanyols s’han reincorporat. Evitem donar per feta la titularitat del golejador. Barça: Raphinha (treball individual; participació dissabte pendent). Getafe: Mario Martín (SER 5/10 assenyala sanció, pendent contrast directe amb RFEF). Ajustos numèrics: 1.0; informació mèdica com a context, no com a probabilitat calibrada.",
           "sources": [
@@ -213,7 +230,9 @@
             "https://cadenaser.com/cataluna/2026/10/08/raphinha-continua-al-marge-pero-dema-es-provara-amb-lequip-i-se-lespera-per-dissabte-sercat/",
             "https://cadenaser.com/nacional/2026/10/05/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-8-y-posibles-sustitutos-cadena-ser/"
           ],
-          "competition": "LALIGA EA SPORTS"
+          "competition": "LALIGA EA SPORTS",
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-getafe-cf-8",
+          "result_verified_at": "2026-10-11T10:08:03.426347+02:00"
         },
         {
           "home": "Real Madrid",
@@ -251,8 +270,11 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            1,
+            0
+          ],
           "confidence": "Confiança baixa · model experimental",
           "note": "Madrid suma 3 victòries a casa, 12 gols a favor i 2 en contra. Villarreal arriba del 3–1 al Llevant, amb 13 gols a favor i 12 en contra totals. Mbappé (7) i Bellingham (3); Gueye (3) al Villarreal. Les molèsties anteriors de Comesaña requereixen nova comprovació, sense arrossegar una baixa fins a octubre. Actualització 8/10: Mbappé ha tornat al grup després de la recuperació; Valverde encara és dubte. El Villarreal recupera Comesaña i Foyth als entrenaments, sense convertir-ho en una garantia de titularitat. Real Madrid: Dean Huijsen (un partit de sanció comunicat per EFE/Mundo Deportivo el 23/9). Real Madrid: Fede Valverde (recuperació d’esquinç; possible convocatòria encara no confirmada). Villarreal: Santi Comesaña, Juan Foyth (ja amb grup el 6/10; convocatòria pendent). Ajustos numèrics: 1.0; informació mèdica com a context, no com a probabilitat calibrada.",
           "sources": [
@@ -264,7 +286,9 @@
             "https://as.com/futbol/valverde-un-rayo-de-esperanza-f202610-n/",
             "https://cadenaser.com/comunitat-valenciana/2026/10/06/comesana-vuelve-al-grupo-y-foyth-avanza-hacia-el-bernabeu-radio-castellon/"
           ],
-          "competition": "LALIGA EA SPORTS"
+          "competition": "LALIGA EA SPORTS",
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-villarreal-cf-8",
+          "result_verified_at": "2026-10-11T10:08:03.426347+02:00"
         },
         {
           "home": "Elx",
@@ -552,8 +576,11 @@
             ]
           },
           "competition": "LALIGA HYPERMOTION",
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            2,
+            1
+          ],
           "confidence": "Confiança baixa · mostra de 8 jornades",
           "note": "L’Eldense suma 7–5 en gols a casa; el Còrdova, 7–10 fora. L’últim 4–1 de l’Eldense és una dada de forma, però no s’afegeix un premi numèric per un sol partit. Percan suma 3 gols segons LALIGA. Disponibilitat de tots els atacants i sancions pendents de confirmació.",
           "sources": [
@@ -561,7 +588,9 @@
             "https://www.laliga.com/laliga-hypermotion/resultados",
             "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores",
             "https://cadenaser.com/comunitat-valenciana/2026/10/02/el-eldense-de-messi-golea-para-lograr-la-primera-victoria-en-casa-ante-el-oviedo-4-1-radio-elda/"
-          ]
+          ],
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-cd-eldense-cordoba-cf-9",
+          "result_verified_at": "2026-10-11T10:08:03.426347+02:00"
         },
         {
           "home": "Andorra",
@@ -809,13 +838,15 @@
         }
       ],
       "review": {
-        "summary": "Previsió completa publicada el 8/10; resultats pendents. Es conserven les quatre columnes, la data i totes les probabilitats originals.",
-        "next": "Revisió prevista el 13/10 a les 10:00; Mac disponible des de les 09:50. Separar 14 signes, Ple al 15, Primera/Segona i versió anticipada.",
+        "summary": "Balanç provisional: 3 encerts de signe sobre 5 resultats finals verificats (4 de Primera i 1 de Segona). Les quatre columnes tenen 2/3 caselles resoltes; Ple al 15: 1–0, error respecte al M–1 previst. Jornada oberta; no és la revisió final.",
+        "next": "Anàlisi provisional el 13/10 a les 10:00; Mac preparat a les 09:50. Tancament esportiu de J8 pendent de Rayo–Athletic; el signe SELAE, si es resol separadament, no serà un resultat futbolístic.",
         "changes": [
           "Sense canvi del model 0.1: els cinc partits elegibles de la J7 no permeten validar nous pesos.",
           "Hipòtesi pendent: calibrar lesions, minuts internacionals i força dels rivals amb dades homogènies i validació cronològica fora de mostra.",
           "La condensació només resumeix les quatre apostes si la seva expansió és exacta; en cas contrari es mostra el nombre de combinacions addicionals."
-        ]
+        ],
+        "status": "in_progress_with_suspension",
+        "last_result_check": "2026-10-11T10:08:03.426347+02:00"
       },
       "coupon": {
         "complete": true,
@@ -1038,8 +1069,11 @@
                   }
                 ]
               },
-              "status": "scheduled",
-              "result": null,
+              "status": "final",
+              "result": [
+                1,
+                1
+              ],
               "confidence": "Provisional · confiança baixa",
               "note": "Màlaga arriba sense victòries i amb 3 gols en 7 partits; l’Espanyol també ve de perdre. Roberto suma 6 dels 10 gols de l’Espanyol: la seva disponibilitat serà rellevant, encara no confirmada per al 9/10. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
               "sources": [
@@ -1047,7 +1081,9 @@
                 "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
                 "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
                 "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
-              ]
+              ],
+              "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-malaga-cf-rcd-espanyol-de-barcelona-8",
+              "result_verified_at": "2026-10-11T10:08:03.426347+02:00"
             },
             {
               "home": "Rayo",
@@ -1085,7 +1121,7 @@
                   }
                 ]
               },
-              "status": "scheduled",
+              "status": "suspended",
               "result": null,
               "confidence": "Provisional · confiança baixa",
               "note": "Rayo és invicte a casa (2 victòries i 1 empat), però ha encaixat 16 gols totals. Camello n’ha marcat 7 dels 11. Athletic només ha jugat dos partits fora: mostra molt petita. Cal comprovar disponibilitat ofensiva i el partit pendent. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
@@ -1094,7 +1130,11 @@
                 "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
                 "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
                 "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
-              ]
+              ],
+              "status_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
+              "status_verified_at": "2026-10-11T10:08:03.426347+02:00",
+              "rescheduled_kickoff": null,
+              "status_note": "Suspès el 10/10. Nova data pendent de confirmació oficial; sense resultat final."
             },
             {
               "home": "Alabès",
@@ -1132,8 +1172,11 @@
                   }
                 ]
               },
-              "status": "scheduled",
-              "result": null,
+              "status": "final",
+              "result": [
+                1,
+                2
+              ],
               "confidence": "Provisional · confiança baixa",
               "note": "Alabès: 3 victòries en 4 partits a casa i 9–3 en gols. Atlètic arriba del 2–1 al Madrid i té 16 gols totals. Lucas Boyé (4 gols) i Álex B. (4) són referències estadístiques; Jonathan David porta 3 gols en 3 partits. Duel més equilibrat que el nom dels equips podria suggerir. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
               "sources": [
@@ -1141,7 +1184,9 @@
                 "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
                 "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
                 "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
-              ]
+              ],
+              "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-atletico-de-madrid-8",
+              "result_verified_at": "2026-10-11T10:08:03.426347+02:00"
             },
             {
               "home": "Barcelona",
@@ -1179,8 +1224,11 @@
                   }
                 ]
               },
-              "status": "scheduled",
-              "result": null,
+              "status": "final",
+              "result": [
+                3,
+                0
+              ],
               "confidence": "Provisional · confiança baixa",
               "note": "Barcelona ha guanyat els 7 partits i suma 31 gols; Getafe ha perdut les 3 sortides i no hi ha marcat. Raphinha (12) i Lamine Yamal (7) concentren 19 gols. La convocatòria de la jornada 6 els incloïa, però no acredita disponibilitat futura. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
               "sources": [
@@ -1188,7 +1236,9 @@
                 "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
                 "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
                 "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
-              ]
+              ],
+              "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-getafe-cf-8",
+              "result_verified_at": "2026-10-11T10:08:03.426347+02:00"
             },
             {
               "home": "Real Madrid",
@@ -1226,8 +1276,11 @@
                   }
                 ]
               },
-              "status": "scheduled",
-              "result": null,
+              "status": "final",
+              "result": [
+                1,
+                0
+              ],
               "confidence": "Provisional · confiança baixa",
               "note": "Madrid suma 3 victòries a casa, 12 gols a favor i 2 en contra. Villarreal arriba del 3–1 al Llevant, amb 13 gols a favor i 12 en contra totals. Mbappé (7) i Bellingham (3); Gueye (3) al Villarreal. Les molèsties anteriors de Comesaña requereixen nova comprovació, sense arrossegar una baixa fins a octubre. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
               "sources": [
@@ -1235,7 +1288,9 @@
                 "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
                 "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
                 "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
-              ]
+              ],
+              "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-villarreal-cf-8",
+              "result_verified_at": "2026-10-11T10:08:03.426347+02:00"
             },
             {
               "home": "Elx",
@@ -1474,9 +1529,11 @@
             }
           ],
           "review": {
-            "summary": "Pendent de disputar-se. Aquesta versió anticipada s’avaluarà separadament de la previsió ordinària del 7/10.",
-            "next": "Revalidar cupó SELAE i notícies el 7/10/2026 a les 10:00.",
-            "changes": []
+            "summary": "Versió anticipada: balanç provisional de 2 encerts de signe sobre 4 resultats finals. S’avalua separadament de la previsió publicada el 8/10; Rayo–Athletic continua pendent.",
+            "next": "Anàlisi provisional el 13/10 a les 10:00; Mac preparat a les 09:50. Tancament esportiu de J8 pendent de Rayo–Athletic; el signe SELAE, si es resol separadament, no serà un resultat futbolístic.",
+            "changes": [],
+            "status": "in_progress_with_suspension",
+            "last_result_check": "2026-10-11T10:08:03.426347+02:00"
           },
           "coupon": {
             "complete": false,
@@ -1590,7 +1647,13 @@
             "generated_from": "2026-09-23T16:58:50+02:00",
             "prepared_at": "2026-09-23T16:58:50+02:00",
             "published_at": "2026-10-04T11:39:40.638397+02:00"
-          }
+          },
+          "monitoring_notice": "Seguiment 11/10: Rayo–Athletic suspès i sense nova data confirmada. La casella 1 de SELAE també continua pendent. Les previsions i les quatre columnes publicades es mantenen congelades; el tancament del cupó va ser el 10/10 a les 14:00.",
+          "monitoring_sources": [
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
+            "https://www.athletic-club.eus/noticias/2026/10/10/la-expedicion-del-athletic-club-regresa-a-bilbao/",
+            "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+          ]
         }
       ],
       "evaluation_scope": "10 partits de Primera i 6 de Segona; separar competicions i les 14 caselles del cupó en la revisió.",
@@ -1639,6 +1702,52 @@
             "M-M": 0.044193565982823306
           }
         }
+      },
+      "monitoring_notice": "Seguiment 11/10: Rayo–Athletic suspès i sense nova data confirmada. La casella 1 de SELAE també continua pendent. Les previsions i les quatre columnes publicades es mantenen congelades; el tancament del cupó va ser el 10/10 a les 14:00.",
+      "monitoring_sources": [
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
+        "https://www.athletic-club.eus/noticias/2026/10/10/la-expedicion-del-athletic-club-regresa-a-bilbao/",
+        "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+      ],
+      "coupon_results": {
+        "checked_at": "2026-10-11T10:08:03.426347+02:00",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+        "status": "partial",
+        "signs": {
+          "2": {
+            "status": "verified",
+            "sign": "2",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+          },
+          "3": {
+            "status": "verified",
+            "sign": "1",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+          },
+          "9": {
+            "status": "verified",
+            "sign": "1",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+          }
+        },
+        "pleno15": {
+          "status": "verified",
+          "score": "1-0",
+          "method": "match",
+          "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+        },
+        "pending_special_cases": [
+          {
+            "position": 1,
+            "match": "Rayo – Athletic",
+            "status": "pending_official_resolution",
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+            "note": "Sense signe assignat per SELAE en aquesta comprovació. No s’utilitza el 0–0 de la suspensió."
+          }
+        ]
       }
     },
     {
