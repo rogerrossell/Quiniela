@@ -1,6 +1,6 @@
 {
   "timezone": "Europe/Madrid",
-  "verified_at": "2026-10-11",
+  "verified_at": "2026-10-12",
   "execution_hour": 10,
   "mac_ready_minutes": 10,
   "rounds": [
@@ -26,7 +26,7 @@
         "Rayo – Athletic"
       ],
       "final_review_date": null,
-      "review_note": "Revisió provisional dels partits finalitzats. Rayo–Athletic suspès; nova data i tancament esportiu pendents.",
+      "review_note": "Anàlisi provisional dels partits acabats i del cupó SELAE. Rayo–Athletic ja té X oficial per a la Quiniela; el resultat esportiu i la nova data continuen pendents.",
       "postponement_source": "https://www.athletic-club.eus/noticias/2026/10/10/la-expedicion-del-athletic-club-regresa-a-bilbao/"
     },
     {
@@ -38,5 +38,5 @@
       "source": "https://www.laliga.com/noticias/horarios-de-la-novena-jornada-de-laliga-ea-sports-2026-27"
     }
   ],
-  "checked_at": "2026-10-11T10:08:03.426347+02:00"
+  "checked_at": "2026-10-12T12:54:37.128664+02:00"
 }

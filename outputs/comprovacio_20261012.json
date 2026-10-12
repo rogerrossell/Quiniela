@@ -1,0 +1,212 @@
+{
+  "checked_at": "2026-10-12T12:54:37.128664+02:00",
+  "round": 8,
+  "coupon_number": 12,
+  "new_final_results": [
+    {
+      "home": "Elx",
+      "away": "Celta",
+      "result": [
+        0,
+        0
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-rc-celta-8"
+    },
+    {
+      "home": "Reial Societat",
+      "away": "Deportivo",
+      "result": [
+        3,
+        2
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rc-deportivo-8"
+    },
+    {
+      "home": "Betis",
+      "away": "Osasuna",
+      "result": [
+        5,
+        2
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-betis-ca-osasuna-8"
+    },
+    {
+      "home": "Racing",
+      "away": "València",
+      "result": [
+        2,
+        2
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8"
+    },
+    {
+      "home": "Andorra",
+      "away": "Castelló",
+      "result": [
+        1,
+        0
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-fc-andorra-cd-castellon-9"
+    },
+    {
+      "home": "Almeria",
+      "away": "Leganés",
+      "result": [
+        3,
+        0
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-ud-almeria-cd-leganes-9"
+    },
+    {
+      "home": "Mallorca",
+      "away": "Las Palmas",
+      "result": [
+        3,
+        1
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-rcd-mallorca-ud-las-palmas-9"
+    }
+  ],
+  "coupon_results": {
+    "checked_at": "2026-10-12T12:54:37.128664+02:00",
+    "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+    "status": "partial",
+    "signs": {
+      "2": {
+        "status": "verified",
+        "sign": "2",
+        "method": "match",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+        "checked_at": "2026-10-12T12:54:37.128664+02:00"
+      },
+      "3": {
+        "status": "verified",
+        "sign": "1",
+        "method": "match",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+        "checked_at": "2026-10-12T12:54:37.128664+02:00"
+      },
+      "9": {
+        "status": "verified",
+        "sign": "1",
+        "method": "match",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+        "checked_at": "2026-10-12T12:54:37.128664+02:00"
+      },
+      "1": {
+        "status": "verified",
+        "sign": "X",
+        "method": "regulatory_suspension",
+        "source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/SUSPENSION%20RAYO%20VALLECANO-ATHLETIC%20CLUB%20QUINIELA%20JORNADA%2012%20TDA%202026-27.pdf",
+        "checked_at": "2026-10-12T12:54:37.128664+02:00"
+      },
+      "4": {
+        "status": "verified",
+        "sign": "X",
+        "method": "match",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+        "checked_at": "2026-10-12T12:54:37.128664+02:00"
+      },
+      "5": {
+        "status": "verified",
+        "sign": "1",
+        "method": "match",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+        "checked_at": "2026-10-12T12:54:37.128664+02:00"
+      },
+      "6": {
+        "status": "verified",
+        "sign": "1",
+        "method": "match",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+        "checked_at": "2026-10-12T12:54:37.128664+02:00"
+      },
+      "10": {
+        "status": "verified",
+        "sign": "1",
+        "method": "match",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+        "checked_at": "2026-10-12T12:54:37.128664+02:00"
+      },
+      "11": {
+        "status": "verified",
+        "sign": "1",
+        "method": "match",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+        "checked_at": "2026-10-12T12:54:37.128664+02:00"
+      },
+      "12": {
+        "status": "verified",
+        "sign": "1",
+        "method": "match",
+        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+        "checked_at": "2026-10-12T12:54:37.128664+02:00"
+      }
+    },
+    "pleno15": {
+      "status": "verified",
+      "score": "1-0",
+      "method": "match",
+      "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+      "checked_at": "2026-10-12T12:54:37.128664+02:00"
+    },
+    "pending_special_cases": [],
+    "special_cases": [
+      {
+        "position": 1,
+        "match": "Rayo – Athletic",
+        "status": "verified",
+        "sign": "X",
+        "method": "regulatory_suspension",
+        "source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/SUSPENSION%20RAYO%20VALLECANO-ATHLETIC%20CLUB%20QUINIELA%20JORNADA%2012%20TDA%202026-27.pdf",
+        "note": "X oficial per la norma 40: s’utilitza el marcador de la suspensió per a la Quiniela. No és un sorteig. El resultat esportiu continua pendent i no compta en Brier ni logloss."
+      }
+    ],
+    "sporting_results_awaiting_selae": [
+      7
+    ]
+  },
+  "sporting_final_count": 12,
+  "sporting_hits": 7,
+  "coupon_available_positions": 11,
+  "column_hits": [
+    6,
+    5,
+    6,
+    5
+  ],
+  "pending_sporting_matches": [
+    {
+      "home": "Rayo",
+      "away": "Athletic",
+      "kickoff": "2026-10-10T14:00:00+02:00",
+      "status": "suspended",
+      "result": null
+    },
+    {
+      "home": "Llevant",
+      "away": "Sevilla",
+      "kickoff": "2026-10-12T21:00:00+02:00",
+      "status": "scheduled",
+      "result": null
+    },
+    {
+      "home": "Burgos",
+      "away": "Granada",
+      "kickoff": "2026-10-12T16:15:00+02:00",
+      "status": "scheduled",
+      "result": null
+    },
+    {
+      "home": "Oviedo",
+      "away": "Eibar",
+      "kickoff": "2026-10-12T18:30:00+02:00",
+      "status": "scheduled",
+      "result": null
+    }
+  ],
+  "provisional_review_at": "2026-10-13T10:00:00+02:00",
+  "next_forecast_at": "2026-10-14T10:00:00+02:00",
+  "forecast_changes": false,
+  "model_changes": false
+}

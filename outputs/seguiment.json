@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T10:08:03.426347+02:00",
+  "updated": "2026-10-12T12:54:37.128664+02:00",
   "automation_note": "Revisió diària activada a Codex; necessita que l’entorn local estigui disponible. Aquest web és una instantània, no un marcador en directe.",
   "rounds": [
     {
@@ -118,7 +118,7 @@
           ],
           "competition": "LALIGA EA SPORTS",
           "status_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
-          "status_verified_at": "2026-10-11T10:08:03.426347+02:00",
+          "status_verified_at": "2026-10-12T12:54:37.128664+02:00",
           "rescheduled_kickoff": null,
           "status_note": "Suspès el 10/10. Nova data pendent de confirmació oficial; sense resultat final."
         },
@@ -326,8 +326,11 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            0,
+            0
+          ],
           "confidence": "Confiança baixa · model experimental",
           "note": "Elx arriba d’un 1–3 a l’Espanyol; Celta d’un 5–0 al Racing. Elx ha perdut els tres partits de casa, però Celta ha empatat les tres sortides. Fer Niño suma 5 gols. El 5–0 pot inflar la lectura d’una sola jornada: es manté la regularització del model. Actualització 8/10: Starfelt torna lesionat de Suècia, amb ruptura muscular confirmada pel Celta. L’Elx perd Redondo per la sanció de la jornada anterior segons Plaza Deportiva. Dades de minuts i descans incompletes. Celta: Carl Starfelt (ruptura muscular confirmada pel club el 5/10). Elx: Federico Redondo (sanció d’un partit segons informació sobre resolució RFEF). Ajustos numèrics: 1.0; informació mèdica com a context, no com a probabilitat calibrada.",
           "sources": [
@@ -337,7 +340,9 @@
             "https://rccelta.es/en/equipo/actualidad/carl-starfelts-medical-report/",
             "https://plazadeportiva.valenciaplaza.com/plazadeportiva/futbol/un-partido-de-suspension-para-redondo"
           ],
-          "competition": "LALIGA EA SPORTS"
+          "competition": "LALIGA EA SPORTS",
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-rc-celta-8",
+          "result_verified_at": "2026-10-12T12:54:37.128664+02:00"
         },
         {
           "home": "Reial Societat",
@@ -375,8 +380,11 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            3,
+            2
+          ],
           "confidence": "Confiança baixa · model experimental",
           "note": "Reial Societat ve del 2–3 a València; Deportivo, de l’1–1 amb Betis. Deportivo segueix invicte fora (1 victòria i 2 empats); Sucic té 3 gols i Aubameyang 5. Favorit poc clar: l’empat és una possibilitat important, sense retocar pesos per l’error de la jornada 7. Actualització 8/10: La Reial confirma una lesió al soli d’Aramburu. El Deportivo perd una peça ofensiva amb la recuperació de la cirurgia d’Aubameyang. És un partit amb força incertesa d’alineacions. Reial Societat: Jon Mikel Aramburu (lesió muscular al soli confirmada el 7/10; pendent evolució). Deportivo: Pierre-Emerick Aubameyang (operació de menisc anunciada el 23/9, retorn subjecte a evolució). Reial Societat: Orri Óskarsson (doble groga i sanció per al partit segons Riazor.org). Deportivo: Angeliño (SER5/10 assenyala sanció; pendent contrast directe amb RFEF). Ajustos numèrics: 1.0; informació mèdica com a context, no com a probabilitat calibrada.",
           "sources": [
@@ -388,7 +396,9 @@
             "https://www.riazor.org/zubeldia-oskarsson-cara-cruz-recibir-deportivo/",
             "https://cadenaser.com/nacional/2026/10/05/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-8-y-posibles-sustitutos-cadena-ser/"
           ],
-          "competition": "LALIGA EA SPORTS"
+          "competition": "LALIGA EA SPORTS",
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rc-deportivo-8",
+          "result_verified_at": "2026-10-12T12:54:37.128664+02:00"
         },
         {
           "home": "Betis",
@@ -426,8 +436,11 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            5,
+            2
+          ],
           "confidence": "Confiança baixa · model experimental",
           "note": "Betis ha guanyat els tres partits a casa sense encaixar (3–0 total). Osasuna ha encaixat 10 gols en tres sortides. Budimir suma 5 dels 6 gols d’Osasuna. El volum de gol local del Betis és modest malgrat els bons resultats; cal revisar golejadors disponibles i calendari europeu. Actualització 8/10: Junior Firpo s’ha lesionat amb la República Dominicana; Ruibal continua recuperant-se. Osasuna confirma recuperació de Moro i Herrando; Budimir va jugar amb Croàcia el 6/10 i falta quantificar tota la seva càrrega. Betis: Junior Firpo (lesió muscular reportada per Estadio Deportivo 6/10). Osasuna: Raúl Moro, Jorge Herrando (encara en recuperació segons club7/10). Betis: Aitor Ruibal (retorn proper però sense convocatòria confirmada). Ajustos numèrics: 1.0; informació mèdica com a context, no com a probabilitat calibrada.",
           "sources": [
@@ -438,7 +451,9 @@
             "https://as.com/futbol/la-prueba-de-los-11-dias-a-fondo-de-armario-del-betis-f202610-n/",
             "https://www.osasuna.es/entrenamiento-07-10-26"
           ],
-          "competition": "LALIGA EA SPORTS"
+          "competition": "LALIGA EA SPORTS",
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-betis-ca-osasuna-8",
+          "result_verified_at": "2026-10-12T12:54:37.128664+02:00"
         },
         {
           "home": "Racing",
@@ -476,8 +491,11 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            2,
+            2
+          ],
           "confidence": "Confiança baixa · model experimental",
           "note": "Racing arriba del 5–0 a Vigo però és invicte a casa (2 victòries i 1 empat, 7–5). València suma 4 gols i 13 encaixats. Zabiri té 6 dels 11 gols del Racing. No es donen per vigents les baixes del València de la jornada anterior. Actualització 8/10: El València estrena projecte amb Javier Aguirre: no assumim automàticament una millora estadística. Andrés Martín ha reprès part del treball amb el Racing però la disponibilitat definitiva segueix pendent. Racing: Andrés Martín (retorn parcial al grup segons AS1/10, convocatòria pendent). València: Sadiq Umar (lesió publicada pel club1/9 sense alta posterior verificada en aquesta consulta). Ajustos numèrics: 1.0; informació mèdica com a context, no com a probabilitat calibrada.",
           "sources": [
@@ -488,7 +506,9 @@
             "https://as.com/futbol/primera/andres-martin-apunta-al-valencia-f202610-n/",
             "https://www.valenciacf.com/informe-medic-sadiq-umar1"
           ],
-          "competition": "LALIGA EA SPORTS"
+          "competition": "LALIGA EA SPORTS",
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
+          "result_verified_at": "2026-10-12T12:54:37.128664+02:00"
         },
         {
           "home": "Llevant",
@@ -629,8 +649,11 @@
             ]
           },
           "competition": "LALIGA HYPERMOTION",
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            1,
+            0
+          ],
           "confidence": "Confiança baixa · mostra de 8 jornades",
           "note": "Castelló només ha encaixat 3 gols en 8 jornades i té 7–2 fora; Andorra, 7–8 a casa. Jordi Cano porta 4 gols; Camara, 4 i Suero, 3 al Castelló, segons LALIGA. SER informa que Mellot i els internacionals tornen, però Nieto, Vlak, Cámara i Fran Castillo continuen fora; pendent de convocatòria.",
           "sources": [
@@ -638,7 +661,9 @@
             "https://www.laliga.com/laliga-hypermotion/resultados",
             "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores",
             "https://cadenaser.com/comunitat-valenciana/2026/10/08/pablo-hernandez-pide-al-castellon-recuperar-su-mejor-version-tenemos-que-reencontrarnos-radio-castellon/"
-          ]
+          ],
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-fc-andorra-cd-castellon-9",
+          "result_verified_at": "2026-10-12T12:54:37.128664+02:00"
         },
         {
           "home": "Almeria",
@@ -677,8 +702,11 @@
             ]
           },
           "competition": "LALIGA HYPERMOTION",
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            3,
+            0
+          ],
           "confidence": "Confiança baixa · mostra de 8 jornades",
           "note": "Almeria té 4 victòries en 4 partits a casa i 10–3 en gols; Leganés marca 2 gols en 5 desplaçaments. Miguel suma 3 gols a l’Almeria segons LALIGA. Franquesa i Leiva són baixes defensives reportades per premsa local, sense resolució mèdica completa verificada aquí. No es dona per confirmat l’onze.",
           "sources": [
@@ -687,7 +715,9 @@
             "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores",
             "https://www.marcadoralmeria.com/2026/10/07/leganes-7/",
             "https://www.udalmeriasad.com/noticias/ya-estan-a-la-venta-las-entradas-para-el-almeria-leganes-del-domingo"
-          ]
+          ],
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-ud-almeria-cd-leganes-9",
+          "result_verified_at": "2026-10-12T12:54:37.128664+02:00"
         },
         {
           "home": "Mallorca",
@@ -726,8 +756,11 @@
             ]
           },
           "competition": "LALIGA HYPERMOTION",
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            3,
+            1
+          ],
           "confidence": "Confiança baixa · mostra de 8 jornades",
           "note": "Mallorca té 7–1 en gols a casa; Las Palmas, 7–8 fora. Fuentes porta 4 gols segons LALIGA. SER comunica tres setmanes de baixa per Jesé. Valjent, Luvumbo i Bergström havien de tornar de les seleccions el 8/10 segons Última Hora: retorn previst no equival a disponibilitat confirmada. No s’aplica un impacte de baixes inventat.",
           "sources": [
@@ -736,7 +769,9 @@
             "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores",
             "https://cadenaser.com/canarias/2026/10/06/jese-rodrigues-tres-semanas-de-baja-ser-las-palmas/",
             "https://www.ultimahora.es/videos/2026/10/07/4800347.html"
-          ]
+          ],
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-rcd-mallorca-ud-las-palmas-9",
+          "result_verified_at": "2026-10-12T12:54:37.128664+02:00"
         },
         {
           "home": "Burgos",
@@ -838,15 +873,15 @@
         }
       ],
       "review": {
-        "summary": "Balanç provisional: 3 encerts de signe sobre 5 resultats finals verificats (4 de Primera i 1 de Segona). Les quatre columnes tenen 2/3 caselles resoltes; Ple al 15: 1–0, error respecte al M–1 previst. Jornada oberta; no és la revisió final.",
-        "next": "Anàlisi provisional el 13/10 a les 10:00; Mac preparat a les 09:50. Tancament esportiu de J8 pendent de Rayo–Athletic; el signe SELAE, si es resol separadament, no serà un resultat futbolístic.",
+        "summary": "Balanç provisional: 7 encerts de signe sobre 12 resultats esportius finals (8 de Primera i 4 de Segona). Les quatre columnes fan 6/11, 5/11, 6/11 i 5/11; s’hi inclou la X oficial de Rayo–Athletic, exclosa de les mètriques esportives. Ple al 15: 1–0, error respecte al M–1 previst. Encara queden tres partits del cupó.",
+        "next": "Anàlisi provisional el 13/10 a les 10:00; Mac preparat a les 09:50. La revisió esportiva final espera Rayo–Athletic; el cupó es revisarà separadament amb els signes oficials SELAE.",
         "changes": [
           "Sense canvi del model 0.1: els cinc partits elegibles de la J7 no permeten validar nous pesos.",
           "Hipòtesi pendent: calibrar lesions, minuts internacionals i força dels rivals amb dades homogènies i validació cronològica fora de mostra.",
           "La condensació només resumeix les quatre apostes si la seva expansió és exacta; en cas contrari es mostra el nombre de combinacions addicionals."
         ],
         "status": "in_progress_with_suspension",
-        "last_result_check": "2026-10-11T10:08:03.426347+02:00"
+        "last_result_check": "2026-10-12T12:54:37.128664+02:00"
       },
       "coupon": {
         "complete": true,
@@ -1132,7 +1167,7 @@
                 "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
               ],
               "status_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
-              "status_verified_at": "2026-10-11T10:08:03.426347+02:00",
+              "status_verified_at": "2026-10-12T12:54:37.128664+02:00",
               "rescheduled_kickoff": null,
               "status_note": "Suspès el 10/10. Nova data pendent de confirmació oficial; sense resultat final."
             },
@@ -1328,8 +1363,11 @@
                   }
                 ]
               },
-              "status": "scheduled",
-              "result": null,
+              "status": "final",
+              "result": [
+                0,
+                0
+              ],
               "confidence": "Provisional · confiança baixa",
               "note": "Elx arriba d’un 1–3 a l’Espanyol; Celta d’un 5–0 al Racing. Elx ha perdut els tres partits de casa, però Celta ha empatat les tres sortides. Fer Niño suma 5 gols. El 5–0 pot inflar la lectura d’una sola jornada: es manté la regularització del model. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
               "sources": [
@@ -1337,7 +1375,9 @@
                 "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
                 "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
                 "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
-              ]
+              ],
+              "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-rc-celta-8",
+              "result_verified_at": "2026-10-12T12:54:37.128664+02:00"
             },
             {
               "home": "Reial Societat",
@@ -1375,8 +1415,11 @@
                   }
                 ]
               },
-              "status": "scheduled",
-              "result": null,
+              "status": "final",
+              "result": [
+                3,
+                2
+              ],
               "confidence": "Provisional · confiança baixa",
               "note": "Reial Societat ve del 2–3 a València; Deportivo, de l’1–1 amb Betis. Deportivo segueix invicte fora (1 victòria i 2 empats); Sucic té 3 gols i Aubameyang 5. Favorit poc clar: l’empat és una possibilitat important, sense retocar pesos per l’error de la jornada 7. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
               "sources": [
@@ -1384,7 +1427,9 @@
                 "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
                 "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
                 "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
-              ]
+              ],
+              "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-rc-deportivo-8",
+              "result_verified_at": "2026-10-12T12:54:37.128664+02:00"
             },
             {
               "home": "Betis",
@@ -1422,8 +1467,11 @@
                   }
                 ]
               },
-              "status": "scheduled",
-              "result": null,
+              "status": "final",
+              "result": [
+                5,
+                2
+              ],
               "confidence": "Provisional · confiança baixa",
               "note": "Betis ha guanyat els tres partits a casa sense encaixar (3–0 total). Osasuna ha encaixat 10 gols en tres sortides. Budimir suma 5 dels 6 gols d’Osasuna. El volum de gol local del Betis és modest malgrat els bons resultats; cal revisar golejadors disponibles i calendari europeu. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
               "sources": [
@@ -1431,7 +1479,9 @@
                 "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
                 "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
                 "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
-              ]
+              ],
+              "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-betis-ca-osasuna-8",
+              "result_verified_at": "2026-10-12T12:54:37.128664+02:00"
             },
             {
               "home": "Racing",
@@ -1469,8 +1519,11 @@
                   }
                 ]
               },
-              "status": "scheduled",
-              "result": null,
+              "status": "final",
+              "result": [
+                2,
+                2
+              ],
               "confidence": "Provisional · confiança baixa",
               "note": "Racing arriba del 5–0 a Vigo però és invicte a casa (2 victòries i 1 empat, 7–5). València suma 4 gols i 13 encaixats. Zabiri té 6 dels 11 gols del Racing. No es donen per vigents les baixes del València de la jornada anterior. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
               "sources": [
@@ -1478,7 +1531,9 @@
                 "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
                 "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
                 "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
-              ]
+              ],
+              "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-valencia-cf-8",
+              "result_verified_at": "2026-10-12T12:54:37.128664+02:00"
             },
             {
               "home": "Llevant",
@@ -1529,11 +1584,11 @@
             }
           ],
           "review": {
-            "summary": "Versió anticipada: balanç provisional de 2 encerts de signe sobre 4 resultats finals. S’avalua separadament de la previsió publicada el 8/10; Rayo–Athletic continua pendent.",
-            "next": "Anàlisi provisional el 13/10 a les 10:00; Mac preparat a les 09:50. Tancament esportiu de J8 pendent de Rayo–Athletic; el signe SELAE, si es resol separadament, no serà un resultat futbolístic.",
+            "summary": "Versió anticipada: balanç provisional de 4 encerts de signe sobre 8 resultats finals. S’avalua separadament de la previsió del 8/10. Rayo–Athletic continua pendent com a partit esportiu.",
+            "next": "Anàlisi provisional el 13/10 a les 10:00; Mac preparat a les 09:50. La revisió esportiva final espera Rayo–Athletic; el cupó es revisarà separadament amb els signes oficials SELAE.",
             "changes": [],
             "status": "in_progress_with_suspension",
-            "last_result_check": "2026-10-11T10:08:03.426347+02:00"
+            "last_result_check": "2026-10-12T12:54:37.128664+02:00"
           },
           "coupon": {
             "complete": false,
@@ -1648,10 +1703,10 @@
             "prepared_at": "2026-09-23T16:58:50+02:00",
             "published_at": "2026-10-04T11:39:40.638397+02:00"
           },
-          "monitoring_notice": "Seguiment 11/10: Rayo–Athletic suspès i sense nova data confirmada. La casella 1 de SELAE també continua pendent. Les previsions i les quatre columnes publicades es mantenen congelades; el tancament del cupó va ser el 10/10 a les 14:00.",
+          "monitoring_notice": "Seguiment 12/10: SELAE confirma la X a la casella 1 (Rayo–Athletic) per la norma 40 i el 0–0 existent en suspendre’s el partit. El resultat esportiu continua pendent; no és un partit finalitzat. Resten avui Burgos–Granada, Oviedo–Eibar i Llevant–Sevilla. Les quatre apostes i les probabilitats publicades es conserven.",
           "monitoring_sources": [
-            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
-            "https://www.athletic-club.eus/noticias/2026/10/10/la-expedicion-del-athletic-club-regresa-a-bilbao/",
+            "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/SUSPENSION%20RAYO%20VALLECANO-ATHLETIC%20CLUB%20QUINIELA%20JORNADA%2012%20TDA%202026-27.pdf",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
             "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
           ]
         }
@@ -1703,14 +1758,14 @@
           }
         }
       },
-      "monitoring_notice": "Seguiment 11/10: Rayo–Athletic suspès i sense nova data confirmada. La casella 1 de SELAE també continua pendent. Les previsions i les quatre columnes publicades es mantenen congelades; el tancament del cupó va ser el 10/10 a les 14:00.",
+      "monitoring_notice": "Seguiment 12/10: SELAE confirma la X a la casella 1 (Rayo–Athletic) per la norma 40 i el 0–0 existent en suspendre’s el partit. El resultat esportiu continua pendent; no és un partit finalitzat. Resten avui Burgos–Granada, Oviedo–Eibar i Llevant–Sevilla. Les quatre apostes i les probabilitats publicades es conserven.",
       "monitoring_sources": [
-        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
-        "https://www.athletic-club.eus/noticias/2026/10/10/la-expedicion-del-athletic-club-regresa-a-bilbao/",
+        "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/SUSPENSION%20RAYO%20VALLECANO-ATHLETIC%20CLUB%20QUINIELA%20JORNADA%2012%20TDA%202026-27.pdf",
+        "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
         "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
       ],
       "coupon_results": {
-        "checked_at": "2026-10-11T10:08:03.426347+02:00",
+        "checked_at": "2026-10-12T12:54:37.128664+02:00",
         "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
         "status": "partial",
         "signs": {
@@ -1718,35 +1773,94 @@
             "status": "verified",
             "sign": "2",
             "method": "match",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+            "checked_at": "2026-10-12T12:54:37.128664+02:00"
           },
           "3": {
             "status": "verified",
             "sign": "1",
             "method": "match",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+            "checked_at": "2026-10-12T12:54:37.128664+02:00"
           },
           "9": {
             "status": "verified",
             "sign": "1",
             "method": "match",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+          },
+          "1": {
+            "status": "verified",
+            "sign": "X",
+            "method": "regulatory_suspension",
+            "source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/SUSPENSION%20RAYO%20VALLECANO-ATHLETIC%20CLUB%20QUINIELA%20JORNADA%2012%20TDA%202026-27.pdf",
+            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+          },
+          "4": {
+            "status": "verified",
+            "sign": "X",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+          },
+          "5": {
+            "status": "verified",
+            "sign": "1",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+          },
+          "6": {
+            "status": "verified",
+            "sign": "1",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+          },
+          "10": {
+            "status": "verified",
+            "sign": "1",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+          },
+          "11": {
+            "status": "verified",
+            "sign": "1",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+          },
+          "12": {
+            "status": "verified",
+            "sign": "1",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+            "checked_at": "2026-10-12T12:54:37.128664+02:00"
           }
         },
         "pleno15": {
           "status": "verified",
           "score": "1-0",
           "method": "match",
-          "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+          "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
+          "checked_at": "2026-10-12T12:54:37.128664+02:00"
         },
-        "pending_special_cases": [
+        "pending_special_cases": [],
+        "special_cases": [
           {
             "position": 1,
             "match": "Rayo – Athletic",
-            "status": "pending_official_resolution",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
-            "note": "Sense signe assignat per SELAE en aquesta comprovació. No s’utilitza el 0–0 de la suspensió."
+            "status": "verified",
+            "sign": "X",
+            "method": "regulatory_suspension",
+            "source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/SUSPENSION%20RAYO%20VALLECANO-ATHLETIC%20CLUB%20QUINIELA%20JORNADA%2012%20TDA%202026-27.pdf",
+            "note": "X oficial per la norma 40: s’utilitza el marcador de la suspensió per a la Quiniela. No és un sorteig. El resultat esportiu continua pendent i no compta en Brier ni logloss."
           }
+        ],
+        "sporting_results_awaiting_selae": [
+          7
         ]
       }
     },
