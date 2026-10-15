@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T12:48:03.905469+02:00",
+  "updated": "2026-10-15T12:56:09.535401+02:00",
   "automation_note": "Revisió diària activada a Codex; necessita que l’entorn local estigui disponible. Aquest web és una instantània, no un marcador en directe.",
   "rounds": [
     {
@@ -1959,7 +1959,8 @@
           "Es conserva el model 0.1 i totes les probabilitats, signes, marcadors i dates de tall originals. No s’ajusten els pesos amb aquests resultats.",
           "Quatre empats a Primera van acabar en errors de signe (Màlaga–Espanyol, Elx–Celta, Racing–València i Llevant–Sevilla). Els empats ja tenien probabilitat positiva; aquest resultat no justifica afavorir-los retrospectivament.",
           "Brier i pèrdua logarítmica es calculen només sobre 15 resultats esportius finals, separant les competicions. La X administrativa de Rayo–Athletic només compta per a les 14 caselles SELAE.",
-          "Hipòtesis pendents de validació cronològica: força dels rivals, millor calibratge dels empats i un model específic per competició. La mostra encara és massa petita per afirmar una millora estable."
+          "Hipòtesis pendents de validació cronològica: força dels rivals, millor calibratge dels empats i un model específic per competició. La mostra encara és massa petita per afirmar una millora estable.",
+          "Comprovació addicional: el signe fa 7/15 i triar sempre el local hauria fet 9/15. El marcador més probable encerta 1/15; entre els tres marcadors proposats, 2/15. Acumulat descriptiu J7+J8: 11/20 encerts; referència local 12/20, Brier 0.575244662027368 i logloss 0.9741566198927621. Les cohorts tenen ajustos diferents i això no valida pesos nous."
         ],
         "status": "provisional_completed_pending_suspended_match",
         "last_result_check": "2026-10-15T12:41:58+02:00",
@@ -2010,7 +2011,51 @@
           }
         ],
         "publication_status": "published_site",
-        "published_at": "2026-10-15T12:48:03.905469+02:00"
+        "published_at": "2026-10-15T12:48:03.905469+02:00",
+        "benchmark": {
+          "checked_at": "2026-10-15",
+          "model_code_version": "0.1-experimental",
+          "cohorts": {
+            "J7_adjustments_as_published": {
+              "n": 5,
+              "hits": 4,
+              "accuracy": 0.8,
+              "brier": 0.5576063433581778,
+              "logloss": 0.9436935446349738,
+              "exact_top1": 2,
+              "exact_top3": 3,
+              "double_hits": 4,
+              "uniform_baseline_brier": 0.6666666666666666,
+              "uniform_baseline_logloss": 1.0986122886681098,
+              "always_home_baseline_hits": 3
+            },
+            "J8_no_manual_adjustments": {
+              "n": 15,
+              "hits": 7,
+              "accuracy": 0.4666666666666667,
+              "brier": 0.5811241015837648,
+              "logloss": 0.9843109783120249,
+              "exact_top1": 1,
+              "exact_top3": 2,
+              "double_hits": 11,
+              "always_home_baseline_hits": 9,
+              "uniform_baseline_brier": 0.6666666666666666,
+              "uniform_baseline_logloss": 1.0986122886681098
+            }
+          },
+          "pooled_descriptive": {
+            "n": 20,
+            "hits": 11,
+            "accuracy": 0.55,
+            "brier": 0.575244662027368,
+            "logloss": 0.9741566198927621,
+            "always_home_baseline_hits": 12,
+            "uniform_baseline_brier": 0.6666666666666666,
+            "uniform_baseline_logloss": 1.0986122886681098
+          },
+          "warning": "Acumulat descriptiu de cohorts amb ajustos diferents; no valida pesos nous. S’exclou Rayo–Athletic i qualsevol resultat sense previsió prèvia.",
+          "decision": "Conservar el model vigent i validar canvis amb dades cronològiques fora de mostra."
+        }
       },
       "coupon": {
         "complete": true,
