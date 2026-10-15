@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-10-15T12:41:58+02:00",
+  "round": 8,
+  "coupon_number": 12,
+  "metrics": {
+    "n": 15,
+    "hits": 7,
+    "accuracy": 0.4666666666666667,
+    "brier": 0.5811241015837648,
+    "logloss": 0.9843109783120249
+  },
+  "metrics_by_competition": {
+    "LALIGA EA SPORTS": {
+      "n": 9,
+      "hits": 4,
+      "accuracy": 0.4444444444444444,
+      "brier": 0.5996556114856103,
+      "logloss": 1.0180815348553112
+    },
+    "LALIGA HYPERMOTION": {
+      "n": 6,
+      "hits": 3,
+      "accuracy": 0.5,
+      "brier": 0.5533268367309969,
+      "logloss": 0.9336551434970954
+    }
+  },
+  "column_results": [
+    {
+      "column": 1,
+      "hits": 6,
+      "n": 14
+    },
+    {
+      "column": 2,
+      "hits": 5,
+      "n": 14
+    },
+    {
+      "column": 3,
+      "hits": 6,
+      "n": 14
+    },
+    {
+      "column": 4,
+      "hits": 5,
+      "n": 14
+    }
+  ],
+  "official_signs": [
+    "X",
+    "2",
+    "1",
+    "X",
+    "1",
+    "1",
+    "X",
+    "X",
+    "1",
+    "1",
+    "1",
+    "1",
+    "2",
+    "1"
+  ],
+  "pleno15": {
+    "predicted": "M-1",
+    "actual": "1-0",
+    "hit": false
+  },
+  "suspended": [
+    "Rayo – Athletic"
+  ],
+  "sources": [
+    "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+    "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+    "https://rfef.es/sites/default/files/sanciones/20261014_Primera_Division_J8.pdf?cb=e8fd8730"
+  ]
+}

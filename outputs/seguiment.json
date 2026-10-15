@@ -1,10 +1,1075 @@
 {
-  "updated": "2026-10-12T12:54:37.128664+02:00",
+  "updated": "2026-10-15T12:48:03.905469+02:00",
   "automation_note": "Revisió diària activada a Codex; necessita que l’entorn local estigui disponible. Aquest web és una instantània, no un marcador en directe.",
   "rounds": [
     {
+      "number": 9,
+      "label": "Previsió · cupó SELAE 14 complet",
+      "period": "16–19 d’octubre de 2026",
+      "forecast_at": "2026-10-15T12:41:58+02:00",
+      "forecast_version": "j9-20261015-cupo14",
+      "model": "0.1",
+      "warning": "Previsió del 15/10, amb retard respecte del 14/10 a les 10:00, però abans de tots els partits. Probabilitats experimentals sense calibratge suficient; convocatòries i càrrega de totes les competicions incompletes. Liga F: aplicació exploratòria del model, sense validació específica. Ajustos manuals: cap.",
+      "coupon_note": "SELAE jornada 14, numeració diferent de la jornada 9 de Primera. Cupó verificat: 7 partits de Primera, 3 de Segona i 4 de Liga F entre els 14 signes. Ple al 15: Getafe–Rayo. Deportivo–Llevant i Osasuna–Racing només pertanyen a la previsió de lliga.",
+      "matches": [
+        {
+          "home": "Deportivo",
+          "away": "Llevant",
+          "kickoff": "2026-10-16T21:00:00+02:00",
+          "forecast": {
+            "match": "Deportivo – Llevant",
+            "time": "2026-10-16T21:00:00+02:00",
+            "lambda_home": 1.7165625,
+            "lambda_away": 1.1692329545454545,
+            "probabilities": {
+              "1": 0.5018782445034959,
+              "X": 0.23827040812876615,
+              "2": 0.25985134736773785
+            },
+            "percentages": {
+              "1": 50,
+              "X": 24,
+              "2": 26
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.11201485634093074
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09614025091886447
+              },
+              {
+                "score": "1-0",
+                "probability": 0.09580200070949686
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Deportivo té 12–11 en gols en 8 partits; Llevant, 11–15 en 7. La RFEF sanciona Amatucci: preval sobre la llista de SER del dia 13 que no el recull. Disponibilitat ofensiva pendent de convocatòria. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+            "https://rfef.es/sites/default/files/sanciones/20261014_Primera_Division_J8.pdf?cb=e8fd8730",
+            "https://cadenaser.com/nacional/2026/10/13/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-9-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Espanyol",
+          "away": "Atlètic de Madrid",
+          "kickoff": "2026-10-17T14:00:00+02:00",
+          "forecast": {
+            "match": "Espanyol – Atlètic de Madrid",
+            "time": "2026-10-17T14:00:00+02:00",
+            "lambda_home": 1.3784375,
+            "lambda_away": 1.45125,
+            "probabilities": {
+              "1": 0.3580254593914457,
+              "X": 0.2510864637728463,
+              "2": 0.3908880768357075
+            },
+            "percentages": {
+              "1": 36,
+              "X": 25,
+              "2": 39
+            },
+            "sign": "2",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.11808959834305938
+              },
+              {
+                "score": "1-2",
+                "probability": 0.08568876479768245
+              },
+              {
+                "score": "0-1",
+                "probability": 0.08566917132119474
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Atlètic: 18–8 en gols en 8 partits; Espanyol, 11–11. SER assenyala Kike García lesionat i Jofre com a dubte. No es pressuposa cap alineació definitiva. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+            "https://cadenaser.com/nacional/2026/10/13/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-9-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Villarreal",
+          "away": "Elx",
+          "kickoff": "2026-10-17T16:15:00+02:00",
+          "forecast": {
+            "match": "Villarreal – Elx",
+            "time": "2026-10-17T16:15:00+02:00",
+            "lambda_home": 1.8012499999999998,
+            "lambda_away": 1.3190624999999998,
+            "probabilities": {
+              "1": 0.48803791009077246,
+              "X": 0.23046306959401694,
+              "2": 0.2814990203152105
+            },
+            "percentages": {
+              "1": 49,
+              "X": 23,
+              "2": 28
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.10488294348308337
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09446020097445193
+              },
+              {
+                "score": "1-0",
+                "probability": 0.07951324784313357
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Villarreal té només tres partits a casa: mostra petita. Elx: 7–6 en gols fora. Les incidències de plantilla queden pendents de convocatòria; no es considera confirmada una sanció sense resolució llegida. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+            "https://cadenaser.com/nacional/2026/10/13/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-9-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Betis",
+          "away": "Barcelona",
+          "kickoff": "2026-10-17T18:30:00+02:00",
+          "forecast": {
+            "match": "Betis – Barcelona",
+            "time": "2026-10-17T18:30:00+02:00",
+            "lambda_home": 1.4471874999999998,
+            "lambda_away": 1.9153125000000002,
+            "probabilities": {
+              "1": 0.29213211411933765,
+              "X": 0.22171159493154477,
+              "2": 0.4861562909491178
+            },
+            "percentages": {
+              "1": 29,
+              "X": 22,
+              "2": 49
+            },
+            "sign": "2",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.0960393584568571
+              },
+              {
+                "score": "1-2",
+                "probability": 0.09197269187219956
+              },
+              {
+                "score": "2-1",
+                "probability": 0.06949347953339144
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Barcelona: 8 victòries i 34–7 en gols. Betis ha guanyat els quatre partits a casa, 8–2 en gols. El Barça va jugar a Istanbul el 13/10; Raphinha i De Jong consten com a dubtes a SER del 13/10. El risc de rotació és una inferència, no una baixa confirmada. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+            "https://cadenaser.com/nacional/2026/10/13/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-9-y-posibles-sustitutos-cadena-ser/",
+            "https://www.fcbarcelona.es/es/futbol/primer-equipo/resultats"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "València",
+          "away": "Athletic",
+          "kickoff": "2026-10-17T21:00:00+02:00",
+          "forecast": {
+            "match": "València – Athletic",
+            "time": "2026-10-17T21:00:00+02:00",
+            "lambda_home": 1.13575,
+            "lambda_away": 1.3145624999999999,
+            "probabilities": {
+              "1": 0.32112328403627616,
+              "X": 0.27190353904476067,
+              "2": 0.4069731769189652
+            },
+            "percentages": {
+              "1": 32,
+              "X": 27,
+              "2": 41
+            },
+            "sign": "2",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12879730831709368
+              },
+              {
+                "score": "0-1",
+                "probability": 0.11340286886823128
+              },
+              {
+                "score": "1-0",
+                "probability": 0.0979773181701849
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "València: 6–15 en gols, i 2–9 a casa. Athletic només té 6 partits finals i dos fora; Rayo–Athletic continua suspès. SER situa Sancet lesionat i Nico Williams com a dubte. Mostra visitant especialment limitada. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+            "https://cadenaser.com/nacional/2026/10/13/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-9-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Osasuna",
+          "away": "Racing",
+          "kickoff": "2026-10-18T14:00:00+02:00",
+          "forecast": {
+            "match": "Osasuna – Racing",
+            "time": "2026-10-18T14:00:00+02:00",
+            "lambda_home": 1.9112500000000003,
+            "lambda_away": 1.4090624999999999,
+            "probabilities": {
+              "1": 0.49338871380405824,
+              "X": 0.2222962996864315,
+              "2": 0.28431498650951126
+            },
+            "percentages": {
+              "1": 49,
+              "X": 22,
+              "2": 29
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.09733171111908492
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09301261643817556
+              },
+              {
+                "score": "1-0",
+                "probability": 0.06907551021979857
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Osasuna: 2–3 en gols a casa; Racing: 4–16 fora. Són quatre partits per seu. El model no corregeix la força dels rivals i la preferència local depèn d’una mostra petita. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+            "https://cadenaser.com/nacional/2026/10/13/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-9-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Celta",
+          "away": "Alabès",
+          "kickoff": "2026-10-18T16:15:00+02:00",
+          "forecast": {
+            "match": "Celta – Alabès",
+            "time": "2026-10-18T16:15:00+02:00",
+            "lambda_home": 1.2782589285714285,
+            "lambda_away": 1.0579017857142858,
+            "probabilities": {
+              "1": 0.41449937840822787,
+              "X": 0.27890206877540075,
+              "2": 0.30659855281637227
+            },
+            "percentages": {
+              "1": 41,
+              "X": 28,
+              "2": 31
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.13076227809174676
+              },
+              {
+                "score": "1-0",
+                "probability": 0.12360530992341337
+              },
+              {
+                "score": "0-1",
+                "probability": 0.10229717561048883
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Celta: 8–6 en gols totals; Alabès, 12–8. Ángel Pérez té un partit de sanció segons la RFEF. La càrrega de totes les competicions i les convocatòries encara no s’han verificat de manera homogènia. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+            "https://rfef.es/sites/default/files/sanciones/20261014_Primera_Division_J8.pdf?cb=e8fd8730",
+            "https://cadenaser.com/nacional/2026/10/13/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-9-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Màlaga",
+          "away": "Reial Societat",
+          "kickoff": "2026-10-18T18:30:00+02:00",
+          "forecast": {
+            "match": "Màlaga – Reial Societat",
+            "time": "2026-10-18T18:30:00+02:00",
+            "lambda_home": 1.395625,
+            "lambda_away": 1.310625,
+            "probabilities": {
+              "1": 0.39077970426746655,
+              "X": 0.2575637487742467,
+              "2": 0.3516565469582875
+            },
+            "percentages": {
+              "1": 39,
+              "X": 26,
+              "2": 35
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12216245352982347
+              },
+              {
+                "score": "1-0",
+                "probability": 0.0932093112292406
+              },
+              {
+                "score": "0-1",
+                "probability": 0.08753243423543106
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Màlaga no ha guanyat en 8 partits i suma 4–13 en gols. Reial Societat: 12–15 totals i 7–9 fora. Pablo Marín té un partit de sanció segons la RFEF. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+            "https://rfef.es/sites/default/files/sanciones/20261014_Primera_Division_J8.pdf?cb=e8fd8730",
+            "https://cadenaser.com/nacional/2026/10/13/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-9-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Real Madrid",
+          "away": "Sevilla",
+          "kickoff": "2026-10-18T21:00:00+02:00",
+          "forecast": {
+            "match": "Real Madrid – Sevilla",
+            "time": "2026-10-18T21:00:00+02:00",
+            "lambda_home": 1.91125,
+            "lambda_away": 1.17,
+            "probabilities": {
+              "1": 0.546541619753677,
+              "X": 0.22236772383159936,
+              "2": 0.23109065641472357
+            },
+            "percentages": {
+              "1": 55,
+              "X": 22,
+              "2": 23
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.1026439810461273
+              },
+              {
+                "score": "2-1",
+                "probability": 0.0980891543872054
+              },
+              {
+                "score": "1-0",
+                "probability": 0.08772989833002334
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Real Madrid: 13–2 en gols a casa; Sevilla: 8–5 fora. La RFEF sanciona Vinícius i Isaac Romero. El Madrid va jugar a Roma el 14/10: hi ha menys descans que en una setmana ordinària, sense impacte numèric calibrat. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+            "https://rfef.es/sites/default/files/sanciones/20261014_Primera_Division_J8.pdf?cb=e8fd8730",
+            "https://cadenaser.com/nacional/2026/10/13/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-9-y-posibles-sustitutos-cadena-ser/",
+            "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/cronicas/cronica-roma-real-madrid-14-10-2026/"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Getafe",
+          "away": "Rayo",
+          "kickoff": "2026-10-19T21:00:00+02:00",
+          "forecast": {
+            "match": "Getafe – Rayo",
+            "time": "2026-10-19T21:00:00+02:00",
+            "lambda_home": 1.565,
+            "lambda_away": 1.1692329545454547,
+            "probabilities": {
+              "1": 0.46483192075254587,
+              "X": 0.2505593542027416,
+              "2": 0.2846087250447134
+            },
+            "percentages": {
+              "1": 47,
+              "X": 25,
+              "2": 28
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.118837389974558
+              },
+              {
+                "score": "1-0",
+                "probability": 0.10163705146401442
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09299025765509164
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Getafe: 4–2 en gols a casa, invicte en quatre partits. Rayo: 5–12 fora; el seu partit anterior contra Athletic no té resultat final. Les baixes i la càrrega europea no es donen per resoltes abans de la convocatòria. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+            "https://cadenaser.com/nacional/2026/10/13/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-9-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Eibar",
+          "away": "Mallorca",
+          "kickoff": "2026-10-17T16:15:00+02:00",
+          "forecast": {
+            "match": "Eibar – Mallorca",
+            "time": "2026-10-17T16:15:00+02:00",
+            "lambda_home": 1.4104326923076924,
+            "lambda_away": 1.0458173076923076,
+            "probabilities": {
+              "1": 0.453404259779831,
+              "X": 0.26729061704999635,
+              "2": 0.27930512317017253
+            },
+            "percentages": {
+              "1": 45,
+              "X": 27,
+              "2": 28
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12649471170920332
+              },
+              {
+                "score": "1-0",
+                "probability": 0.12095297216712311
+              },
+              {
+                "score": "0-1",
+                "probability": 0.08968503949113504
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA HYPERMOTION",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Eibar: 19–10 en gols en 9 partits; Mallorca: 11–4. Fora, Mallorca només ha marcat un gol i n’ha rebut dos en quatre partits. Últim partit d’Eibar: derrota 3–1 a Oviedo. Sense ajust addicional per ratxa. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-hypermotion/clasificacion",
+            "https://www.laliga.com/laliga-hypermotion/resultados"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Las Palmas",
+          "away": "Castelló",
+          "kickoff": "2026-10-17T21:00:00+02:00",
+          "forecast": {
+            "match": "Las Palmas – Castelló",
+            "time": "2026-10-17T21:00:00+02:00",
+            "lambda_home": 1.1700133547008547,
+            "lambda_away": 1.3707451923076923,
+            "probabilities": {
+              "1": 0.3196458827334966,
+              "X": 0.26586753049907125,
+              "2": 0.41448658676743205
+            },
+            "percentages": {
+              "1": 32,
+              "X": 27,
+              "2": 41
+            },
+            "sign": "2",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12638924902884732
+              },
+              {
+                "score": "0-1",
+                "probability": 0.1080237661570642
+              },
+              {
+                "score": "1-0",
+                "probability": 0.09220477280395714
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA HYPERMOTION",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Castelló: 15–4 en gols en 9 partits, 7–3 fora. Las Palmas: 13–16, 5–5 a casa. Estadístiques actualitzades després del 3–1 de Mallorca i l’1–0 d’Andorra; sense duplicar aquests resultats com a ajust de forma. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-hypermotion/clasificacion",
+            "https://www.laliga.com/laliga-hypermotion/resultados"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Burgos",
+          "away": "Sabadell",
+          "kickoff": "2026-10-18T21:00:00+02:00",
+          "forecast": {
+            "match": "Burgos – Sabadell",
+            "time": "2026-10-18T21:00:00+02:00",
+            "lambda_home": 1.2903846153846152,
+            "lambda_away": 1.0317307692307691,
+            "probabilities": {
+              "1": 0.42390148820480433,
+              "X": 0.27907028721477434,
+              "2": 0.2970282245804217
+            },
+            "percentages": {
+              "1": 42,
+              "X": 28,
+              "2": 30
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.13055805193431516
+              },
+              {
+                "score": "1-0",
+                "probability": 0.12654275303978357
+              },
+              {
+                "score": "0-1",
+                "probability": 0.10117762594015482
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA HYPERMOTION",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Burgos: 12–10 en gols en 9 partits i 9–6 a casa; Sabadell: 10–7 i 3–4 fora. El 0–1 de Burgos contra Granada ja forma part dels totals. Convocatòries encara pendents. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/laliga-hypermotion/clasificacion",
+            "https://www.laliga.com/laliga-hypermotion/resultados"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Athletic (F)",
+          "away": "València (F)",
+          "kickoff": "2026-10-17T16:30:00+02:00",
+          "forecast": {
+            "match": "Athletic (F) – València (F)",
+            "time": "2026-10-17T16:30:00+02:00",
+            "lambda_home": 1.9179285714285712,
+            "lambda_away": 1.035642857142857,
+            "probabilities": {
+              "1": 0.5794831542501854,
+              "X": 0.22006540458965715,
+              "2": 0.2004514411601572
+            },
+            "percentages": {
+              "1": 58,
+              "X": 22,
+              "2": 20
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.10359115367276027
+              },
+              {
+                "score": "1-0",
+                "probability": 0.10002594326633864
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09934021668811734
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "Liga F Moeve",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Athletic (F): 11–8 en gols en sis partits i 8–5 a casa. València (F) ha perdut els sis partits, 4–13 en gols. Aplicació exploratòria del mateix Poisson: sense calibratge específic de Liga F ni baixes verificades exhaustivament. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/futbol-femenino/clasificacion",
+            "https://www.laliga.com/futbol-femenino/resultados"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Real Madrid (F)",
+          "away": "Espanyol (F)",
+          "kickoff": "2026-10-17T20:30:00+02:00",
+          "forecast": {
+            "match": "Real Madrid (F) – Espanyol (F)",
+            "time": "2026-10-17T20:30:00+02:00",
+            "lambda_home": 1.6134642857142854,
+            "lambda_away": 1.3570714285714283,
+            "probabilities": {
+              "1": 0.43539030206634444,
+              "X": 0.2421951453875434,
+              "2": 0.3224145525461121
+            },
+            "percentages": {
+              "1": 44,
+              "X": 24,
+              "2": 32
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.11227286229394927
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09057412678310259
+              },
+              {
+                "score": "1-0",
+                "probability": 0.0827317265179899
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "Liga F Moeve",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Real Madrid (F): 13–13 en gols en sis partits, però 6–3 a casa. Espanyol (F): 9–6, i 3–4 fora. L’empat té pes apreciable. Sense verificació completa de baixes o càrrega europea; transferència del model no validada. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/futbol-femenino/clasificacion",
+            "https://www.laliga.com/futbol-femenino/resultados"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Eibar (F)",
+          "away": "Deportivo (F)",
+          "kickoff": "2026-10-18T16:00:00+02:00",
+          "forecast": {
+            "match": "Eibar (F) – Deportivo (F)",
+            "time": "2026-10-18T16:00:00+02:00",
+            "lambda_home": 1.1217380952380953,
+            "lambda_away": 0.9563571428571428,
+            "probabilities": {
+              "1": 0.39254883445853433,
+              "X": 0.30005292960136604,
+              "2": 0.30739823594010035
+            },
+            "percentages": {
+              "1": 39,
+              "X": 30,
+              "2": 31
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-0",
+                "probability": 0.1404061640383641
+              },
+              {
+                "score": "1-1",
+                "probability": 0.1342784378792612
+              },
+              {
+                "score": "0-0",
+                "probability": 0.12516840128226375
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "Liga F Moeve",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Eibar (F): només 4 gols a favor i 4 en contra en sis partits. Deportivo (F): 5–6, i 3–0 fora en només dos partits. Mostra petita i model sense calibratge específic; no interpretar el signe com una certesa. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/futbol-femenino/clasificacion",
+            "https://www.laliga.com/futbol-femenino/resultados"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        },
+        {
+          "home": "Atlètic de Madrid (F)",
+          "away": "Madrid CFF (F)",
+          "kickoff": "2026-10-18T18:00:00+02:00",
+          "forecast": {
+            "match": "Atlètic de Madrid (F) – Madrid CFF (F)",
+            "time": "2026-10-18T18:00:00+02:00",
+            "lambda_home": 1.6344166666666669,
+            "lambda_away": 1.3635,
+            "probabilities": {
+              "1": 0.43907895970082944,
+              "X": 0.24069508693489175,
+              "2": 0.32022595336427967
+            },
+            "percentages": {
+              "1": 44,
+              "X": 24,
+              "2": 32
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.11118322293088824
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09085985630597965
+              },
+              {
+                "score": "1-0",
+                "probability": 0.08154251773442482
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "Liga F Moeve",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Atlètic (F): 10–11 en gols; Madrid CFF (F): 11–9. Només dos partits a la seu rellevant per equip: Atlètic 2–0 a casa i Madrid CFF 4–6 fora. Mostra especialment petita i transferència del Poisson no validada. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+          "sources": [
+            "https://www.laliga.com/futbol-femenino/clasificacion",
+            "https://www.laliga.com/futbol-femenino/resultados"
+          ],
+          "source_verified_at": "2026-10-15T12:41:58+02:00"
+        }
+      ],
+      "review": {
+        "summary": "Jornada encara no començada. Cap resultat avaluable.",
+        "next": "Revisió prevista el 20/10/2026 a les 10:00 de Barcelona; Mac disponible des de les 09:50.",
+        "changes": []
+      },
+      "evaluation_scope": "17 pronòstics esportius: 10 de Primera, 3 de Segona i 4 de Liga F. Separar competicions i les 14 caselles SELAE.",
+      "publication_status": "published_site",
+      "official_coupon": {
+        "number": 14,
+        "verified_at": "2026-10-15T12:41:58+02:00",
+        "source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICI%C3%93N%20DE%20BOLETOS%20JORNADAS%2013%20Y%2014%20DE%20LA%20QUINIELA%20Y%20ELIGE%208%20Y%20JORNADAS%2014%20Y%2015%20DEL%20QUINIGOL.zip",
+        "local_reference": "outputs/font_cupo_selae14_20261006.pdf",
+        "deadline_source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/Aviso%20cierre%20La%20Quiniela%20jornada%2014%C2%AA%20y%20El%20QuiniGol%20jornada%2015%C2%AA%20de%2017%20-%2018%20de%20Octubre%20de%202026.pdf",
+        "deadline": "2026-10-17T14:00:00+02:00",
+        "match_indices": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "composition_note": "7 de Primera, 3 de Segona i 4 de Liga F; Getafe–Rayo al Ple al 15.",
+        "pleno15": {
+          "home": "Getafe",
+          "away": "Rayo",
+          "kickoff": "2026-10-19T21:00:00+02:00",
+          "probabilities": {
+            "0-0": 0.06494380285240532,
+            "0-1": 0.0759344344885354,
+            "0-2": 0.04439252159438426,
+            "0-M": 0.023817254237957938,
+            "1-0": 0.10163705146401432,
+            "1-1": 0.11883738997455791,
+            "1-2": 0.06947429629521136,
+            "1-M": 0.03727400288240417,
+            "2-0": 0.0795309927705912,
+            "2-1": 0.09299025765509156,
+            "2-2": 0.05436363685100289,
+            "2-M": 0.029166907255481263,
+            "M-0": 0.06449325105691171,
+            "M-1": 0.07540763448151466,
+            "M-2": 0.04408454563005254,
+            "M-M": 0.023652020509883416
+          }
+        }
+      },
+      "coupon": {
+        "complete": true,
+        "reason": "",
+        "matches": [
+          {
+            "home": "Espanyol",
+            "away": "Atlètic de Madrid"
+          },
+          {
+            "home": "Villarreal",
+            "away": "Elx"
+          },
+          {
+            "home": "Betis",
+            "away": "Barcelona"
+          },
+          {
+            "home": "València",
+            "away": "Athletic"
+          },
+          {
+            "home": "Celta",
+            "away": "Alabès"
+          },
+          {
+            "home": "Màlaga",
+            "away": "Reial Societat"
+          },
+          {
+            "home": "Real Madrid",
+            "away": "Sevilla"
+          },
+          {
+            "home": "Eibar",
+            "away": "Mallorca"
+          },
+          {
+            "home": "Las Palmas",
+            "away": "Castelló"
+          },
+          {
+            "home": "Burgos",
+            "away": "Sabadell"
+          },
+          {
+            "home": "Athletic (F)",
+            "away": "València (F)"
+          },
+          {
+            "home": "Real Madrid (F)",
+            "away": "Espanyol (F)"
+          },
+          {
+            "home": "Eibar (F)",
+            "away": "Deportivo (F)"
+          },
+          {
+            "home": "Atlètic de Madrid (F)",
+            "away": "Madrid CFF (F)"
+          }
+        ],
+        "columns": [
+          {
+            "signs": [
+              "2",
+              "1",
+              "2",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 1.1575605173179825e-05
+          },
+          {
+            "signs": [
+              "1",
+              "1",
+              "2",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 1.0602424595323747e-05
+          },
+          {
+            "signs": [
+              "2",
+              "1",
+              "2",
+              "2",
+              "1",
+              "2",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 1.0416706138266554e-05
+          },
+          {
+            "signs": [
+              "1",
+              "1",
+              "2",
+              "2",
+              "1",
+              "2",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 9.540956149619483e-06
+          }
+        ],
+        "coverage": 4.213569205638961e-05,
+        "objective": "all_signs",
+        "generated_from": "2026-10-15T12:41:58+02:00",
+        "condensed": {
+          "signs": [
+            "12",
+            "1",
+            "2",
+            "2",
+            "1",
+            "12",
+            "1",
+            "1",
+            "2",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "expanded_count": 4,
+          "additional_count": 0,
+          "exact": true
+        },
+        "pleno15": {
+          "home": "Getafe",
+          "away": "Rayo",
+          "score": "1-1",
+          "probability": 0.11883738997455791
+        },
+        "deadline": "2026-10-17T14:00:00+02:00",
+        "source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICI%C3%93N%20DE%20BOLETOS%20JORNADAS%2013%20Y%2014%20DE%20LA%20QUINIELA%20Y%20ELIGE%208%20Y%20JORNADAS%2014%20Y%2015%20DEL%20QUINIGOL.zip",
+        "publication_status": "published_site",
+        "published_at": "2026-10-15T12:48:03.905469+02:00"
+      },
+      "metrics": {
+        "n": 0,
+        "hits": 0,
+        "accuracy": null,
+        "brier": null,
+        "logloss": null
+      },
+      "published_at": "2026-10-15T12:48:03.905469+02:00",
+      "forecast_published_at": "2026-10-15T12:48:03.905469+02:00"
+    },
+    {
       "number": 8,
-      "label": "Actualitzada · cupó SELAE 12 complet",
+      "label": "Revisió provisional · 7/15 · cupó 12 tancat",
       "period": "9–12 d’octubre de 2026",
       "forecast_at": "2026-10-08T15:17:59+02:00",
       "forecast_version": "j8-20261008-cupo12",
@@ -117,10 +1182,10 @@
             "https://cadenaser.com/nacional/2026/10/05/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-8-y-posibles-sustitutos-cadena-ser/"
           ],
           "competition": "LALIGA EA SPORTS",
-          "status_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
-          "status_verified_at": "2026-10-12T12:54:37.128664+02:00",
+          "status_source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+          "status_verified_at": "2026-10-15T12:41:58+02:00",
           "rescheduled_kickoff": null,
-          "status_note": "Suspès el 10/10. Nova data pendent de confirmació oficial; sense resultat final."
+          "status_note": "Suspès; sense resultat esportiu final ni nova data confirmada al tall del 15/10."
         },
         {
           "home": "Alabès",
@@ -546,8 +1611,11 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            3,
+            3
+          ],
           "confidence": "Confiança baixa · model experimental",
           "note": "Llevant només ha jugat dos partits a casa (7–6 en gols); Sevilla és invicte fora (2 victòries i 1 empat, 5–2). R. Brugué suma 3 gols i Miguel Sierra 2. La mostra local del Llevant i el seu partit pendent augmenten la incertesa. Actualització 8/10: El Sevilla confirma que Iker Muñoz, Marcao i Stassin encara treballen en recuperació. Eyong i Sotelo són pendents de retorn al Llevant. El partit de dilluns dona més marge, però no confirma recuperacions. Sevilla: Iker Muñoz, Marcao, Lucas Stassin (gimnàs i recuperació segons club7/10; disponibilitat12/10 pendent). Llevant: Karl Etta Eyong, Hugo Sotelo (recuperació descrita per AS29/9; sense alta posterior verificada). Ajustos numèrics: 1.0; informació mèdica com a context, no com a probabilitat calibrada.",
           "sources": [
@@ -557,7 +1625,9 @@
             "https://sevillafc.es/actualidad/noticias/entrenamiento-7-octubre-2026",
             "https://as.com/futbol/primera/etta-eyong-y-sotelo-con-la-mira-puesta-en-el-sevilla-f202609-n/"
           ],
-          "competition": "LALIGA EA SPORTS"
+          "competition": "LALIGA EA SPORTS",
+          "result_source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+          "result_verified_at": "2026-10-15T12:41:58+02:00"
         },
         {
           "home": "Eldense",
@@ -810,8 +1880,11 @@
             ]
           },
           "competition": "LALIGA HYPERMOTION",
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            0,
+            1
+          ],
           "confidence": "Confiança baixa · mostra de 8 jornades",
           "note": "Burgos és invicte a casa amb 9–5 en gols; Granada té 8–9 fora. A. Forés i David G. sumen 3 gols cadascun segons LALIGA. AS informa retorns d’internacionals i recuperacions de Grego Sierra, Sergio González i Lizancos, amb Expósito a prop. No s’ha verificat una llista mèdica completa del Granada.",
           "sources": [
@@ -820,7 +1893,9 @@
             "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores",
             "https://as.com/futbol/segunda/la-enfermeria-del-burgos-se-vacia-f202610-n/",
             "https://www.granadacf.es/noticias/el-granada-cf-pone-a-la-venta-las-entradas-de-visitante-para-el-partido-ante-el-burgos-cf"
-          ]
+          ],
+          "result_source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+          "result_verified_at": "2026-10-15T12:41:58+02:00"
         },
         {
           "home": "Oviedo",
@@ -859,8 +1934,11 @@
             ]
           },
           "competition": "LALIGA HYPERMOTION",
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            3,
+            1
+          ],
           "confidence": "Confiança baixa · mostra de 8 jornades",
           "note": "Oviedo només ha encaixat 1 gol en 4 partits a casa, però també n’ha marcat 2. Eibar arriba amb 4 victòries fora i 10–2 en gols; Guruzeta en suma 3 segons LALIGA. AS informa que Morales ja entrena, amb debut incert, Escandell és dubte i diversos atacants de l’Oviedo segueixen lesionats. Nolaskoain podria tornar a l’Eibar, sense alta definitiva verificada.",
           "sources": [
@@ -869,19 +1947,70 @@
             "https://www.laliga.com/estadisticas/laliga-hypermotion/goleadores",
             "https://as.com/futbol/segunda/el-oviedo-ya-cuenta-con-morales-en-el-requexon-f202610-n/",
             "https://as.com/futbol/nolaskoain-ansioso-de-volver-estoy-como-un-nino-con-un-caramelo-f202610-n/"
-          ]
+          ],
+          "result_source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+          "result_verified_at": "2026-10-15T12:41:58+02:00"
         }
       ],
       "review": {
-        "summary": "Balanç provisional: 7 encerts de signe sobre 12 resultats esportius finals (8 de Primera i 4 de Segona). Les quatre columnes fan 6/11, 5/11, 6/11 i 5/11; s’hi inclou la X oficial de Rayo–Athletic, exclosa de les mètriques esportives. Ple al 15: 1–0, error respecte al M–1 previst. Encara queden tres partits del cupó.",
-        "next": "Anàlisi provisional el 13/10 a les 10:00; Mac preparat a les 09:50. La revisió esportiva final espera Rayo–Athletic; el cupó es revisarà separadament amb els signes oficials SELAE.",
+        "summary": "7 encerts de signe sobre 15 partits esportius finals (46,67%): Primera 4/9 i Segona 3/6. Rayo–Athletic continua suspès i fora de les mètriques. Cupó SELAE 12 complet: les quatre columnes fan 6/14, 5/14, 6/14 i 5/14. Ple al 15: 1–0, error respecte al M–1 previst.",
+        "next": "Cupó tancat i revisió esportiva provisional completada el 15/10. Revisió esportiva final pendent de la represa de Rayo–Athletic; l’endemà del seu resultat final a les 10:00 de Barcelona.",
         "changes": [
-          "Sense canvi del model 0.1: els cinc partits elegibles de la J7 no permeten validar nous pesos.",
-          "Hipòtesi pendent: calibrar lesions, minuts internacionals i força dels rivals amb dades homogènies i validació cronològica fora de mostra.",
-          "La condensació només resumeix les quatre apostes si la seva expansió és exacta; en cas contrari es mostra el nombre de combinacions addicionals."
+          "Es conserva el model 0.1 i totes les probabilitats, signes, marcadors i dates de tall originals. No s’ajusten els pesos amb aquests resultats.",
+          "Quatre empats a Primera van acabar en errors de signe (Màlaga–Espanyol, Elx–Celta, Racing–València i Llevant–Sevilla). Els empats ja tenien probabilitat positiva; aquest resultat no justifica afavorir-los retrospectivament.",
+          "Brier i pèrdua logarítmica es calculen només sobre 15 resultats esportius finals, separant les competicions. La X administrativa de Rayo–Athletic només compta per a les 14 caselles SELAE.",
+          "Hipòtesis pendents de validació cronològica: força dels rivals, millor calibratge dels empats i un model específic per competició. La mostra encara és massa petita per afirmar una millora estable."
         ],
-        "status": "in_progress_with_suspension",
-        "last_result_check": "2026-10-12T12:54:37.128664+02:00"
+        "status": "provisional_completed_pending_suspended_match",
+        "last_result_check": "2026-10-15T12:41:58+02:00",
+        "reviewed_at": "2026-10-15T12:41:58+02:00",
+        "metrics": {
+          "n": 15,
+          "hits": 7,
+          "accuracy": 0.4666666666666667,
+          "brier": 0.5811241015837648,
+          "logloss": 0.9843109783120249
+        },
+        "metrics_by_competition": {
+          "LALIGA EA SPORTS": {
+            "n": 9,
+            "hits": 4,
+            "accuracy": 0.4444444444444444,
+            "brier": 0.5996556114856103,
+            "logloss": 1.0180815348553112
+          },
+          "LALIGA HYPERMOTION": {
+            "n": 6,
+            "hits": 3,
+            "accuracy": 0.5,
+            "brier": 0.5533268367309969,
+            "logloss": 0.9336551434970954
+          }
+        },
+        "column_results": [
+          {
+            "column": 1,
+            "hits": 6,
+            "n": 14
+          },
+          {
+            "column": 2,
+            "hits": 5,
+            "n": 14
+          },
+          {
+            "column": 3,
+            "hits": 6,
+            "n": 14
+          },
+          {
+            "column": 4,
+            "hits": 5,
+            "n": 14
+          }
+        ],
+        "publication_status": "published_site",
+        "published_at": "2026-10-15T12:48:03.905469+02:00"
       },
       "coupon": {
         "complete": true,
@@ -1166,10 +2295,10 @@
                 "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
                 "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
               ],
-              "status_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-athletic-club-8",
-              "status_verified_at": "2026-10-12T12:54:37.128664+02:00",
+              "status_source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+              "status_verified_at": "2026-10-15T12:41:58+02:00",
               "rescheduled_kickoff": null,
-              "status_note": "Suspès el 10/10. Nova data pendent de confirmació oficial; sense resultat final."
+              "status_note": "Suspès; sense resultat esportiu final ni nova data confirmada al tall del 15/10."
             },
             {
               "home": "Alabès",
@@ -1571,8 +2700,11 @@
                   }
                 ]
               },
-              "status": "scheduled",
-              "result": null,
+              "status": "final",
+              "result": [
+                3,
+                3
+              ],
               "confidence": "Provisional · confiança baixa",
               "note": "Llevant només ha jugat dos partits a casa (7–6 en gols); Sevilla és invicte fora (2 victòries i 1 empat, 5–2). R. Brugué suma 3 gols i Miguel Sierra 2. La mostra local del Llevant i el seu partit pendent augmenten la incertesa. Sancions, lesions i titularitats d’octubre pendents; sense ajust numèric inventat per absències.",
               "sources": [
@@ -1580,7 +2712,9 @@
                 "https://www.laliga.com/estadisticas/laliga-easports/goleadores",
                 "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
                 "https://rfef.es/es/federacion/normativas-y-circulares/sanciones"
-              ]
+              ],
+              "result_source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+              "result_verified_at": "2026-10-15T12:41:58+02:00"
             }
           ],
           "review": {
@@ -1708,7 +2842,14 @@
             "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/SUSPENSION%20RAYO%20VALLECANO-ATHLETIC%20CLUB%20QUINIELA%20JORNADA%2012%20TDA%202026-27.pdf",
             "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
             "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
-          ]
+          ],
+          "metrics": {
+            "n": 9,
+            "hits": 4,
+            "accuracy": 0.4444444444444444,
+            "brier": 0.5996556114856103,
+            "logloss": 1.0180815348553112
+          }
         }
       ],
       "evaluation_scope": "10 partits de Primera i 6 de Segona; separar competicions i les 14 caselles del cupó en la revisió.",
@@ -1758,37 +2899,37 @@
           }
         }
       },
-      "monitoring_notice": "Seguiment 12/10: SELAE confirma la X a la casella 1 (Rayo–Athletic) per la norma 40 i el 0–0 existent en suspendre’s el partit. El resultat esportiu continua pendent; no és un partit finalitzat. Resten avui Burgos–Granada, Oviedo–Eibar i Llevant–Sevilla. Les quatre apostes i les probabilitats publicades es conserven.",
+      "monitoring_notice": "7 encerts de signe sobre 15 partits esportius finals (46,67%): Primera 4/9 i Segona 3/6. Rayo–Athletic continua suspès i fora de les mètriques. Cupó SELAE 12 complet: les quatre columnes fan 6/14, 5/14, 6/14 i 5/14. Ple al 15: 1–0, error respecte al M–1 previst.",
       "monitoring_sources": [
-        "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/SUSPENSION%20RAYO%20VALLECANO-ATHLETIC%20CLUB%20QUINIELA%20JORNADA%2012%20TDA%202026-27.pdf",
         "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
-        "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222"
+        "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+        "https://rfef.es/sites/default/files/sanciones/20261014_Primera_Division_J8.pdf?cb=e8fd8730"
       ],
       "coupon_results": {
-        "checked_at": "2026-10-12T12:54:37.128664+02:00",
-        "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
-        "status": "partial",
+        "checked_at": "2026-10-15T12:41:58+02:00",
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+        "status": "complete",
         "signs": {
           "2": {
             "status": "verified",
             "sign": "2",
             "method": "match",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
-            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
           },
           "3": {
             "status": "verified",
             "sign": "1",
             "method": "match",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
-            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
           },
           "9": {
             "status": "verified",
             "sign": "1",
             "method": "match",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
-            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
           },
           "1": {
             "status": "verified",
@@ -1801,51 +2942,79 @@
             "status": "verified",
             "sign": "X",
             "method": "match",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
-            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
           },
           "5": {
             "status": "verified",
             "sign": "1",
             "method": "match",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
-            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
           },
           "6": {
             "status": "verified",
             "sign": "1",
             "method": "match",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
-            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
           },
           "10": {
             "status": "verified",
             "sign": "1",
             "method": "match",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
-            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
           },
           "11": {
             "status": "verified",
             "sign": "1",
             "method": "match",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
-            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
           },
           "12": {
             "status": "verified",
             "sign": "1",
             "method": "match",
-            "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
-            "checked_at": "2026-10-12T12:54:37.128664+02:00"
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
+          },
+          "7": {
+            "status": "verified",
+            "sign": "X",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
+          },
+          "8": {
+            "status": "verified",
+            "sign": "X",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
+          },
+          "13": {
+            "status": "verified",
+            "sign": "2",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
+          },
+          "14": {
+            "status": "verified",
+            "sign": "1",
+            "method": "match",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+            "checked_at": "2026-10-15T12:41:58+02:00"
           }
         },
         "pleno15": {
           "status": "verified",
           "score": "1-0",
           "method": "match",
-          "source": "https://www.loteriasyapuestas.es/es/resultados?drawId=1319001222",
-          "checked_at": "2026-10-12T12:54:37.128664+02:00"
+          "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-11-de-octubre-de-2026",
+          "checked_at": "2026-10-15T12:41:58+02:00"
         },
         "pending_special_cases": [],
         "special_cases": [
@@ -1859,9 +3028,14 @@
             "note": "X oficial per la norma 40: s’utilitza el marcador de la suspensió per a la Quiniela. No és un sorteig. El resultat esportiu continua pendent i no compta en Brier ni logloss."
           }
         ],
-        "sporting_results_awaiting_selae": [
-          7
-        ]
+        "sporting_results_awaiting_selae": []
+      },
+      "metrics": {
+        "n": 15,
+        "hits": 7,
+        "accuracy": 0.4666666666666667,
+        "brier": 0.5811241015837648,
+        "logloss": 0.9843109783120249
       }
     },
     {

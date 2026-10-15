@@ -1,0 +1,448 @@
+{
+  "cutoff": "2026-10-15T12:41:58+02:00",
+  "round": 9,
+  "assumptions": "Poisson 0.1 sense reentrenament ni canvi de pesos. Estadístiques oficials totals i per seu al tall; ajustos 1.0. No xG ni correcció per força dels rivals. Sancions contrastades amb RFEF; lesions i descans només qualitatius. No hi ha una verificació homogènia de totes les convocatòries. Aplicació exploratòria a Liga F: prior de gols 1.3 heretat, no calibrat específicament; confiança baixa.",
+  "verified_facts": {
+    "standings": [
+      "https://www.laliga.com/laliga-easports/clasificacion",
+      "https://www.laliga.com/laliga-hypermotion/clasificacion",
+      "https://www.laliga.com/futbol-femenino/clasificacion"
+    ],
+    "fixtures": [
+      "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+      "https://www.laliga.com/laliga-hypermotion/resultados",
+      "https://www.laliga.com/futbol-femenino/resultados"
+    ],
+    "coupon": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICI%C3%93N%20DE%20BOLETOS%20JORNADAS%2013%20Y%2014%20DE%20LA%20QUINIELA%20Y%20ELIGE%208%20Y%20JORNADAS%2014%20Y%2015%20DEL%20QUINIGOL.zip",
+    "deadline": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/Aviso%20cierre%20La%20Quiniela%20jornada%2014%C2%AA%20y%20El%20QuiniGol%20jornada%2015%C2%AA%20de%2017%20-%2018%20de%20Octubre%20de%202026.pdf",
+    "discipline": "https://rfef.es/sites/default/files/sanciones/20261014_Primera_Division_J8.pdf?cb=e8fd8730"
+  },
+  "heuristic_adjustments": [],
+  "matches": [
+    {
+      "home": {
+        "name": "Deportivo",
+        "pj": 8,
+        "gf": 12,
+        "gc": 11,
+        "venue_pj": 4,
+        "venue_gf": 5,
+        "venue_gc": 4
+      },
+      "away": {
+        "name": "Llevant",
+        "pj": 7,
+        "gf": 11,
+        "gc": 15,
+        "venue_pj": 4,
+        "venue_gf": 1,
+        "venue_gc": 6
+      },
+      "time": "2026-10-16T21:00:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA EA SPORTS",
+      "source": "https://www.laliga.com/laliga-easports/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Espanyol",
+        "pj": 8,
+        "gf": 11,
+        "gc": 11,
+        "venue_pj": 4,
+        "venue_gf": 6,
+        "venue_gc": 6
+      },
+      "away": {
+        "name": "Atlètic de Madrid",
+        "pj": 8,
+        "gf": 18,
+        "gc": 8,
+        "venue_pj": 4,
+        "venue_gf": 8,
+        "venue_gc": 5
+      },
+      "time": "2026-10-17T14:00:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA EA SPORTS",
+      "source": "https://www.laliga.com/laliga-easports/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Villarreal",
+        "pj": 8,
+        "gf": 13,
+        "gc": 13,
+        "venue_pj": 3,
+        "venue_gf": 6,
+        "venue_gc": 6
+      },
+      "away": {
+        "name": "Elx",
+        "pj": 8,
+        "gf": 11,
+        "gc": 17,
+        "venue_pj": 4,
+        "venue_gf": 7,
+        "venue_gc": 6
+      },
+      "time": "2026-10-17T16:15:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA EA SPORTS",
+      "source": "https://www.laliga.com/laliga-easports/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Betis",
+        "pj": 8,
+        "gf": 14,
+        "gc": 9,
+        "venue_pj": 4,
+        "venue_gf": 8,
+        "venue_gc": 2
+      },
+      "away": {
+        "name": "Barcelona",
+        "pj": 8,
+        "gf": 34,
+        "gc": 7,
+        "venue_pj": 4,
+        "venue_gf": 17,
+        "venue_gc": 3
+      },
+      "time": "2026-10-17T18:30:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA EA SPORTS",
+      "source": "https://www.laliga.com/laliga-easports/clasificacion"
+    },
+    {
+      "home": {
+        "name": "València",
+        "pj": 8,
+        "gf": 6,
+        "gc": 15,
+        "venue_pj": 4,
+        "venue_gf": 2,
+        "venue_gc": 9
+      },
+      "away": {
+        "name": "Athletic",
+        "pj": 6,
+        "gf": 7,
+        "gc": 6,
+        "venue_pj": 2,
+        "venue_gf": 2,
+        "venue_gc": 2
+      },
+      "time": "2026-10-17T21:00:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA EA SPORTS",
+      "source": "https://www.laliga.com/laliga-easports/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Osasuna",
+        "pj": 8,
+        "gf": 8,
+        "gc": 18,
+        "venue_pj": 4,
+        "venue_gf": 2,
+        "venue_gc": 3
+      },
+      "away": {
+        "name": "Racing",
+        "pj": 8,
+        "gf": 13,
+        "gc": 23,
+        "venue_pj": 4,
+        "venue_gf": 4,
+        "venue_gc": 16
+      },
+      "time": "2026-10-18T14:00:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA EA SPORTS",
+      "source": "https://www.laliga.com/laliga-easports/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Celta",
+        "pj": 8,
+        "gf": 8,
+        "gc": 6,
+        "venue_pj": 4,
+        "venue_gf": 7,
+        "venue_gc": 5
+      },
+      "away": {
+        "name": "Alabès",
+        "pj": 8,
+        "gf": 12,
+        "gc": 8,
+        "venue_pj": 3,
+        "venue_gf": 2,
+        "venue_gc": 3
+      },
+      "time": "2026-10-18T16:15:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA EA SPORTS",
+      "source": "https://www.laliga.com/laliga-easports/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Màlaga",
+        "pj": 8,
+        "gf": 4,
+        "gc": 13,
+        "venue_pj": 4,
+        "venue_gf": 3,
+        "venue_gc": 5
+      },
+      "away": {
+        "name": "Reial Societat",
+        "pj": 8,
+        "gf": 12,
+        "gc": 15,
+        "venue_pj": 4,
+        "venue_gf": 7,
+        "venue_gc": 9
+      },
+      "time": "2026-10-18T18:30:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA EA SPORTS",
+      "source": "https://www.laliga.com/laliga-easports/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Real Madrid",
+        "pj": 8,
+        "gf": 19,
+        "gc": 8,
+        "venue_pj": 4,
+        "venue_gf": 13,
+        "venue_gc": 2
+      },
+      "away": {
+        "name": "Sevilla",
+        "pj": 8,
+        "gf": 13,
+        "gc": 12,
+        "venue_pj": 4,
+        "venue_gf": 8,
+        "venue_gc": 5
+      },
+      "time": "2026-10-18T21:00:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA EA SPORTS",
+      "source": "https://www.laliga.com/laliga-easports/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Getafe",
+        "pj": 8,
+        "gf": 4,
+        "gc": 10,
+        "venue_pj": 4,
+        "venue_gf": 4,
+        "venue_gc": 2
+      },
+      "away": {
+        "name": "Rayo",
+        "pj": 7,
+        "gf": 11,
+        "gc": 16,
+        "venue_pj": 4,
+        "venue_gf": 5,
+        "venue_gc": 12
+      },
+      "time": "2026-10-19T21:00:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA EA SPORTS",
+      "source": "https://www.laliga.com/laliga-easports/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Eibar",
+        "pj": 9,
+        "gf": 19,
+        "gc": 10,
+        "venue_pj": 4,
+        "venue_gf": 8,
+        "venue_gc": 5
+      },
+      "away": {
+        "name": "Mallorca",
+        "pj": 9,
+        "gf": 11,
+        "gc": 4,
+        "venue_pj": 4,
+        "venue_gf": 1,
+        "venue_gc": 2
+      },
+      "time": "2026-10-17T16:15:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA HYPERMOTION",
+      "source": "https://www.laliga.com/laliga-hypermotion/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Las Palmas",
+        "pj": 9,
+        "gf": 13,
+        "gc": 16,
+        "venue_pj": 4,
+        "venue_gf": 5,
+        "venue_gc": 5
+      },
+      "away": {
+        "name": "Castelló",
+        "pj": 9,
+        "gf": 15,
+        "gc": 4,
+        "venue_pj": 5,
+        "venue_gf": 7,
+        "venue_gc": 3
+      },
+      "time": "2026-10-17T21:00:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA HYPERMOTION",
+      "source": "https://www.laliga.com/laliga-hypermotion/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Burgos",
+        "pj": 9,
+        "gf": 12,
+        "gc": 10,
+        "venue_pj": 5,
+        "venue_gf": 9,
+        "venue_gc": 6
+      },
+      "away": {
+        "name": "Sabadell",
+        "pj": 9,
+        "gf": 10,
+        "gc": 7,
+        "venue_pj": 5,
+        "venue_gf": 3,
+        "venue_gc": 4
+      },
+      "time": "2026-10-18T21:00:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "LALIGA HYPERMOTION",
+      "source": "https://www.laliga.com/laliga-hypermotion/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Athletic (F)",
+        "pj": 6,
+        "gf": 11,
+        "gc": 8,
+        "venue_pj": 3,
+        "venue_gf": 8,
+        "venue_gc": 5
+      },
+      "away": {
+        "name": "València (F)",
+        "pj": 6,
+        "gf": 4,
+        "gc": 13,
+        "venue_pj": 3,
+        "venue_gf": 2,
+        "venue_gc": 7
+      },
+      "time": "2026-10-17T16:30:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "Liga F Moeve",
+      "source": "https://www.laliga.com/futbol-femenino/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Real Madrid (F)",
+        "pj": 6,
+        "gf": 13,
+        "gc": 13,
+        "venue_pj": 3,
+        "venue_gf": 6,
+        "venue_gc": 3
+      },
+      "away": {
+        "name": "Espanyol (F)",
+        "pj": 6,
+        "gf": 9,
+        "gc": 6,
+        "venue_pj": 3,
+        "venue_gf": 3,
+        "venue_gc": 4
+      },
+      "time": "2026-10-17T20:30:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "Liga F Moeve",
+      "source": "https://www.laliga.com/futbol-femenino/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Eibar (F)",
+        "pj": 6,
+        "gf": 4,
+        "gc": 4,
+        "venue_pj": 3,
+        "venue_gf": 3,
+        "venue_gc": 4
+      },
+      "away": {
+        "name": "Deportivo (F)",
+        "pj": 6,
+        "gf": 5,
+        "gc": 6,
+        "venue_pj": 2,
+        "venue_gf": 3,
+        "venue_gc": 0
+      },
+      "time": "2026-10-18T16:00:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "Liga F Moeve",
+      "source": "https://www.laliga.com/futbol-femenino/clasificacion"
+    },
+    {
+      "home": {
+        "name": "Atlètic de Madrid (F)",
+        "pj": 6,
+        "gf": 10,
+        "gc": 11,
+        "venue_pj": 2,
+        "venue_gf": 2,
+        "venue_gc": 0
+      },
+      "away": {
+        "name": "Madrid CFF (F)",
+        "pj": 6,
+        "gf": 11,
+        "gc": 9,
+        "venue_pj": 2,
+        "venue_gf": 4,
+        "venue_gc": 6
+      },
+      "time": "2026-10-18T18:00:00+02:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition": "Liga F Moeve",
+      "source": "https://www.laliga.com/futbol-femenino/clasificacion"
+    }
+  ]
+}

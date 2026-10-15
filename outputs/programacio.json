@@ -1,6 +1,6 @@
 {
   "timezone": "Europe/Madrid",
-  "verified_at": "2026-10-12",
+  "verified_at": "2026-10-15",
   "execution_hour": 10,
   "mac_ready_minutes": 10,
   "rounds": [
@@ -17,7 +17,7 @@
       "first_match": "2026-10-09",
       "last_match": "2026-10-12",
       "forecast_status": "completed",
-      "review_status": "pending_provisional",
+      "review_status": "provisional_completed",
       "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
       "forecast_actual_at": "2026-10-08T15:17:59+02:00",
       "forecast_note": "Publicació confirmada el 8/10; la previsió prevista el 7/10 s’ha completat amb retard, abans del primer partit.",
@@ -26,17 +26,26 @@
         "Rayo – Athletic"
       ],
       "final_review_date": null,
-      "review_note": "Anàlisi provisional dels partits acabats i del cupó SELAE. Rayo–Athletic ja té X oficial per a la Quiniela; el resultat esportiu i la nova data continuen pendents.",
-      "postponement_source": "https://www.athletic-club.eus/noticias/2026/10/10/la-expedicion-del-athletic-club-regresa-a-bilbao/"
+      "review_note": "Cupó SELAE 12 tancat; revisió esportiva provisional feta el 15/10. Rayo–Athletic continua pendent de resultat final i data de represa.",
+      "postponement_source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+      "review_actual_at": "2026-10-15T12:41:58+02:00",
+      "coupon_review_status": "completed"
     },
     {
       "number": 9,
       "first_match": "2026-10-16",
       "last_match": "2026-10-19",
-      "forecast_status": "pending",
+      "forecast_status": "completed",
       "review_status": "pending",
-      "source": "https://www.laliga.com/noticias/horarios-de-la-novena-jornada-de-laliga-ea-sports-2026-27"
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+      "forecast_actual_at": "2026-10-15T12:41:58+02:00",
+      "forecast_note": "Publicació confirmada el 15/10, amb un dia de retard respecte de la previsió de lliga del 14/10; abans de tots els partits. Cupó SELAE 14 verificat.",
+      "coupon_number": 14,
+      "coupon_first_match": "2026-10-17",
+      "coupon_last_match": "2026-10-19",
+      "coupon_forecast_due": "2026-10-15T10:00:00+02:00",
+      "forecast_published_at": "2026-10-15T12:48:03.905469+02:00"
     }
   ],
-  "checked_at": "2026-10-12T12:54:37.128664+02:00"
+  "checked_at": "2026-10-15T12:41:58+02:00"
 }
