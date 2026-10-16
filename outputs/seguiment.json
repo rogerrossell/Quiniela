@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T12:56:09.535401+02:00",
+  "updated": "2026-10-16T13:17:00.424624+02:00",
   "automation_note": "Revisió diària activada a Codex; necessita que l’entorn local estigui disponible. Aquest web és una instantània, no un marcador en directe.",
   "rounds": [
     {
@@ -3538,5 +3538,19 @@
         "publication_note": "Publicació confirmada de les quatre combinacions parcials. Probabilitats originals del 19/09, sense recalcular."
       }
     }
-  ]
+  ],
+  "last_official_check": {
+    "checked_at": "2026-10-16T13:17:00.424624+02:00",
+    "status": "unchanged",
+    "source_file": "comprovacio_20261016.json",
+    "sources": [
+      "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+      "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+      "https://www.laliga.com/laliga-hypermotion/resultados",
+      "https://www.laliga.com/futbol-femenino/resultados",
+      "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/Aviso%20cierre%20La%20Quiniela%20jornada%2014%C2%AA%20y%20El%20QuiniGol%20jornada%2015%C2%AA%20de%2017%20-%2018%20de%20Octubre%20de%202026.pdf",
+      "https://iaas-public-front-pro.laliga.com/noticias/horarios-de-la-decima-jornada-de-laliga-ea-sports-2026-27",
+      "https://www.athletic-club.eus/noticias/2026/10/10/la-expedicion-del-athletic-club-regresa-a-bilbao/"
+    ]
+  }
 }

@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-16T13:17:00.424624+02:00",
+  "timezone": "Europe/Madrid",
+  "status": "unchanged",
+  "material_change": false,
+  "forecast_action": "Conservar les quatre columnes, probabilitats, Ple al 15 i dates de tall i publicació de J9. No hi ha una nova previsió pendent avui.",
+  "review_action": "J9: revisió prevista el 20/10; J8: anàlisi esportiva final pendent de Rayo–Athletic. Cap resultat inventat.",
+  "sources": [
+    {
+      "url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+      "finding": "Rayo–Athletic continua SUSP; cap resultat final ni nova data de represa publicada a la font consultada."
+    },
+    {
+      "url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+      "finding": "Deu partits previstos del 16 al 19/10, sense canvis respecte de la previsió publicada; Deportivo–Llevant inicia avui a les 21:00. Encara sense resultats finals."
+    },
+    {
+      "url": "https://www.laliga.com/laliga-hypermotion/resultados",
+      "finding": "Eibar–Mallorca 17/10 16:15, Las Palmas–Castelló 17/10 21:00 i Burgos–Sabadell 18/10 21:00, horari peninsular; sense canvis ni resultats finals."
+    },
+    {
+      "url": "https://www.laliga.com/futbol-femenino/resultados",
+      "finding": "Athletic–València 17/10 16:30, Real Madrid–Espanyol 17/10 20:30, Eibar–Deportivo 18/10 16:00 i Atlètic–Madrid CFF 18/10 18:00; sense canvis ni resultats finals."
+    },
+    {
+      "url": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/Aviso%20cierre%20La%20Quiniela%20jornada%2014%C2%AA%20y%20El%20QuiniGol%20jornada%2015%C2%AA%20de%2017%20-%2018%20de%20Octubre%20de%202026.pdf",
+      "finding": "SELAE 14: tancament 17/10 a les 14:00, hora oficial peninsular. Es manté el termini publicat."
+    },
+    {
+      "url": "https://iaas-public-front-pro.laliga.com/noticias/horarios-de-la-decima-jornada-de-laliga-ea-sports-2026-27",
+      "finding": "J10 del 23 al 26/10: previsió 21/10 i revisió 27/10 a les 10:00 Europe/Madrid, amb canvi d’hora aplicat."
+    },
+    {
+      "url": "https://www.athletic-club.eus/noticias/2026/10/10/la-expedicion-del-athletic-club-regresa-a-bilbao/",
+      "finding": "Avís de suspensió, sense data de represa en l’avís; contrastat amb la jornada oficial i cerca de comunicats dels clubs."
+    }
+  ]
+}
