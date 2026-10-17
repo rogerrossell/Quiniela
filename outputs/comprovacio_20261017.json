@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-10-17T10:04:01.740654+02:00",
+  "timezone": "Europe/Madrid",
+  "status": "results_updated",
+  "material_change": false,
+  "notification_reason": "coupon_deadline_today",
+  "forecast_action": "Conservar íntegres les quatre columnes i el Ple publicats el 15/10, amb les probabilitats originals; no generar una nova versió.",
+  "review_action": "Seguiment provisional d’un partit esportiu; revisió completa prevista 20/10. J8 pendent de Rayo–Athletic.",
+  "final_results": [
+    {
+      "round": 9,
+      "home": "Deportivo",
+      "away": "Llevant",
+      "result": [
+        1,
+        1
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-levante-ud-9",
+      "in_official_coupon": false
+    }
+  ],
+  "sports_metrics": {
+    "n": 1,
+    "hits": 0,
+    "accuracy": 0.0,
+    "brier": 0.8996364661670562,
+    "logloss": 1.4343490816534852
+  },
+  "coupon_resolved_positions": 0,
+  "sources": [
+    {
+      "url": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-levante-ud-9",
+      "finding": "Deportivo–Llevant 1–1, Finalizado. Primer resultat esportiu de J9; fora del cupó SELAE 14."
+    },
+    {
+      "url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+      "finding": "Resta de partits prevista del 17 al 19/10, amb els horaris publicats; sense altres resultats finals en la consulta."
+    },
+    {
+      "url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+      "finding": "Rayo–Athletic continua SUSP sense nova data de represa a la font. Resultat esportiu pendent."
+    },
+    {
+      "url": "https://www.laliga.com/laliga-hypermotion/resultados",
+      "finding": "Leganés–Còrdova 0–1, fora de les previsions de J9. Els tres partits de Segona inclosos al cupó encara pendents, sense canvis d’horari."
+    },
+    {
+      "url": "https://www.laliga.com/futbol-femenino/resultados",
+      "finding": "Els quatre partits de Liga F inclosos al cupó encara pendents, amb els horaris publicats."
+    },
+    {
+      "url": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/Aviso%20cierre%20La%20Quiniela%20jornada%2014%C2%AA%20y%20El%20QuiniGol%20jornada%2015%C2%AA%20de%2017%20-%2018%20de%20Octubre%20de%202026.pdf",
+      "finding": "SELAE 14: tancament avui 17/10/2026 a les 14:00, hora oficial peninsular."
+    },
+    {
+      "url": "https://iaas-public-front-pro.laliga.com/noticias/horarios-de-la-decima-jornada-de-laliga-ea-sports-2026-27",
+      "finding": "J10 del 23 al 26/10; es mantenen previsió 21/10 i revisió 27/10 a les 10:00 locals."
+    }
+  ]
+}
