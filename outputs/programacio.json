@@ -1,6 +1,6 @@
 {
   "timezone": "Europe/Madrid",
-  "verified_at": "2026-10-17",
+  "verified_at": "2026-10-18",
   "execution_hour": 10,
   "mac_ready_minutes": 10,
   "rounds": [
@@ -55,5 +55,5 @@
       "source": "https://iaas-public-front-pro.laliga.com/noticias/horarios-de-la-decima-jornada-de-laliga-ea-sports-2026-27"
     }
   ],
-  "checked_at": "2026-10-17T10:04:01.740654+02:00"
+  "checked_at": "2026-10-18T11:23:13.238175+02:00"
 }
