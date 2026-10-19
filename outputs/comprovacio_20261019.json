@@ -1,0 +1,141 @@
+{
+  "checked_at": "2026-10-19T09:59:04.922966+02:00",
+  "timezone": "Europe/Madrid",
+  "status": "provisional_results_updated",
+  "material_change": false,
+  "notification_required": false,
+  "forecast_action": "Cupó tancat: columnes, probabilitats originals, tall i data de publicació del 15/10 preservats. Cap previsió nova ni canvi de model.",
+  "review_action": "Seguiment provisional amb 14 caselles esportives finals; Getafe–Rayo i Ple al 15 pendents. Revisió completa prevista 20/10. J8 pendent del partit suspès.",
+  "new_final_results": [
+    {
+      "index": 5,
+      "home": "Osasuna",
+      "away": "Racing",
+      "result": [
+        2,
+        0
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-ca-osasuna-r-racing-club-9"
+    },
+    {
+      "index": 6,
+      "home": "Celta",
+      "away": "Alabès",
+      "result": [
+        2,
+        1
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-deportivo-alaves-9"
+    },
+    {
+      "index": 7,
+      "home": "Màlaga",
+      "away": "Reial Societat",
+      "result": [
+        2,
+        5
+      ],
+      "source": "https://www.malagacf.com/noticias/el-malaga-cae-contra-la-real-sociedad-2-5"
+    },
+    {
+      "index": 8,
+      "home": "Real Madrid",
+      "away": "Sevilla",
+      "result": [
+        4,
+        1
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-sevilla-fc-9"
+    },
+    {
+      "index": 12,
+      "home": "Burgos",
+      "away": "Sabadell",
+      "result": [
+        1,
+        0
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-burgos-cf-ce-sabadell-10"
+    },
+    {
+      "index": 15,
+      "home": "Eibar (F)",
+      "away": "Deportivo (F)",
+      "result": [
+        2,
+        3
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-sd-eibar-deportivo-abanca-7"
+    },
+    {
+      "index": 16,
+      "home": "Atlètic de Madrid (F)",
+      "away": "Madrid CFF (F)",
+      "result": [
+        4,
+        0
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-atletico-de-madrid-madrid-cff-7"
+    }
+  ],
+  "sports_metrics": {
+    "n": 16,
+    "hits": 10,
+    "accuracy": 0.625,
+    "brier": 0.5748859315309303,
+    "logloss": 0.9712170968524374
+  },
+  "top_score_hits": 2,
+  "top_three_scores_hits": 5,
+  "coupon_available_positions": 14,
+  "coupon_selae_verified_positions": 0,
+  "coupon_provisional_hits": [
+    9,
+    8,
+    10,
+    9
+  ],
+  "coupon_signs_from_sports_results": {
+    "1": "2",
+    "2": "X",
+    "3": "2",
+    "4": "X",
+    "5": "1",
+    "6": "2",
+    "7": "1",
+    "8": "X",
+    "9": "2",
+    "10": "1",
+    "11": "1",
+    "12": "1",
+    "13": "2",
+    "14": "1"
+  },
+  "pleno15_status": "pending",
+  "sources": [
+    {
+      "url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+      "finding": "Nou finals de Primera; Getafe–Rayo pendent avui 19/10 a les 21:00, hora peninsular."
+    },
+    {
+      "url": "https://www.laliga.com/laliga-hypermotion/resultados",
+      "finding": "Burgos–Sabadell 1–0 final; els tres partits de Segona previstos ja finalitzats."
+    },
+    {
+      "url": "https://www.laliga.com/futbol-femenino/resultados",
+      "finding": "Eibar–Deportivo 2–3 i Atlètic–Madrid CFF 4–0 finals; els quatre partits de Liga F previstos ja finalitzats."
+    },
+    {
+      "url": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+      "finding": "Rayo–Athletic continua SUSP, sense nova data ni resultat final a la font consultada."
+    },
+    {
+      "url": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados",
+      "finding": "L’índex consultat encara arriba al 14/10. No s’ha confirmat l’escrutini complet SELAE 14 ni s’ha assignat resultat al Ple pendent."
+    },
+    {
+      "url": "https://iaas-public-front-pro.laliga.com/noticias/horarios-de-la-decima-jornada-de-laliga-ea-sports-2026-27",
+      "finding": "J10 del 23 al 26/10; previsió 21/10 i revisió 27/10 a les 10:00 locals, amb canvi d’hora aplicat."
+    }
+  ]
+}
