@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-10-20T12:19:37.094851+02:00",
+  "model_code_version": "0.1-experimental",
+  "cohorts": {
+    "J7_adjustments_as_published": {
+      "n": 5,
+      "hits": 4,
+      "accuracy": 0.8,
+      "brier": 0.5576063433581778,
+      "logloss": 0.9436935446349738,
+      "exact_top1": 2,
+      "exact_top3": 3,
+      "double_hits": 4,
+      "uniform_baseline_brier": 0.6666666666666666,
+      "uniform_baseline_logloss": 1.0986122886681098,
+      "always_home_baseline_hits": 3
+    },
+    "J8_no_manual_adjustments": {
+      "n": 15,
+      "hits": 7,
+      "accuracy": 0.4666666666666667,
+      "brier": 0.5811241015837648,
+      "logloss": 0.9843109783120249,
+      "exact_top1": 1,
+      "exact_top3": 2,
+      "double_hits": 11,
+      "always_home_baseline_hits": 9,
+      "uniform_baseline_brier": 0.6666666666666666,
+      "uniform_baseline_logloss": 1.0986122886681098
+    },
+    "J9_no_manual_adjustments": {
+      "n": 17,
+      "hits": 10,
+      "accuracy": 0.5882352941176471,
+      "brier": 0.5915827662935279,
+      "logloss": 0.9955019407786849,
+      "exact_top1": 3,
+      "exact_top3": 6,
+      "double_hits": 12,
+      "always_home_baseline_hits": 7,
+      "uniform_baseline_brier": 0.6666666666666666,
+      "uniform_baseline_logloss": 1.0986122886681098
+    }
+  },
+  "pooled_descriptive": {
+    "n": 37,
+    "hits": 21,
+    "accuracy": 0.5675675675675675,
+    "brier": 0.5827513585820902,
+    "logloss": 0.9839639294889969,
+    "always_home_baseline_hits": 19,
+    "uniform_baseline_brier": 0.6666666666666666,
+    "uniform_baseline_logloss": 1.0986122886681098
+  },
+  "warning": "Acumulat descriptiu de cohorts i competicions diferents, amb ajustos diferents en J7. No valida pesos nous. J7 continua parcial amb cinc previsions; Rayo–Athletic de J8 continua exclòs.",
+  "decision": "Conservar el model vigent i validar canvis amb dades cronològiques fora de mostra."
+}

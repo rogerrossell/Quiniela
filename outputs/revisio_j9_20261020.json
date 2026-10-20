@@ -1,0 +1,334 @@
+{
+  "round": 9,
+  "season": "2026-27",
+  "official_coupon_number": 14,
+  "status": "analysis_completed",
+  "reviewed_at": "2026-10-20T12:19:37.094851+02:00",
+  "planned_review_at": "2026-10-20T10:00:00+02:00",
+  "execution_note": "Revisió executada a l’hora real registrada, amb retard respecte de les 10:00 previstes.",
+  "forecast_version": "j9-20261015-cupo14",
+  "forecast_at": "2026-10-15T12:41:58+02:00",
+  "forecast_published_at": "2026-10-15T12:48:03.905469+02:00",
+  "model": "0.1",
+  "sports_metrics": {
+    "n": 17,
+    "hits": 10,
+    "accuracy": 0.5882352941176471,
+    "brier": 0.5915827662935279,
+    "logloss": 0.9955019407786849,
+    "exact_top1": 3,
+    "exact_top3": 6,
+    "double_hits": 12,
+    "always_home_baseline_hits": 7,
+    "uniform_baseline_brier": 0.6666666666666666,
+    "uniform_baseline_logloss": 1.0986122886681098
+  },
+  "by_competition": {
+    "LALIGA EA SPORTS": {
+      "n": 10,
+      "hits": 5,
+      "accuracy": 0.5,
+      "brier": 0.6277004260245557,
+      "logloss": 1.0485327083139098,
+      "exact_top1": 2,
+      "exact_top3": 3,
+      "double_hits": 6,
+      "always_home_baseline_hits": 3,
+      "uniform_baseline_brier": 0.6666666666666666,
+      "uniform_baseline_logloss": 1.0986122886681098
+    },
+    "LALIGA HYPERMOTION": {
+      "n": 3,
+      "hits": 2,
+      "accuracy": 0.6666666666666666,
+      "brier": 0.611376764124051,
+      "logloss": 1.0194625379974702,
+      "exact_top1": 1,
+      "exact_top3": 2,
+      "double_hits": 2,
+      "always_home_baseline_hits": 1,
+      "uniform_baseline_brier": 0.6666666666666666,
+      "uniform_baseline_logloss": 1.0986122886681098
+    },
+    "Liga F Moeve": {
+      "n": 4,
+      "hits": 3,
+      "accuracy": 0.75,
+      "brier": 0.4864431185930663,
+      "logloss": 0.844954574026533,
+      "exact_top1": 0,
+      "exact_top3": 1,
+      "double_hits": 4,
+      "always_home_baseline_hits": 3,
+      "uniform_baseline_brier": 0.6666666666666666,
+      "uniform_baseline_logloss": 1.0986122886681098
+    }
+  },
+  "observed_sign_counts": {
+    "X": 5,
+    "2": 5,
+    "1": 7
+  },
+  "expected_sign_counts": {
+    "1": 7.314691230321329,
+    "X": 4.260361272019655,
+    "2": 5.424947497659023
+  },
+  "predicted_sign_counts": {
+    "1": 13,
+    "2": 4
+  },
+  "coupon_columns": [
+    {
+      "signs": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "probability": 1.1575605173179825e-05
+    },
+    {
+      "signs": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "probability": 1.0602424595323747e-05
+    },
+    {
+      "signs": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "probability": 1.0416706138266554e-05
+    },
+    {
+      "signs": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "probability": 9.540956149619483e-06
+    }
+  ],
+  "coupon_coverage_original": 4.213569205638961e-05,
+  "independence_assumed": true,
+  "coupon_hits": [
+    9,
+    8,
+    10,
+    9
+  ],
+  "official_signs": [
+    "2",
+    "X",
+    "2",
+    "X",
+    "1",
+    "2",
+    "1",
+    "X",
+    "2",
+    "1",
+    "1",
+    "1",
+    "2",
+    "1"
+  ],
+  "pleno15": {
+    "forecast": {
+      "home": "Getafe",
+      "away": "Rayo",
+      "score": "1-1",
+      "probability": 0.11883738997455791
+    },
+    "result": "1-1",
+    "hit": true,
+    "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026"
+  },
+  "objective": "Probabilitat prèvia d’encertar els 14 signes, no qualsevol premi ni rendibilitat. Probabilitats i ordre originals preservats, no condicionats als resultats.",
+  "errors": [
+    {
+      "index": 0,
+      "match": "Deportivo – Llevant",
+      "forecast_sign": "1",
+      "result": [
+        1,
+        1
+      ],
+      "actual_sign": "X",
+      "outcome_probability_at_cutoff": 0.23827040812876615,
+      "context_at_cutoff": "Deportivo té 12–11 en gols en 8 partits; Llevant, 11–15 en 7. La RFEF sanciona Amatucci: preval sobre la llista de SER del dia 13 que no el recull. Disponibilitat ofensiva pendent de convocatòria. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+      "assessment": "Resultat possible amb la probabilitat original. No s’ha demostrat cap error de dades ni una causa única; cal separar variància esportiva de limitacions del model.",
+      "known_limitation": "Empat fora de les columnes seleccionades; sense inferir descalibratge a partir d’un sol resultat."
+    },
+    {
+      "index": 2,
+      "match": "Villarreal – Elx",
+      "forecast_sign": "1",
+      "result": [
+        0,
+        0
+      ],
+      "actual_sign": "X",
+      "outcome_probability_at_cutoff": 0.23046306959401694,
+      "context_at_cutoff": "Villarreal té només tres partits a casa: mostra petita. Elx: 7–6 en gols fora. Les incidències de plantilla queden pendents de convocatòria; no es considera confirmada una sanció sense resolució llegida. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+      "assessment": "Resultat possible amb la probabilitat original. No s’ha demostrat cap error de dades ni una causa única; cal separar variància esportiva de limitacions del model.",
+      "known_limitation": "Empat fora de les columnes seleccionades; sense inferir descalibratge a partir d’un sol resultat."
+    },
+    {
+      "index": 4,
+      "match": "València – Athletic",
+      "forecast_sign": "2",
+      "result": [
+        0,
+        0
+      ],
+      "actual_sign": "X",
+      "outcome_probability_at_cutoff": 0.27190353904476067,
+      "context_at_cutoff": "València: 6–15 en gols, i 2–9 a casa. Athletic només té 6 partits finals i dos fora; Rayo–Athletic continua suspès. SER situa Sancet lesionat i Nico Williams com a dubte. Mostra visitant especialment limitada. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+      "assessment": "Resultat possible amb la probabilitat original. No s’ha demostrat cap error de dades ni una causa única; cal separar variància esportiva de limitacions del model.",
+      "known_limitation": "Empat fora de les columnes seleccionades; sense inferir descalibratge a partir d’un sol resultat."
+    },
+    {
+      "index": 7,
+      "match": "Màlaga – Reial Societat",
+      "forecast_sign": "1",
+      "result": [
+        2,
+        5
+      ],
+      "actual_sign": "2",
+      "outcome_probability_at_cutoff": 0.3516565469582875,
+      "context_at_cutoff": "Màlaga no ha guanyat en 8 partits i suma 4–13 en gols. Reial Societat: 12–15 totals i 7–9 fora. Pablo Marín té un partit de sanció segons la RFEF. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+      "assessment": "Resultat possible amb la probabilitat original. No s’ha demostrat cap error de dades ni una causa única; cal separar variància esportiva de limitacions del model.",
+      "known_limitation": "Estimació local 39,08% i visitant 35,17%, molt pròximes; manca d’ajust calibrat per força dels rivals."
+    },
+    {
+      "index": 9,
+      "match": "Getafe – Rayo",
+      "forecast_sign": "1",
+      "result": [
+        1,
+        1
+      ],
+      "actual_sign": "X",
+      "outcome_probability_at_cutoff": 0.2505593542027416,
+      "context_at_cutoff": "Getafe: 4–2 en gols a casa, invicte en quatre partits. Rayo: 5–12 fora; el seu partit anterior contra Athletic no té resultat final. Les baixes i la càrrega europea no es donen per resoltes abans de la convocatòria. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+      "assessment": "Resultat possible amb la probabilitat original. No s’ha demostrat cap error de dades ni una causa única; cal separar variància esportiva de limitacions del model.",
+      "known_limitation": "Empat fora de les columnes seleccionades; sense inferir descalibratge a partir d’un sol resultat."
+    },
+    {
+      "index": 10,
+      "match": "Eibar – Mallorca",
+      "forecast_sign": "1",
+      "result": [
+        1,
+        1
+      ],
+      "actual_sign": "X",
+      "outcome_probability_at_cutoff": 0.26729061704999635,
+      "context_at_cutoff": "Eibar: 19–10 en gols en 9 partits; Mallorca: 11–4. Fora, Mallorca només ha marcat un gol i n’ha rebut dos en quatre partits. Últim partit d’Eibar: derrota 3–1 a Oviedo. Sense ajust addicional per ratxa. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+      "assessment": "Resultat possible amb la probabilitat original. No s’ha demostrat cap error de dades ni una causa única; cal separar variància esportiva de limitacions del model.",
+      "known_limitation": "Empat fora de les columnes seleccionades; sense inferir descalibratge a partir d’un sol resultat."
+    },
+    {
+      "index": 15,
+      "match": "Eibar (F) – Deportivo (F)",
+      "forecast_sign": "1",
+      "result": [
+        2,
+        3
+      ],
+      "actual_sign": "2",
+      "outcome_probability_at_cutoff": 0.30739823594010035,
+      "context_at_cutoff": "Eibar (F): només 4 gols a favor i 4 en contra en sis partits. Deportivo (F): 5–6, i 3–0 fora en només dos partits. Mostra petita i model sense calibratge específic; no interpretar el signe com una certesa. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
+      "assessment": "Resultat possible amb la probabilitat original. No s’ha demostrat cap error de dades ni una causa única; cal separar variància esportiva de limitacions del model.",
+      "known_limitation": "Força relativa i mostres petites; el signe local més probable no era una certesa. Liga F sense calibratge propi."
+    }
+  ],
+  "experiments": [
+    {
+      "id": "draw_calibration",
+      "hypothesis": "Contrastar calibratge dels empats i dependència dels gols en marcadors baixos.",
+      "evidence": "5 empats observats davant 4.260361272019655 esperats; cap signe X era el màxim individual. Aquesta diferència no prova descalibratge.",
+      "status": "pending_data_and_temporal_validation"
+    },
+    {
+      "id": "small_samples_and_opposition",
+      "hypothesis": "Comparar la versió vigent amb una estimació que controli rivals i redueixi més les mostres petites cap a referències de cada competició.",
+      "evidence": "Màlaga–Reial Societat tenia 39,08% contra 35,17%; diversos equips només tenien dos o tres partits en la seu corresponent.",
+      "status": "pending_data_and_temporal_validation"
+    },
+    {
+      "id": "liga_f_model",
+      "hypothesis": "Estimar i validar paràmetres específics per a Liga F, sense donar per bons els de Primera masculina.",
+      "evidence": "3/4 encerts de signe en una mostra exploratòria; Eibar–Deportivo era incert. Quatre partits no validen el model.",
+      "status": "pending_data_and_temporal_validation"
+    },
+    {
+      "id": "availability_and_workload",
+      "hypothesis": "Integrar disponibilitat, minuts, seleccions i càrrega de competicions amb un efecte estimat històricament, després de verificar dates i fonts.",
+      "evidence": "La previsió descrivia baixes i descans, però en J9 tots els ajustos manuals eren 1.0; no s’ha mesurat l’impacte dels golejadors.",
+      "status": "pending_timestamped_historical_dataset"
+    }
+  ],
+  "validation": {
+    "decision": "retain_model_0.1",
+    "applied_changes": [],
+    "protocol": "Fixar inputs, candidats i mètriques abans de mirar el conjunt de prova; entrenar només amb dades anteriors al tall i comparar en blocs cronològics posteriors, per competició. J9 és diagnòstic perquè ha generat les hipòtesis, no un conjunt de validació nou. Conservar les previsions candidates abans de començar els partits i contrastar Brier i logloss amb la versió vigent i referències, amb incertesa i una mostra suficient.",
+    "promotion_rule": "Promoure només si la millora es manté en dades fora de mostra comparables; en cas contrari, conservar la versió vigent. No s’ha executat encara aquesta validació i no es promet una millora."
+  },
+  "sources": [
+    "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+    "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
+    "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+    "https://www.laliga.com/laliga-hypermotion/resultados",
+    "https://www.laliga.com/futbol-femenino/resultados"
+  ]
+}

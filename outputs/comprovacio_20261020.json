@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-20T12:19:37.094851+02:00",
+  "status": "review_completed",
+  "material_change": true,
+  "review_path": "revisio_j9_20261020.json",
+  "sports_final_matches": 17,
+  "coupon_verified_positions": 14,
+  "coupon_hits": [
+    9,
+    8,
+    10,
+    9
+  ],
+  "pleno15_result": "1-1",
+  "pleno15_hit": true,
+  "model_changes": [],
+  "pending_j8": "Rayo–Athletic continua SUSP sense resultat final ni nova data a la font oficial consultada.",
+  "sources": [
+    "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+    "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
+    "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
+    "https://www.laliga.com/laliga-hypermotion/resultados",
+    "https://www.laliga.com/futbol-femenino/resultados",
+    "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+    "https://iaas-public-front-pro.laliga.com/noticias/horarios-de-la-decima-jornada-de-laliga-ea-sports-2026-27"
+  ]
+}

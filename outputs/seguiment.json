@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T09:59:04.922966+02:00",
+  "updated": "2026-10-20T12:19:37.094851+02:00",
   "automation_note": "Revisió diària activada a Codex; necessita que l’entorn local estigui disponible. Aquest web és una instantània, no un marcador en directe.",
   "rounds": [
     {
@@ -531,8 +531,11 @@
               }
             ]
           },
-          "status": "scheduled",
-          "result": null,
+          "status": "final",
+          "result": [
+            1,
+            1
+          ],
           "competition": "LALIGA EA SPORTS",
           "confidence": "Experimental · confiança baixa",
           "note": "Getafe: 4–2 en gols a casa, invicte en quatre partits. Rayo: 5–12 fora; el seu partit anterior contra Athletic no té resultat final. Les baixes i la càrrega europea no es donen per resoltes abans de la convocatòria. Ajustos numèrics: 1.0 per equip; cap correcció manual. Gols de lliga exclusivament; les notícies són context qualitatiu.",
@@ -541,7 +544,9 @@
             "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
             "https://cadenaser.com/nacional/2026/10/13/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-9-y-posibles-sustitutos-cadena-ser/"
           ],
-          "source_verified_at": "2026-10-15T12:41:58+02:00"
+          "source_verified_at": "2026-10-15T12:41:58+02:00",
+          "result_source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
+          "result_verified_at": "2026-10-20T12:19:37.094851+02:00"
         },
         {
           "home": "Eibar",
@@ -909,9 +914,17 @@
         }
       ],
       "review": {
-        "summary": "Seguiment provisional del 19/10: 10 encerts de signe sobre 16 partits esportius finals (62,5%). Les 14 caselles ja tenen resultat final esportiu: columnes originals 9/14, 8/14, 10/14 i 9/14, pendents de confirmació completa SELAE. Resta Getafe–Rayo avui a les 21:00, que és el Ple al 15. Revisió completa prevista el 20/10; cap canvi de model.",
-        "next": "Revisió prevista el 20/10/2026 a les 10:00 de Barcelona; Mac disponible des de les 09:50.",
-        "changes": []
+        "summary": "J9 acabada: 10/17 encerts de signe (58,82%); Primera 5/10, Segona 2/3 i Liga F 3/4. Columnes originals confirmades per SELAE: 9/14, 8/14, 10/14 i 9/14. Ple Getafe–Rayo 1–1, encert separat. Referència de triar sempre el local: 7/17. Marcador més probable 3/17; entre els tres marcadors, 6/17.",
+        "next": "Propera previsió J10: 21/10/2026 a les 10:00 Europe/Madrid; Mac encès des de les 09:50. Revisió J10: 27/10 a les 10:00, amb canvi d’hora aplicat.",
+        "changes": [
+          "Model 0.1 conservat. Cinc dels set errors són empats: Deportivo–Llevant, Villarreal–Elx, València–Athletic, Getafe–Rayo i Eibar–Mallorca. Les dues altres errades són Màlaga–Reial Societat i Eibar (F)–Deportivo (F). Cap causa única ni error de dades ha quedat demostrat.",
+          "El model esperava 4,26 empats i n’hi ha hagut 5: que no recomanés cap X com a signe principal no prova que les probabilitats dels empats fossin massa baixes. Cal validar-ho amb més dades. No es canvien les quatre combinacions per adaptar-les al resultat.",
+          "La tercera columna ha fet 10/14, per sobre de la primera (9/14), però l’ordre original per probabilitat conjunta es manté. Les probabilitats publicades assumeixen independència i són anteriors als partits; no representen una probabilitat actual ni una rendibilitat.",
+          "Experiments pendents: calibratge dels empats, força dels rivals i mostres petites, paràmetres de Liga F i impacte mesurat de disponibilitat i minuts dels golejadors. Les baixes i el descans eren context qualitatiu, sense efecte numèric calibrat. J9 no es reutilitzarà com a validació independent d’aquestes hipòtesis.",
+          "Validació pendent: entrenament anterior al tall i proves cronològiques fora de mostra, amb Brier i logloss i referències comparables. No s’ha aplicat cap pes nou. Acumulat descriptiu J7+J8+J9: 21/37 signes davant 19/37 de triar sempre el local; cohorts diferents i Rayo–Athletic de J8 encara pendent."
+        ],
+        "completed_at": "2026-10-20T12:19:37.094851+02:00",
+        "benchmark_path": "benchmark_20261020.json"
       },
       "evaluation_scope": "17 pronòstics esportius: 10 de Primera, 3 de Segona i 4 de Liga F. Separar competicions i les 14 caselles SELAE.",
       "publication_status": "published_site",
@@ -1138,29 +1151,148 @@
         "published_at": "2026-10-15T12:48:03.905469+02:00"
       },
       "metrics": {
-        "n": 16,
+        "n": 17,
         "hits": 10,
-        "accuracy": 0.625,
-        "brier": 0.5748859315309303,
-        "logloss": 0.9712170968524374
+        "accuracy": 0.5882352941176471,
+        "brier": 0.5915827662935279,
+        "logloss": 0.9955019407786849
       },
       "published_at": "2026-10-15T12:48:03.905469+02:00",
       "forecast_published_at": "2026-10-15T12:48:03.905469+02:00",
-      "monitoring_notice": "Comprovació del 19/10: 16 dels 17 partits previstos ja han finalitzat, amb 10 encerts de signe. Les 14 caselles del cupó tancat tenen resultat final esportiu: 9/14, 8/14, 10/14 i 9/14 a les quatre columnes originals. Còmput pendent de confirmació completa SELAE. El Ple Getafe–Rayo continua pendent del partit del 19/10 a les 21:00; no se n’ha inventat el resultat. Les probabilitats mostrades continuen sent les originals de la publicació del 15/10, no probabilitats condicionades als resultats coneguts. Revisió completa el 20/10.",
+      "monitoring_notice": "J9 acabada: 10/17 encerts de signe (58,82%); Primera 5/10, Segona 2/3 i Liga F 3/4. Columnes originals confirmades per SELAE: 9/14, 8/14, 10/14 i 9/14. Ple Getafe–Rayo 1–1, encert separat. Referència de triar sempre el local: 7/17. Marcador més probable 3/17; entre els tres marcadors, 6/17. Revisió preparada el 20/10 a l’hora real registrada, posterior a les 10:00 previstes. Les quatre columnes, probabilitats i primera publicació del 15/10 es conserven íntegres. No s’ha canviat el model.",
       "monitoring_sources": [
+        "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
         "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
         "https://www.laliga.com/laliga-hypermotion/resultados",
-        "https://www.laliga.com/futbol-femenino/resultados",
-        "https://www.loteriasyapuestas.es/es/la-quiniela/resultados"
+        "https://www.laliga.com/futbol-femenino/resultados"
       ],
       "coupon_results": {
-        "status": "pending_official_confirmation",
-        "checked_at": "2026-10-19T09:59:04.922966+02:00",
-        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados",
-        "signs": {},
+        "status": "complete",
+        "checked_at": "2026-10-20T12:19:37.094851+02:00",
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+        "signs": {
+          "1": {
+            "status": "verified",
+            "sign": "2",
+            "score": "0-1",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "2": {
+            "status": "verified",
+            "sign": "X",
+            "score": "0-0",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "3": {
+            "status": "verified",
+            "sign": "2",
+            "score": "2-5",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "4": {
+            "status": "verified",
+            "sign": "X",
+            "score": "0-0",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "5": {
+            "status": "verified",
+            "sign": "1",
+            "score": "2-1",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "6": {
+            "status": "verified",
+            "sign": "2",
+            "score": "2-5",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "7": {
+            "status": "verified",
+            "sign": "1",
+            "score": "4-1",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "8": {
+            "status": "verified",
+            "sign": "X",
+            "score": "1-1",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "9": {
+            "status": "verified",
+            "sign": "2",
+            "score": "0-3",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "10": {
+            "status": "verified",
+            "sign": "1",
+            "score": "1-0",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "11": {
+            "status": "verified",
+            "sign": "1",
+            "score": "1-0",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "12": {
+            "status": "verified",
+            "sign": "1",
+            "score": "3-1",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "13": {
+            "status": "verified",
+            "sign": "2",
+            "score": "2-3",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          },
+          "14": {
+            "status": "verified",
+            "sign": "1",
+            "score": "4-0",
+            "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+            "checked_at": "2026-10-20T12:19:37.094851+02:00",
+            "method": "final_result"
+          }
+        },
+        "pleno15": {
+          "status": "verified",
+          "score": "1-1",
+          "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+          "checked_at": "2026-10-20T12:19:37.094851+02:00"
+        },
         "special_cases": [],
-        "pending_special_cases": [],
-        "note": "Les 14 caselles tenen resultat final esportiu, encara sense confirmació completa SELAE a l’índex consultat. Getafe–Rayo, Ple al 15, encara no s’ha disputat. No es marca la revisió com a completada."
+        "pending_special_cases": []
       }
     },
     {
@@ -3636,16 +3768,15 @@
     }
   ],
   "last_official_check": {
-    "checked_at": "2026-10-19T09:59:04.922966+02:00",
-    "status": "provisional_results_updated",
-    "source_file": "comprovacio_20261019.json",
+    "checked_at": "2026-10-20T12:19:37.094851+02:00",
+    "status": "review_completed",
+    "source_file": "comprovacio_20261020.json",
     "sources": [
+      "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
+      "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
       "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
       "https://www.laliga.com/laliga-hypermotion/resultados",
-      "https://www.laliga.com/futbol-femenino/resultados",
-      "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
-      "https://www.loteriasyapuestas.es/es/la-quiniela/resultados",
-      "https://iaas-public-front-pro.laliga.com/noticias/horarios-de-la-decima-jornada-de-laliga-ea-sports-2026-27"
+      "https://www.laliga.com/futbol-femenino/resultados"
     ]
   }
 }

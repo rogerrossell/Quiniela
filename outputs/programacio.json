@@ -1,6 +1,6 @@
 {
   "timezone": "Europe/Madrid",
-  "verified_at": "2026-10-19",
+  "verified_at": "2026-10-20",
   "execution_hour": 10,
   "mac_ready_minutes": 10,
   "rounds": [
@@ -36,7 +36,7 @@
       "first_match": "2026-10-16",
       "last_match": "2026-10-19",
       "forecast_status": "completed",
-      "review_status": "pending",
+      "review_status": "completed",
       "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
       "forecast_actual_at": "2026-10-15T12:41:58+02:00",
       "forecast_note": "Publicació confirmada el 15/10, amb un dia de retard respecte de la previsió de lliga del 14/10; abans de tots els partits. Cupó SELAE 14 verificat.",
@@ -44,7 +44,9 @@
       "coupon_first_match": "2026-10-17",
       "coupon_last_match": "2026-10-19",
       "coupon_forecast_due": "2026-10-15T10:00:00+02:00",
-      "forecast_published_at": "2026-10-15T12:48:03.905469+02:00"
+      "forecast_published_at": "2026-10-15T12:48:03.905469+02:00",
+      "review_actual_at": "2026-10-20T12:19:37.094851+02:00",
+      "review_note": "Revisió completa preparada el 20/10; 17 finals, 14 caselles i Ple al 15 verificats. Publicació amb retard respecte de les 10:00."
     },
     {
       "number": 10,
@@ -55,5 +57,5 @@
       "source": "https://iaas-public-front-pro.laliga.com/noticias/horarios-de-la-decima-jornada-de-laliga-ea-sports-2026-27"
     }
   ],
-  "checked_at": "2026-10-19T09:59:04.922966+02:00"
+  "checked_at": "2026-10-20T12:19:37.094851+02:00"
 }
