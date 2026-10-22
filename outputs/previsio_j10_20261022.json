@@ -1,0 +1,774 @@
+{
+  "version": "0.1-experimental",
+  "forecast_version": "j10-20261022-cupo16",
+  "cutoff": "2026-10-22T16:33:37+02:00",
+  "results": [
+    {
+      "match": "Alabès – Màlaga",
+      "time": "2026-10-23T21:00:00+02:00",
+      "lambda_home": 1.772751068376068,
+      "lambda_away": 0.9000721153846154,
+      "probabilities": {
+        "1": 0.5797753418283451,
+        "X": 0.2318200692030663,
+        "2": 0.18840458896858847
+      },
+      "percentages": {
+        "1": 58,
+        "X": 23,
+        "2": 19
+      },
+      "sign": "1",
+      "double": "1X",
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.1224208515156262
+        },
+        {
+          "score": "1-1",
+          "probability": 0.11018759479085558
+        },
+        {
+          "score": "2-0",
+          "probability": 0.10851084765791717
+        }
+      ]
+    },
+    {
+      "match": "Rayo – Elx",
+      "time": "2026-10-24T14:00:00+02:00",
+      "lambda_home": 1.686784188034188,
+      "lambda_away": 1.3453090659340659,
+      "probabilities": {
+        "1": 0.4555115315636956,
+        "X": 0.23778008681688284,
+        "2": 0.3067083816194216
+      },
+      "percentages": {
+        "1": 45,
+        "X": 24,
+        "2": 31
+      },
+      "sign": "1",
+      "double": "12",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.10941080699846806
+        },
+        {
+          "score": "2-1",
+          "probability": 0.09227620962253809
+        },
+        {
+          "score": "1-0",
+          "probability": 0.08132763672599105
+        }
+      ]
+    },
+    {
+      "match": "Racing – Espanyol",
+      "time": "2026-10-24T16:15:00+02:00",
+      "lambda_home": 1.542644230769231,
+      "lambda_away": 1.5196153846153844,
+      "probabilities": {
+        "1": 0.38493809576247906,
+        "X": 0.2401594932131244,
+        "2": 0.37490241102439664
+      },
+      "percentages": {
+        "1": 39,
+        "X": 24,
+        "2": 37
+      },
+      "sign": "1",
+      "double": "12",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.10966726378999625
+        },
+        {
+          "score": "2-1",
+          "probability": 0.08458878589494256
+        },
+        {
+          "score": "1-2",
+          "probability": 0.083326030621976
+        }
+      ]
+    },
+    {
+      "match": "València – Villarreal",
+      "time": "2026-10-24T18:30:00+02:00",
+      "lambda_home": 1.2292735042735041,
+      "lambda_away": 1.3269230769230769,
+      "probabilities": {
+        "1": 0.34387889898366364,
+        "X": 0.2661655407215121,
+        "2": 0.38995556029482437
+      },
+      "percentages": {
+        "1": 34,
+        "X": 27,
+        "2": 39
+      },
+      "sign": "2",
+      "double": "12",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.12657624220011024
+        },
+        {
+          "score": "0-1",
+          "probability": 0.1029683319131785
+        },
+        {
+          "score": "1-0",
+          "probability": 0.09539079122327147
+        }
+      ]
+    },
+    {
+      "match": "Atlètic de Madrid – Deportivo",
+      "time": "2026-10-24T21:00:00+02:00",
+      "lambda_home": 1.7845913461538463,
+      "lambda_away": 1.1020673076923078,
+      "probabilities": {
+        "1": 0.5335372885070019,
+        "X": 0.2327074802181175,
+        "2": 0.2337552312748806
+      },
+      "percentages": {
+        "1": 53,
+        "X": 23,
+        "2": 24
+      },
+      "sign": "1",
+      "double": "12",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.10966978134922578
+        },
+        {
+          "score": "1-0",
+          "probability": 0.09951277983090764
+        },
+        {
+          "score": "2-1",
+          "probability": 0.09785787136520639
+        }
+      ]
+    },
+    {
+      "match": "Athletic – Getafe",
+      "time": "2026-10-25T14:00:00+01:00",
+      "lambda_home": 1.3699759615384615,
+      "lambda_away": 0.8666826923076922,
+      "probabilities": {
+        "1": 0.48601443872212696,
+        "X": 0.27663874301884545,
+        "2": 0.2373468182590276
+      },
+      "percentages": {
+        "1": 48,
+        "X": 28,
+        "2": 24
+      },
+      "sign": "1",
+      "double": "1X",
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.14633372756943328
+        },
+        {
+          "score": "1-1",
+          "probability": 0.1268249089852968
+        },
+        {
+          "score": "0-0",
+          "probability": 0.10681481403885568
+        }
+      ]
+    },
+    {
+      "match": "Celta – Betis",
+      "time": "2026-10-25T16:15:00+01:00",
+      "lambda_home": 1.518170405982906,
+      "lambda_away": 1.1646153846153846,
+      "probabilities": {
+        "1": 0.45405741755548057,
+        "X": 0.25443958106518433,
+        "2": 0.2915030013793352
+      },
+      "percentages": {
+        "1": 45,
+        "X": 26,
+        "2": 29
+      },
+      "sign": "1",
+      "double": "12",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.12088821897659965
+        },
+        {
+          "score": "1-0",
+          "probability": 0.10380098062719917
+        },
+        {
+          "score": "2-1",
+          "probability": 0.09176445824112735
+        }
+      ]
+    },
+    {
+      "match": "Reial Societat – Llevant",
+      "time": "2026-10-25T18:30:00+01:00",
+      "lambda_home": 1.7705475427350428,
+      "lambda_away": 1.3482692307692308,
+      "probabilities": {
+        "1": 0.474553618235155,
+        "X": 0.23218091819957698,
+        "2": 0.293265463565268
+      },
+      "percentages": {
+        "1": 48,
+        "X": 23,
+        "2": 29
+      },
+      "sign": "1",
+      "double": "12",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.10553567728240684
+        },
+        {
+          "score": "2-1",
+          "probability": 0.09342796704162194
+        },
+        {
+          "score": "1-0",
+          "probability": 0.07827492823684432
+        }
+      ]
+    },
+    {
+      "match": "Barcelona – Real Madrid",
+      "time": "2026-10-25T21:00:00+01:00",
+      "lambda_home": 2.427139423076923,
+      "lambda_away": 1.3876442307692307,
+      "probabilities": {
+        "1": 0.6038634428682839,
+        "X": 0.18783779710951562,
+        "2": 0.20829876002220055
+      },
+      "percentages": {
+        "1": 60,
+        "X": 19,
+        "2": 21
+      },
+      "sign": "1",
+      "double": "12",
+      "top_scores": [
+        {
+          "score": "2-1",
+          "probability": 0.09009446215909087
+        },
+        {
+          "score": "1-1",
+          "probability": 0.07423921452759125
+        },
+        {
+          "score": "3-1",
+          "probability": 0.07289060696908051
+        }
+      ]
+    },
+    {
+      "match": "Sevilla – Osasuna",
+      "time": "2026-10-26T21:00:00+01:00",
+      "lambda_home": 1.8678846153846151,
+      "lambda_away": 1.2740624999999999,
+      "probabilities": {
+        "1": 0.513220597157736,
+        "X": 0.22598944194582177,
+        "2": 0.2607899608964423
+      },
+      "percentages": {
+        "1": 51,
+        "X": 23,
+        "2": 26
+      },
+      "sign": "1",
+      "double": "12",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.10280411140791855
+        },
+        {
+          "score": "2-1",
+          "probability": 0.09601310904856851
+        },
+        {
+          "score": "1-0",
+          "probability": 0.080690006501187
+        }
+      ]
+    },
+    {
+      "match": "Leganés – Mallorca",
+      "time": "2026-10-24T16:15:00+02:00",
+      "lambda_home": 0.9139384920634921,
+      "lambda_away": 1.1350446428571426,
+      "probabilities": {
+        "1": 0.2920647953785109,
+        "X": 0.3014811702169749,
+        "2": 0.40645403440451416
+      },
+      "percentages": {
+        "1": 29,
+        "X": 30,
+        "2": 41
+      },
+      "sign": "2",
+      "double": "X2",
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.1462685224224625
+        },
+        {
+          "score": "1-1",
+          "probability": 0.13368043281914044
+        },
+        {
+          "score": "0-0",
+          "probability": 0.1288658761952079
+        }
+      ]
+    },
+    {
+      "match": "Almeria – Oviedo",
+      "time": "2026-10-24T21:00:00+02:00",
+      "lambda_home": 1.670079365079365,
+      "lambda_away": 1.000357142857143,
+      "probabilities": {
+        "1": 0.5306298465492102,
+        "X": 0.24314013178283406,
+        "2": 0.22623002166795578
+      },
+      "percentages": {
+        "1": 53,
+        "X": 24,
+        "2": 23
+      },
+      "sign": "1",
+      "double": "1X",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.1156475263613169
+        },
+        {
+          "score": "1-0",
+          "probability": 0.11560623841902437
+        },
+        {
+          "score": "2-1",
+          "probability": 0.09657027369925363
+        }
+      ]
+    },
+    {
+      "match": "Sabadell – Tenerife",
+      "time": "2026-10-25T14:00:00+01:00",
+      "lambda_home": 1.4707589285714284,
+      "lambda_away": 1.0006696428571429,
+      "probabilities": {
+        "1": 0.48014382138527234,
+        "X": 0.26272117203476686,
+        "2": 0.25713500657996086
+      },
+      "percentages": {
+        "1": 48,
+        "X": 26,
+        "2": 26
+      },
+      "sign": "1",
+      "double": "1X",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.1243095308550869
+        },
+        {
+          "score": "1-0",
+          "probability": 0.12422634357144531
+        },
+        {
+          "score": "2-1",
+          "probability": 0.09141467620582226
+        }
+      ]
+    },
+    {
+      "match": "Logroño (F) – Badalona (F)",
+      "time": "2026-10-24T18:15:00+02:00",
+      "lambda_home": 1.4703125,
+      "lambda_away": 1.2732954545454545,
+      "probabilities": {
+        "1": 0.41782461447058244,
+        "X": 0.2543692339759394,
+        "2": 0.32780615155347825
+      },
+      "percentages": {
+        "1": 42,
+        "X": 25,
+        "2": 33
+      },
+      "sign": "1",
+      "double": "12",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.12044951150110314
+        },
+        {
+          "score": "1-0",
+          "probability": 0.0945966712369217
+        },
+        {
+          "score": "2-1",
+          "probability": 0.08854921118948286
+        }
+      ]
+    },
+    {
+      "match": "Deportivo (F) – Alabès (F)",
+      "time": "2026-10-25T12:45:00+01:00",
+      "lambda_home": 1.3498214285714287,
+      "lambda_away": 0.9283441558441559,
+      "probabilities": {
+        "1": 0.4650995071898711,
+        "X": 0.27716874815523845,
+        "2": 0.25773174465489057
+      },
+      "percentages": {
+        "1": 46,
+        "X": 28,
+        "2": 26
+      },
+      "sign": "1",
+      "double": "1X",
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.138318915818955
+        },
+        {
+          "score": "1-1",
+          "probability": 0.12840755714322663
+        },
+        {
+          "score": "0-0",
+          "probability": 0.10247201066095354
+        }
+      ]
+    },
+    {
+      "match": "Eibar (F) – Madrid CFF (F)",
+      "time": "2026-10-25T17:00:00+01:00",
+      "lambda_home": 1.5763839285714285,
+      "lambda_away": 1.190783279220779,
+      "probabilities": {
+        "1": 0.46278593942897855,
+        "X": 0.249161535091532,
+        "2": 0.28805252547948945
+      },
+      "percentages": {
+        "1": 46,
+        "X": 25,
+        "2": 29
+      },
+      "sign": "1",
+      "double": "12",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.11795850981316942
+        },
+        {
+          "score": "1-0",
+          "probability": 0.0990595953701657
+        },
+        {
+          "score": "2-1",
+          "probability": 0.0929739495538577
+        }
+      ]
+    },
+    {
+      "match": "Real Madrid (F) – Tenerife (F)",
+      "time": "2026-10-24T16:00:00+02:00",
+      "lambda_home": 1.8562500000000002,
+      "lambda_away": 1.3563920454545455,
+      "probabilities": {
+        "1": 0.4924351449297901,
+        "X": 0.22633916874020038,
+        "2": 0.2812256863300095
+      },
+      "percentages": {
+        "1": 49,
+        "X": 23,
+        "2": 28
+      },
+      "sign": "1",
+      "double": "12",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.1013418873582111
+        },
+        {
+          "score": "2-1",
+          "probability": 0.09405793920433969
+        },
+        {
+          "score": "1-0",
+          "probability": 0.07471430380163432
+        }
+      ]
+    }
+  ],
+  "official_coupon": {
+    "number": 16,
+    "verified_at": "2026-10-22T16:33:37+02:00",
+    "source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICI%C3%93N%20DE%20BOLETOS%20JORNADA%2016%20DE%20LA%20QUINIELA,%20ELIGE%208%20Y%2017%20DE%20EL%20QUINIGOL.zip",
+    "local_reference": "outputs/font_cupo_selae16_20261022.txt",
+    "document_sha256": "819a47ace24bde46634e12530f84dcf9a2301b1c726d43035968e5c1915abf24",
+    "deadline_source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/Aviso%20cierre%20La%20Quiniela%20jornada%2016%C2%AA%20y%20El%20QuiniGol%20jornada%2017%C2%AA%20de%2024%20-%2025%20de%20Octubre%20de%202026.pdf",
+    "deadline": "2026-10-24T14:00:00+02:00",
+    "match_indices": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "composition_note": "7 de Primera, 3 de Segona i 4 de Liga F. Ple al 15: Barcelona–Real Madrid. Alabès–Màlaga i Racing–Espanyol només entren a la previsió de Lliga.",
+    "pleno15": {
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "kickoff": "2026-10-25T21:00:00+01:00",
+      "probabilities": {
+        "0-0": 0.02204248274418856,
+        "0-1": 0.03058712401180358,
+        "0-2": 0.02122202308540112,
+        "0-M": 0.01443739941466262,
+        "1-0": 0.053500178850912856,
+        "1-1": 0.07423921452759125,
+        "1-2": 0.05150880886802562,
+        "1-M": 0.03504158128603534,
+        "2-0": 0.06492619661535841,
+        "2-1": 0.09009446215909087,
+        "2-2": 0.0625095303196596,
+        "2-M": 0.04252540169314546,
+        "M-0": 0.10919390204326256,
+        "M-1": 0.1515222882055138,
+        "M-2": 0.10512951453066693,
+        "M-M": 0.07151989164468145
+      }
+    }
+  },
+  "coupon": {
+    "complete": true,
+    "reason": "",
+    "matches": [
+      {
+        "home": "Rayo",
+        "away": "Elx"
+      },
+      {
+        "home": "València",
+        "away": "Villarreal"
+      },
+      {
+        "home": "Atlètic de Madrid",
+        "away": "Deportivo"
+      },
+      {
+        "home": "Athletic",
+        "away": "Getafe"
+      },
+      {
+        "home": "Celta",
+        "away": "Betis"
+      },
+      {
+        "home": "Reial Societat",
+        "away": "Llevant"
+      },
+      {
+        "home": "Sevilla",
+        "away": "Osasuna"
+      },
+      {
+        "home": "Leganés",
+        "away": "Mallorca"
+      },
+      {
+        "home": "Almeria",
+        "away": "Oviedo"
+      },
+      {
+        "home": "Sabadell",
+        "away": "Tenerife"
+      },
+      {
+        "home": "Logroño (F)",
+        "away": "Badalona (F)"
+      },
+      {
+        "home": "Deportivo (F)",
+        "away": "Alabès (F)"
+      },
+      {
+        "home": "Eibar (F)",
+        "away": "Madrid CFF (F)"
+      },
+      {
+        "home": "Real Madrid (F)",
+        "away": "Tenerife (F)"
+      }
+    ],
+    "columns": [
+      {
+        "signs": [
+          "1",
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "probability": 2.3359962321417575e-05
+      },
+      {
+        "signs": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "probability": 2.059977838837745e-05
+      },
+      {
+        "signs": [
+          "1",
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "1",
+          "1",
+          "2",
+          "1",
+          "1",
+          "1"
+        ],
+        "probability": 1.8327161885186858e-05
+      },
+      {
+        "signs": [
+          "1",
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "X",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "probability": 1.732690090578959e-05
+      }
+    ],
+    "coverage": 7.961380350077148e-05,
+    "objective": "all_signs",
+    "generated_from": "2026-10-22T16:33:37+02:00",
+    "condensed": {
+      "signs": [
+        "1",
+        "12",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "X2",
+        "1",
+        "1",
+        "12",
+        "1",
+        "1",
+        "1"
+      ],
+      "expanded_count": 8,
+      "additional_count": 4,
+      "exact": false
+    },
+    "pleno15": {
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "score": "M-1",
+      "probability": 0.1515222882055138
+    },
+    "deadline": "2026-10-24T14:00:00+02:00",
+    "source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICI%C3%93N%20DE%20BOLETOS%20JORNADA%2016%20DE%20LA%20QUINIELA,%20ELIGE%208%20Y%2017%20DE%20EL%20QUINIGOL.zip",
+    "published_at": "2026-10-22T14:42:28.090031+00:00"
+  },
+  "published_at": "2026-10-22T14:42:28.090031+00:00"
+}

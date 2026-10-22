@@ -1,6 +1,6 @@
 {
   "timezone": "Europe/Madrid",
-  "verified_at": "2026-10-20",
+  "verified_at": "2026-10-22",
   "execution_hour": 10,
   "mac_ready_minutes": 10,
   "rounds": [
@@ -52,10 +52,17 @@
       "number": 10,
       "first_match": "2026-10-23",
       "last_match": "2026-10-26",
-      "forecast_status": "pending",
+      "forecast_status": "completed",
       "review_status": "pending",
-      "source": "https://iaas-public-front-pro.laliga.com/noticias/horarios-de-la-decima-jornada-de-laliga-ea-sports-2026-27"
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10",
+      "forecast_actual_at": "2026-10-22T16:33:37+02:00",
+      "forecast_note": "Publicació confirmada el 22/10 a les 16:42 Europe/Madrid, amb retard respecte del 21/10 a les 10:00; abans del primer partit. Cupó SELAE 16 complet.",
+      "coupon_number": 16,
+      "coupon_first_match": "2026-10-24",
+      "coupon_last_match": "2026-10-26",
+      "coupon_deadline": "2026-10-24T14:00:00+02:00",
+      "forecast_published_at": "2026-10-22T14:42:28.090031+00:00"
     }
   ],
-  "checked_at": "2026-10-20T12:19:37.094851+02:00"
+  "checked_at": "2026-10-22T16:33:37+02:00"
 }

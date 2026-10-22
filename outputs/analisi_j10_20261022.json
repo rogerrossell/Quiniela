@@ -1,0 +1,1500 @@
+{
+  "forecast_version": "j10-20261022-cupo16",
+  "cutoff": "2026-10-22T16:33:37+02:00",
+  "late": true,
+  "planned_at": "2026-10-21T10:00:00+02:00",
+  "classification_sources": [
+    {
+      "name": "primera",
+      "url": "https://www.laliga.com/laliga-easports/clasificacion",
+      "sha256": "204740f11334a8752b52f16dd3acf8d1ea5ec49ff95f0c0b16e58f4accfac7ab",
+      "retrieved_at": "2026-10-22T14:25:33.186822+00:00",
+      "bytes": 1535595
+    },
+    {
+      "name": "segona",
+      "url": "https://www.laliga.com/laliga-hypermotion/clasificacion",
+      "sha256": "639fe6b3b37002fafd7c1bd487375664ac8295583b2092c290d91c127d68e202",
+      "retrieved_at": "2026-10-22T14:25:32.770847+00:00",
+      "bytes": 1663733
+    },
+    {
+      "name": "femenina",
+      "url": "https://www.laliga.com/futbol-femenino/clasificacion",
+      "sha256": "90697d2aaad4fec3a8e23ae74f44c359545bc5aa84c83ddc06c392ff22c56334",
+      "retrieved_at": "2026-10-22T14:25:32.664450+00:00",
+      "bytes": 1275243
+    }
+  ],
+  "matches": [
+    {
+      "home": "Alabès",
+      "away": "Màlaga",
+      "form": {
+        "home": [
+          {
+            "outcome": "L",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "L",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "D",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "L",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "L",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "D",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "L",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "D",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Lucas Boyé",
+            "goals": 5
+          },
+          {
+            "name": "Mariano",
+            "goals": 3
+          }
+        ],
+        "away": [
+          {
+            "name": "Niño",
+            "goals": 3
+          },
+          {
+            "name": "Dotor",
+            "goals": 1
+          }
+        ]
+      },
+      "context": "El Màlaga encara no ha guanyat en nou partits. Cap convocatòria definitiva verificada.",
+      "sources": [
+        "https://www.laliga.com/laliga-easports/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-malaga-cf-10"
+      ],
+      "source_snapshot_sha256": "10da37f2f0012172ff04dc6c0b9079daf1172638438d61cd64c8762465bdf6b3",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Rayo",
+      "away": "Elx",
+      "form": {
+        "home": [
+          {
+            "outcome": "D",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "D",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "W",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "L",
+            "week": 5,
+            "gameweek": "J5"
+          },
+          {
+            "outcome": "W",
+            "week": 4,
+            "gameweek": "J4"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "D",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "D",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "W",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "D",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Camello",
+            "goals": 7
+          },
+          {
+            "name": "Álvaro",
+            "goals": 3
+          }
+        ],
+        "away": [
+          {
+            "name": "F. Niño",
+            "goals": 5
+          },
+          {
+            "name": "Germán V.",
+            "goals": 1
+          }
+        ]
+      },
+      "context": "Rayo–Athletic de J8 continua suspès: no es compta com un empat esportiu. El Rayo ve de l’1–1 a Getafe del 19/10. Disponibilitat final dels davanters pendent.",
+      "sources": [
+        "https://www.laliga.com/laliga-easports/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-elche-cf-10"
+      ],
+      "source_snapshot_sha256": "2a6b510ed819390fd2aaaf6d68ce5cddfa0035af9024ccd35a0782986868412f",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Racing",
+      "away": "Espanyol",
+      "form": {
+        "home": [
+          {
+            "outcome": "L",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "D",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "L",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "W",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "L",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "D",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "L",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "W",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Zabiri",
+            "goals": 7
+          },
+          {
+            "name": "Pablo G.",
+            "goals": 2
+          }
+        ],
+        "away": [
+          {
+            "name": "Roberto",
+            "goals": 6
+          },
+          {
+            "name": "Dolan",
+            "goals": 1
+          }
+        ]
+      },
+      "context": "Tots dos encadenen quatre partits de lliga sense guanyar. No hi ha una comprovació completa de lesions i minuts internacionals al tall.",
+      "sources": [
+        "https://www.laliga.com/laliga-easports/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-rcd-espanyol-de-barcelona-10"
+      ],
+      "source_snapshot_sha256": "f4ddaf4a8e262d664be3f5e04ef256a340d9af6274f5c43d8683259eb9ca1fb1",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "València",
+      "away": "Villarreal",
+      "form": {
+        "home": [
+          {
+            "outcome": "D",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "D",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "L",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "W",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "L",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "D",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "L",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "W",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "W",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "L",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Sadiq",
+            "goals": 1
+          },
+          {
+            "name": "Raba",
+            "goals": 1
+          }
+        ],
+        "away": [
+          {
+            "name": "Gueye",
+            "goals": 3
+          },
+          {
+            "name": "Gerard",
+            "goals": 2
+          }
+        ]
+      },
+      "context": "València té sis gols en nou partits. La poca producció ofensiva pesa en el model; el derbi no rep cap coeficient especial sense validar.",
+      "sources": [
+        "https://www.laliga.com/laliga-easports/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-villarreal-cf-10"
+      ],
+      "source_snapshot_sha256": "9a684c8385809bce22f9fd684f8451d29b7e376399dfa6e263c6be7d17097311",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Atlètic de Madrid",
+      "away": "Deportivo",
+      "form": {
+        "home": [
+          {
+            "outcome": "W",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "W",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "W",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "W",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "W",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "D",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "L",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "D",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "D",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Álex B.",
+            "goals": 5
+          },
+          {
+            "name": "Grimaldo",
+            "goals": 3
+          }
+        ],
+        "away": [
+          {
+            "name": "Aubameyang",
+            "goals": 5
+          },
+          {
+            "name": "Eddahchouri",
+            "goals": 1
+          }
+        ]
+      },
+      "context": "L’Atlètic encadena cinc victòries de lliga. Va empatar 1–1 a Stuttgart el 20/10, amb gol de Julián Álvarez: càrrega i viatge entre setmana. L’expulsió europea de Hjulmand no equival a una sanció de Lliga. SER del 19/10 assenyala Aubameyang i Eddahchouri lesionats; convocatòria pendent.",
+      "sources": [
+        "https://www.laliga.com/laliga-easports/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-rc-deportivo-10",
+        "https://en.atleticodemadrid.com/postpartidos/vfb-stuttgart-atletico-de-madrid-20-10-2026-21-00-2",
+        "https://cadenaser.com/nacional/2026/10/19/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-10-y-posibles-sustitutos-cadena-ser/"
+      ],
+      "source_snapshot_sha256": "24d191de47954c73f0759245187d61042dd1794760f6ffa1915977cfe08f7e4b",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Athletic",
+      "away": "Getafe",
+      "form": {
+        "home": [
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "D",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "D",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "D",
+            "week": 5,
+            "gameweek": "J5"
+          },
+          {
+            "outcome": "W",
+            "week": 4,
+            "gameweek": "J4"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "D",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "L",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "W",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "D",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Berenguer",
+            "goals": 2
+          },
+          {
+            "name": "Navarro",
+            "goals": 2
+          }
+        ],
+        "away": [
+          {
+            "name": "Satriano",
+            "goals": 2
+          },
+          {
+            "name": "Enes Ünal",
+            "goals": 1
+          }
+        ]
+      },
+      "context": "L’Athletic va perdre 3–1 al camp del Llevant el 21/10: aquest resultat ja entra a la classificació i a la forma. Nico Williams hi va participar; això no confirma la seva disponibilitat del 25/10. SER del 20/10 informa de l’absència de Guruzeta. Djené té un partit de suspensió segons la resolució RFEF del 21/10. El Getafe té partit europeu el 22/10, pendent al tall; risc de rotació sense quantificar.",
+      "sources": [
+        "https://www.laliga.com/laliga-easports/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-getafe-cf-10",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6",
+        "https://cadenaser.com/euskadi/2026/10/20/el-athletic-busca-sustituto-para-guruzeta-tenemos-que-encontrar-a-alguien-que-asuma-esta-responsabilidad-pero-tambien-adaptarnos-todos-radio-bilbao/",
+        "https://rfef.es/sites/default/files/sanciones/Primera_Division_J9.pdf?cb=3ac6edbd"
+      ],
+      "source_snapshot_sha256": "d0c7e082b193af591aec286deebca3b18d2b9620bfbfa6a459e73c9bfe78ad03",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Celta",
+      "away": "Betis",
+      "form": {
+        "home": [
+          {
+            "outcome": "W",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "D",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "W",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "D",
+            "week": 5,
+            "gameweek": "J5"
+          },
+          {
+            "outcome": "D",
+            "week": 4,
+            "gameweek": "J4"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "L",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "W",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "D",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "W",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "W",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Jutgla",
+            "goals": 2
+          },
+          {
+            "name": "P. Durán",
+            "goals": 2
+          }
+        ],
+        "away": [
+          {
+            "name": "Ez Abde",
+            "goals": 3
+          },
+          {
+            "name": "Isco",
+            "goals": 2
+          }
+        ]
+      },
+      "context": "Borja Iglesias continua lesionat, segons declaracions de Garcés recollides per SER el 21/10. El Betis comunica una lesió muscular de Cucho Hernández, sense data d’alta confirmada. Facundo Bernal té quatre partits de suspensió RFEF. El Celta juga a Glasgow el 22/10; al tall no hi ha resultat ni incidències finals. Descans menor que el Betis, que va jugar el 21/10: possible impacte encara no calibrat.",
+      "sources": [
+        "https://www.laliga.com/laliga-easports/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-real-betis-10",
+        "https://cadenaser.com/galicia/2026/10/21/garces-descarta-fichar-un-delantero-en-invierno-necesitamos-mucho-a-borja-y-volvera-pronto-radio-vigo/",
+        "https://www.realbetisbalompie.es/noticias/actualidad/parte-medico-de-cucho-hernandez-32758",
+        "https://rfef.es/sites/default/files/sanciones/Primera_Division_J9.pdf?cb=3ac6edbd"
+      ],
+      "source_snapshot_sha256": "be338a47f96a0cef845991011595a8b74cab259211715901c2e210ec9a61f7c1",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Reial Societat",
+      "away": "Llevant",
+      "form": {
+        "home": [
+          {
+            "outcome": "W",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "W",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "W",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 5,
+            "gameweek": "J5"
+          },
+          {
+            "outcome": "W",
+            "week": 4,
+            "gameweek": "J4"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "W",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "D",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "D",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "L",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Sucic",
+            "goals": 3
+          },
+          {
+            "name": "Oyarzabal",
+            "goals": 2
+          }
+        ],
+        "away": [
+          {
+            "name": "R. Brugué",
+            "goals": 5
+          },
+          {
+            "name": "I. Romero",
+            "goals": 3
+          }
+        ]
+      },
+      "context": "La Real juga al camp del Lillestrøm el 22/10 a les 21:00, encara pendent al tall. El Llevant ve de guanyar 3–1 a l’Athletic el 21/10, amb dos gols de Brugué. Viatge europeu i menys de tres dies de recuperació de la Real: context de rotació, sense penalització numèrica inventada.",
+      "sources": [
+        "https://www.laliga.com/laliga-easports/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-levante-ud-10",
+        "https://www.realsociedad.eus/es/noticias/detalle/obligaciones-europeas",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6"
+      ],
+      "source_snapshot_sha256": "687d0762e4e2f16b97336c521ae4cd37e6ef6e42ae6ace61873e8c315d19e5fa",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "form": {},
+      "scoring_leaders": {
+        "home": [],
+        "away": []
+      },
+      "context": "Barça: nou victòries de lliga i 39–9 en gols; Madrid: 23–9. Eric Garcia està lesionat (estimació del club de tres a quatre setmanes el 18/10); Kounde és dubte segons evolució, sense alta verificada. Vinícius compleix sanció de Lliga: Apel·lació va confirmar quatre partits el 16/10; jugar contra Leipzig no l’habilita per al Clàssic. Barça: derrota 4–2 a París el 20/10; Madrid: victòria 4–1 davant Leipzig el 21/10. Les probabilitats del Ple són categories 0/1/2/M, no un marcador exacte de 3 gols.",
+      "sources": [
+        "https://www.laliga.com/laliga-easports/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
+        "https://www.fcbarcelona.com/en/football/first-team/news/4594024/medical-updates-on-eric-and-kounde",
+        "https://rfef.es/sites/default/files/sanciones/20261016_Comunicado_Comite_de_Apelacion.pdf?cb=d17124c8",
+        "https://www.psg.fr/en/content/paris-triumph-in-instant-classic-match-report-paris-saint-germain-fc-barcelona-uefa-champions-league-2026-2027",
+        "https://www.realmadrid.com/es-ES/futbol/partidos/champions-league/real-madrid-rb-leipzig/21-10-2026"
+      ],
+      "source_snapshot_sha256": "1c1da3efbe638274ff7fedaf55f87e1f7f1e6963bb749186ecc4b2f8e5e481e7",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "form": {
+        "home": [
+          {
+            "outcome": "L",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "D",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "L",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "W",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "W",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "W",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "L",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "D",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "L",
+            "week": 5,
+            "gameweek": "J5"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Isaac",
+            "goals": 2
+          },
+          {
+            "name": "Miguel Sierra",
+            "goals": 2
+          }
+        ],
+        "away": [
+          {
+            "name": "Budimir",
+            "goals": 7
+          },
+          {
+            "name": "Kike Barja",
+            "goals": 1
+          }
+        ]
+      },
+      "context": "Sevilla va perdre 4–1 al Bernabéu; Osasuna va guanyar 2–0 al Racing. Mostres petites a cada seu i convocatòries encara no definitives.",
+      "sources": [
+        "https://www.laliga.com/laliga-easports/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10"
+      ],
+      "source_snapshot_sha256": "b16214d3bdb4d2c9946fd8617efdb460dfd8ca6e7bd536194fd119d6a3237001",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Leganés",
+      "away": "Mallorca",
+      "form": {
+        "home": [
+          {
+            "outcome": "L",
+            "week": 10,
+            "gameweek": "J10"
+          },
+          {
+            "outcome": "L",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "L",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "L",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "W",
+            "week": 6,
+            "gameweek": "J6"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "D",
+            "week": 10,
+            "gameweek": "J10"
+          },
+          {
+            "outcome": "W",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "D",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "L",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "W",
+            "week": 6,
+            "gameweek": "J6"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "I.gharbi",
+            "goals": 2
+          },
+          {
+            "name": "Naim",
+            "goals": 2
+          }
+        ],
+        "away": [
+          {
+            "name": "Fuentes",
+            "goals": 6
+          },
+          {
+            "name": "Pablo Torre",
+            "goals": 2
+          }
+        ]
+      },
+      "context": "Leganés arriba amb quatre derrotes seguides i sis gols en deu partits; Mallorca ha encaixat cinc gols en deu. RFEF: Morata (Leganés) i Nwankwo Donald (Mallorca), un partit de suspensió cadascun. No es converteix una amonestació aïllada en una baixa.",
+      "sources": [
+        "https://www.laliga.com/laliga-hypermotion/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-cd-leganes-rcd-mallorca-11",
+        "https://rfef.es/sites/default/files/sanciones/Segunda_Division_J10.pdf?cb=ffa71a05"
+      ],
+      "source_snapshot_sha256": "bf6b419bf52ed7ae4af1ec212dfb5727f6a0307d40cea8241f501d3fed18762c",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Almeria",
+      "away": "Oviedo",
+      "form": {
+        "home": [
+          {
+            "outcome": "W",
+            "week": 10,
+            "gameweek": "J10"
+          },
+          {
+            "outcome": "W",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "W",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "W",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "W",
+            "week": 6,
+            "gameweek": "J6"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "W",
+            "week": 10,
+            "gameweek": "J10"
+          },
+          {
+            "outcome": "W",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "L",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "W",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Miguel",
+            "goals": 6
+          },
+          {
+            "name": "B. Cipenga",
+            "goals": 3
+          }
+        ],
+        "away": [
+          {
+            "name": "Carlos D.",
+            "goals": 4
+          },
+          {
+            "name": "Pablo S.",
+            "goals": 2
+          }
+        ]
+      },
+      "context": "Almeria encadena cinc victòries; Oviedo, dues. Carlos Domínguez (Oviedo) té un partit de suspensió per acumulació segons RFEF. El golejador Carlos D. és un jugador diferent; no es confonen els noms abreujats.",
+      "sources": [
+        "https://www.laliga.com/laliga-hypermotion/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-ud-almeria-real-oviedo-11",
+        "https://rfef.es/sites/default/files/sanciones/Segunda_Division_J10.pdf?cb=ffa71a05"
+      ],
+      "source_snapshot_sha256": "ed0f71b070078208bc0214a523cf4c9be5e074206f7fa0a38e073f655e9b677b",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Sabadell",
+      "away": "Tenerife",
+      "form": {
+        "home": [
+          {
+            "outcome": "L",
+            "week": 10,
+            "gameweek": "J10"
+          },
+          {
+            "outcome": "W",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "D",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "D",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "W",
+            "week": 6,
+            "gameweek": "J6"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "D",
+            "week": 10,
+            "gameweek": "J10"
+          },
+          {
+            "outcome": "D",
+            "week": 9,
+            "gameweek": "J9"
+          },
+          {
+            "outcome": "L",
+            "week": 8,
+            "gameweek": "J8"
+          },
+          {
+            "outcome": "D",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Gioacchini",
+            "goals": 3
+          },
+          {
+            "name": "Baena",
+            "goals": 3
+          }
+        ],
+        "away": [
+          {
+            "name": "Enric Gallego",
+            "goals": 6
+          },
+          {
+            "name": "Nacho Gil",
+            "goals": 1
+          }
+        ]
+      },
+      "context": "Sabadell ve d’una derrota; Tenerife suma cinc partits sense guanyar. Es pren la classificació actual de deu partits: una fitxa indexada antiga del Tenerife encara en mostrava nou. Sense confirmació completa de lesions i convocatòries.",
+      "sources": [
+        "https://www.laliga.com/laliga-hypermotion/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-ce-sabadell-cd-tenerife-11",
+        "https://rfef.es/sites/default/files/sanciones/Segunda_Division_J10.pdf?cb=ffa71a05"
+      ],
+      "source_snapshot_sha256": "97b4127d4aa7bab6abec06b3319bc7b1fb754aa2533bab92ac9a8420c0b35298",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Logroño (F)",
+      "away": "Badalona (F)",
+      "form": {
+        "home": [
+          {
+            "outcome": "L",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "L",
+            "week": 5,
+            "gameweek": "J5"
+          },
+          {
+            "outcome": "L",
+            "week": 4,
+            "gameweek": "J4"
+          },
+          {
+            "outcome": "W",
+            "week": 3,
+            "gameweek": "J3"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "L",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "D",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "L",
+            "week": 5,
+            "gameweek": "J5"
+          },
+          {
+            "outcome": "D",
+            "week": 4,
+            "gameweek": "J4"
+          },
+          {
+            "outcome": "W",
+            "week": 3,
+            "gameweek": "J3"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Isina",
+            "goals": 2
+          },
+          {
+            "name": "Cristina Redondo",
+            "goals": 2
+          }
+        ],
+        "away": [
+          {
+            "name": "Sheila Guijarro",
+            "goals": 2
+          },
+          {
+            "name": "Irina Uribe",
+            "goals": 2
+          }
+        ]
+      },
+      "context": "Tots dos equips tenen mostres de només set partits. La resolució RFEF de J7 s’ha revisat; cap suspensió nova d’aquests equips hi consta. Això no certifica absència de lesions ni d’altres sancions anteriors.",
+      "sources": [
+        "https://www.laliga.com/futbol-femenino/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-dux-logrono-fc-badalona-women-8",
+        "https://rfef.es/sites/default/files/sanciones/Primera_Division_FF_-_J7.pdf?cb=d4309648"
+      ],
+      "source_snapshot_sha256": "cd680e547971d2c430afb2c8a3986f4aadadd8785d78b476fcb261939eb031f9",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Deportivo (F)",
+      "away": "Alabès (F)",
+      "form": {
+        "home": [
+          {
+            "outcome": "W",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "D",
+            "week": 5,
+            "gameweek": "J5"
+          },
+          {
+            "outcome": "W",
+            "week": 4,
+            "gameweek": "J4"
+          },
+          {
+            "outcome": "L",
+            "week": 3,
+            "gameweek": "J3"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "D",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "L",
+            "week": 5,
+            "gameweek": "J5"
+          },
+          {
+            "outcome": "L",
+            "week": 4,
+            "gameweek": "J4"
+          },
+          {
+            "outcome": "W",
+            "week": 3,
+            "gameweek": "J3"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Millene Cabral",
+            "goals": 4
+          },
+          {
+            "name": "Espe Pizarro",
+            "goals": 1
+          }
+        ],
+        "away": [
+          {
+            "name": "Ainhoa Guallar",
+            "goals": 3
+          },
+          {
+            "name": "Kumba Brima",
+            "goals": 1
+          }
+        ]
+      },
+      "context": "Deportivo arriba de guanyar 0–1 a Eibar; Alabès, d’empatar 0–0 amb Granada. Cap suspensió nova d’aquests equips a la resolució RFEF de J7; lesions i convocatòries no verificades de manera completa.",
+      "sources": [
+        "https://www.laliga.com/futbol-femenino/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-deportivo-abanca-deportivo-alaves-8",
+        "https://rfef.es/sites/default/files/sanciones/Primera_Division_FF_-_J7.pdf?cb=d4309648"
+      ],
+      "source_snapshot_sha256": "b33168068b95722005395f76f61fd191c42f220d6794e93400039253f29a68aa",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Eibar (F)",
+      "away": "Madrid CFF (F)",
+      "form": {
+        "home": [
+          {
+            "outcome": "L",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "D",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "W",
+            "week": 5,
+            "gameweek": "J5"
+          },
+          {
+            "outcome": "W",
+            "week": 4,
+            "gameweek": "J4"
+          },
+          {
+            "outcome": "L",
+            "week": 3,
+            "gameweek": "J3"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "L",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "D",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "W",
+            "week": 5,
+            "gameweek": "J5"
+          },
+          {
+            "outcome": "L",
+            "week": 4,
+            "gameweek": "J4"
+          },
+          {
+            "outcome": "W",
+            "week": 3,
+            "gameweek": "J3"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Ángeles del Álamo",
+            "goals": 1
+          },
+          {
+            "name": "Carmen Álvarez",
+            "goals": 1
+          }
+        ],
+        "away": [
+          {
+            "name": "Sakina Ouzraoui Diki",
+            "goals": 3
+          },
+          {
+            "name": "Emilie Holt",
+            "goals": 2
+          }
+        ]
+      },
+      "context": "Tots dos venen de perdre i tenen nou punts. Sis gols a favor d’Eibar en set partits; onze del Madrid CFF. Cap suspensió nova d’aquests equips a la resolució RFEF de J7; disponibilitat completa pendent.",
+      "sources": [
+        "https://www.laliga.com/futbol-femenino/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-sd-eibar-madrid-cff-8",
+        "https://rfef.es/sites/default/files/sanciones/Primera_Division_FF_-_J7.pdf?cb=d4309648"
+      ],
+      "source_snapshot_sha256": "51efbafbe5042ee48e7170de30e3ea715dcc8daebb6a4c42e9ab63618ff8f289",
+      "quantitative_manual_adjustment_applied": false
+    },
+    {
+      "home": "Real Madrid (F)",
+      "away": "Tenerife (F)",
+      "form": {
+        "home": [
+          {
+            "outcome": "W",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "L",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "W",
+            "week": 5,
+            "gameweek": "J5"
+          },
+          {
+            "outcome": "W",
+            "week": 4,
+            "gameweek": "J4"
+          },
+          {
+            "outcome": "W",
+            "week": 3,
+            "gameweek": "J3"
+          }
+        ],
+        "away": [
+          {
+            "outcome": "W",
+            "week": 7,
+            "gameweek": "J7"
+          },
+          {
+            "outcome": "W",
+            "week": 6,
+            "gameweek": "J6"
+          },
+          {
+            "outcome": "W",
+            "week": 5,
+            "gameweek": "J5"
+          },
+          {
+            "outcome": "L",
+            "week": 4,
+            "gameweek": "J4"
+          },
+          {
+            "outcome": "D",
+            "week": 3,
+            "gameweek": "J3"
+          }
+        ]
+      },
+      "scoring_leaders": {
+        "home": [
+          {
+            "name": "Felicia Schröder",
+            "goals": 6
+          },
+          {
+            "name": "Sara Däbritz",
+            "goals": 3
+          }
+        ],
+        "away": [
+          {
+            "name": "Carlota Suárez",
+            "goals": 3
+          },
+          {
+            "name": "Elba Vergés",
+            "goals": 2
+          }
+        ]
+      },
+      "context": "Tenerife arriba amb tres victòries seguides, però Patricia Gavira i Henar Muíña tenen un partit de suspensió cadascuna segons RFEF del 21/10. No es traslladen les dades ni els golejadors de l’equip masculí. Convocatòries i càrrega europea femenina incompletes.",
+      "sources": [
+        "https://www.laliga.com/futbol-femenino/clasificacion",
+        "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-real-madrid-cf-costa-adeje-tenerife-8",
+        "https://rfef.es/sites/default/files/sanciones/Primera_Division_FF_-_J7.pdf?cb=d4309648"
+      ],
+      "source_snapshot_sha256": "f4118f943130fda6858ed3dab89430a091ce7cb4d77722d9d84c36704c83d0a2",
+      "quantitative_manual_adjustment_applied": false
+    }
+  ],
+  "known_gaps": [
+    "Sense xG homogeni ni ajust de força dels rivals.",
+    "Convocatòries definitives i minuts de tots els jugadors no disponibles.",
+    "Europa del 22/10 pendent al tall; cap resultat futur inventat.",
+    "Absència de suspensió nova en una resolució no equival a disponibilitat completa.",
+    "Mateix prior exploratori a Liga F; cap millora validada després de J9."
+  ],
+  "objective": "Les quatre columnes diferents amb probabilitat conjunta de 14 signes més alta sota independència; Ple separat. No s’optimitza qualsevol premi ni rendibilitat."
+}

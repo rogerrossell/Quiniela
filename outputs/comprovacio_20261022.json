@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-22T16:33:37+02:00",
+  "status": "forecast_published",
+  "round": 10,
+  "version": "j10-20261022-cupo16",
+  "official_coupon": 16,
+  "sporting_forecasts": 17,
+  "official_signs": 14,
+  "deadline": "2026-10-24T14:00:00+02:00",
+  "first_game": "2026-10-23T21:00:00+02:00",
+  "previous_rounds_unchanged": true,
+  "j8_pending_sporting_match": "Rayo–Athletic continua SUSP a la taula oficial de J8; no confondre amb Llevant–Athletic de J6, jugat el 21/10.",
+  "sources": [
+    "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICI%C3%93N%20DE%20BOLETOS%20JORNADA%2016%20DE%20LA%20QUINIELA,%20ELIGE%208%20Y%2017%20DE%20EL%20QUINIGOL.zip",
+    "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/Aviso%20cierre%20La%20Quiniela%20jornada%2016%C2%AA%20y%20El%20QuiniGol%20jornada%2017%C2%AA%20de%2024%20-%2025%20de%20Octubre%20de%202026.pdf",
+    "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8",
+    "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6"
+  ],
+  "first_published_at": "2026-10-22T14:42:28.090031+00:00"
+}

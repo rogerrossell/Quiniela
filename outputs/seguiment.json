@@ -1,7 +1,1090 @@
 {
-  "updated": "2026-10-20T12:19:37.094851+02:00",
+  "updated": "2026-10-22T16:33:37+02:00",
   "automation_note": "Revisió diària activada a Codex; necessita que l’entorn local estigui disponible. Aquest web és una instantània, no un marcador en directe.",
   "rounds": [
+    {
+      "number": 10,
+      "label": "Previsió · cupó SELAE 16 complet",
+      "period": "23–26 d’octubre de 2026",
+      "forecast_at": "2026-10-22T16:33:37+02:00",
+      "forecast_version": "j10-20261022-cupo16",
+      "model": "0.1",
+      "warning": "Previsió recuperada el 22/10, amb retard respecte del 21/10 a les 10:00; abans de tots els partits i del tancament. Model experimental sense calibratge suficient. Forma, golejadors, lesions, sancions i descans documentats com a context; no hi ha pesos individuals validats ni ajustos manuals. Convocatòries, xG i càrrega de totes les competicions incomplets; encara hi ha partits europeus pendents el 22/10. Liga F sense calibratge específic.",
+      "coupon_note": "7 de Primera, 3 de Segona i 4 de Liga F. Ple al 15: Barcelona–Real Madrid. Alabès–Màlaga i Racing–Espanyol només entren a la previsió de Lliga.",
+      "matches": [
+        {
+          "home": "Alabès",
+          "away": "Màlaga",
+          "kickoff": "2026-10-23T21:00:00+02:00",
+          "forecast": {
+            "match": "Alabès – Màlaga",
+            "time": "2026-10-23T21:00:00+02:00",
+            "lambda_home": 1.772751068376068,
+            "lambda_away": 0.9000721153846154,
+            "probabilities": {
+              "1": 0.5797753418283451,
+              "X": 0.2318200692030663,
+              "2": 0.18840458896858847
+            },
+            "percentages": {
+              "1": 58,
+              "X": 23,
+              "2": 19
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "1-0",
+                "probability": 0.1224208515156262
+              },
+              {
+                "score": "1-1",
+                "probability": 0.11018759479085558
+              },
+              {
+                "score": "2-0",
+                "probability": 0.10851084765791717
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Alabès: 13–10 en 9 partits; a casa 10–5 en 5. Màlaga: 6–18 en 9; fora 1–8 en 4. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Alabès DDEDD; Màlaga DEDDE. Golejadors de lliga: Alabès: Lucas Boyé (5), Mariano (3); Màlaga: Niño (3), Dotor (1). El Màlaga encara no ha guanyat en nou partits. Cap convocatòria definitiva verificada. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-malaga-cf-10"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Rayo",
+          "away": "Elx",
+          "kickoff": "2026-10-24T14:00:00+02:00",
+          "forecast": {
+            "match": "Rayo – Elx",
+            "time": "2026-10-24T14:00:00+02:00",
+            "lambda_home": 1.686784188034188,
+            "lambda_away": 1.3453090659340659,
+            "probabilities": {
+              "1": 0.4555115315636956,
+              "X": 0.23778008681688284,
+              "2": 0.3067083816194216
+            },
+            "percentages": {
+              "1": 45,
+              "X": 24,
+              "2": 31
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.10941080699846806
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09227620962253809
+              },
+              {
+                "score": "1-0",
+                "probability": 0.08132763672599105
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Rayo: 12–17 en 8 partits; a casa 6–4 en 3. Elx: 11–17 en 9; fora 7–6 en 5. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Rayo EEVDV; Elx EEVDE. Golejadors de lliga: Rayo: Camello (7), Álvaro (3); Elx: F. Niño (5), Germán V. (1). Rayo–Athletic de J8 continua suspès: no es compta com un empat esportiu. El Rayo ve de l’1–1 a Getafe del 19/10. Disponibilitat final dels davanters pendent. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-elche-cf-10"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Racing",
+          "away": "Espanyol",
+          "kickoff": "2026-10-24T16:15:00+02:00",
+          "forecast": {
+            "match": "Racing – Espanyol",
+            "time": "2026-10-24T16:15:00+02:00",
+            "lambda_home": 1.542644230769231,
+            "lambda_away": 1.5196153846153844,
+            "probabilities": {
+              "1": 0.38493809576247906,
+              "X": 0.2401594932131244,
+              "2": 0.37490241102439664
+            },
+            "percentages": {
+              "1": 39,
+              "X": 24,
+              "2": 37
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.10966726378999625
+              },
+              {
+                "score": "2-1",
+                "probability": 0.08458878589494256
+              },
+              {
+                "score": "1-2",
+                "probability": 0.083326030621976
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Racing: 13–25 en 9 partits; a casa 9–7 en 4. Espanyol: 11–12 en 9; fora 5–5 en 4. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Racing DEDDV; Espanyol DEDDV. Golejadors de lliga: Racing: Zabiri (7), Pablo G. (2); Espanyol: Roberto (6), Dolan (1). Tots dos encadenen quatre partits de lliga sense guanyar. No hi ha una comprovació completa de lesions i minuts internacionals al tall. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-rcd-espanyol-de-barcelona-10"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "València",
+          "away": "Villarreal",
+          "kickoff": "2026-10-24T18:30:00+02:00",
+          "forecast": {
+            "match": "València – Villarreal",
+            "time": "2026-10-24T18:30:00+02:00",
+            "lambda_home": 1.2292735042735041,
+            "lambda_away": 1.3269230769230769,
+            "probabilities": {
+              "1": 0.34387889898366364,
+              "X": 0.2661655407215121,
+              "2": 0.38995556029482437
+            },
+            "percentages": {
+              "1": 34,
+              "X": 27,
+              "2": 39
+            },
+            "sign": "2",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12657624220011024
+              },
+              {
+                "score": "0-1",
+                "probability": 0.1029683319131785
+              },
+              {
+                "score": "1-0",
+                "probability": 0.09539079122327147
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "València: 6–15 en 9 partits; a casa 2–9 en 5. Villarreal: 13–13 en 9; fora 7–7 en 5. Forma de lliga, més recent primer (V victòria, E empat, D derrota): València EEDVD; Villarreal EDVVD. Golejadors de lliga: València: Sadiq (1), Raba (1); Villarreal: Gueye (3), Gerard (2). València té sis gols en nou partits. La poca producció ofensiva pesa en el model; el derbi no rep cap coeficient especial sense validar. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-villarreal-cf-10"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Atlètic de Madrid",
+          "away": "Deportivo",
+          "kickoff": "2026-10-24T21:00:00+02:00",
+          "forecast": {
+            "match": "Atlètic de Madrid – Deportivo",
+            "time": "2026-10-24T21:00:00+02:00",
+            "lambda_home": 1.7845913461538463,
+            "lambda_away": 1.1020673076923078,
+            "probabilities": {
+              "1": 0.5335372885070019,
+              "X": 0.2327074802181175,
+              "2": 0.2337552312748806
+            },
+            "percentages": {
+              "1": 53,
+              "X": 23,
+              "2": 24
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.10966978134922578
+              },
+              {
+                "score": "1-0",
+                "probability": 0.09951277983090764
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09785787136520639
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Atlètic de Madrid: 19–8 en 9 partits; a casa 10–3 en 4. Deportivo: 13–12 en 9; fora 7–7 en 4. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Atlètic de Madrid VVVVV; Deportivo EDEDE. Golejadors de lliga: Atlètic de Madrid: Álex B. (5), Grimaldo (3); Deportivo: Aubameyang (5), Eddahchouri (1). L’Atlètic encadena cinc victòries de lliga. Va empatar 1–1 a Stuttgart el 20/10, amb gol de Julián Álvarez: càrrega i viatge entre setmana. L’expulsió europea de Hjulmand no equival a una sanció de Lliga. SER del 19/10 assenyala Aubameyang i Eddahchouri lesionats; convocatòria pendent. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-rc-deportivo-10",
+            "https://en.atleticodemadrid.com/postpartidos/vfb-stuttgart-atletico-de-madrid-20-10-2026-21-00-2",
+            "https://cadenaser.com/nacional/2026/10/19/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-10-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Athletic",
+          "away": "Getafe",
+          "kickoff": "2026-10-25T14:00:00+01:00",
+          "forecast": {
+            "match": "Athletic – Getafe",
+            "time": "2026-10-25T14:00:00+01:00",
+            "lambda_home": 1.3699759615384615,
+            "lambda_away": 0.8666826923076922,
+            "probabilities": {
+              "1": 0.48601443872212696,
+              "X": 0.27663874301884545,
+              "2": 0.2373468182590276
+            },
+            "percentages": {
+              "1": 48,
+              "X": 28,
+              "2": 24
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "1-0",
+                "probability": 0.14633372756943328
+              },
+              {
+                "score": "1-1",
+                "probability": 0.1268249089852968
+              },
+              {
+                "score": "0-0",
+                "probability": 0.10681481403885568
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Athletic: 8–9 en 8 partits; a casa 5–4 en 4. Getafe: 5–11 en 9; fora 0–8 en 4. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Athletic DEEEV; Getafe EDVDE. Golejadors de lliga: Athletic: Berenguer (2), Navarro (2); Getafe: Satriano (2), Enes Ünal (1). L’Athletic va perdre 3–1 al camp del Llevant el 21/10: aquest resultat ja entra a la classificació i a la forma. Nico Williams hi va participar; això no confirma la seva disponibilitat del 25/10. SER del 20/10 informa de l’absència de Guruzeta. Djené té un partit de suspensió segons la resolució RFEF del 21/10. El Getafe té partit europeu el 22/10, pendent al tall; risc de rotació sense quantificar. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-getafe-cf-10",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6",
+            "https://cadenaser.com/euskadi/2026/10/20/el-athletic-busca-sustituto-para-guruzeta-tenemos-que-encontrar-a-alguien-que-asuma-esta-responsabilidad-pero-tambien-adaptarnos-todos-radio-bilbao/",
+            "https://rfef.es/sites/default/files/sanciones/Primera_Division_J9.pdf?cb=3ac6edbd"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Celta",
+          "away": "Betis",
+          "kickoff": "2026-10-25T16:15:00+01:00",
+          "forecast": {
+            "match": "Celta – Betis",
+            "time": "2026-10-25T16:15:00+01:00",
+            "lambda_home": 1.518170405982906,
+            "lambda_away": 1.1646153846153846,
+            "probabilities": {
+              "1": 0.45405741755548057,
+              "X": 0.25443958106518433,
+              "2": 0.2915030013793352
+            },
+            "percentages": {
+              "1": 45,
+              "X": 26,
+              "2": 29
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12088821897659965
+              },
+              {
+                "score": "1-0",
+                "probability": 0.10380098062719917
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09176445824112735
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Celta: 10–7 en 9 partits; a casa 9–6 en 5. Betis: 16–14 en 9; fora 6–7 en 4. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Celta VEVEE; Betis DVEVV. Golejadors de lliga: Celta: Jutgla (2), P. Durán (2); Betis: Ez Abde (3), Isco (2). Borja Iglesias continua lesionat, segons declaracions de Garcés recollides per SER el 21/10. El Betis comunica una lesió muscular de Cucho Hernández, sense data d’alta confirmada. Facundo Bernal té quatre partits de suspensió RFEF. El Celta juga a Glasgow el 22/10; al tall no hi ha resultat ni incidències finals. Descans menor que el Betis, que va jugar el 21/10: possible impacte encara no calibrat. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-real-betis-10",
+            "https://cadenaser.com/galicia/2026/10/21/garces-descarta-fichar-un-delantero-en-invierno-necesitamos-mucho-a-borja-y-volvera-pronto-radio-vigo/",
+            "https://www.realbetisbalompie.es/noticias/actualidad/parte-medico-de-cucho-hernandez-32758",
+            "https://rfef.es/sites/default/files/sanciones/Primera_Division_J9.pdf?cb=3ac6edbd"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Reial Societat",
+          "away": "Llevant",
+          "kickoff": "2026-10-25T18:30:00+01:00",
+          "forecast": {
+            "match": "Reial Societat – Llevant",
+            "time": "2026-10-25T18:30:00+01:00",
+            "lambda_home": 1.7705475427350428,
+            "lambda_away": 1.3482692307692308,
+            "probabilities": {
+              "1": 0.474553618235155,
+              "X": 0.23218091819957698,
+              "2": 0.293265463565268
+            },
+            "percentages": {
+              "1": 48,
+              "X": 23,
+              "2": 29
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.10553567728240684
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09342796704162194
+              },
+              {
+                "score": "1-0",
+                "probability": 0.07827492823684432
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Reial Societat: 17–17 en 9 partits; a casa 5–6 en 4. Llevant: 15–17 en 9; fora 2–7 en 5. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Reial Societat VVVDV; Llevant VEEDD. Golejadors de lliga: Reial Societat: Sucic (3), Oyarzabal (2); Llevant: R. Brugué (5), I. Romero (3). La Real juga al camp del Lillestrøm el 22/10 a les 21:00, encara pendent al tall. El Llevant ve de guanyar 3–1 a l’Athletic el 21/10, amb dos gols de Brugué. Viatge europeu i menys de tres dies de recuperació de la Real: context de rotació, sense penalització numèrica inventada. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-levante-ud-10",
+            "https://www.realsociedad.eus/es/noticias/detalle/obligaciones-europeas",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-athletic-club-6"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Barcelona",
+          "away": "Real Madrid",
+          "kickoff": "2026-10-25T21:00:00+01:00",
+          "forecast": {
+            "match": "Barcelona – Real Madrid",
+            "time": "2026-10-25T21:00:00+01:00",
+            "lambda_home": 2.427139423076923,
+            "lambda_away": 1.3876442307692307,
+            "probabilities": {
+              "1": 0.6038634428682839,
+              "X": 0.18783779710951562,
+              "2": 0.20829876002220055
+            },
+            "percentages": {
+              "1": 60,
+              "X": 19,
+              "2": 21
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "2-1",
+                "probability": 0.09009446215909087
+              },
+              {
+                "score": "1-1",
+                "probability": 0.07423921452759125
+              },
+              {
+                "score": "3-1",
+                "probability": 0.07289060696908051
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Barcelona: 39–9 en 9 partits; a casa 17–4 en 4. Real Madrid: 23–9 en 9; fora 6–6 en 4. Barça: nou victòries de lliga i 39–9 en gols; Madrid: 23–9. Eric Garcia està lesionat (estimació del club de tres a quatre setmanes el 18/10); Kounde és dubte segons evolució, sense alta verificada. Vinícius compleix sanció de Lliga: Apel·lació va confirmar quatre partits el 16/10; jugar contra Leipzig no l’habilita per al Clàssic. Barça: derrota 4–2 a París el 20/10; Madrid: victòria 4–1 davant Leipzig el 21/10. Les probabilitats del Ple són categories 0/1/2/M, no un marcador exacte de 3 gols. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10",
+            "https://www.fcbarcelona.com/en/football/first-team/news/4594024/medical-updates-on-eric-and-kounde",
+            "https://rfef.es/sites/default/files/sanciones/20261016_Comunicado_Comite_de_Apelacion.pdf?cb=d17124c8",
+            "https://www.psg.fr/en/content/paris-triumph-in-instant-classic-match-report-paris-saint-germain-fc-barcelona-uefa-champions-league-2026-2027",
+            "https://www.realmadrid.com/es-ES/futbol/partidos/champions-league/real-madrid-rb-leipzig/21-10-2026"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Sevilla",
+          "away": "Osasuna",
+          "kickoff": "2026-10-26T21:00:00+01:00",
+          "forecast": {
+            "match": "Sevilla – Osasuna",
+            "time": "2026-10-26T21:00:00+01:00",
+            "lambda_home": 1.8678846153846151,
+            "lambda_away": 1.2740624999999999,
+            "probabilities": {
+              "1": 0.513220597157736,
+              "X": 0.22598944194582177,
+              "2": 0.2607899608964423
+            },
+            "percentages": {
+              "1": 51,
+              "X": 23,
+              "2": 26
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.10280411140791855
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09601310904856851
+              },
+              {
+                "score": "1-0",
+                "probability": 0.080690006501187
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Sevilla: 14–16 en 9 partits; a casa 5–7 en 4. Osasuna: 10–18 en 9; fora 6–15 en 4. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Sevilla DEDVV; Osasuna VDEDD. Golejadors de lliga: Sevilla: Isaac (2), Miguel Sierra (2); Osasuna: Budimir (7), Kike Barja (1). Sevilla va perdre 4–1 al Bernabéu; Osasuna va guanyar 2–0 al Racing. Mostres petites a cada seu i convocatòries encara no definitives. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Leganés",
+          "away": "Mallorca",
+          "kickoff": "2026-10-24T16:15:00+02:00",
+          "forecast": {
+            "match": "Leganés – Mallorca",
+            "time": "2026-10-24T16:15:00+02:00",
+            "lambda_home": 0.9139384920634921,
+            "lambda_away": 1.1350446428571426,
+            "probabilities": {
+              "1": 0.2920647953785109,
+              "X": 0.3014811702169749,
+              "2": 0.40645403440451416
+            },
+            "percentages": {
+              "1": 29,
+              "X": 30,
+              "2": 41
+            },
+            "sign": "2",
+            "double": "X2",
+            "top_scores": [
+              {
+                "score": "0-1",
+                "probability": 0.1462685224224625
+              },
+              {
+                "score": "1-1",
+                "probability": 0.13368043281914044
+              },
+              {
+                "score": "0-0",
+                "probability": 0.1288658761952079
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA HYPERMOTION",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Leganés: 6–15 en 10 partits; a casa 4–5 en 4. Mallorca: 12–5 en 10; fora 2–3 en 5. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Leganés DDDDV; Mallorca EVEDV. Golejadors de lliga: Leganés: I.gharbi (2), Naim (2); Mallorca: Fuentes (6), Pablo Torre (2). Leganés arriba amb quatre derrotes seguides i sis gols en deu partits; Mallorca ha encaixat cinc gols en deu. RFEF: Morata (Leganés) i Nwankwo Donald (Mallorca), un partit de suspensió cadascun. No es converteix una amonestació aïllada en una baixa. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-hypermotion/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-cd-leganes-rcd-mallorca-11",
+            "https://rfef.es/sites/default/files/sanciones/Segunda_Division_J10.pdf?cb=ffa71a05"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Almeria",
+          "away": "Oviedo",
+          "kickoff": "2026-10-24T21:00:00+02:00",
+          "forecast": {
+            "match": "Almeria – Oviedo",
+            "time": "2026-10-24T21:00:00+02:00",
+            "lambda_home": 1.670079365079365,
+            "lambda_away": 1.000357142857143,
+            "probabilities": {
+              "1": 0.5306298465492102,
+              "X": 0.24314013178283406,
+              "2": 0.22623002166795578
+            },
+            "percentages": {
+              "1": 53,
+              "X": 24,
+              "2": 23
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.1156475263613169
+              },
+              {
+                "score": "1-0",
+                "probability": 0.11560623841902437
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09657027369925363
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA HYPERMOTION",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Almeria: 20–7 en 10 partits; a casa 13–3 en 5. Oviedo: 13–10 en 10; fora 8–8 en 5. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Almeria VVVVV; Oviedo VVDVD. Golejadors de lliga: Almeria: Miguel (6), B. Cipenga (3); Oviedo: Carlos D. (4), Pablo S. (2). Almeria encadena cinc victòries; Oviedo, dues. Carlos Domínguez (Oviedo) té un partit de suspensió per acumulació segons RFEF. El golejador Carlos D. és un jugador diferent; no es confonen els noms abreujats. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-hypermotion/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-ud-almeria-real-oviedo-11",
+            "https://rfef.es/sites/default/files/sanciones/Segunda_Division_J10.pdf?cb=ffa71a05"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Sabadell",
+          "away": "Tenerife",
+          "kickoff": "2026-10-25T14:00:00+01:00",
+          "forecast": {
+            "match": "Sabadell – Tenerife",
+            "time": "2026-10-25T14:00:00+01:00",
+            "lambda_home": 1.4707589285714284,
+            "lambda_away": 1.0006696428571429,
+            "probabilities": {
+              "1": 0.48014382138527234,
+              "X": 0.26272117203476686,
+              "2": 0.25713500657996086
+            },
+            "percentages": {
+              "1": 48,
+              "X": 26,
+              "2": 26
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.1243095308550869
+              },
+              {
+                "score": "1-0",
+                "probability": 0.12422634357144531
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09141467620582226
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA HYPERMOTION",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Sabadell: 10–8 en 10 partits; a casa 7–3 en 4. Tenerife: 12–14 en 10; fora 7–11 en 5. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Sabadell DVEEV; Tenerife EEDED. Golejadors de lliga: Sabadell: Gioacchini (3), Baena (3); Tenerife: Enric Gallego (6), Nacho Gil (1). Sabadell ve d’una derrota; Tenerife suma cinc partits sense guanyar. Es pren la classificació actual de deu partits: una fitxa indexada antiga del Tenerife encara en mostrava nou. Sense confirmació completa de lesions i convocatòries. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat.",
+          "sources": [
+            "https://www.laliga.com/laliga-hypermotion/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-ce-sabadell-cd-tenerife-11",
+            "https://rfef.es/sites/default/files/sanciones/Segunda_Division_J10.pdf?cb=ffa71a05"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Logroño (F)",
+          "away": "Badalona (F)",
+          "kickoff": "2026-10-24T18:15:00+02:00",
+          "forecast": {
+            "match": "Logroño (F) – Badalona (F)",
+            "time": "2026-10-24T18:15:00+02:00",
+            "lambda_home": 1.4703125,
+            "lambda_away": 1.2732954545454545,
+            "probabilities": {
+              "1": 0.41782461447058244,
+              "X": 0.2543692339759394,
+              "2": 0.32780615155347825
+            },
+            "percentages": {
+              "1": 42,
+              "X": 25,
+              "2": 33
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12044951150110314
+              },
+              {
+                "score": "1-0",
+                "probability": 0.0945966712369217
+              },
+              {
+                "score": "2-1",
+                "probability": 0.08854921118948286
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "Liga F Moeve",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Logroño (F): 7–10 en 7 partits; a casa 4–7 en 4. Badalona (F): 9–12 en 7; fora 9–7 en 4. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Logroño (F) DDDDV; Badalona (F) DEDEV. Golejadors de lliga: Logroño (F): Isina (2), Cristina Redondo (2); Badalona (F): Sheila Guijarro (2), Irina Uribe (2). Tots dos equips tenen mostres de només set partits. La resolució RFEF de J7 s’ha revisat; cap suspensió nova d’aquests equips hi consta. Això no certifica absència de lesions ni d’altres sancions anteriors. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat. Liga F: mateix prior del prototip, sense calibratge específic.",
+          "sources": [
+            "https://www.laliga.com/futbol-femenino/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-dux-logrono-fc-badalona-women-8",
+            "https://rfef.es/sites/default/files/sanciones/Primera_Division_FF_-_J7.pdf?cb=d4309648"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Deportivo (F)",
+          "away": "Alabès (F)",
+          "kickoff": "2026-10-25T12:45:00+01:00",
+          "forecast": {
+            "match": "Deportivo (F) – Alabès (F)",
+            "time": "2026-10-25T12:45:00+01:00",
+            "lambda_home": 1.3498214285714287,
+            "lambda_away": 0.9283441558441559,
+            "probabilities": {
+              "1": 0.4650995071898711,
+              "X": 0.27716874815523845,
+              "2": 0.25773174465489057
+            },
+            "percentages": {
+              "1": 46,
+              "X": 28,
+              "2": 26
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "1-0",
+                "probability": 0.138318915818955
+              },
+              {
+                "score": "1-1",
+                "probability": 0.12840755714322663
+              },
+              {
+                "score": "0-0",
+                "probability": 0.10247201066095354
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "Liga F Moeve",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Deportivo (F): 8–8 en 7 partits; a casa 2–6 en 4. Alabès (F): 4–10 en 7; fora 0–3 en 3. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Deportivo (F) VDEVD; Alabès (F) EDDDV. Golejadors de lliga: Deportivo (F): Millene Cabral (4), Espe Pizarro (1); Alabès (F): Ainhoa Guallar (3), Kumba Brima (1). Deportivo arriba de guanyar 0–1 a Eibar; Alabès, d’empatar 0–0 amb Granada. Cap suspensió nova d’aquests equips a la resolució RFEF de J7; lesions i convocatòries no verificades de manera completa. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat. Liga F: mateix prior del prototip, sense calibratge específic.",
+          "sources": [
+            "https://www.laliga.com/futbol-femenino/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-deportivo-abanca-deportivo-alaves-8",
+            "https://rfef.es/sites/default/files/sanciones/Primera_Division_FF_-_J7.pdf?cb=d4309648"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Eibar (F)",
+          "away": "Madrid CFF (F)",
+          "kickoff": "2026-10-25T17:00:00+01:00",
+          "forecast": {
+            "match": "Eibar (F) – Madrid CFF (F)",
+            "time": "2026-10-25T17:00:00+01:00",
+            "lambda_home": 1.5763839285714285,
+            "lambda_away": 1.190783279220779,
+            "probabilities": {
+              "1": 0.46278593942897855,
+              "X": 0.249161535091532,
+              "2": 0.28805252547948945
+            },
+            "percentages": {
+              "1": 46,
+              "X": 25,
+              "2": 29
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.11795850981316942
+              },
+              {
+                "score": "1-0",
+                "probability": 0.0990595953701657
+              },
+              {
+                "score": "2-1",
+                "probability": 0.0929739495538577
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "Liga F Moeve",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Eibar (F): 6–7 en 7 partits; a casa 5–7 en 4. Madrid CFF (F): 11–13 en 7; fora 4–10 en 3. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Eibar (F) DEVVD; Madrid CFF (F) DEVDV. Golejadors de lliga: Eibar (F): Ángeles del Álamo (1), Carmen Álvarez (1); Madrid CFF (F): Sakina Ouzraoui Diki (3), Emilie Holt (2). Tots dos venen de perdre i tenen nou punts. Sis gols a favor d’Eibar en set partits; onze del Madrid CFF. Cap suspensió nova d’aquests equips a la resolució RFEF de J7; disponibilitat completa pendent. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat. Liga F: mateix prior del prototip, sense calibratge específic.",
+          "sources": [
+            "https://www.laliga.com/futbol-femenino/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-sd-eibar-madrid-cff-8",
+            "https://rfef.es/sites/default/files/sanciones/Primera_Division_FF_-_J7.pdf?cb=d4309648"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        },
+        {
+          "home": "Real Madrid (F)",
+          "away": "Tenerife (F)",
+          "kickoff": "2026-10-24T16:00:00+02:00",
+          "forecast": {
+            "match": "Real Madrid (F) – Tenerife (F)",
+            "time": "2026-10-24T16:00:00+02:00",
+            "lambda_home": 1.8562500000000002,
+            "lambda_away": 1.3563920454545455,
+            "probabilities": {
+              "1": 0.4924351449297901,
+              "X": 0.22633916874020038,
+              "2": 0.2812256863300095
+            },
+            "percentages": {
+              "1": 49,
+              "X": 23,
+              "2": 28
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.1013418873582111
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09405793920433969
+              },
+              {
+                "score": "1-0",
+                "probability": 0.07471430380163432
+              }
+            ]
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "Liga F Moeve",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Real Madrid (F): 16–14 en 7 partits; a casa 9–4 en 4. Tenerife (F): 10–11 en 7; fora 7–7 en 4. Forma de lliga, més recent primer (V victòria, E empat, D derrota): Real Madrid (F) VDVVV; Tenerife (F) VVVDE. Golejadors de lliga: Real Madrid (F): Felicia Schröder (6), Sara Däbritz (3); Tenerife (F): Carlota Suárez (3), Elba Vergés (2). Tenerife arriba amb tres victòries seguides, però Patricia Gavira i Henar Muíña tenen un partit de suspensió cadascuna segons RFEF del 21/10. No es traslladen les dades ni els golejadors de l’equip masculí. Convocatòries i càrrega europea femenina incompletes. Ajustos manuals 1.0: gols i seu entren al càlcul; forma, golejadors, baixes i descans es documenten sense un efecte numèric calibrat. Liga F: mateix prior del prototip, sense calibratge específic.",
+          "sources": [
+            "https://www.laliga.com/futbol-femenino/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-real-madrid-cf-costa-adeje-tenerife-8",
+            "https://rfef.es/sites/default/files/sanciones/Primera_Division_FF_-_J7.pdf?cb=d4309648"
+          ],
+          "source_verified_at": "2026-10-22T16:33:37+02:00"
+        }
+      ],
+      "review": {
+        "summary": "Jornada pendent. Les quatre columnes i les probabilitats originals queden congelades per avaluar-les després dels partits.",
+        "next": "Anàlisi el 27/10/2026 a les 10:00 Europe/Madrid (CET, UTC+1). Mac encès des de les 09:50. Revalidar ajornaments.",
+        "changes": [
+          "Model 0.1 conservat després de J9: les hipòtesis sobre empats, força dels rivals, baixes i Liga F continuen pendents de validació cronològica fora de mostra.",
+          "S’ha incorporat als nous inputs la victòria del Llevant 3–1 contra l’Athletic del 21/10, sense reescriure cap previsió passada."
+        ]
+      },
+      "evaluation_scope": {
+        "sporting_forecasts": 17,
+        "official_signs": 14,
+        "pleno15_separate": true
+      },
+      "publication_status": "frozen_published",
+      "official_coupon": {
+        "number": 16,
+        "verified_at": "2026-10-22T16:33:37+02:00",
+        "source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICI%C3%93N%20DE%20BOLETOS%20JORNADA%2016%20DE%20LA%20QUINIELA,%20ELIGE%208%20Y%2017%20DE%20EL%20QUINIGOL.zip",
+        "local_reference": "outputs/font_cupo_selae16_20261022.txt",
+        "document_sha256": "819a47ace24bde46634e12530f84dcf9a2301b1c726d43035968e5c1915abf24",
+        "deadline_source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/Aviso%20cierre%20La%20Quiniela%20jornada%2016%C2%AA%20y%20El%20QuiniGol%20jornada%2017%C2%AA%20de%2024%20-%2025%20de%20Octubre%20de%202026.pdf",
+        "deadline": "2026-10-24T14:00:00+02:00",
+        "match_indices": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "composition_note": "7 de Primera, 3 de Segona i 4 de Liga F. Ple al 15: Barcelona–Real Madrid. Alabès–Màlaga i Racing–Espanyol només entren a la previsió de Lliga.",
+        "pleno15": {
+          "home": "Barcelona",
+          "away": "Real Madrid",
+          "kickoff": "2026-10-25T21:00:00+01:00",
+          "probabilities": {
+            "0-0": 0.02204248274418856,
+            "0-1": 0.03058712401180358,
+            "0-2": 0.02122202308540112,
+            "0-M": 0.01443739941466262,
+            "1-0": 0.053500178850912856,
+            "1-1": 0.07423921452759125,
+            "1-2": 0.05150880886802562,
+            "1-M": 0.03504158128603534,
+            "2-0": 0.06492619661535841,
+            "2-1": 0.09009446215909087,
+            "2-2": 0.0625095303196596,
+            "2-M": 0.04252540169314546,
+            "M-0": 0.10919390204326256,
+            "M-1": 0.1515222882055138,
+            "M-2": 0.10512951453066693,
+            "M-M": 0.07151989164468145
+          }
+        }
+      },
+      "metrics": {
+        "n": 0,
+        "hits": 0,
+        "accuracy": null,
+        "brier": null,
+        "logloss": null
+      },
+      "monitoring_notice": "Previsió amb tall real del 22/10. Quatre apostes simples en ordre oficial i Ple separat. Tancament: dissabte 24/10 a les 14:00, hora peninsular. La jornada de Lliga comença divendres 23/10; les quatre columnes només inclouen el cupó SELAE 16. El canvi d’hora del 25/10 està aplicat als horaris i a la revisió del 27/10.",
+      "monitoring_sources": [
+        "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICI%C3%93N%20DE%20BOLETOS%20JORNADA%2016%20DE%20LA%20QUINIELA,%20ELIGE%208%20Y%2017%20DE%20EL%20QUINIGOL.zip",
+        "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/Aviso%20cierre%20La%20Quiniela%20jornada%2016%C2%AA%20y%20El%20QuiniGol%20jornada%2017%C2%AA%20de%2024%20-%2025%20de%20Octubre%20de%202026.pdf",
+        "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10"
+      ],
+      "coupon": {
+        "complete": true,
+        "reason": "",
+        "matches": [
+          {
+            "home": "Rayo",
+            "away": "Elx"
+          },
+          {
+            "home": "València",
+            "away": "Villarreal"
+          },
+          {
+            "home": "Atlètic de Madrid",
+            "away": "Deportivo"
+          },
+          {
+            "home": "Athletic",
+            "away": "Getafe"
+          },
+          {
+            "home": "Celta",
+            "away": "Betis"
+          },
+          {
+            "home": "Reial Societat",
+            "away": "Llevant"
+          },
+          {
+            "home": "Sevilla",
+            "away": "Osasuna"
+          },
+          {
+            "home": "Leganés",
+            "away": "Mallorca"
+          },
+          {
+            "home": "Almeria",
+            "away": "Oviedo"
+          },
+          {
+            "home": "Sabadell",
+            "away": "Tenerife"
+          },
+          {
+            "home": "Logroño (F)",
+            "away": "Badalona (F)"
+          },
+          {
+            "home": "Deportivo (F)",
+            "away": "Alabès (F)"
+          },
+          {
+            "home": "Eibar (F)",
+            "away": "Madrid CFF (F)"
+          },
+          {
+            "home": "Real Madrid (F)",
+            "away": "Tenerife (F)"
+          }
+        ],
+        "columns": [
+          {
+            "signs": [
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 2.3359962321417575e-05
+          },
+          {
+            "signs": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 2.059977838837745e-05
+          },
+          {
+            "signs": [
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 1.8327161885186858e-05
+          },
+          {
+            "signs": [
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "X",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 1.732690090578959e-05
+          }
+        ],
+        "coverage": 7.961380350077148e-05,
+        "objective": "all_signs",
+        "generated_from": "2026-10-22T16:33:37+02:00",
+        "condensed": {
+          "signs": [
+            "1",
+            "12",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "X2",
+            "1",
+            "1",
+            "12",
+            "1",
+            "1",
+            "1"
+          ],
+          "expanded_count": 8,
+          "additional_count": 4,
+          "exact": false
+        },
+        "pleno15": {
+          "home": "Barcelona",
+          "away": "Real Madrid",
+          "score": "M-1",
+          "probability": 0.1515222882055138
+        },
+        "deadline": "2026-10-24T14:00:00+02:00",
+        "source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICI%C3%93N%20DE%20BOLETOS%20JORNADA%2016%20DE%20LA%20QUINIELA,%20ELIGE%208%20Y%2017%20DE%20EL%20QUINIGOL.zip",
+        "published_at": "2026-10-22T14:42:28.090031+00:00"
+      },
+      "published_at": "2026-10-22T14:42:28.090031+00:00",
+      "forecast_published_at": "2026-10-22T14:42:28.090031+00:00"
+    },
     {
       "number": 9,
       "label": "Previsió · cupó SELAE 14 complet",
@@ -3768,15 +4851,8 @@
     }
   ],
   "last_official_check": {
-    "checked_at": "2026-10-20T12:19:37.094851+02:00",
-    "status": "review_completed",
-    "source_file": "comprovacio_20261020.json",
-    "sources": [
-      "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-18-de-octubre-de-2026",
-      "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-rayo-vallecano-9",
-      "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9",
-      "https://www.laliga.com/laliga-hypermotion/resultados",
-      "https://www.laliga.com/futbol-femenino/resultados"
-    ]
+    "checked_at": "2026-10-22T16:33:37+02:00",
+    "status": "forecast_prepared",
+    "source_file": "comprovacio_20261022.json"
   }
 }
