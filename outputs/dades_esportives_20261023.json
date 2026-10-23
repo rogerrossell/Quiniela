@@ -1,0 +1,100 @@
+{
+  "season": "2026/27",
+  "laliga_ea_sports_round_11": {
+    "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11",
+    "matches": [
+      {
+        "home": "Villarreal CF",
+        "away": "RCD Espanyol de Barcelona",
+        "kickoff": "2026-10-30T21:00:00+01:00",
+        "status": "PreMatch"
+      },
+      {
+        "home": "Levante UD",
+        "away": "Atlético de Madrid",
+        "kickoff": "2026-10-31T14:00:00+01:00",
+        "status": "PreMatch"
+      },
+      {
+        "home": "Rayo Vallecano",
+        "away": "Celta",
+        "kickoff": "2026-10-31T16:15:00+01:00",
+        "status": "PreMatch"
+      },
+      {
+        "home": "Real Betis",
+        "away": "Málaga CF",
+        "kickoff": "2026-10-31T18:30:00+01:00",
+        "status": "PreMatch"
+      },
+      {
+        "home": "FC Barcelona",
+        "away": "Deportivo Alavés",
+        "kickoff": "2026-10-31T21:00:00+01:00",
+        "status": "PreMatch"
+      },
+      {
+        "home": "Getafe CF",
+        "away": "Sevilla FC",
+        "kickoff": "2026-11-01T14:00:00+01:00",
+        "status": "PreMatch"
+      },
+      {
+        "home": "R. Racing Club",
+        "away": "Real Madrid",
+        "kickoff": "2026-11-01T16:15:00+01:00",
+        "status": "PreMatch"
+      },
+      {
+        "home": "Elche CF",
+        "away": "Valencia CF",
+        "kickoff": "2026-11-01T18:30:00+01:00",
+        "status": "PreMatch"
+      },
+      {
+        "home": "Athletic Club",
+        "away": "Real Sociedad",
+        "kickoff": "2026-11-01T21:00:00+01:00",
+        "status": "PreMatch"
+      },
+      {
+        "home": "RC Deportivo",
+        "away": "CA Osasuna",
+        "kickoff": "2026-11-02T21:00:00+01:00",
+        "status": "PreMatch"
+      }
+    ]
+  },
+  "european_results": [
+    {
+      "date": "2026-10-22",
+      "home": "Celtic",
+      "away": "Celta",
+      "result": [
+        1,
+        2
+      ],
+      "source": "https://rccelta.es/equipo/actualidad/javi-rodriguez-conquista-glasgow-con-un-doblete-historico-celtic-fc-1-2-celta/"
+    },
+    {
+      "date": "2026-10-22",
+      "home": "Lillestrøm",
+      "away": "Reial Societat",
+      "result": [
+        0,
+        6
+      ],
+      "source": "https://www.realsociedad.eus/es/noticias/detalle/desatados-2"
+    },
+    {
+      "date": "2026-10-22",
+      "home": "Getafe",
+      "away": "Lugano",
+      "result": [
+        2,
+        5
+      ],
+      "source": "https://www.getafecf.com/partidos/temporada-2026-2027-europa-conference-league-2-getafe-cf-vs-lugano-5063"
+    }
+  ]
+}
