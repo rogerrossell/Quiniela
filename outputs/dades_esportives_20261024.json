@@ -1,0 +1,44 @@
+{
+  "season": "2026/27",
+  "results": [
+    {
+      "competition": "LALIGA EA SPORTS",
+      "round": 10,
+      "kickoff": "2026-10-23T21:00:00+02:00",
+      "home": "Deportivo Alavés",
+      "away": "Málaga CF",
+      "result": [
+        1,
+        1
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-deportivo-alaves-malaga-cf-10"
+    },
+    {
+      "competition": "LALIGA HYPERMOTION",
+      "round": 11,
+      "date": "2026-10-23",
+      "home": "Granada CF",
+      "away": "Real Valladolid CF",
+      "result": [
+        2,
+        1
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/laliga-hypermotion/resultados"
+    },
+    {
+      "competition": "Liga F",
+      "round": 8,
+      "date": "2026-10-23",
+      "home": "Atlético de Madrid Femenino",
+      "away": "Valencia CF Femenino",
+      "result": [
+        4,
+        0
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/futbol-femenino/resultados"
+    }
+  ]
+}
