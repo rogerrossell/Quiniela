@@ -1,0 +1,109 @@
+{
+  "season": "2026/27",
+  "results": [
+    {
+      "competition": "LALIGA EA SPORTS",
+      "round": 10,
+      "kickoff": "2026-10-24T14:00:00+02:00",
+      "home": "Rayo",
+      "away": "Elx",
+      "result": [
+        0,
+        3
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-elche-cf-10"
+    },
+    {
+      "competition": "LALIGA EA SPORTS",
+      "round": 10,
+      "kickoff": "2026-10-24T16:15:00+02:00",
+      "home": "Racing",
+      "away": "Espanyol",
+      "result": [
+        2,
+        1
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-rcd-espanyol-de-barcelona-10"
+    },
+    {
+      "competition": "LALIGA EA SPORTS",
+      "round": 10,
+      "kickoff": "2026-10-24T18:30:00+02:00",
+      "home": "València",
+      "away": "Villarreal",
+      "result": [
+        1,
+        2
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-villarreal-cf-10"
+    },
+    {
+      "competition": "LALIGA EA SPORTS",
+      "round": 10,
+      "kickoff": "2026-10-24T21:00:00+02:00",
+      "home": "Atlètic de Madrid",
+      "away": "Deportivo",
+      "result": [
+        1,
+        0
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-rc-deportivo-10"
+    },
+    {
+      "competition": "LALIGA HYPERMOTION",
+      "round": 11,
+      "kickoff": "2026-10-24T16:15:00+02:00",
+      "home": "Leganés",
+      "away": "Mallorca",
+      "result": [
+        1,
+        1
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-cd-leganes-rcd-mallorca-11"
+    },
+    {
+      "competition": "LALIGA HYPERMOTION",
+      "round": 11,
+      "kickoff": "2026-10-24T21:00:00+02:00",
+      "home": "Almeria",
+      "away": "Oviedo",
+      "result": [
+        2,
+        2
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-ud-almeria-real-oviedo-11"
+    },
+    {
+      "competition": "Liga F Moeve",
+      "round": 8,
+      "kickoff": "2026-10-24T18:15:00+02:00",
+      "home": "Logroño (F)",
+      "away": "Badalona (F)",
+      "result": [
+        1,
+        0
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-dux-logrono-fc-badalona-women-8"
+    },
+    {
+      "competition": "Liga F Moeve",
+      "round": 8,
+      "kickoff": "2026-10-24T16:00:00+02:00",
+      "home": "Real Madrid (F)",
+      "away": "Tenerife (F)",
+      "result": [
+        3,
+        2
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-real-madrid-cf-costa-adeje-tenerife-8"
+    }
+  ]
+}
