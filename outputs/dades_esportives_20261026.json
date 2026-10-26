@@ -1,0 +1,96 @@
+{
+  "season": "2026/27",
+  "results": [
+    {
+      "competition": "LALIGA EA SPORTS",
+      "round": 10,
+      "kickoff": "2026-10-25T14:00:00+01:00",
+      "home": "Athletic",
+      "away": "Getafe",
+      "result": [
+        4,
+        0
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-getafe-cf-10"
+    },
+    {
+      "competition": "LALIGA EA SPORTS",
+      "round": 10,
+      "kickoff": "2026-10-25T16:15:00+01:00",
+      "home": "Celta",
+      "away": "Betis",
+      "result": [
+        0,
+        0
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-real-betis-10"
+    },
+    {
+      "competition": "LALIGA EA SPORTS",
+      "round": 10,
+      "kickoff": "2026-10-25T18:30:00+01:00",
+      "home": "Reial Societat",
+      "away": "Llevant",
+      "result": [
+        2,
+        1
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-sociedad-levante-ud-10"
+    },
+    {
+      "competition": "LALIGA EA SPORTS",
+      "round": 10,
+      "kickoff": "2026-10-25T21:00:00+01:00",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "result": [
+        1,
+        2
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-real-madrid-10"
+    },
+    {
+      "competition": "LALIGA HYPERMOTION",
+      "round": 11,
+      "kickoff": "2026-10-25T14:00:00+01:00",
+      "home": "Sabadell",
+      "away": "Tenerife",
+      "result": [
+        1,
+        1
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-ce-sabadell-cd-tenerife-11"
+    },
+    {
+      "competition": "Liga F Moeve",
+      "round": 8,
+      "kickoff": "2026-10-25T12:45:00+01:00",
+      "home": "Deportivo (F)",
+      "away": "Alabès (F)",
+      "result": [
+        2,
+        1
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-deportivo-abanca-deportivo-alaves-8"
+    },
+    {
+      "competition": "Liga F Moeve",
+      "round": 8,
+      "kickoff": "2026-10-25T17:00:00+01:00",
+      "home": "Eibar (F)",
+      "away": "Madrid CFF (F)",
+      "result": [
+        2,
+        2
+      ],
+      "status": "final",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-sd-eibar-madrid-cff-8"
+    }
+  ]
+}
