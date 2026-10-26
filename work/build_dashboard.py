@@ -32,6 +32,9 @@ def build():
             previous['metrics']=metrics(previous['matches'], previous['forecast_at'])
         if not r.get('coupon'):
             r['coupon']=coupon_for_round(r)
+    total = sum(r['metrics']['n'] for r in data['rounds'])
+    hits = sum(r['metrics']['hits'] for r in data['rounds'])
+    data['aggregate_metrics'] = dict(n=total, hits=hits, accuracy=hits/total if total else None)
     template=(ROOT/'work/dashboard.template.html').read_text()
     rendered=template.replace('__DATA__',json.dumps(data,ensure_ascii=False).replace('<','\\u003c'))
     for path in [ROOT/'site/dist/index.html',ROOT/'outputs/quiniela.html']:
@@ -39,6 +42,8 @@ def build():
         path.write_text(rendered)
     from build_schedule import build_schedule
     build_schedule(ROOT)
+    from build_research import build_research
+    build_research(ROOT)
     print('HTML actualitzat; '+str(len(data['rounds']))+' jornada/es.')
 
 if __name__=='__main__': build()

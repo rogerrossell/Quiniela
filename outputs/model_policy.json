@@ -1,0 +1,24 @@
+{
+  "version": "20261026",
+  "scope": "Només previsions futures. Cap previsió ni cupó publicat es recalcula.",
+  "SP1": {
+    "model": "0.2-sp1-strength-20261026",
+    "status": "eligible_with_verified_monthly_snapshot",
+    "penalty": 2.0,
+    "half_life": 365,
+    "dc": false,
+    "temperature": 1.0,
+    "operating_cutoff": "Dia 1 del mes menys 2 dies a les 00:00 Europe/Madrid; historial estrictament anterior.",
+    "on_missing_history": "No afirmar que s’ha usat v0.2. Conservar v0.1 amb limitació explícita o ometre la previsió.",
+    "parallel_reference": "Conservar també v0.1 en les noves entrades, sense reescriure les previsions publicades."
+  },
+  "SP2": {
+    "model": "0.1-experimental",
+    "reason": "Candidat no supera la prova reservada."
+  },
+  "LIGA_F": {
+    "model": "0.1-experimental",
+    "reason": "Sense històric comparable; validació separada pendent."
+  },
+  "reference_report": "outputs/historical_evaluation.json"
+}

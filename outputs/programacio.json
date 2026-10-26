@@ -1,6 +1,6 @@
 {
   "timezone": "Europe/Madrid",
-  "verified_at": "2026-10-22",
+  "verified_at": "2026-10-26",
   "execution_hour": 10,
   "mac_ready_minutes": 10,
   "rounds": [
@@ -62,7 +62,65 @@
       "coupon_last_match": "2026-10-26",
       "coupon_deadline": "2026-10-24T14:00:00+02:00",
       "forecast_published_at": "2026-10-22T14:42:28.090031+00:00"
+    },
+    {
+      "number": 11,
+      "first_match": "2026-10-30",
+      "last_match": "2026-11-02",
+      "forecast_status": "pending",
+      "review_status": "pending",
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11",
+      "source_verified_at": "2026-10-26T09:00:08.809208+00:00",
+      "forecast_note": "Calendari de Lliga verificat; la previsió es prepararà el 28/10 a les 10:00 CET. El cupó SELAE de la setmana es verificarà separadament, sense confondre numeracions."
     }
   ],
-  "checked_at": "2026-10-22T16:33:37+02:00"
+  "checked_at": "2026-10-26T10:01:27.708255+01:00",
+  "events": [
+    {
+      "round": 10,
+      "kind": "Anàlisi",
+      "provisional": false,
+      "note": "",
+      "start": "2026-10-27T10:00:00+01:00",
+      "mac_ready": "2026-10-27T09:50:00+01:00",
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10",
+      "first_match": "2026-10-23",
+      "last_match": "2026-10-26",
+      "status": "pending"
+    },
+    {
+      "round": 11,
+      "kind": "Previsió",
+      "provisional": false,
+      "note": "",
+      "start": "2026-10-28T10:00:00+01:00",
+      "mac_ready": "2026-10-28T09:50:00+01:00",
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11",
+      "first_match": "2026-10-30",
+      "last_match": "2026-11-02",
+      "status": "pending"
+    },
+    {
+      "round": 11,
+      "kind": "Anàlisi",
+      "provisional": false,
+      "note": "",
+      "start": "2026-11-03T10:00:00+01:00",
+      "mac_ready": "2026-11-03T09:50:00+01:00",
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11",
+      "first_match": "2026-10-30",
+      "last_match": "2026-11-02",
+      "status": "pending"
+    }
+  ],
+  "undated_events": [
+    {
+      "round": 8,
+      "kind": "Anàlisi final",
+      "pending_matches": [
+        "Rayo – Athletic"
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8"
+    }
+  ]
 }

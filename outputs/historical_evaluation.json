@@ -1,0 +1,1131 @@
+{
+  "created_at": "2026-10-26T11:08:59.441262+00:00",
+  "status": "retrospective_research",
+  "training": "2022/23–2023/24, finestra mòbil màxima de 730 dies",
+  "validation": "2024/25",
+  "test": "2025/26",
+  "cutoff_policy": "Cada mes: dia 1 menys dos dies, 00:00 Europe/Madrid; només dates estrictament anteriors. Tall mensual conservador, no una reproducció exacta dels cupons.",
+  "selection": "Mínima pèrdua logarítmica de validació per competició; prova reservada sense reselecció.",
+  "candidate_method": "Poisson amb atac/defensa per equip, avantatge local estimat, regularització i pes temporal de semivida 365 dies. Variant DC: rho ajustat en un segon pas, condicionat al Poisson; no ajust conjunt complet Dixon–Coles.",
+  "adoption_rule": "No activació automàtica. Candidat només avalat si millora Brier i logloss contra v0.1 i freqüències de lliga, amb límit superior IC95% < 0 en totes quatre comparacions.",
+  "market_warning": "AvgCH/CD/CA: quotes de tancament sense marge proporcional. Referència retrospectiva amb informació més tardana, no disponible al nostre tall; exclosa de selecció i adopció.",
+  "limitations": [
+    "Històric secundari Football-Data.co.uk; no acta oficial.",
+    "Sense Liga F, xG, lesions ni càrrega de competicions.",
+    "La simulació no avalua premis, rendibilitat ni cupons oficials.",
+    "L’avaluació mensual és més conservadora que una actualització setmanal.",
+    "Una prova reservada vista una vegada ja no és una nova prova independent per a iteracions futures."
+  ],
+  "source_manifest": {
+    "retrieved_at": "2026-10-26T11:05:36.360670+00:00",
+    "source": "Football-Data.co.uk; recopilació secundària, no acta oficial",
+    "files": [
+      {
+        "season": "2223",
+        "division": "SP1",
+        "url": "https://www.football-data.co.uk/mmz4281/2223/SP1.csv",
+        "sha256": "53348112526b5165539df240be350083989bb258f30c0ff7cacbc0165ca7e4b3",
+        "bytes": 172199
+      },
+      {
+        "season": "2223",
+        "division": "SP2",
+        "url": "https://www.football-data.co.uk/mmz4281/2223/SP2.csv",
+        "sha256": "1b233ea48be17ae413b05fd132f8a26ac7f1bc69a4bc9ee2a3470b9909b410a8",
+        "bytes": 202621
+      },
+      {
+        "season": "2324",
+        "division": "SP1",
+        "url": "https://www.football-data.co.uk/mmz4281/2324/SP1.csv",
+        "sha256": "5323f596c7ed318e4bce95557a369d809d98501fa499ea5f41350cd45cf3c7d9",
+        "bytes": 168164
+      },
+      {
+        "season": "2324",
+        "division": "SP2",
+        "url": "https://www.football-data.co.uk/mmz4281/2324/SP2.csv",
+        "sha256": "e09c2d18bd41c1f735aba730d31d0db778c0b7086973ae979a52dd814f1d345a",
+        "bytes": 199754
+      },
+      {
+        "season": "2425",
+        "division": "SP1",
+        "url": "https://www.football-data.co.uk/mmz4281/2425/SP1.csv",
+        "sha256": "c086e96d6a53f6e6c0fce4e35db0d1728c773b4362323da0161a34769e315a36",
+        "bytes": 192863
+      },
+      {
+        "season": "2425",
+        "division": "SP2",
+        "url": "https://www.football-data.co.uk/mmz4281/2425/SP2.csv",
+        "sha256": "60a8a03e5a477a10bcea5e31379df089d1927b6e388e333e115274dba78b79a3",
+        "bytes": 230032
+      },
+      {
+        "season": "2526",
+        "division": "SP1",
+        "url": "https://www.football-data.co.uk/mmz4281/2526/SP1.csv",
+        "sha256": "4ca2e285f3ee0702f6bc55fcaa4f5a15cb3aef6220735a1d15398131e21d63f5",
+        "bytes": 197653
+      },
+      {
+        "season": "2526",
+        "division": "SP2",
+        "url": "https://www.football-data.co.uk/mmz4281/2526/SP2.csv",
+        "sha256": "4986060e5c1d55626aef24c4bbeaaea2278b27a0b7696927405705aaa57405de",
+        "bytes": 237701
+      }
+    ]
+  },
+  "competitions": {
+    "SP1": {
+      "n_total": 1520,
+      "selected_config": {
+        "penalty": 2.0,
+        "half_life": 365,
+        "dc": false,
+        "temperature": 1.0
+      },
+      "candidate_id": "strength_p2_dc0_t1",
+      "validation_scores": {
+        "strength_p2_dc0_t1": {
+          "n": 380,
+          "hits": 197,
+          "accuracy": 0.5184210526315789,
+          "brier": 0.5808337667144204,
+          "logloss": 0.9780418612796374,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 66,
+              "mean_probability": 0.3751729911754074,
+              "observed": 0.3181818181818182
+            },
+            {
+              "bin": "40–50%",
+              "n": 135,
+              "mean_probability": 0.4460847505954698,
+              "observed": 0.4666666666666667
+            },
+            {
+              "bin": "50–60%",
+              "n": 89,
+              "mean_probability": 0.5522304038412978,
+              "observed": 0.5280898876404494
+            },
+            {
+              "bin": "60–70%",
+              "n": 44,
+              "mean_probability": 0.6486108069522128,
+              "observed": 0.6363636363636364
+            },
+            {
+              "bin": "70–80%",
+              "n": 34,
+              "mean_probability": 0.7460855434533108,
+              "observed": 0.8235294117647058
+            },
+            {
+              "bin": "80–90%",
+              "n": 12,
+              "mean_probability": 0.8386421231870723,
+              "observed": 0.8333333333333334
+            }
+          ]
+        },
+        "strength_p2_dc0_t1.15": {
+          "n": 380,
+          "hits": 197,
+          "accuracy": 0.5184210526315789,
+          "brier": 0.5826140524232296,
+          "logloss": 0.9807529483033687,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 81,
+              "mean_probability": 0.3746805003471057,
+              "observed": 0.30864197530864196
+            },
+            {
+              "bin": "40–50%",
+              "n": 142,
+              "mean_probability": 0.44360286815344807,
+              "observed": 0.47183098591549294
+            },
+            {
+              "bin": "50–60%",
+              "n": 86,
+              "mean_probability": 0.5461931181789484,
+              "observed": 0.5581395348837209
+            },
+            {
+              "bin": "60–70%",
+              "n": 39,
+              "mean_probability": 0.6433078206424231,
+              "observed": 0.7435897435897436
+            },
+            {
+              "bin": "70–80%",
+              "n": 28,
+              "mean_probability": 0.7354515794931953,
+              "observed": 0.8571428571428571
+            },
+            {
+              "bin": "80–90%",
+              "n": 4,
+              "mean_probability": 0.8368267355772661,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p2_dc1_t1": {
+          "n": 380,
+          "hits": 198,
+          "accuracy": 0.5210526315789473,
+          "brier": 0.5809813361413908,
+          "logloss": 0.9783108103352814,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 69,
+              "mean_probability": 0.37381045548326114,
+              "observed": 0.34782608695652173
+            },
+            {
+              "bin": "40–50%",
+              "n": 133,
+              "mean_probability": 0.4449118285294804,
+              "observed": 0.46616541353383456
+            },
+            {
+              "bin": "50–60%",
+              "n": 88,
+              "mean_probability": 0.5506700975297936,
+              "observed": 0.5227272727272727
+            },
+            {
+              "bin": "60–70%",
+              "n": 45,
+              "mean_probability": 0.6477149351311662,
+              "observed": 0.6444444444444445
+            },
+            {
+              "bin": "70–80%",
+              "n": 33,
+              "mean_probability": 0.7457560600153235,
+              "observed": 0.8181818181818182
+            },
+            {
+              "bin": "80–90%",
+              "n": 12,
+              "mean_probability": 0.8375820893425475,
+              "observed": 0.8333333333333334
+            }
+          ]
+        },
+        "strength_p2_dc1_t1.15": {
+          "n": 380,
+          "hits": 198,
+          "accuracy": 0.5210526315789473,
+          "brier": 0.582866789370054,
+          "logloss": 0.9811137364445336,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 84,
+              "mean_probability": 0.3733910633742074,
+              "observed": 0.32142857142857145
+            },
+            {
+              "bin": "40–50%",
+              "n": 143,
+              "mean_probability": 0.443939520412684,
+              "observed": 0.4755244755244755
+            },
+            {
+              "bin": "50–60%",
+              "n": 84,
+              "mean_probability": 0.547831804368096,
+              "observed": 0.5476190476190477
+            },
+            {
+              "bin": "60–70%",
+              "n": 38,
+              "mean_probability": 0.6454766194018455,
+              "observed": 0.7894736842105263
+            },
+            {
+              "bin": "70–80%",
+              "n": 27,
+              "mean_probability": 0.7352919556247373,
+              "observed": 0.8518518518518519
+            },
+            {
+              "bin": "80–90%",
+              "n": 4,
+              "mean_probability": 0.8362372819570476,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p8_dc0_t1": {
+          "n": 380,
+          "hits": 202,
+          "accuracy": 0.531578947368421,
+          "brier": 0.5822451866700908,
+          "logloss": 0.9802682631886459,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 62,
+              "mean_probability": 0.37625559671069514,
+              "observed": 0.3709677419354839
+            },
+            {
+              "bin": "40–50%",
+              "n": 145,
+              "mean_probability": 0.4420222863268127,
+              "observed": 0.4689655172413793
+            },
+            {
+              "bin": "50–60%",
+              "n": 93,
+              "mean_probability": 0.5442415221141301,
+              "observed": 0.5376344086021505
+            },
+            {
+              "bin": "60–70%",
+              "n": 44,
+              "mean_probability": 0.6480076942721001,
+              "observed": 0.6818181818181818
+            },
+            {
+              "bin": "70–80%",
+              "n": 31,
+              "mean_probability": 0.7461695362293737,
+              "observed": 0.8387096774193549
+            },
+            {
+              "bin": "80–90%",
+              "n": 5,
+              "mean_probability": 0.8363985419792914,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p8_dc0_t1.15": {
+          "n": 380,
+          "hits": 202,
+          "accuracy": 0.531578947368421,
+          "brier": 0.5850319983175513,
+          "logloss": 0.9844079020798961,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 83,
+              "mean_probability": 0.3771126564532078,
+              "observed": 0.40963855421686746
+            },
+            {
+              "bin": "40–50%",
+              "n": 153,
+              "mean_probability": 0.44281900815888553,
+              "observed": 0.45751633986928103
+            },
+            {
+              "bin": "50–60%",
+              "n": 83,
+              "mean_probability": 0.5424228956875576,
+              "observed": 0.5783132530120482
+            },
+            {
+              "bin": "60–70%",
+              "n": 39,
+              "mean_probability": 0.6460894860364029,
+              "observed": 0.7948717948717948
+            },
+            {
+              "bin": "70–80%",
+              "n": 20,
+              "mean_probability": 0.7276491229822323,
+              "observed": 0.85
+            },
+            {
+              "bin": "80–90%",
+              "n": 2,
+              "mean_probability": 0.8118263938365958,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p8_dc1_t1": {
+          "n": 380,
+          "hits": 203,
+          "accuracy": 0.5342105263157895,
+          "brier": 0.5824087971378966,
+          "logloss": 0.9804949093108829,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 65,
+              "mean_probability": 0.3746366557429093,
+              "observed": 0.4153846153846154
+            },
+            {
+              "bin": "40–50%",
+              "n": 147,
+              "mean_probability": 0.442469980590529,
+              "observed": 0.4557823129251701
+            },
+            {
+              "bin": "50–60%",
+              "n": 88,
+              "mean_probability": 0.5445471959536594,
+              "observed": 0.5454545454545454
+            },
+            {
+              "bin": "60–70%",
+              "n": 45,
+              "mean_probability": 0.6474111824819004,
+              "observed": 0.6888888888888889
+            },
+            {
+              "bin": "70–80%",
+              "n": 30,
+              "mean_probability": 0.7460707601527993,
+              "observed": 0.8333333333333334
+            },
+            {
+              "bin": "80–90%",
+              "n": 5,
+              "mean_probability": 0.8356561477394246,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p8_dc1_t1.15": {
+          "n": 380,
+          "hits": 203,
+          "accuracy": 0.5342105263157895,
+          "brier": 0.5852888083059755,
+          "logloss": 0.9847316244242524,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 89,
+              "mean_probability": 0.3763535226638694,
+              "observed": 0.4157303370786517
+            },
+            {
+              "bin": "40–50%",
+              "n": 149,
+              "mean_probability": 0.44324770415034775,
+              "observed": 0.46308724832214765
+            },
+            {
+              "bin": "50–60%",
+              "n": 81,
+              "mean_probability": 0.541680151080486,
+              "observed": 0.5802469135802469
+            },
+            {
+              "bin": "60–70%",
+              "n": 40,
+              "mean_probability": 0.6459914435962761,
+              "observed": 0.8
+            },
+            {
+              "bin": "70–80%",
+              "n": 19,
+              "mean_probability": 0.72789883503537,
+              "observed": 0.8421052631578947
+            },
+            {
+              "bin": "80–90%",
+              "n": 2,
+              "mean_probability": 0.8117301769848908,
+              "observed": 1.0
+            }
+          ]
+        }
+      },
+      "test_scores": {
+        "v01": {
+          "n": 380,
+          "hits": 191,
+          "accuracy": 0.5026315789473684,
+          "brier": 0.6034142746847734,
+          "logloss": 1.0102991713168636,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 72,
+              "mean_probability": 0.38344352710150287,
+              "observed": 0.3194444444444444
+            },
+            {
+              "bin": "40–50%",
+              "n": 219,
+              "mean_probability": 0.4450256007922821,
+              "observed": 0.4657534246575342
+            },
+            {
+              "bin": "50–60%",
+              "n": 68,
+              "mean_probability": 0.5397736401114327,
+              "observed": 0.7058823529411765
+            },
+            {
+              "bin": "60–70%",
+              "n": 19,
+              "mean_probability": 0.6300420801124771,
+              "observed": 0.8421052631578947
+            },
+            {
+              "bin": "70–80%",
+              "n": 2,
+              "mean_probability": 0.717124278019653,
+              "observed": 1.0
+            }
+          ]
+        },
+        "league": {
+          "n": 380,
+          "hits": 186,
+          "accuracy": 0.48947368421052634,
+          "brier": 0.6321165739848582,
+          "logloss": 1.0494502410098507,
+          "calibration": [
+            {
+              "bin": "40–50%",
+              "n": 380,
+              "mean_probability": 0.45122393117333154,
+              "observed": 0.48947368421052634
+            }
+          ]
+        },
+        "uniform": {
+          "n": 380,
+          "hits": 186,
+          "accuracy": 0.48947368421052634,
+          "brier": 0.6666666666666629,
+          "logloss": 1.0986122886681076,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 380,
+              "mean_probability": 0.3333333333333314,
+              "observed": 0.48947368421052634
+            }
+          ]
+        },
+        "market_close": {
+          "n": 380,
+          "hits": 207,
+          "accuracy": 0.5447368421052632,
+          "brier": 0.5716509492588123,
+          "logloss": 0.9649804790839727,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 96,
+              "mean_probability": 0.37462417171944157,
+              "observed": 0.4375
+            },
+            {
+              "bin": "40–50%",
+              "n": 129,
+              "mean_probability": 0.45060743621613286,
+              "observed": 0.4418604651162791
+            },
+            {
+              "bin": "50–60%",
+              "n": 82,
+              "mean_probability": 0.5461992197883504,
+              "observed": 0.6097560975609756
+            },
+            {
+              "bin": "60–70%",
+              "n": 35,
+              "mean_probability": 0.6543972468722078,
+              "observed": 0.6857142857142857
+            },
+            {
+              "bin": "70–80%",
+              "n": 31,
+              "mean_probability": 0.7518539643237131,
+              "observed": 0.8709677419354839
+            },
+            {
+              "bin": "80–90%",
+              "n": 7,
+              "mean_probability": 0.8294851469338929,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p2_dc0_t1": {
+          "n": 380,
+          "hits": 204,
+          "accuracy": 0.5368421052631579,
+          "brier": 0.5823758211733522,
+          "logloss": 0.9813606713730726,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 67,
+              "mean_probability": 0.37810228594444384,
+              "observed": 0.43283582089552236
+            },
+            {
+              "bin": "40–50%",
+              "n": 134,
+              "mean_probability": 0.44056115193554424,
+              "observed": 0.44029850746268656
+            },
+            {
+              "bin": "50–60%",
+              "n": 91,
+              "mean_probability": 0.54674157930482,
+              "observed": 0.5604395604395604
+            },
+            {
+              "bin": "60–70%",
+              "n": 52,
+              "mean_probability": 0.6437643644260143,
+              "observed": 0.6538461538461539
+            },
+            {
+              "bin": "70–80%",
+              "n": 27,
+              "mean_probability": 0.7429098576401805,
+              "observed": 0.8148148148148148
+            },
+            {
+              "bin": "80–90%",
+              "n": 8,
+              "mean_probability": 0.8299469197288007,
+              "observed": 1.0
+            },
+            {
+              "bin": "90–100%",
+              "n": 1,
+              "mean_probability": 0.9110992640433582,
+              "observed": 1.0
+            }
+          ]
+        }
+      },
+      "paired_intervals_95": {
+        "v01": {
+          "brier": {
+            "delta": -0.021038453511420564,
+            "lower": -0.03776468584169469,
+            "upper": -0.002378036327366606
+          },
+          "logloss": {
+            "delta": -0.028938499943792623,
+            "lower": -0.05248545768439369,
+            "upper": -0.0028286357811961142
+          }
+        },
+        "league": {
+          "brier": {
+            "delta": -0.04974075281150667,
+            "lower": -0.07105406936986661,
+            "upper": -0.024872782045887075
+          },
+          "logloss": {
+            "delta": -0.0680895696367749,
+            "lower": -0.09829017527625775,
+            "upper": -0.03442621118216217
+          }
+        }
+      },
+      "evidence_supports_candidate": true,
+      "production_status": "eligible_for_new_forecasts_with_verified_inputs",
+      "always_home_test_hits": 186,
+      "note": "Mantingut en paral·lel fins a validar integració, dades futures i coincidència del tall operatiu."
+    },
+    "SP2": {
+      "n_total": 1848,
+      "selected_config": {
+        "penalty": 8.0,
+        "half_life": 365,
+        "dc": true,
+        "temperature": 1.0
+      },
+      "candidate_id": "strength_p8_dc1_t1",
+      "validation_scores": {
+        "strength_p2_dc0_t1": {
+          "n": 462,
+          "hits": 218,
+          "accuracy": 0.47186147186147187,
+          "brier": 0.6289598725545291,
+          "logloss": 1.0464133924504455,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 113,
+              "mean_probability": 0.37800629662965907,
+              "observed": 0.39823008849557523
+            },
+            {
+              "bin": "40–50%",
+              "n": 205,
+              "mean_probability": 0.44371604374274143,
+              "observed": 0.44390243902439025
+            },
+            {
+              "bin": "50–60%",
+              "n": 101,
+              "mean_probability": 0.5382076611556463,
+              "observed": 0.5445544554455446
+            },
+            {
+              "bin": "60–70%",
+              "n": 40,
+              "mean_probability": 0.6406178423987112,
+              "observed": 0.6
+            },
+            {
+              "bin": "70–80%",
+              "n": 3,
+              "mean_probability": 0.7383623207285251,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p2_dc0_t1.15": {
+          "n": 462,
+          "hits": 218,
+          "accuracy": 0.47186147186147187,
+          "brier": 0.6294943964314367,
+          "logloss": 1.046835890070257,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 139,
+              "mean_probability": 0.376567724051625,
+              "observed": 0.43884892086330934
+            },
+            {
+              "bin": "40–50%",
+              "n": 220,
+              "mean_probability": 0.44352385634140146,
+              "observed": 0.44545454545454544
+            },
+            {
+              "bin": "50–60%",
+              "n": 80,
+              "mean_probability": 0.5418631327047649,
+              "observed": 0.5375
+            },
+            {
+              "bin": "60–70%",
+              "n": 22,
+              "mean_probability": 0.6261410289263226,
+              "observed": 0.6818181818181818
+            },
+            {
+              "bin": "70–80%",
+              "n": 1,
+              "mean_probability": 0.7198148101420039,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p2_dc1_t1": {
+          "n": 462,
+          "hits": 218,
+          "accuracy": 0.47186147186147187,
+          "brier": 0.6288678765599546,
+          "logloss": 1.0460909511560355,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 122,
+              "mean_probability": 0.37596349593594675,
+              "observed": 0.4180327868852459
+            },
+            {
+              "bin": "40–50%",
+              "n": 206,
+              "mean_probability": 0.4443103115223773,
+              "observed": 0.441747572815534
+            },
+            {
+              "bin": "50–60%",
+              "n": 93,
+              "mean_probability": 0.539669048349518,
+              "observed": 0.5376344086021505
+            },
+            {
+              "bin": "60–70%",
+              "n": 38,
+              "mean_probability": 0.6398858365985489,
+              "observed": 0.6052631578947368
+            },
+            {
+              "bin": "70–80%",
+              "n": 3,
+              "mean_probability": 0.7348044167135409,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p2_dc1_t1.15": {
+          "n": 462,
+          "hits": 218,
+          "accuracy": 0.47186147186147187,
+          "brier": 0.6295610520090659,
+          "logloss": 1.0467394612095111,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 150,
+              "mean_probability": 0.3751421582629524,
+              "observed": 0.43333333333333335
+            },
+            {
+              "bin": "40–50%",
+              "n": 215,
+              "mean_probability": 0.4437110764132949,
+              "observed": 0.44651162790697674
+            },
+            {
+              "bin": "50–60%",
+              "n": 77,
+              "mean_probability": 0.5444771576096028,
+              "observed": 0.5584415584415584
+            },
+            {
+              "bin": "60–70%",
+              "n": 19,
+              "mean_probability": 0.627646679186145,
+              "observed": 0.6842105263157895
+            },
+            {
+              "bin": "70–80%",
+              "n": 1,
+              "mean_probability": 0.7170390395438377,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p8_dc0_t1": {
+          "n": 462,
+          "hits": 224,
+          "accuracy": 0.48484848484848486,
+          "brier": 0.6258489322004325,
+          "logloss": 1.0412348389094175,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 113,
+              "mean_probability": 0.37814742881227875,
+              "observed": 0.4247787610619469
+            },
+            {
+              "bin": "40–50%",
+              "n": 223,
+              "mean_probability": 0.44459329742773007,
+              "observed": 0.4618834080717489
+            },
+            {
+              "bin": "50–60%",
+              "n": 96,
+              "mean_probability": 0.5371458735048165,
+              "observed": 0.53125
+            },
+            {
+              "bin": "60–70%",
+              "n": 28,
+              "mean_probability": 0.623533315819875,
+              "observed": 0.7142857142857143
+            },
+            {
+              "bin": "70–80%",
+              "n": 2,
+              "mean_probability": 0.7233893467038881,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p8_dc0_t1.15": {
+          "n": 462,
+          "hits": 224,
+          "accuracy": 0.48484848484848486,
+          "brier": 0.6273576051403714,
+          "logloss": 1.0432490148077664,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 143,
+              "mean_probability": 0.3772073936835638,
+              "observed": 0.46853146853146854
+            },
+            {
+              "bin": "40–50%",
+              "n": 231,
+              "mean_probability": 0.4434033424971241,
+              "observed": 0.43722943722943725
+            },
+            {
+              "bin": "50–60%",
+              "n": 80,
+              "mean_probability": 0.5401650626852884,
+              "observed": 0.6
+            },
+            {
+              "bin": "60–70%",
+              "n": 8,
+              "mean_probability": 0.6301115005123572,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p8_dc1_t1": {
+          "n": 462,
+          "hits": 223,
+          "accuracy": 0.48268398268398266,
+          "brier": 0.625758762934145,
+          "logloss": 1.0408237209075712,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 127,
+              "mean_probability": 0.3764865175208921,
+              "observed": 0.4330708661417323
+            },
+            {
+              "bin": "40–50%",
+              "n": 221,
+              "mean_probability": 0.4459135360726708,
+              "observed": 0.4660633484162896
+            },
+            {
+              "bin": "50–60%",
+              "n": 86,
+              "mean_probability": 0.5397262675420345,
+              "observed": 0.5
+            },
+            {
+              "bin": "60–70%",
+              "n": 26,
+              "mean_probability": 0.6218645940092181,
+              "observed": 0.7692307692307693
+            },
+            {
+              "bin": "70–80%",
+              "n": 2,
+              "mean_probability": 0.7197806728757092,
+              "observed": 1.0
+            }
+          ]
+        },
+        "strength_p8_dc1_t1.15": {
+          "n": 462,
+          "hits": 223,
+          "accuracy": 0.48268398268398266,
+          "brier": 0.6274301394357624,
+          "logloss": 1.0430917413678111,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 151,
+              "mean_probability": 0.3748263422984586,
+              "observed": 0.46357615894039733
+            },
+            {
+              "bin": "40–50%",
+              "n": 226,
+              "mean_probability": 0.4417459862666178,
+              "observed": 0.42920353982300885
+            },
+            {
+              "bin": "50–60%",
+              "n": 78,
+              "mean_probability": 0.5395040696136865,
+              "observed": 0.6282051282051282
+            },
+            {
+              "bin": "60–70%",
+              "n": 7,
+              "mean_probability": 0.6307614790431195,
+              "observed": 1.0
+            }
+          ]
+        }
+      },
+      "test_scores": {
+        "v01": {
+          "n": 462,
+          "hits": 217,
+          "accuracy": 0.4696969696969697,
+          "brier": 0.6376333470507309,
+          "logloss": 1.0565686228748945,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 101,
+              "mean_probability": 0.38360247629529975,
+              "observed": 0.44554455445544555
+            },
+            {
+              "bin": "40–50%",
+              "n": 293,
+              "mean_probability": 0.4435809170029965,
+              "observed": 0.45733788395904434
+            },
+            {
+              "bin": "50–60%",
+              "n": 66,
+              "mean_probability": 0.5280492082288439,
+              "observed": 0.5757575757575758
+            },
+            {
+              "bin": "60–70%",
+              "n": 2,
+              "mean_probability": 0.6122640253810803,
+              "observed": 0.0
+            }
+          ]
+        },
+        "league": {
+          "n": 462,
+          "hits": 207,
+          "accuracy": 0.44805194805194803,
+          "brier": 0.6493955913395245,
+          "logloss": 1.0744802953734105,
+          "calibration": [
+            {
+              "bin": "40–50%",
+              "n": 462,
+              "mean_probability": 0.45428901000852956,
+              "observed": 0.44805194805194803
+            }
+          ]
+        },
+        "uniform": {
+          "n": 462,
+          "hits": 207,
+          "accuracy": 0.44805194805194803,
+          "brier": 0.6666666666666666,
+          "logloss": 1.0986122886681076,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 462,
+              "mean_probability": 0.3333333333333333,
+              "observed": 0.44805194805194803
+            }
+          ]
+        },
+        "market_close": {
+          "n": 462,
+          "hits": 227,
+          "accuracy": 0.49134199134199136,
+          "brier": 0.6168903602828072,
+          "logloss": 1.028572037525537,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 101,
+              "mean_probability": 0.37229779952110337,
+              "observed": 0.3465346534653465
+            },
+            {
+              "bin": "40–50%",
+              "n": 217,
+              "mean_probability": 0.44665210073096867,
+              "observed": 0.48847926267281105
+            },
+            {
+              "bin": "50–60%",
+              "n": 103,
+              "mean_probability": 0.544216932546803,
+              "observed": 0.5728155339805825
+            },
+            {
+              "bin": "60–70%",
+              "n": 37,
+              "mean_probability": 0.6281544630051112,
+              "observed": 0.6756756756756757
+            },
+            {
+              "bin": "70–80%",
+              "n": 4,
+              "mean_probability": 0.7165960924650846,
+              "observed": 0.5
+            }
+          ]
+        },
+        "strength_p8_dc1_t1": {
+          "n": 462,
+          "hits": 212,
+          "accuracy": 0.4588744588744589,
+          "brier": 0.6398860959350957,
+          "logloss": 1.0606348996683879,
+          "calibration": [
+            {
+              "bin": "30–40%",
+              "n": 103,
+              "mean_probability": 0.38102783147271546,
+              "observed": 0.3786407766990291
+            },
+            {
+              "bin": "40–50%",
+              "n": 243,
+              "mean_probability": 0.4459792112167693,
+              "observed": 0.4609053497942387
+            },
+            {
+              "bin": "50–60%",
+              "n": 104,
+              "mean_probability": 0.5379299147925676,
+              "observed": 0.5192307692307693
+            },
+            {
+              "bin": "60–70%",
+              "n": 12,
+              "mean_probability": 0.6362567357938376,
+              "observed": 0.5833333333333334
+            }
+          ]
+        }
+      },
+      "paired_intervals_95": {
+        "v01": {
+          "brier": {
+            "delta": 0.0022527488843656278,
+            "lower": -0.004127996957708886,
+            "upper": 0.009644468509426156
+          },
+          "logloss": {
+            "delta": 0.00406627679349344,
+            "lower": -0.0059648711262346365,
+            "upper": 0.015330437043687212
+          }
+        },
+        "league": {
+          "brier": {
+            "delta": -0.009509495404430121,
+            "lower": -0.022600817649155423,
+            "upper": 0.0035004424082668273
+          },
+          "logloss": {
+            "delta": -0.013845395705017617,
+            "lower": -0.033046513204116564,
+            "upper": 0.005242306875851583
+          }
+        }
+      },
+      "evidence_supports_candidate": false,
+      "production_status": "retain_v01",
+      "always_home_test_hits": 207,
+      "note": "Mantingut en paral·lel fins a validar integració, dades futures i coincidència del tall operatiu."
+    }
+  }
+}
