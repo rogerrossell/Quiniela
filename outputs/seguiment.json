@@ -1,7 +1,1447 @@
 {
-  "updated": "2026-10-26T10:01:27.708255+01:00",
+  "updated": "2026-10-26T22:04:53.064907+01:00",
   "automation_note": "Revisió diària activada a Codex; necessita que l’entorn local estigui disponible. Aquest web és una instantània, no un marcador en directe.",
   "rounds": [
+    {
+      "number": 11,
+      "label": "Previsió anticipada · cupó SELAE 18 provisional",
+      "period": "30 d’octubre – 2 de novembre de 2026",
+      "forecast_at": "2026-10-26T21:56:58+01:00",
+      "forecast_version": "j11-20261026-anticipada-v02",
+      "model": "0.2 Primera · 0.1 altres",
+      "publication_status": "frozen_published",
+      "matches": [
+        {
+          "home": "Villarreal",
+          "away": "Espanyol",
+          "kickoff": "2026-10-30T21:00:00+01:00",
+          "forecast": {
+            "match": "Villarreal – Espanyol",
+            "time": "2026-10-30T21:00:00+01:00",
+            "lambda_home": 2.1627229531979224,
+            "lambda_away": 0.9734037138127691,
+            "probabilities": {
+              "1": 0.6451629227540537,
+              "X": 0.19594062247314875,
+              "2": 0.15889645477279715
+            },
+            "percentages": {
+              "1": 64,
+              "X": 20,
+              "2": 16
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "2-0",
+                "probability": 0.10161768042338469
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09891502751316178
+              },
+              {
+                "score": "1-0",
+                "probability": 0.0939719812684534
+              }
+            ],
+            "model_version": "0.2-sp1-strength-20261026",
+            "snapshot_cutoff": "2026-09-29",
+            "unknown_history_teams": [],
+            "note": "Força d’atac/defensa, avantatge local estimat i pes temporal; sense ajustos manuals. Equips sense historial: prior neutral, confiança baixa.",
+            "reference_v01": {
+              "match": "Villarreal – Espanyol",
+              "time": "2026-10-30T21:00:00+01:00",
+              "lambda_home": 1.5397817460317458,
+              "lambda_away": 1.1749999999999998,
+              "probabilities": {
+                "1": 0.4571793540266378,
+                "X": 0.2524357473221627,
+                "2": 0.2903848986511993
+              },
+              "percentages": {
+                "1": 46,
+                "X": 25,
+                "2": 29
+              },
+              "sign": "1",
+              "double": "12",
+              "top_scores": [
+                {
+                  "score": "1-1",
+                  "probability": 0.11980702981758597
+                },
+                {
+                  "score": "1-0",
+                  "probability": 0.10196342963198808
+                },
+                {
+                  "score": "2-1",
+                  "probability": 0.09223833877969997
+                }
+              ]
+            }
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Villarreal 15–14 en 10 finals; Espanyol 12–14 en 10. v0.2 usa força d’atac/defensa, avantatge local estimat, regularització 2 i semivida de 365 dies. Tall d’ajust mensual: 29/09/2026; les estadístiques actuals només alimenten la referència v0.1, conservada a part.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-rcd-espanyol-de-barcelona-11",
+            "https://cadenaser.com/nacional/2026/10/26/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-11-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Llevant",
+          "away": "Atlètic de Madrid",
+          "kickoff": "2026-10-31T14:00:00+01:00",
+          "forecast": {
+            "match": "Llevant – Atlètic de Madrid",
+            "time": "2026-10-31T14:00:00+01:00",
+            "lambda_home": 1.2304118368953343,
+            "lambda_away": 1.7813075104741392,
+            "probabilities": {
+              "1": 0.2641295791197242,
+              "X": 0.23269659651037267,
+              "2": 0.5031738243699028
+            },
+            "percentages": {
+              "1": 27,
+              "X": 23,
+              "2": 50
+            },
+            "sign": "2",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.10784904552736968
+              },
+              {
+                "score": "1-2",
+                "probability": 0.09605615739768548
+              },
+              {
+                "score": "0-1",
+                "probability": 0.08765280233283705
+              }
+            ],
+            "model_version": "0.2-sp1-strength-20261026",
+            "snapshot_cutoff": "2026-09-29",
+            "unknown_history_teams": [],
+            "note": "Força d’atac/defensa, avantatge local estimat i pes temporal; sense ajustos manuals. Equips sense historial: prior neutral, confiança baixa.",
+            "reference_v01": {
+              "match": "Llevant – Atlètic de Madrid",
+              "time": "2026-10-31T14:00:00+01:00",
+              "lambda_home": 1.482217261904762,
+              "lambda_away": 1.582142857142857,
+              "probabilities": {
+                "1": 0.35835924614915204,
+                "X": 0.23976440079250202,
+                "2": 0.4018763530583444
+              },
+              "percentages": {
+                "1": 36,
+                "X": 24,
+                "2": 40
+              },
+              "sign": "2",
+              "double": "12",
+              "top_scores": [
+                {
+                  "score": "1-1",
+                  "probability": 0.10947699582709497
+                },
+                {
+                  "score": "1-2",
+                  "probability": 0.08660412348464833
+                },
+                {
+                  "score": "2-1",
+                  "probability": 0.08113434649819788
+                }
+              ]
+            }
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Llevant 16–19 en 10 finals; Atlètic de Madrid 20–8 en 10. v0.2 usa força d’atac/defensa, avantatge local estimat, regularització 2 i semivida de 365 dies. Tall d’ajust mensual: 29/09/2026; les estadístiques actuals només alimenten la referència v0.1, conservada a part.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-atletico-de-madrid-11",
+            "https://cadenaser.com/nacional/2026/10/26/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-11-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Rayo",
+          "away": "Celta",
+          "kickoff": "2026-10-31T16:15:00+01:00",
+          "forecast": {
+            "match": "Rayo – Celta",
+            "time": "2026-10-31T16:15:00+01:00",
+            "lambda_home": 1.2391314043554498,
+            "lambda_away": 1.1199382446538908,
+            "probabilities": {
+              "1": 0.38969410714254465,
+              "X": 0.27882379774897303,
+              "2": 0.3314820951084836
+            },
+            "percentages": {
+              "1": 39,
+              "X": 28,
+              "2": 33
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.13115368832459415
+              },
+              {
+                "score": "1-0",
+                "probability": 0.11710796461382234
+              },
+              {
+                "score": "0-1",
+                "probability": 0.10584324460150005
+              }
+            ],
+            "model_version": "0.2-sp1-strength-20261026",
+            "snapshot_cutoff": "2026-09-29",
+            "unknown_history_teams": [],
+            "note": "Força d’atac/defensa, avantatge local estimat i pes temporal; sense ajustos manuals. Equips sense historial: prior neutral, confiança baixa.",
+            "reference_v01": {
+              "match": "Rayo – Celta",
+              "time": "2026-10-31T16:15:00+01:00",
+              "lambda_home": 1.2042960164835166,
+              "lambda_away": 1.2794093406593408,
+              "probabilities": {
+                "1": 0.3466272222062335,
+                "X": 0.27085151651717787,
+                "2": 0.3825212612765882
+              },
+              "percentages": {
+                "1": 35,
+                "X": 27,
+                "2": 38
+              },
+              "sign": "2",
+              "double": "12",
+              "top_scores": [
+                {
+                  "score": "1-1",
+                  "probability": 0.12855330178249938
+                },
+                {
+                  "score": "0-1",
+                  "probability": 0.10674560076837962
+                },
+                {
+                  "score": "1-0",
+                  "probability": 0.10047863314508061
+                }
+              ]
+            }
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Rayo 12–20 en 9 finals; Celta 10–7 en 10. v0.2 usa força d’atac/defensa, avantatge local estimat, regularització 2 i semivida de 365 dies. Tall d’ajust mensual: 29/09/2026; les estadístiques actuals només alimenten la referència v0.1, conservada a part. SER del 26/10 assenyala Pathé Ciss sancionat; falta contrastar la resolució federativa. Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-rc-celta-11",
+            "https://cadenaser.com/nacional/2026/10/26/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-11-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Betis",
+          "away": "Màlaga",
+          "kickoff": "2026-10-31T18:30:00+01:00",
+          "forecast": {
+            "match": "Betis – Màlaga",
+            "time": "2026-10-31T18:30:00+01:00",
+            "lambda_home": 1.9444351030525842,
+            "lambda_away": 0.5301015065007798,
+            "probabilities": {
+              "1": 0.7124373357570593,
+              "X": 0.19609137486387274,
+              "2": 0.09147128937906833
+            },
+            "percentages": {
+              "1": 71,
+              "X": 20,
+              "2": 9
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "1-0",
+                "probability": 0.16372532380940025
+              },
+              {
+                "score": "2-0",
+                "probability": 0.15917663343682445
+              },
+              {
+                "score": "3-0",
+                "probability": 0.10316954454676505
+              }
+            ],
+            "model_version": "0.2-sp1-strength-20261026",
+            "snapshot_cutoff": "2026-09-29",
+            "unknown_history_teams": [],
+            "note": "Força d’atac/defensa, avantatge local estimat i pes temporal; sense ajustos manuals. Equips sense historial: prior neutral, confiança baixa.",
+            "reference_v01": {
+              "match": "Betis – Màlaga",
+              "time": "2026-10-31T18:30:00+01:00",
+              "lambda_home": 1.786845238095238,
+              "lambda_away": 0.9994642857142856,
+              "probabilities": {
+                "1": 0.5585751819465079,
+                "X": 0.2318249528374257,
+                "2": 0.209599865216067
+              },
+              "percentages": {
+                "1": 56,
+                "X": 23,
+                "2": 21
+              },
+              "sign": "1",
+              "double": "1X",
+              "top_scores": [
+                {
+                  "score": "1-0",
+                  "probability": 0.11015598241331531
+                },
+                {
+                  "score": "1-1",
+                  "probability": 0.1100969702798796
+                },
+                {
+                  "score": "2-0",
+                  "probability": 0.09841584631146762
+                }
+              ]
+            }
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Betis 16–14 en 10 finals; Màlaga 7–19 en 10. v0.2 usa força d’atac/defensa, avantatge local estimat, regularització 2 i semivida de 365 dies. Tall d’ajust mensual: 29/09/2026; les estadístiques actuals només alimenten la referència v0.1, conservada a part.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-betis-malaga-cf-11",
+            "https://cadenaser.com/nacional/2026/10/26/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-11-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Barcelona",
+          "away": "Alabès",
+          "kickoff": "2026-10-31T21:00:00+01:00",
+          "forecast": {
+            "match": "Barcelona – Alabès",
+            "time": "2026-10-31T21:00:00+01:00",
+            "lambda_home": 2.987794938645778,
+            "lambda_away": 0.7538731821298492,
+            "probabilities": {
+              "1": 0.8200211299597048,
+              "X": 0.11589683937014313,
+              "2": 0.0640820306701521
+            },
+            "percentages": {
+              "1": 82,
+              "X": 12,
+              "2": 6
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "2-0",
+                "probability": 0.10584875661920402
+              },
+              {
+                "score": "3-0",
+                "probability": 0.10541812642960219
+              },
+              {
+                "score": "2-1",
+                "probability": 0.07979653897700728
+              }
+            ],
+            "model_version": "0.2-sp1-strength-20261026",
+            "snapshot_cutoff": "2026-09-29",
+            "unknown_history_teams": [],
+            "note": "Força d’atac/defensa, avantatge local estimat i pes temporal; sense ajustos manuals. Equips sense historial: prior neutral, confiança baixa.",
+            "reference_v01": {
+              "match": "Barcelona – Alabès",
+              "time": "2026-10-31T21:00:00+01:00",
+              "lambda_home": 2.338864087301588,
+              "lambda_away": 1.1087053571428571,
+              "probabilities": {
+                "1": 0.6478593601807915,
+                "X": 0.18602957888324972,
+                "2": 0.1661110609359589
+              },
+              "percentages": {
+                "1": 65,
+                "X": 18,
+                "2": 17
+              },
+              "sign": "1",
+              "double": "1X",
+              "top_scores": [
+                {
+                  "score": "2-1",
+                  "probability": 0.09650187142285183
+                },
+                {
+                  "score": "2-0",
+                  "probability": 0.0870401417302952
+                },
+                {
+                  "score": "1-1",
+                  "probability": 0.08252029003890407
+                }
+              ]
+            }
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Barcelona 40–11 en 10 finals; Alabès 14–11 en 10. v0.2 usa força d’atac/defensa, avantatge local estimat, regularització 2 i semivida de 365 dies. Tall d’ajust mensual: 29/09/2026; les estadístiques actuals només alimenten la referència v0.1, conservada a part. SER del 26/10 assenyala Xavi Espart i Dani Olmo lesionats; convocatòria pendent. Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-deportivo-alaves-11",
+            "https://cadenaser.com/nacional/2026/10/26/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-11-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Getafe",
+          "away": "Sevilla",
+          "kickoff": "2026-11-01T14:00:00+01:00",
+          "forecast": {
+            "match": "Getafe – Sevilla",
+            "time": "2026-11-01T14:00:00+01:00",
+            "lambda_home": 1.006812345907784,
+            "lambda_away": 0.8023506035364882,
+            "probabilities": {
+              "1": 0.39297176806710465,
+              "X": 0.32534911837192093,
+              "2": 0.28167911356097464
+            },
+            "percentages": {
+              "1": 39,
+              "X": 33,
+              "2": 28
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "1-0",
+                "probability": 0.16490698311848406
+              },
+              {
+                "score": "0-0",
+                "probability": 0.16379118093729478
+              },
+              {
+                "score": "1-1",
+                "probability": 0.1323132174324972
+              }
+            ],
+            "model_version": "0.2-sp1-strength-20261026",
+            "snapshot_cutoff": "2026-09-29",
+            "unknown_history_teams": [],
+            "note": "Força d’atac/defensa, avantatge local estimat i pes temporal; sense ajustos manuals. Equips sense historial: prior neutral, confiança baixa.",
+            "reference_v01": {
+              "match": "Getafe – Sevilla",
+              "time": "2026-11-01T14:00:00+01:00",
+              "lambda_home": 1.3460057997557997,
+              "lambda_away": 1.2654258241758238,
+              "probabilities": {
+                "1": 0.38734465013654645,
+                "X": 0.26298506148070167,
+                "2": 0.3496702883827526
+              },
+              "percentages": {
+                "1": 39,
+                "X": 26,
+                "2": 35
+              },
+              "sign": "1",
+              "double": "12",
+              "top_scores": [
+                {
+                  "score": "1-1",
+                  "probability": 0.12507003752387866
+                },
+                {
+                  "score": "1-0",
+                  "probability": 0.09883632460664947
+                },
+                {
+                  "score": "0-1",
+                  "probability": 0.09291938975788187
+                }
+              ]
+            }
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Getafe 5–15 en 10 finals; Sevilla 14–16 en 9. v0.2 usa força d’atac/defensa, avantatge local estimat, regularització 2 i semivida de 365 dies. Tall d’ajust mensual: 29/09/2026; les estadístiques actuals només alimenten la referència v0.1, conservada a part. SER del 26/10 assenyala Mario Martín i Mojica sancionats; falta contrastar la resolució federativa. Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-sevilla-fc-11",
+            "https://cadenaser.com/nacional/2026/10/26/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-11-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Racing",
+          "away": "Real Madrid",
+          "kickoff": "2026-11-01T16:15:00+01:00",
+          "forecast": {
+            "match": "Racing – Real Madrid",
+            "time": "2026-11-01T16:15:00+01:00",
+            "lambda_home": 1.3905409094443433,
+            "lambda_away": 3.3169124861631913,
+            "probabilities": {
+              "1": 0.1232755284534962,
+              "X": 0.13187048888167255,
+              "2": 0.7448539826648315
+            },
+            "percentages": {
+              "1": 12,
+              "X": 13,
+              "2": 75
+            },
+            "sign": "2",
+            "double": "X2",
+            "top_scores": [
+              {
+                "score": "1-3",
+                "probability": 0.0763507883921861
+              },
+              {
+                "score": "1-2",
+                "probability": 0.06905589644950584
+              },
+              {
+                "score": "1-4",
+                "probability": 0.06331222083661144
+              }
+            ],
+            "model_version": "0.2-sp1-strength-20261026",
+            "snapshot_cutoff": "2026-09-29",
+            "unknown_history_teams": [],
+            "note": "Força d’atac/defensa, avantatge local estimat i pes temporal; sense ajustos manuals. Equips sense historial: prior neutral, confiança baixa.",
+            "reference_v01": {
+              "match": "Racing – Real Madrid",
+              "time": "2026-11-01T16:15:00+01:00",
+              "lambda_home": 1.4769246031746033,
+              "lambda_away": 1.8101785714285712,
+              "probabilities": {
+                "1": 0.3161855517033418,
+                "X": 0.22753879375860617,
+                "2": 0.4562756545380518
+              },
+              "percentages": {
+                "1": 31,
+                "X": 23,
+                "2": 46
+              },
+              "sign": "2",
+              "double": "12",
+              "top_scores": [
+                {
+                  "score": "1-1",
+                  "probability": 0.09988700109401635
+                },
+                {
+                  "score": "1-2",
+                  "probability": 0.09040665447232533
+                },
+                {
+                  "score": "2-1",
+                  "probability": 0.07376278472654064
+                }
+              ]
+            }
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Racing 15–26 en 10 finals; Real Madrid 25–10 en 10. v0.2 usa força d’atac/defensa, avantatge local estimat, regularització 2 i semivida de 365 dies. Tall d’ajust mensual: 29/09/2026; les estadístiques actuals només alimenten la referència v0.1, conservada a part. SER del 26/10 assenyala Vinícius sancionat i Valverde com a dubte; falta contrastar la resolució federativa. Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-madrid-11",
+            "https://cadenaser.com/nacional/2026/10/26/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-11-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Elx",
+          "away": "València",
+          "kickoff": "2026-11-01T18:30:00+01:00",
+          "forecast": {
+            "match": "Elx – València",
+            "time": "2026-11-01T18:30:00+01:00",
+            "lambda_home": 1.6803689347830446,
+            "lambda_away": 1.2022938103441447,
+            "probabilities": {
+              "1": 0.48565027770510016,
+              "X": 0.24080203681822043,
+              "2": 0.27354768547667946
+            },
+            "percentages": {
+              "1": 49,
+              "X": 24,
+              "2": 27
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.11310732514540324
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09503101773537036
+              },
+              {
+                "score": "1-0",
+                "probability": 0.09407627667402478
+              }
+            ],
+            "model_version": "0.2-sp1-strength-20261026",
+            "snapshot_cutoff": "2026-09-29",
+            "unknown_history_teams": [],
+            "note": "Força d’atac/defensa, avantatge local estimat i pes temporal; sense ajustos manuals. Equips sense historial: prior neutral, confiança baixa.",
+            "reference_v01": {
+              "match": "Elx – València",
+              "time": "2026-11-01T18:30:00+01:00",
+              "lambda_home": 1.5704464285714286,
+              "lambda_away": 1.1864732142857142,
+              "probabilities": {
+                "1": 0.46227998688225436,
+                "X": 0.24972780517559842,
+                "2": 0.2879922079421472
+              },
+              "percentages": {
+                "1": 46,
+                "X": 25,
+                "2": 29
+              },
+              "sign": "1",
+              "double": "12",
+              "top_scores": [
+                {
+                  "score": "1-1",
+                  "probability": 0.11829491495147264
+                },
+                {
+                  "score": "1-0",
+                  "probability": 0.09970297982891174
+                },
+                {
+                  "score": "2-1",
+                  "probability": 0.09288791335185055
+                }
+              ]
+            }
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Elx 14–17 en 10 finals; València 7–17 en 10. v0.2 usa força d’atac/defensa, avantatge local estimat, regularització 2 i semivida de 365 dies. Tall d’ajust mensual: 29/09/2026; les estadístiques actuals només alimenten la referència v0.1, conservada a part.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-valencia-cf-11",
+            "https://cadenaser.com/nacional/2026/10/26/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-11-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Athletic",
+          "away": "Reial Societat",
+          "kickoff": "2026-11-01T21:00:00+01:00",
+          "forecast": {
+            "match": "Athletic – Reial Societat",
+            "time": "2026-11-01T21:00:00+01:00",
+            "lambda_home": 1.5787175562826032,
+            "lambda_away": 1.093109840856931,
+            "probabilities": {
+              "1": 0.48587078751400814,
+              "X": 0.250892306481152,
+              "2": 0.2632369060048394
+            },
+            "percentages": {
+              "1": 49,
+              "X": 25,
+              "2": 26
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.11929118357094017
+              },
+              {
+                "score": "1-0",
+                "probability": 0.1091300975549019
+              },
+              {
+                "score": "2-1",
+                "probability": 0.09416354290658704
+              }
+            ],
+            "model_version": "0.2-sp1-strength-20261026",
+            "snapshot_cutoff": "2026-09-29",
+            "unknown_history_teams": [],
+            "note": "Força d’atac/defensa, avantatge local estimat i pes temporal; sense ajustos manuals. Equips sense historial: prior neutral, confiança baixa.",
+            "reference_v01": {
+              "match": "Athletic – Reial Societat",
+              "time": "2026-11-01T21:00:00+01:00",
+              "lambda_home": 1.6937851037851037,
+              "lambda_away": 1.2820467032967033,
+              "probabilities": {
+                "1": 0.47099931399759193,
+                "X": 0.23854936850919062,
+                "2": 0.29045131749321834
+              },
+              "percentages": {
+                "1": 47,
+                "X": 24,
+                "2": 29
+              },
+              "sign": "1",
+              "double": "12",
+              "top_scores": [
+                {
+                  "score": "1-1",
+                  "probability": 0.11075792796274837
+                },
+                {
+                  "score": "2-1",
+                  "probability": 0.0938000642547034
+                },
+                {
+                  "score": "1-0",
+                  "probability": 0.08639149235198784
+                }
+              ]
+            }
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Athletic 12–9 en 9 finals; Reial Societat 19–18 en 10. v0.2 usa força d’atac/defensa, avantatge local estimat, regularització 2 i semivida de 365 dies. Tall d’ajust mensual: 29/09/2026; les estadístiques actuals només alimenten la referència v0.1, conservada a part.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-real-sociedad-11",
+            "https://cadenaser.com/nacional/2026/10/26/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-11-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Deportivo",
+          "away": "Osasuna",
+          "kickoff": "2026-11-02T21:00:00+01:00",
+          "forecast": {
+            "match": "Deportivo – Osasuna",
+            "time": "2026-11-02T21:00:00+01:00",
+            "lambda_home": 1.6095259542541924,
+            "lambda_away": 0.9607370421908359,
+            "probabilities": {
+              "1": 0.5254205973290493,
+              "X": 0.24924071098896944,
+              "2": 0.22533869168198142
+            },
+            "percentages": {
+              "1": 53,
+              "X": 25,
+              "2": 22
+            },
+            "sign": "1",
+            "double": "1X",
+            "top_scores": [
+              {
+                "score": "1-0",
+                "probability": 0.12315355357654068
+              },
+              {
+                "score": "1-1",
+                "probability": 0.11831818079841633
+              },
+              {
+                "score": "2-0",
+                "probability": 0.09910942042003822
+              }
+            ],
+            "model_version": "0.2-sp1-strength-20261026",
+            "snapshot_cutoff": "2026-09-29",
+            "unknown_history_teams": [],
+            "note": "Força d’atac/defensa, avantatge local estimat i pes temporal; sense ajustos manuals. Equips sense historial: prior neutral, confiança baixa.",
+            "reference_v01": {
+              "match": "Deportivo – Osasuna",
+              "time": "2026-11-02T21:00:00+01:00",
+              "lambda_home": 1.7907024572649572,
+              "lambda_away": 1.1183653846153845,
+              "probabilities": {
+                "1": 0.531133290886374,
+                "X": 0.23221343328272098,
+                "2": 0.23665327583090467
+              },
+              "percentages": {
+                "1": 53,
+                "X": 23,
+                "2": 24
+              },
+              "sign": "1",
+              "double": "12",
+              "top_scores": [
+                {
+                  "score": "1-1",
+                  "probability": 0.1091980881537604
+                },
+                {
+                  "score": "2-1",
+                  "probability": 0.09777064239278709
+                },
+                {
+                  "score": "1-0",
+                  "probability": 0.0976407975925637
+                }
+              ]
+            }
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA EA SPORTS",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Deportivo 13–13 en 10 finals; Osasuna 10–18 en 9. v0.2 usa força d’atac/defensa, avantatge local estimat, regularització 2 i semivida de 365 dies. Tall d’ajust mensual: 29/09/2026; les estadístiques actuals només alimenten la referència v0.1, conservada a part.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-easports/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
+            "https://cadenaser.com/nacional/2026/10/26/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-11-y-posibles-sustitutos-cadena-ser/"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Eibar",
+          "away": "Almeria",
+          "kickoff": "2026-10-31T16:15:00+01:00",
+          "forecast": {
+            "match": "Eibar – Almeria",
+            "time": "2026-10-31T16:15:00+01:00",
+            "lambda_home": 1.4410000000000003,
+            "lambda_away": 1.314,
+            "probabilities": {
+              "1": 0.40169161803245274,
+              "X": 0.2545922241601061,
+              "2": 0.3437161578074422
+            },
+            "percentages": {
+              "1": 40,
+              "X": 26,
+              "2": 34
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12044202490830813
+              },
+              {
+                "score": "1-0",
+                "probability": 0.09166059734270024
+              },
+              {
+                "score": "2-1",
+                "probability": 0.08677847894643602
+              }
+            ],
+            "model_version": "0.1-experimental"
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA HYPERMOTION",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Eibar 20–13 en 11 finals; Almeria 22–9 en 11. v0.1: gols globals i per seu, amb avantatge local; mostra encara limitada.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-hypermotion/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-sd-eibar-ud-almeria-12"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Eldense",
+          "away": "Granada",
+          "kickoff": "2026-11-01T14:00:00+01:00",
+          "forecast": {
+            "match": "Eldense – Granada",
+            "time": "2026-11-01T14:00:00+01:00",
+            "lambda_home": 1.4406944444444445,
+            "lambda_away": 1.27625,
+            "probabilities": {
+              "1": 0.4096282889375438,
+              "X": 0.2562394025967619,
+              "2": 0.33413230846569636
+            },
+            "percentages": {
+              "1": 41,
+              "X": 26,
+              "2": 33
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12149367155562085
+              },
+              {
+                "score": "1-0",
+                "probability": 0.09519582492115246
+              },
+              {
+                "score": "2-1",
+                "probability": 0.08751762882267049
+              }
+            ],
+            "model_version": "0.1-experimental"
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA HYPERMOTION",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Eldense 13–15 en 11 finals; Granada 18–14 en 11. v0.1: gols globals i per seu, amb avantatge local; mostra encara limitada.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-hypermotion/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-cd-eldense-granada-cf-12"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Burgos",
+          "away": "Castelló",
+          "kickoff": "2026-11-01T18:30:00+01:00",
+          "forecast": {
+            "match": "Burgos – Castelló",
+            "time": "2026-11-01T18:30:00+01:00",
+            "lambda_home": 1.15775,
+            "lambda_away": 1.296,
+            "probabilities": {
+              "1": 0.330702329297782,
+              "X": 0.2722224929303857,
+              "2": 0.397075177771833
+            },
+            "percentages": {
+              "1": 33,
+              "X": 27,
+              "2": 40
+            },
+            "sign": "2",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12899405825871876
+              },
+              {
+                "score": "0-1",
+                "probability": 0.11141788664108723
+              },
+              {
+                "score": "1-0",
+                "probability": 0.0995324523601225
+              }
+            ],
+            "model_version": "0.1-experimental"
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "LALIGA HYPERMOTION",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Burgos 16–12 en 11 finals; Castelló 22–4 en 11. v0.1: gols globals i per seu, amb avantatge local; mostra encara limitada.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents.",
+          "sources": [
+            "https://www.laliga.com/laliga-hypermotion/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-burgos-cf-cd-castellon-12"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Alabès (F)",
+          "away": "Reial Societat (F)",
+          "kickoff": "2026-11-01T12:00:00+01:00",
+          "forecast": {
+            "match": "Alabès (F) – Reial Societat (F)",
+            "time": "2026-11-01T12:00:00+01:00",
+            "lambda_home": 1.2954464285714287,
+            "lambda_away": 1.2145982142857144,
+            "probabilities": {
+              "1": 0.384657168348774,
+              "X": 0.2691425721208198,
+              "2": 0.3462002595304064
+            },
+            "percentages": {
+              "1": 38,
+              "X": 27,
+              "2": 35
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12786555222259302
+              },
+              {
+                "score": "1-0",
+                "probability": 0.10527395044606473
+              },
+              {
+                "score": "0-1",
+                "probability": 0.09870385173981953
+              }
+            ],
+            "model_version": "0.1-experimental"
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "Liga F Moeve",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Alabès (F) 5–12 en 8 finals; Reial Societat (F) 10–13 en 8. v0.1: gols globals i per seu, amb avantatge local; mostra encara limitada.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents. Aplicació experimental a Liga F sense validació específica.",
+          "sources": [
+            "https://www.laliga.com/futbol-femenino/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-deportivo-alaves-real-sociedad-9"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Madrid CFF (F)",
+          "away": "Deportivo (F)",
+          "kickoff": "2026-10-31T18:00:00+01:00",
+          "forecast": {
+            "match": "Madrid CFF (F) – Deportivo (F)",
+            "time": "2026-10-31T18:00:00+01:00",
+            "lambda_home": 1.4648660714285715,
+            "lambda_away": 1.2909374999999998,
+            "probabilities": {
+              "1": 0.41265402438227483,
+              "X": 0.2540340219376949,
+              "2": 0.33331195368002947
+            },
+            "percentages": {
+              "1": 41,
+              "X": 26,
+              "2": 33
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12019125018295512
+              },
+              {
+                "score": "1-0",
+                "probability": 0.09310384908870889
+              },
+              {
+                "score": "2-1",
+                "probability": 0.08803204223779702
+              }
+            ],
+            "model_version": "0.1-experimental"
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "Liga F Moeve",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Madrid CFF (F) 13–15 en 8 finals; Deportivo (F) 10–9 en 8. v0.1: gols globals i per seu, amb avantatge local; mostra encara limitada.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents. Aplicació experimental a Liga F sense validació específica.",
+          "sources": [
+            "https://www.laliga.com/futbol-femenino/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-madrid-cff-deportivo-abanca-9"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Sevilla (F)",
+          "away": "Real Madrid (F)",
+          "kickoff": "2026-11-01T19:00:00+01:00",
+          "forecast": {
+            "match": "Sevilla (F) – Real Madrid (F)",
+            "time": "2026-11-01T19:00:00+01:00",
+            "lambda_home": 1.6421428571428573,
+            "lambda_away": 1.5444642857142856,
+            "probabilities": {
+              "1": 0.4036312025179005,
+              "X": 0.23453467561807723,
+              "2": 0.3618341218640217
+            },
+            "percentages": {
+              "1": 40,
+              "X": 24,
+              "2": 36
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.10477626370486395
+              },
+              {
+                "score": "2-1",
+                "probability": 0.08602879652052939
+              },
+              {
+                "score": "1-2",
+                "probability": 0.08091159864137216
+              }
+            ],
+            "model_version": "0.1-experimental"
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "Liga F Moeve",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Sevilla (F) 8–11 en 8 finals; Real Madrid (F) 19–16 en 8. v0.1: gols globals i per seu, amb avantatge local; mostra encara limitada.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents. Aplicació experimental a Liga F sense validació específica.",
+          "sources": [
+            "https://www.laliga.com/futbol-femenino/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-sevilla-fc-real-madrid-cf-9"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        },
+        {
+          "home": "Tenerife (F)",
+          "away": "Athletic (F)",
+          "kickoff": "2026-11-02T20:00:00+01:00",
+          "forecast": {
+            "match": "Tenerife (F) – Athletic (F)",
+            "time": "2026-11-02T20:00:00+01:00",
+            "lambda_home": 1.3671428571428572,
+            "lambda_away": 1.3033928571428572,
+            "probabilities": {
+              "1": 0.3849210437633381,
+              "X": 0.2596759265394558,
+              "2": 0.3554030296972063
+            },
+            "percentages": {
+              "1": 38,
+              "X": 26,
+              "2": 36
+            },
+            "sign": "1",
+            "double": "12",
+            "top_scores": [
+              {
+                "score": "1-1",
+                "probability": 0.12333612795824658
+              },
+              {
+                "score": "1-0",
+                "probability": 0.09462697856777377
+              },
+              {
+                "score": "0-1",
+                "probability": 0.0902145136580696
+              }
+            ],
+            "model_version": "0.1-experimental"
+          },
+          "status": "scheduled",
+          "result": null,
+          "competition": "Liga F Moeve",
+          "confidence": "Experimental · confiança baixa",
+          "note": "Gols totals: Tenerife (F) 12–14 en 8 finals; Athletic (F) 12–8 en 8. v0.1: gols globals i per seu, amb avantatge local; mostra encara limitada.  Cap ajust manual. Convocatòries i descans després de la Copa encara pendents. Aplicació experimental a Liga F sense validació específica.",
+          "sources": [
+            "https://www.laliga.com/futbol-femenino/clasificacion",
+            "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-costa-adeje-tenerife-athletic-club-9"
+          ],
+          "source_verified_at": "2026-10-26T21:56:58+01:00"
+        }
+      ],
+      "warning": "Previsió anticipada del 26/10, abans de la data programada del 28/10. Primera: v0.2 amb suport retrospectiu, ajust mensual al 29/09; Segona i Liga F: v0.1. Lesions i sancions de premsa són context provisional, sense ajustos manuals. El Sevilla–Osasuna encara no té resultat final incorporat. Cupó provisional fins a verificar l’avís específic de tancament.",
+      "coupon_note": "Cupó SELAE 18: 7 de Primera, 3 de Segona i 4 de Liga F. Ple al 15 Athletic–Reial Societat. Villarreal–Espanyol i Deportivo–Osasuna només pertanyen a la previsió de Lliga. Tenerife (F)–Athletic (F) consta el 2/11 al calendari oficial, tot i el rètol 31/10–1/11 del document del cupó.",
+      "official_coupon": {
+        "number": 18,
+        "verified_at": "2026-10-26T21:56:58+01:00",
+        "source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICION%20DE%20BOLETOS%20JORNADAS%2018%20DE%20LA%20QUINIELA,%20ELIGE%208%20Y%2019%20DEL%20QUINIGOL%20.zip",
+        "local_reference": "outputs/font_cupo_selae18_20261026.pdf",
+        "document_sha256": "470f0f531fe60f9b307d23959a3854f0cba866ddca29888f65eba1d1ebc5dd5c",
+        "order_verified": true,
+        "match_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "deadline_status": "pending",
+        "deadline_expected": "2026-10-31T14:00:00+01:00",
+        "deadline_expected_source": "https://www.pizarra15.es/jornada-18/",
+        "deadline_check_source": "https://www.loteriasyapuestas.es/es/avisos-de-interes",
+        "deadline_checked_at": "2026-10-26T21:56:58+01:00",
+        "composition_note": "7 de Primera, 3 de Segona i 4 de Liga F; Ple al 15 Athletic–Reial Societat.",
+        "pleno15": {
+          "home": "Athletic",
+          "away": "Reial Societat",
+          "kickoff": "2026-11-01T21:00:00+01:00",
+          "probabilities": {
+            "0-0": 0.0691257895502663,
+            "0-1": 0.0755620808144013,
+            "0-2": 0.041298827066924386,
+            "0-M": 0.020252721696051367,
+            "1-0": 0.10913009755490191,
+            "1-1": 0.11929118357094019,
+            "1-2": 0.06519918334443268,
+            "1-M": 0.03197332730406188,
+            "2-0": 0.08614280046437843,
+            "2-1": 0.09416354290658706,
+            "2-2": 0.05146554770057209,
+            "2-M": 0.025238426573846198,
+            "M-0": 0.07077385045764664,
+            "M-1": 0.0773635924105904,
+            "M-2": 0.04228345209403046,
+            "M-M": 0.020735576490368664
+          }
+        }
+      },
+      "review": {
+        "summary": "Previsió anticipada publicada. Cupó provisional només per manca d’avís de tancament verificat; signes i probabilitats congelats. Resultats i imports pendents.",
+        "next": "Revisió el 3/11/2026 a les 10:00 de Barcelona. Verificar abans l’avís SELAE de tancament; la jornada de Lliga comença el 30/10 a les 21:00.",
+        "changes": [
+          "Primera: model v0.2 amb comparació v0.1 conservada per partit.",
+          "Segona i Liga F mantenen v0.1 segons la política del 26/10.",
+          "Imports futurs calculats per columna a partir d’escrutinis oficials."
+        ]
+      },
+      "evaluation_scope": {
+        "sporting_forecasts": 17,
+        "official_signs": 14,
+        "pleno15_separate": true
+      },
+      "metrics": {
+        "n": 0,
+        "hits": 0,
+        "accuracy": null,
+        "brier": null,
+        "logloss": null
+      },
+      "coupon": {
+        "complete": false,
+        "reason": "Ordre i Ple al 15 verificats al cupó SELAE; falta confirmar l’avís específic de tancament. Esborrany provisional de 14 signes.",
+        "matches": [
+          {
+            "home": "Llevant",
+            "away": "Atlètic de Madrid"
+          },
+          {
+            "home": "Rayo",
+            "away": "Celta"
+          },
+          {
+            "home": "Betis",
+            "away": "Màlaga"
+          },
+          {
+            "home": "Barcelona",
+            "away": "Alabès"
+          },
+          {
+            "home": "Getafe",
+            "away": "Sevilla"
+          },
+          {
+            "home": "Racing",
+            "away": "Real Madrid"
+          },
+          {
+            "home": "Elx",
+            "away": "València"
+          },
+          {
+            "home": "Eibar",
+            "away": "Almeria"
+          },
+          {
+            "home": "Eldense",
+            "away": "Granada"
+          },
+          {
+            "home": "Burgos",
+            "away": "Castelló"
+          },
+          {
+            "home": "Alabès (F)",
+            "away": "Reial Societat (F)"
+          },
+          {
+            "home": "Madrid CFF (F)",
+            "away": "Deportivo (F)"
+          },
+          {
+            "home": "Sevilla (F)",
+            "away": "Real Madrid (F)"
+          },
+          {
+            "home": "Tenerife (F)",
+            "away": "Athletic (F)"
+          }
+        ],
+        "columns": [
+          {
+            "signs": [
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 2.6238649691631892e-05
+          },
+          {
+            "signs": [
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "2"
+            ],
+            "probability": 2.4226515402735778e-05
+          },
+          {
+            "signs": [
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "2",
+              "2",
+              "1",
+              "1",
+              "1"
+            ],
+            "probability": 2.361538554439195e-05
+          },
+          {
+            "signs": [
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "2",
+              "1"
+            ],
+            "probability": 2.3521567982961534e-05
+          }
+        ],
+        "coverage": 9.760211862172116e-05,
+        "objective": "all_signs",
+        "generated_from": "2026-10-26T21:56:58+01:00",
+        "condensed": {
+          "signs": [
+            "2",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2",
+            "1",
+            "1",
+            "1",
+            "2",
+            "12",
+            "1",
+            "12",
+            "12"
+          ],
+          "expanded_count": 8,
+          "additional_count": 4,
+          "exact": false
+        },
+        "pleno15": {
+          "home": "Athletic",
+          "away": "Reial Societat",
+          "score": "1-1",
+          "probability": 0.11929118357094019
+        },
+        "source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICION%20DE%20BOLETOS%20JORNADAS%2018%20DE%20LA%20QUINIELA,%20ELIGE%208%20Y%2019%20DEL%20QUINIGOL%20.zip",
+        "provisional_coupon": true,
+        "deadline_expected": "2026-10-31T14:00:00+01:00",
+        "published_at": "2026-10-26T22:04:53.064907+01:00",
+        "publication_status": "confirmed_provisional_deadline"
+      },
+      "published_at": "2026-10-26T22:04:53.064907+01:00",
+      "forecast_published_at": "2026-10-26T22:04:53.064907+01:00"
+    },
     {
       "number": 10,
       "label": "Previsió · cupó SELAE 16 complet",
@@ -2484,6 +3924,22 @@
         },
         "special_cases": [],
         "pending_special_cases": []
+      },
+      "prize_table": {
+        "status": "verified",
+        "checked_at": "2026-10-26T21:56:58+01:00",
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-18-de-octubre-de-2026",
+        "currency": "EUR",
+        "categories_cents": {
+          "10": 0,
+          "11": 222,
+          "12": 1276,
+          "13": 16526,
+          "14": 1116213
+        },
+        "pleno15_cents": 8077813,
+        "pleno15_adds_to_14": true,
+        "note": "Imports bruts oficials per aposta simple; la categoria de 10 encerts és 0,00 €. No confirma validació ni cobrament de les columnes publicades."
       }
     },
     {

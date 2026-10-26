@@ -81,3 +81,22 @@ Primera, prova reservada: v0.1 191/380 (50,3%), candidat 204/380 (53,7%), Brier 
 Segona: v0.1 217/462 (47,0%), candidat 212/462 (45,9%); no s’adopta el candidat. La correcció DC i el calibratge per temperatura no s’apliquen a Primera perquè la selecció de validació no els avala.
 
 Les simulacions històriques no entren a la taxa d’encert real. Els resultats i les previsions publicades continuen congelats. Per provar noves variants després d’haver vist 2025/26 cal una nova prova temporal independent; no reoptimitzar contra aquesta mateixa temporada.
+
+
+## Premi monetari al postanàlisi
+
+A cada revisió, conservar l’URL i la data de consulta de l’escrutini SELAE i afegir `prize_table` a la jornada: `status=verified`, `source`, `checked_at`, `currency=EUR`, `categories_cents` per 10/11/12/13/14, `pleno15_cents` i `pleno15_adds_to_14=true` quan s’hagi verificat que és el complement de la primera categoria. Tots els imports es guarden en cèntims enters. No traslladar imports d’una jornada a una altra.
+
+`work/prizes.py` calcula per columna el premi brut teòric d’una aposta simple i el total de les quatre. No confirma apostes validades ni cobrades i no és benefici net. Si falta un resultat, la confirmació SELAE o l’import, mostrar «Pendent», mai inventar 0 €. Un cupó parcial o provisional no és monetàriament avaluable. Amb menys de 10 encerts en 14 signes resolts, l’import és 0 €. Per al Ple calen els 14 signes i el marcador corresponent; no sumar premis de categories inferiors ni Elige8.
+
+Comprovació: `python3 -m unittest discover -s work -p 'test_prizes.py'`.
+
+## Previsió anticipada J11 del 26/10/2026
+
+Cupó SELAE 18 verificat al PDF local `outputs/font_cupo_selae18_20261026.pdf`; 14 signes i Ple Athletic–Reial Societat. Dates reals: 30/10–2/11 per a la Lliga, i 31/10–2/11 per al cupó. Font de Liga F: el Tenerife–Athletic acaba el cupó el 2/11, encara que el document SELAE indiqui 31/10–1/11.
+
+Les probabilitats estan publicades i s’han de conservar. El cupó es manté provisional perquè encara falta llegir l’avís SELAE específic de tancament. `deadline_expected=2026-10-31T14:00:00+01:00` és una orientació contrastada amb el primer partit i fonts secundàries, no un termini oficial verificat. Verificar l’avís a `https://www.loteriasyapuestas.es/es/avisos-de-interes`. Només després afegir `deadline`, `deadline_source`, `deadline_status=verified` i regenerar el cupó amb les MATEIXES probabilitats i signes. Aquesta confirmació no autoritza recalcular una previsió publicada.
+
+Primera: motor v0.2 amb snapshot 29/09/2026 i 754 finals, últim 20/09; aquest tall mensual és deliberadament anterior a la previsió, també per als partits de novembre que es pronostiquen anticipadament a l’octubre. Segona i Liga F conserven v0.1. La referència v0.1 de Primera es guarda a cada partit; cap ajust manual.
+
+`work/forecast_20261026.py` és un registre reproduïble amb guardes: no executar si J11 ja existeix. Els fitxers `font_classificacio_*` conserven les taules capturades; la referència v0.1 exclou l’aparició no final del Sevilla–Osasuna que constava en directe, sense incorporar-ne un resultat anticipat.

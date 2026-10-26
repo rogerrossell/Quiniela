@@ -67,14 +67,22 @@
       "number": 11,
       "first_match": "2026-10-30",
       "last_match": "2026-11-02",
-      "forecast_status": "pending",
+      "forecast_status": "completed",
       "review_status": "pending",
       "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11",
       "source_verified_at": "2026-10-26T09:00:08.809208+00:00",
-      "forecast_note": "Calendari de Lliga verificat; la previsió es prepararà el 28/10 a les 10:00 CET. El cupó SELAE de la setmana es verificarà separadament, sense confondre numeracions."
+      "forecast_note": "Previsió anticipada publicada el 26/10 amb confirmació del servei, abans de la data programada del 28/10. Resta verificar l’avís específic de tancament SELAE sense recalcular probabilitats.",
+      "forecast_actual_at": "2026-10-26T21:56:58+01:00",
+      "coupon_number": 18,
+      "coupon_first_match": "2026-10-31",
+      "coupon_last_match": "2026-11-02",
+      "coupon_deadline_status": "pending",
+      "coupon_deadline_expected": "2026-10-31T14:00:00+01:00",
+      "coupon_source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICION%20DE%20BOLETOS%20JORNADAS%2018%20DE%20LA%20QUINIELA,%20ELIGE%208%20Y%2019%20DEL%20QUINIGOL%20.zip",
+      "forecast_published_at": "2026-10-26T22:04:53.064907+01:00"
     }
   ],
-  "checked_at": "2026-10-26T10:01:27.708255+01:00",
+  "checked_at": "2026-10-26T21:56:58+01:00",
   "events": [
     {
       "round": 10,

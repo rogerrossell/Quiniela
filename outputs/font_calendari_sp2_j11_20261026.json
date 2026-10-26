@@ -1,0 +1,94 @@
+{
+  "verified_at": "2026-10-26T21:55:36+01:00",
+  "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12",
+  "matches": [
+    {
+      "id": 102758,
+      "home": "r-sociedad-b",
+      "away": "girona-fc",
+      "kickoff": "2026-10-31T14:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-r-sociedad-b-girona-fc-12"
+    },
+    {
+      "id": 102754,
+      "home": "sd-eibar",
+      "away": "ud-almeria",
+      "kickoff": "2026-10-31T16:15:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-sd-eibar-ud-almeria-12"
+    },
+    {
+      "id": 102752,
+      "home": "rc-celta-b",
+      "away": "cordoba-cf",
+      "kickoff": "2026-10-31T18:30:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-rc-celta-fortuna-cordoba-cf-12"
+    },
+    {
+      "id": 102750,
+      "home": "albacete-bp",
+      "away": "ce-sabadell",
+      "kickoff": "2026-10-31T21:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-albacete-bp-ce-sabadell-12"
+    },
+    {
+      "id": 102755,
+      "home": "eldense",
+      "away": "granada-cf",
+      "kickoff": "2026-11-01T14:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-cd-eldense-granada-cf-12"
+    },
+    {
+      "id": 102753,
+      "home": "ad-ceuta-fc",
+      "away": "real-sporting",
+      "kickoff": "2026-11-01T16:15:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-ad-ceuta-fc-real-sporting-12"
+    },
+    {
+      "id": 102751,
+      "home": "burgos",
+      "away": "cd-castellon",
+      "kickoff": "2026-11-01T18:30:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-burgos-cf-cd-castellon-12"
+    },
+    {
+      "id": 102759,
+      "home": "cd-tenerife",
+      "away": "fc-andorra",
+      "kickoff": "2026-11-01T21:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-cd-tenerife-fc-andorra-12"
+    },
+    {
+      "id": 102757,
+      "home": "real-oviedo",
+      "away": "ud-las-palmas",
+      "kickoff": "2026-11-02T16:15:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-real-oviedo-ud-las-palmas-12"
+    },
+    {
+      "id": 102760,
+      "home": "r-valladolid-cf",
+      "away": "cd-leganes",
+      "kickoff": "2026-11-02T18:30:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-real-valladolid-cf-cd-leganes-12"
+    },
+    {
+      "id": 102756,
+      "home": "rcd-mallorca",
+      "away": "cadiz-cf",
+      "kickoff": "2026-11-02T21:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-hypermotion-rcd-mallorca-cadiz-cf-12"
+    }
+  ]
+}

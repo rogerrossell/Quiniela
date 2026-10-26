@@ -30,6 +30,7 @@ def coupon_for_round(r):
     matches = [m for m in r['matches'] if m.get('forecast')]
     official = r.get('official_coupon', {})
     complete = False
+    provisional = False
     reason = 'Falta verificar el cupó oficial de 14 partits i el Ple al 15.'
     if official.get('verified_at') and official.get('source') and len(official.get('match_indices', [])) == 14:
         indices = official['match_indices']
@@ -44,16 +45,38 @@ def coupon_for_round(r):
                 keys = {h+'-'+a for h in ('0','1','2','M') for a in ('0','1','2','M')}
                 complete = complete and bool(pleno['home'] and pleno['away']) and cutoff < datetime.fromisoformat(pleno['kickoff'])
                 complete = complete and set(pp) == keys and all(math.isfinite(v) and 0 <= v <= 1 for v in pp.values()) and math.isclose(sum(pp.values()), 1, abs_tol=1e-8)
+                complete = complete and official.get('deadline_status') != 'pending'
             except (KeyError, ValueError, TypeError):
                 complete = False
             if complete:
                 matches = ordered
+            elif official.get('deadline_status') == 'pending' and official.get('order_verified'):
+                # The official order is usable for a clearly provisional draft,
+                # but an unverified deadline must never produce a complete coupon.
+                try:
+                    cutoff = datetime.fromisoformat(r['forecast_at'])
+                    pleno = official['pleno15']
+                    pp = pleno['probabilities']
+                    keys = {h+'-'+a for h in ('0','1','2','M') for a in ('0','1','2','M')}
+                    basic = all(m.get('forecast') and datetime.fromisoformat(m['kickoff']) > cutoff for m in ordered)
+                    basic = basic and bool(pleno['home'] and pleno['away']) and cutoff < datetime.fromisoformat(pleno['kickoff'])
+                    basic = basic and set(pp) == keys and all(math.isfinite(v) and 0 <= v <= 1 for v in pp.values()) and math.isclose(sum(pp.values()), 1, abs_tol=1e-8)
+                except (UnboundLocalError, KeyError, ValueError, TypeError):
+                    basic = False
+                if basic:
+                    matches = ordered
+                    provisional = True
+                    reason = 'Ordre i Ple al 15 verificats al cupó SELAE; falta confirmar l’avís específic de tancament. Esborrany provisional de 14 signes.'
     columns = top_columns([m['forecast']['probabilities'] for m in matches])
     result = {'complete': complete, 'reason': '' if complete else reason, 'matches': [{'home':m['home'], 'away':m['away']} for m in matches], 'columns':columns, 'coverage':sum(c['probability'] for c in columns), 'objective':'all_signs', 'generated_from':r['forecast_at']}
     result['condensed'] = condensed_columns(columns)
-    if complete:
+    if complete or provisional:
         score = min(pp, key=lambda s: (-pp[s], s))
         result['pleno15'] = {'home':pleno['home'], 'away':pleno['away'], 'score':score, 'probability':pp[score]}
-        result['deadline'] = official['deadline']
         result['source'] = official['source']
+        if complete:
+            result['deadline'] = official['deadline']
+        else:
+            result['provisional_coupon'] = True
+            result['deadline_expected'] = official.get('deadline_expected')
     return result

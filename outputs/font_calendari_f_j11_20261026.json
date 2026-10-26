@@ -1,0 +1,70 @@
+{
+  "verified_at": "2026-10-26T21:55:36+01:00",
+  "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-9",
+  "matches": [
+    {
+      "id": 103164,
+      "home": "granada-cf-femenino",
+      "away": "at-madrid-femenino",
+      "kickoff": "2026-10-31T12:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-granada-cf-atletico-de-madrid-9"
+    },
+    {
+      "id": 103168,
+      "home": "vcf-femenino",
+      "away": "sd-eibar-femenino",
+      "kickoff": "2026-10-31T12:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-vcf-femenino-sd-eibar-9"
+    },
+    {
+      "id": 103163,
+      "home": "espanyol-femeni",
+      "away": "dux-logrono",
+      "kickoff": "2026-10-31T16:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-rcd-espanyol-de-barcelona-dux-logrono-9"
+    },
+    {
+      "id": 103165,
+      "home": "madrid-cff",
+      "away": "deportivo-abanca",
+      "kickoff": "2026-10-31T18:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-madrid-cff-deportivo-abanca-9"
+    },
+    {
+      "id": 103161,
+      "home": "d-alaves-femenino",
+      "away": "r-sociedad-femenino",
+      "kickoff": "2026-11-01T12:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-deportivo-alaves-real-sociedad-9"
+    },
+    {
+      "id": 103162,
+      "home": "levante-las-planas-fc",
+      "away": "fc-barcelona-femenino",
+      "kickoff": "2026-11-01T12:30:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-fc-badalona-women-fc-barcelona-9"
+    },
+    {
+      "id": 103166,
+      "home": "sevilla-femenino",
+      "away": "real-madrid-femenino",
+      "kickoff": "2026-11-01T19:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-sevilla-fc-real-madrid-cf-9"
+    },
+    {
+      "id": 103167,
+      "home": "ud-granadilla-tenerife-egatesa",
+      "away": "athletic-femenino",
+      "kickoff": "2026-11-02T20:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-liga-femenina-costa-adeje-tenerife-athletic-club-9"
+    }
+  ]
+}

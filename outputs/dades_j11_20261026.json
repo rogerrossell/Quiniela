@@ -1,0 +1,581 @@
+{
+  "cutoff": "2026-10-26T21:56:58+01:00",
+  "matches": [
+    {
+      "home": {
+        "name": "Villarreal",
+        "history_key": "Villarreal",
+        "pj": 10,
+        "gf": 15,
+        "gc": 14,
+        "venue_pj": 4,
+        "venue_gf": 6,
+        "venue_gc": 6
+      },
+      "away": {
+        "name": "Espanyol",
+        "history_key": "Espanol",
+        "pj": 10,
+        "gf": 12,
+        "gc": 14,
+        "venue_pj": 5,
+        "venue_gf": 6,
+        "venue_gc": 7
+      },
+      "time": "2026-10-30T21:00:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP1"
+    },
+    {
+      "home": {
+        "name": "Llevant",
+        "history_key": "Levante",
+        "pj": 10,
+        "gf": 16,
+        "gc": 19,
+        "venue_pj": 4,
+        "venue_gf": 13,
+        "venue_gc": 10
+      },
+      "away": {
+        "name": "Atlètic de Madrid",
+        "history_key": "Ath Madrid",
+        "pj": 10,
+        "gf": 20,
+        "gc": 8,
+        "venue_pj": 5,
+        "venue_gf": 9,
+        "venue_gc": 5
+      },
+      "time": "2026-10-31T14:00:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP1"
+    },
+    {
+      "home": {
+        "name": "Rayo",
+        "history_key": "Vallecano",
+        "pj": 9,
+        "gf": 12,
+        "gc": 20,
+        "venue_pj": 4,
+        "venue_gf": 6,
+        "venue_gc": 7
+      },
+      "away": {
+        "name": "Celta",
+        "history_key": "Celta",
+        "pj": 10,
+        "gf": 10,
+        "gc": 7,
+        "venue_pj": 4,
+        "venue_gf": 1,
+        "venue_gc": 1
+      },
+      "time": "2026-10-31T16:15:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP1"
+    },
+    {
+      "home": {
+        "name": "Betis",
+        "history_key": "Betis",
+        "pj": 10,
+        "gf": 16,
+        "gc": 14,
+        "venue_pj": 5,
+        "venue_gf": 10,
+        "venue_gc": 7
+      },
+      "away": {
+        "name": "Màlaga",
+        "history_key": "Malaga",
+        "pj": 10,
+        "gf": 7,
+        "gc": 19,
+        "venue_pj": 5,
+        "venue_gf": 2,
+        "venue_gc": 9
+      },
+      "time": "2026-10-31T18:30:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP1"
+    },
+    {
+      "home": {
+        "name": "Barcelona",
+        "history_key": "Barcelona",
+        "pj": 10,
+        "gf": 40,
+        "gc": 11,
+        "venue_pj": 5,
+        "venue_gf": 18,
+        "venue_gc": 6
+      },
+      "away": {
+        "name": "Alabès",
+        "history_key": "Alaves",
+        "pj": 10,
+        "gf": 14,
+        "gc": 11,
+        "venue_pj": 4,
+        "venue_gf": 3,
+        "venue_gc": 5
+      },
+      "time": "2026-10-31T21:00:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP1"
+    },
+    {
+      "home": {
+        "name": "Getafe",
+        "history_key": "Getafe",
+        "pj": 10,
+        "gf": 5,
+        "gc": 15,
+        "venue_pj": 5,
+        "venue_gf": 5,
+        "venue_gc": 3
+      },
+      "away": {
+        "name": "Sevilla",
+        "history_key": "Sevilla",
+        "pj": 9,
+        "gf": 14,
+        "gc": 16,
+        "venue_pj": 5,
+        "venue_gf": 9,
+        "venue_gc": 9
+      },
+      "time": "2026-11-01T14:00:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP1"
+    },
+    {
+      "home": {
+        "name": "Racing",
+        "history_key": "Santander",
+        "pj": 10,
+        "gf": 15,
+        "gc": 26,
+        "venue_pj": 5,
+        "venue_gf": 11,
+        "venue_gc": 8
+      },
+      "away": {
+        "name": "Real Madrid",
+        "history_key": "Real Madrid",
+        "pj": 10,
+        "gf": 25,
+        "gc": 10,
+        "venue_pj": 5,
+        "venue_gf": 8,
+        "venue_gc": 7
+      },
+      "time": "2026-11-01T16:15:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP1"
+    },
+    {
+      "home": {
+        "name": "Elx",
+        "history_key": "Elche",
+        "pj": 10,
+        "gf": 14,
+        "gc": 17,
+        "venue_pj": 4,
+        "venue_gf": 4,
+        "venue_gc": 11
+      },
+      "away": {
+        "name": "València",
+        "history_key": "Valencia",
+        "pj": 10,
+        "gf": 7,
+        "gc": 17,
+        "venue_pj": 4,
+        "venue_gf": 4,
+        "venue_gc": 6
+      },
+      "time": "2026-11-01T18:30:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP1"
+    },
+    {
+      "home": {
+        "name": "Athletic",
+        "history_key": "Ath Bilbao",
+        "pj": 9,
+        "gf": 12,
+        "gc": 9,
+        "venue_pj": 5,
+        "venue_gf": 9,
+        "venue_gc": 4
+      },
+      "away": {
+        "name": "Reial Societat",
+        "history_key": "Sociedad",
+        "pj": 10,
+        "gf": 19,
+        "gc": 18,
+        "venue_pj": 5,
+        "venue_gf": 12,
+        "venue_gc": 11
+      },
+      "time": "2026-11-01T21:00:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP1"
+    },
+    {
+      "home": {
+        "name": "Deportivo",
+        "history_key": "La Coruna",
+        "pj": 10,
+        "gf": 13,
+        "gc": 13,
+        "venue_pj": 5,
+        "venue_gf": 6,
+        "venue_gc": 5
+      },
+      "away": {
+        "name": "Osasuna",
+        "history_key": "Osasuna",
+        "pj": 9,
+        "gf": 10,
+        "gc": 18,
+        "venue_pj": 4,
+        "venue_gf": 6,
+        "venue_gc": 15
+      },
+      "time": "2026-11-02T21:00:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP1"
+    },
+    {
+      "home": {
+        "name": "Eibar",
+        "history_key": null,
+        "pj": 11,
+        "gf": 20,
+        "gc": 13,
+        "venue_pj": 5,
+        "venue_gf": 9,
+        "venue_gc": 6
+      },
+      "away": {
+        "name": "Almeria",
+        "history_key": null,
+        "pj": 11,
+        "gf": 22,
+        "gc": 9,
+        "venue_pj": 5,
+        "venue_gf": 7,
+        "venue_gc": 4
+      },
+      "time": "2026-10-31T16:15:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP2"
+    },
+    {
+      "home": {
+        "name": "Eldense",
+        "history_key": null,
+        "pj": 11,
+        "gf": 13,
+        "gc": 15,
+        "venue_pj": 5,
+        "venue_gf": 9,
+        "venue_gc": 6
+      },
+      "away": {
+        "name": "Granada",
+        "history_key": null,
+        "pj": 11,
+        "gf": 18,
+        "gc": 14,
+        "venue_pj": 6,
+        "venue_gf": 9,
+        "venue_gc": 9
+      },
+      "time": "2026-11-01T14:00:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP2"
+    },
+    {
+      "home": {
+        "name": "Burgos",
+        "history_key": null,
+        "pj": 11,
+        "gf": 16,
+        "gc": 12,
+        "venue_pj": 6,
+        "venue_gf": 10,
+        "venue_gc": 6
+      },
+      "away": {
+        "name": "Castelló",
+        "history_key": null,
+        "pj": 11,
+        "gf": 22,
+        "gc": 4,
+        "venue_pj": 6,
+        "venue_gf": 10,
+        "venue_gc": 3
+      },
+      "time": "2026-11-01T18:30:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "SP2"
+    },
+    {
+      "home": {
+        "name": "Alabès (F)",
+        "history_key": null,
+        "pj": 8,
+        "gf": 5,
+        "gc": 12,
+        "venue_pj": 4,
+        "venue_gf": 4,
+        "venue_gc": 7
+      },
+      "away": {
+        "name": "Reial Societat (F)",
+        "history_key": null,
+        "pj": 8,
+        "gf": 10,
+        "gc": 13,
+        "venue_pj": 3,
+        "venue_gf": 3,
+        "venue_gc": 3
+      },
+      "time": "2026-11-01T12:00:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "LIGA_F"
+    },
+    {
+      "home": {
+        "name": "Madrid CFF (F)",
+        "history_key": null,
+        "pj": 8,
+        "gf": 13,
+        "gc": 15,
+        "venue_pj": 4,
+        "venue_gf": 7,
+        "venue_gc": 3
+      },
+      "away": {
+        "name": "Deportivo (F)",
+        "history_key": null,
+        "pj": 8,
+        "gf": 10,
+        "gc": 9,
+        "venue_pj": 3,
+        "venue_gf": 6,
+        "venue_gc": 2
+      },
+      "time": "2026-10-31T18:00:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "LIGA_F"
+    },
+    {
+      "home": {
+        "name": "Sevilla (F)",
+        "history_key": null,
+        "pj": 8,
+        "gf": 8,
+        "gc": 11,
+        "venue_pj": 3,
+        "venue_gf": 3,
+        "venue_gc": 8
+      },
+      "away": {
+        "name": "Real Madrid (F)",
+        "history_key": null,
+        "pj": 8,
+        "gf": 19,
+        "gc": 16,
+        "venue_pj": 3,
+        "venue_gf": 7,
+        "venue_gc": 10
+      },
+      "time": "2026-11-01T19:00:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "LIGA_F"
+    },
+    {
+      "home": {
+        "name": "Tenerife (F)",
+        "history_key": null,
+        "pj": 8,
+        "gf": 12,
+        "gc": 14,
+        "venue_pj": 3,
+        "venue_gf": 3,
+        "venue_gc": 4
+      },
+      "away": {
+        "name": "Athletic (F)",
+        "history_key": null,
+        "pj": 8,
+        "gf": 12,
+        "gc": 8,
+        "venue_pj": 3,
+        "venue_gf": 3,
+        "venue_gc": 3
+      },
+      "time": "2026-11-02T20:00:00+01:00",
+      "adjust_home": 1.0,
+      "adjust_away": 1.0,
+      "competition_code": "LIGA_F"
+    }
+  ],
+  "strength_snapshot": {
+    "teams": {
+      "Alaves": 0,
+      "Ath Bilbao": 1,
+      "Ath Madrid": 2,
+      "Barcelona": 3,
+      "Betis": 4,
+      "Celta": 5,
+      "Elche": 6,
+      "Espanol": 7,
+      "Getafe": 8,
+      "Girona": 9,
+      "La Coruna": 10,
+      "Las Palmas": 11,
+      "Leganes": 12,
+      "Levante": 13,
+      "Malaga": 14,
+      "Mallorca": 15,
+      "Osasuna": 16,
+      "Oviedo": 17,
+      "Real Madrid": 18,
+      "Santander": 19,
+      "Sevilla": 20,
+      "Sociedad": 21,
+      "Valencia": 22,
+      "Valladolid": 23,
+      "Vallecano": 24,
+      "Villarreal": 25
+    },
+    "attack": [
+      -0.06624930069820953,
+      -0.03733350446182791,
+      0.3410694982285197,
+      0.7641796542050601,
+      0.20435563037416005,
+      0.08250676814075882,
+      0.09401303366299825,
+      -0.07808595908328156,
+      -0.42217576389769224,
+      -0.151978700353095,
+      0.0713036816465706,
+      -0.1992898801783055,
+      -0.08178579982700974,
+      0.04686253725609714,
+      -0.6178535081459473,
+      -0.06852419499273575,
+      -0.0817194901320114,
+      -0.5002053219119772,
+      0.5044015060612169,
+      0.24924752565524777,
+      -0.011983545294009168,
+      0.12221258878061929,
+      -0.06994480008373839,
+      -0.4042457718104783,
+      -0.07136296110540534,
+      0.3836564050017499
+    ],
+    "defence": [
+      -0.06633583254542945,
+      -0.14124017778561568,
+      -0.23620541212754034,
+      -0.3243361058710288,
+      -0.12488754891558945,
+      -0.11091820004513135,
+      0.14612175290279777,
+      -0.008980165705540659,
+      -0.31628034781926395,
+      0.02401105221592215,
+      -0.06638933466435668,
+      0.07504859369024386,
+      0.04938203626613452,
+      0.12822386487986376,
+      0.06392405410518519,
+      -0.0032436071383729233,
+      0.00794420068490739,
+      0.07542534994344291,
+      -0.3162465256821756,
+      0.5865785821385884,
+      0.0322731956661834,
+      0.09725453371878716,
+      0.028308524722280445,
+      0.5330144205581474,
+      -0.07728751104304545,
+      -0.056924695194249975
+    ],
+    "mu": 0.10805428798721244,
+    "home_advantage": 0.28863752697076606,
+    "rho": 0.0,
+    "n_train": 754,
+    "cutoff": "2026-09-29",
+    "last_train": "2026-09-20",
+    "division": "SP1",
+    "model_version": "0.2-sp1-strength-20261026",
+    "config": {
+      "penalty": 2.0,
+      "half_life": 365,
+      "dc": false,
+      "temperature": 1.0
+    },
+    "sources": [
+      {
+        "url": "https://www.football-data.co.uk/mmz4281/2425/SP1.csv",
+        "local": "historical/raw/2425_SP1.csv",
+        "sha256": "c086e96d6a53f6e6c0fce4e35db0d1728c773b4362323da0161a34769e315a36",
+        "retrieved_at": "2026-10-26"
+      },
+      {
+        "url": "https://www.football-data.co.uk/mmz4281/2526/SP1.csv",
+        "local": "historical/raw/2526_SP1.csv",
+        "sha256": "4ca2e285f3ee0702f6bc55fcaa4f5a15cb3aef6220735a1d15398131e21d63f5",
+        "retrieved_at": "2026-10-26"
+      },
+      {
+        "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+        "local": "historical/raw/2627_SP1.csv",
+        "sha256": "9684b6b80cc385ca4f265ad67d6d753056a5716e7e5242c52b48859315ee57e2",
+        "retrieved_at": "2026-10-26T21:56:58+01:00"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.laliga.com/laliga-easports/clasificacion",
+    "https://www.laliga.com/laliga-hypermotion/clasificacion",
+    "https://www.laliga.com/futbol-femenino/clasificacion",
+    "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICION%20DE%20BOLETOS%20JORNADAS%2018%20DE%20LA%20QUINIELA,%20ELIGE%208%20Y%2019%20DEL%20QUINIGOL%20.zip",
+    "https://cadenaser.com/nacional/2026/10/26/laliga-fantasy-jugadores-sancionados-y-lesionados-para-la-jornada-11-y-posibles-sustitutos-cadena-ser/"
+  ],
+  "assumptions": [
+    "Cap ajust manual ni pesos individuals.",
+    "SER 26/10: context de plantilla provisional; sancions pendents de resolució llegida.",
+    "Sevilla–Osasuna en curs: sense incorporar resultat; PJ finals corregits a 9 en la referència v0.1.",
+    "Primera v0.2: paràmetres congelats al tall mensual 29/09, últim final anterior; dades actuals només en referència v0.1.",
+    "Copa del Rei pendent aquesta setmana: risc qualitatiu de descans i rotació, sense ajust numèric."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "verified_at": "2026-10-26T21:55:36+01:00",
+  "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11",
+  "matches": [
+    {
+      "id": 102358,
+      "home": "villarreal-cf",
+      "away": "rcd-espanyol",
+      "kickoff": "2026-10-30T21:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-rcd-espanyol-de-barcelona-11"
+    },
+    {
+      "id": 102355,
+      "home": "levante-ud",
+      "away": "atletico-de-madrid",
+      "kickoff": "2026-10-31T14:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-levante-ud-atletico-de-madrid-11"
+    },
+    {
+      "id": 102357,
+      "home": "rayo-vallecano",
+      "away": "rc-celta",
+      "kickoff": "2026-10-31T16:15:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rayo-vallecano-rc-celta-11"
+    },
+    {
+      "id": 102350,
+      "home": "real-betis",
+      "away": "malaga-cf",
+      "kickoff": "2026-10-31T18:30:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-betis-malaga-cf-11"
+    },
+    {
+      "id": 102353,
+      "home": "fc-barcelona",
+      "away": "d-alaves",
+      "kickoff": "2026-10-31T21:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-fc-barcelona-deportivo-alaves-11"
+    },
+    {
+      "id": 102354,
+      "home": "getafe-cf",
+      "away": "sevilla-fc",
+      "kickoff": "2026-11-01T14:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-getafe-cf-sevilla-fc-11"
+    },
+    {
+      "id": 102356,
+      "home": "r-racing-club",
+      "away": "real-madrid",
+      "kickoff": "2026-11-01T16:15:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-r-racing-club-real-madrid-11"
+    },
+    {
+      "id": 102352,
+      "home": "elche-c-f",
+      "away": "valencia-cf",
+      "kickoff": "2026-11-01T18:30:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-elche-cf-valencia-cf-11"
+    },
+    {
+      "id": 102349,
+      "home": "athletic-club",
+      "away": "real-sociedad",
+      "kickoff": "2026-11-01T21:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-athletic-club-real-sociedad-11"
+    },
+    {
+      "id": 102351,
+      "home": "rc-deportivo",
+      "away": "c-a-osasuna",
+      "kickoff": "2026-11-02T21:00:00+01:00",
+      "status": "PreMatch",
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11"
+    }
+  ]
+}

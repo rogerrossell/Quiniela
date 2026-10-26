@@ -1,0 +1,6816 @@
+{
+  "sources": [
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SP1.csv",
+      "local": "historical/raw/2425_SP1.csv",
+      "sha256": "c086e96d6a53f6e6c0fce4e35db0d1728c773b4362323da0161a34769e315a36",
+      "retrieved_at": "2026-10-26"
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SP1.csv",
+      "local": "historical/raw/2526_SP1.csv",
+      "sha256": "4ca2e285f3ee0702f6bc55fcaa4f5a15cb3aef6220735a1d15398131e21d63f5",
+      "retrieved_at": "2026-10-26"
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+      "local": "historical/raw/2627_SP1.csv",
+      "sha256": "9684b6b80cc385ca4f265ad67d6d753056a5716e7e5242c52b48859315ee57e2",
+      "retrieved_at": "2026-10-26T21:56:58+01:00"
+    }
+  ],
+  "matches": [
+    {
+      "division": "SP1",
+      "date": "2024-08-15",
+      "home": "Ath Bilbao",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-15",
+      "home": "Betis",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-16",
+      "home": "Celta",
+      "away": "Alaves",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-16",
+      "home": "Las Palmas",
+      "away": "Sevilla",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-17",
+      "home": "Osasuna",
+      "away": "Leganes",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-17",
+      "home": "Valencia",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-18",
+      "home": "Sociedad",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-18",
+      "home": "Mallorca",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-19",
+      "home": "Valladolid",
+      "away": "Espanol",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-19",
+      "home": "Villarreal",
+      "away": "Ath Madrid",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-23",
+      "home": "Celta",
+      "away": "Valencia",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-23",
+      "home": "Sevilla",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-24",
+      "home": "Osasuna",
+      "away": "Mallorca",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-24",
+      "home": "Barcelona",
+      "away": "Ath Bilbao",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-24",
+      "home": "Espanol",
+      "away": "Sociedad",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-24",
+      "home": "Getafe",
+      "away": "Vallecano",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-25",
+      "home": "Real Madrid",
+      "away": "Valladolid",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-25",
+      "home": "Leganes",
+      "away": "Las Palmas",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-25",
+      "home": "Alaves",
+      "away": "Betis",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-25",
+      "home": "Ath Madrid",
+      "away": "Girona",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-26",
+      "home": "Villarreal",
+      "away": "Celta",
+      "gh": 4,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-27",
+      "home": "Mallorca",
+      "away": "Sevilla",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-27",
+      "home": "Vallecano",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-28",
+      "home": "Ath Bilbao",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-28",
+      "home": "Valladolid",
+      "away": "Leganes",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-28",
+      "home": "Ath Madrid",
+      "away": "Espanol",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-28",
+      "home": "Sociedad",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-29",
+      "home": "Girona",
+      "away": "Osasuna",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-29",
+      "home": "Las Palmas",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-31",
+      "home": "Barcelona",
+      "away": "Valladolid",
+      "gh": 7,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-31",
+      "home": "Ath Bilbao",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-31",
+      "home": "Espanol",
+      "away": "Vallecano",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-31",
+      "home": "Leganes",
+      "away": "Mallorca",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-08-31",
+      "home": "Valencia",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-01",
+      "home": "Alaves",
+      "away": "Las Palmas",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-01",
+      "home": "Osasuna",
+      "away": "Celta",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-01",
+      "home": "Sevilla",
+      "away": "Girona",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-01",
+      "home": "Getafe",
+      "away": "Sociedad",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-01",
+      "home": "Real Madrid",
+      "away": "Betis",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-13",
+      "home": "Betis",
+      "away": "Leganes",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-14",
+      "home": "Mallorca",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-14",
+      "home": "Espanol",
+      "away": "Alaves",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-14",
+      "home": "Sevilla",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-14",
+      "home": "Sociedad",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-15",
+      "home": "Celta",
+      "away": "Valladolid",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-15",
+      "home": "Girona",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-15",
+      "home": "Las Palmas",
+      "away": "Ath Bilbao",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-15",
+      "home": "Ath Madrid",
+      "away": "Valencia",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-16",
+      "home": "Vallecano",
+      "away": "Osasuna",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-17",
+      "home": "Mallorca",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-18",
+      "home": "Betis",
+      "away": "Getafe",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-19",
+      "home": "Leganes",
+      "away": "Ath Bilbao",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-20",
+      "home": "Alaves",
+      "away": "Sevilla",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-21",
+      "home": "Valladolid",
+      "away": "Sociedad",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-21",
+      "home": "Osasuna",
+      "away": "Las Palmas",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-21",
+      "home": "Valencia",
+      "away": "Girona",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-21",
+      "home": "Real Madrid",
+      "away": "Espanol",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-22",
+      "home": "Getafe",
+      "away": "Leganes",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-22",
+      "home": "Ath Bilbao",
+      "away": "Celta",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-22",
+      "home": "Villarreal",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 5
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-22",
+      "home": "Vallecano",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-23",
+      "home": "Betis",
+      "away": "Mallorca",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-24",
+      "home": "Sevilla",
+      "away": "Valladolid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-24",
+      "home": "Valencia",
+      "away": "Osasuna",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-24",
+      "home": "Real Madrid",
+      "away": "Alaves",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-25",
+      "home": "Girona",
+      "away": "Vallecano",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-25",
+      "home": "Barcelona",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-26",
+      "home": "Espanol",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-26",
+      "home": "Las Palmas",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-26",
+      "home": "Celta",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-27",
+      "home": "Valladolid",
+      "away": "Mallorca",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-28",
+      "home": "Getafe",
+      "away": "Alaves",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-28",
+      "home": "Vallecano",
+      "away": "Leganes",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-28",
+      "home": "Sociedad",
+      "away": "Valencia",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-28",
+      "home": "Osasuna",
+      "away": "Barcelona",
+      "gh": 4,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-29",
+      "home": "Celta",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-29",
+      "home": "Ath Bilbao",
+      "away": "Sevilla",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-29",
+      "home": "Betis",
+      "away": "Espanol",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-29",
+      "home": "Ath Madrid",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-09-30",
+      "home": "Villarreal",
+      "away": "Las Palmas",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-04",
+      "home": "Leganes",
+      "away": "Valencia",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-05",
+      "home": "Espanol",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-05",
+      "home": "Getafe",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-05",
+      "home": "Las Palmas",
+      "away": "Celta",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-05",
+      "home": "Valladolid",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-05",
+      "home": "Real Madrid",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-06",
+      "home": "Girona",
+      "away": "Ath Bilbao",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-06",
+      "home": "Alaves",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-06",
+      "home": "Sevilla",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-06",
+      "home": "Sociedad",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-18",
+      "home": "Alaves",
+      "away": "Valladolid",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-19",
+      "home": "Ath Bilbao",
+      "away": "Espanol",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-19",
+      "home": "Osasuna",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-19",
+      "home": "Girona",
+      "away": "Sociedad",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-19",
+      "home": "Celta",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-20",
+      "home": "Mallorca",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-20",
+      "home": "Ath Madrid",
+      "away": "Leganes",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-20",
+      "home": "Villarreal",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-20",
+      "home": "Barcelona",
+      "away": "Sevilla",
+      "gh": 5,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-21",
+      "home": "Valencia",
+      "away": "Las Palmas",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-25",
+      "home": "Espanol",
+      "away": "Sevilla",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-26",
+      "home": "Valladolid",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-26",
+      "home": "Vallecano",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-26",
+      "home": "Las Palmas",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-26",
+      "home": "Real Madrid",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-27",
+      "home": "Leganes",
+      "away": "Celta",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-27",
+      "home": "Getafe",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-27",
+      "home": "Betis",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-27",
+      "home": "Sociedad",
+      "away": "Osasuna",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-10-28",
+      "home": "Mallorca",
+      "away": "Ath Bilbao",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-01",
+      "home": "Alaves",
+      "away": "Mallorca",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-02",
+      "home": "Osasuna",
+      "away": "Valladolid",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-02",
+      "home": "Girona",
+      "away": "Leganes",
+      "gh": 4,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-03",
+      "home": "Ath Madrid",
+      "away": "Las Palmas",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-03",
+      "home": "Barcelona",
+      "away": "Espanol",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-03",
+      "home": "Sevilla",
+      "away": "Sociedad",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-03",
+      "home": "Ath Bilbao",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-04",
+      "home": "Celta",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-08",
+      "home": "Vallecano",
+      "away": "Las Palmas",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-09",
+      "home": "Real Madrid",
+      "away": "Osasuna",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-09",
+      "home": "Villarreal",
+      "away": "Alaves",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-09",
+      "home": "Leganes",
+      "away": "Sevilla",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-10",
+      "home": "Betis",
+      "away": "Celta",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-10",
+      "home": "Mallorca",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-10",
+      "home": "Getafe",
+      "away": "Girona",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-10",
+      "home": "Valladolid",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-10",
+      "home": "Sociedad",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-22",
+      "home": "Getafe",
+      "away": "Valladolid",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-23",
+      "home": "Valencia",
+      "away": "Betis",
+      "gh": 4,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-23",
+      "home": "Ath Madrid",
+      "away": "Alaves",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-23",
+      "home": "Girona",
+      "away": "Espanol",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-23",
+      "home": "Las Palmas",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-23",
+      "home": "Celta",
+      "away": "Barcelona",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-24",
+      "home": "Osasuna",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-24",
+      "home": "Sevilla",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-24",
+      "home": "Leganes",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-24",
+      "home": "Ath Bilbao",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-29",
+      "home": "Mallorca",
+      "away": "Valencia",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-30",
+      "home": "Barcelona",
+      "away": "Las Palmas",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-30",
+      "home": "Alaves",
+      "away": "Leganes",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-30",
+      "home": "Espanol",
+      "away": "Celta",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-11-30",
+      "home": "Valladolid",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 5
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-01",
+      "home": "Villarreal",
+      "away": "Girona",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-01",
+      "home": "Real Madrid",
+      "away": "Getafe",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-01",
+      "home": "Vallecano",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-01",
+      "home": "Sociedad",
+      "away": "Betis",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-02",
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-03",
+      "home": "Mallorca",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 5
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-04",
+      "home": "Ath Bilbao",
+      "away": "Real Madrid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-06",
+      "home": "Celta",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-07",
+      "home": "Las Palmas",
+      "away": "Valladolid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-07",
+      "home": "Betis",
+      "away": "Barcelona",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-07",
+      "home": "Valencia",
+      "away": "Vallecano",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-07",
+      "home": "Girona",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-08",
+      "home": "Leganes",
+      "away": "Sociedad",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-08",
+      "home": "Ath Bilbao",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-08",
+      "home": "Osasuna",
+      "away": "Alaves",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-08",
+      "home": "Ath Madrid",
+      "away": "Sevilla",
+      "gh": 4,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-09",
+      "home": "Getafe",
+      "away": "Espanol",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-13",
+      "home": "Valladolid",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-14",
+      "home": "Espanol",
+      "away": "Osasuna",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-14",
+      "home": "Mallorca",
+      "away": "Girona",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-14",
+      "home": "Sevilla",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-14",
+      "home": "Vallecano",
+      "away": "Real Madrid",
+      "gh": 3,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-15",
+      "home": "Ath Madrid",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-15",
+      "home": "Alaves",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-15",
+      "home": "Sociedad",
+      "away": "Las Palmas",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-15",
+      "home": "Villarreal",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-15",
+      "home": "Barcelona",
+      "away": "Leganes",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-18",
+      "home": "Espanol",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-18",
+      "home": "Villarreal",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-20",
+      "home": "Girona",
+      "away": "Valladolid",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-21",
+      "home": "Getafe",
+      "away": "Mallorca",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-21",
+      "home": "Celta",
+      "away": "Sociedad",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-21",
+      "home": "Osasuna",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-21",
+      "home": "Barcelona",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-22",
+      "home": "Valencia",
+      "away": "Alaves",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-22",
+      "home": "Real Madrid",
+      "away": "Sevilla",
+      "gh": 4,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-22",
+      "home": "Las Palmas",
+      "away": "Espanol",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-22",
+      "home": "Leganes",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 5
+    },
+    {
+      "division": "SP1",
+      "date": "2024-12-22",
+      "home": "Betis",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-03",
+      "home": "Valencia",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-10",
+      "home": "Vallecano",
+      "away": "Celta",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-11",
+      "home": "Alaves",
+      "away": "Girona",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-11",
+      "home": "Valladolid",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-11",
+      "home": "Espanol",
+      "away": "Leganes",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-11",
+      "home": "Sevilla",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-12",
+      "home": "Las Palmas",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-12",
+      "home": "Ath Madrid",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-13",
+      "home": "Sociedad",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-17",
+      "home": "Espanol",
+      "away": "Valladolid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-18",
+      "home": "Girona",
+      "away": "Sevilla",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-18",
+      "home": "Leganes",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-18",
+      "home": "Betis",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-18",
+      "home": "Getafe",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-19",
+      "home": "Celta",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-19",
+      "home": "Real Madrid",
+      "away": "Las Palmas",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-19",
+      "home": "Osasuna",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-19",
+      "home": "Valencia",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-20",
+      "home": "Villarreal",
+      "away": "Mallorca",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-24",
+      "home": "Las Palmas",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-25",
+      "home": "Mallorca",
+      "away": "Betis",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-25",
+      "home": "Ath Madrid",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-25",
+      "home": "Sevilla",
+      "away": "Espanol",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-25",
+      "home": "Valladolid",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-26",
+      "home": "Vallecano",
+      "away": "Girona",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-26",
+      "home": "Sociedad",
+      "away": "Getafe",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-26",
+      "home": "Ath Bilbao",
+      "away": "Leganes",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-26",
+      "home": "Barcelona",
+      "away": "Valencia",
+      "gh": 7,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-27",
+      "home": "Alaves",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-01-31",
+      "home": "Leganes",
+      "away": "Vallecano",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-01",
+      "home": "Getafe",
+      "away": "Sevilla",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-01",
+      "home": "Villarreal",
+      "away": "Valladolid",
+      "gh": 5,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-01",
+      "home": "Ath Madrid",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-01",
+      "home": "Espanol",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-02",
+      "home": "Barcelona",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-02",
+      "home": "Valencia",
+      "away": "Celta",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-02",
+      "home": "Osasuna",
+      "away": "Sociedad",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-02",
+      "home": "Betis",
+      "away": "Ath Bilbao",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-03",
+      "home": "Girona",
+      "away": "Las Palmas",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-07",
+      "home": "Vallecano",
+      "away": "Valladolid",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-08",
+      "home": "Celta",
+      "away": "Betis",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-08",
+      "home": "Ath Bilbao",
+      "away": "Girona",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-08",
+      "home": "Las Palmas",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-08",
+      "home": "Real Madrid",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-09",
+      "home": "Alaves",
+      "away": "Getafe",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-09",
+      "home": "Valencia",
+      "away": "Leganes",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-09",
+      "home": "Sociedad",
+      "away": "Espanol",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-09",
+      "home": "Sevilla",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-10",
+      "home": "Mallorca",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-14",
+      "home": "Girona",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-15",
+      "home": "Leganes",
+      "away": "Alaves",
+      "gh": 3,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-15",
+      "home": "Osasuna",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-15",
+      "home": "Ath Madrid",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-15",
+      "home": "Villarreal",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-16",
+      "home": "Espanol",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-16",
+      "home": "Valladolid",
+      "away": "Sevilla",
+      "gh": 0,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-16",
+      "home": "Mallorca",
+      "away": "Las Palmas",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-16",
+      "home": "Betis",
+      "away": "Sociedad",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-17",
+      "home": "Barcelona",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-21",
+      "home": "Celta",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-22",
+      "home": "Alaves",
+      "away": "Espanol",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-22",
+      "home": "Vallecano",
+      "away": "Villarreal",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-22",
+      "home": "Valencia",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-22",
+      "home": "Las Palmas",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-23",
+      "home": "Ath Bilbao",
+      "away": "Valladolid",
+      "gh": 7,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-23",
+      "home": "Real Madrid",
+      "away": "Girona",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-23",
+      "home": "Getafe",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-23",
+      "home": "Sociedad",
+      "away": "Leganes",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-24",
+      "home": "Sevilla",
+      "away": "Mallorca",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-02-28",
+      "home": "Valladolid",
+      "away": "Las Palmas",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-01",
+      "home": "Girona",
+      "away": "Celta",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-01",
+      "home": "Vallecano",
+      "away": "Sevilla",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-01",
+      "home": "Betis",
+      "away": "Real Madrid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-01",
+      "home": "Ath Madrid",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-02",
+      "home": "Leganes",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-02",
+      "home": "Barcelona",
+      "away": "Sociedad",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-02",
+      "home": "Mallorca",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-02",
+      "home": "Osasuna",
+      "away": "Valencia",
+      "gh": 3,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-08",
+      "home": "Celta",
+      "away": "Leganes",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-08",
+      "home": "Alaves",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-08",
+      "home": "Valencia",
+      "away": "Valladolid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-09",
+      "home": "Getafe",
+      "away": "Ath Madrid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-09",
+      "home": "Real Madrid",
+      "away": "Vallecano",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-09",
+      "home": "Ath Bilbao",
+      "away": "Mallorca",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-09",
+      "home": "Betis",
+      "away": "Las Palmas",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-09",
+      "home": "Sociedad",
+      "away": "Sevilla",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-10",
+      "home": "Espanol",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-14",
+      "home": "Las Palmas",
+      "away": "Alaves",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-15",
+      "home": "Valladolid",
+      "away": "Celta",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-15",
+      "home": "Mallorca",
+      "away": "Espanol",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-15",
+      "home": "Villarreal",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-15",
+      "home": "Girona",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-16",
+      "home": "Leganes",
+      "away": "Betis",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-16",
+      "home": "Sevilla",
+      "away": "Ath Bilbao",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-16",
+      "home": "Osasuna",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-16",
+      "home": "Vallecano",
+      "away": "Sociedad",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-16",
+      "home": "Ath Madrid",
+      "away": "Barcelona",
+      "gh": 2,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-27",
+      "home": "Barcelona",
+      "away": "Osasuna",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-29",
+      "home": "Sociedad",
+      "away": "Valladolid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-29",
+      "home": "Espanol",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-29",
+      "home": "Alaves",
+      "away": "Vallecano",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-29",
+      "home": "Real Madrid",
+      "away": "Leganes",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-30",
+      "home": "Getafe",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-30",
+      "home": "Barcelona",
+      "away": "Girona",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-30",
+      "home": "Ath Bilbao",
+      "away": "Osasuna",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-30",
+      "home": "Valencia",
+      "away": "Mallorca",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-30",
+      "home": "Betis",
+      "away": "Sevilla",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-03-31",
+      "home": "Celta",
+      "away": "Las Palmas",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-04",
+      "home": "Vallecano",
+      "away": "Espanol",
+      "gh": 0,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-05",
+      "home": "Girona",
+      "away": "Alaves",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-05",
+      "home": "Real Madrid",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-05",
+      "home": "Mallorca",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-05",
+      "home": "Barcelona",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-06",
+      "home": "Las Palmas",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-06",
+      "home": "Sevilla",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-06",
+      "home": "Valladolid",
+      "away": "Getafe",
+      "gh": 0,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-06",
+      "home": "Villarreal",
+      "away": "Ath Bilbao",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-07",
+      "home": "Leganes",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-11",
+      "home": "Valencia",
+      "away": "Sevilla",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-12",
+      "home": "Sociedad",
+      "away": "Mallorca",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-12",
+      "home": "Getafe",
+      "away": "Las Palmas",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-12",
+      "home": "Celta",
+      "away": "Espanol",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-12",
+      "home": "Leganes",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-13",
+      "home": "Osasuna",
+      "away": "Girona",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-13",
+      "home": "Alaves",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-13",
+      "home": "Betis",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-13",
+      "home": "Ath Bilbao",
+      "away": "Vallecano",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-14",
+      "home": "Ath Madrid",
+      "away": "Valladolid",
+      "gh": 4,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-18",
+      "home": "Espanol",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-19",
+      "home": "Vallecano",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-19",
+      "home": "Barcelona",
+      "away": "Celta",
+      "gh": 4,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-19",
+      "home": "Mallorca",
+      "away": "Leganes",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-19",
+      "home": "Las Palmas",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-20",
+      "home": "Valladolid",
+      "away": "Osasuna",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-20",
+      "home": "Villarreal",
+      "away": "Sociedad",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-20",
+      "home": "Sevilla",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-20",
+      "home": "Real Madrid",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-21",
+      "home": "Girona",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-22",
+      "home": "Valencia",
+      "away": "Espanol",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-22",
+      "home": "Barcelona",
+      "away": "Mallorca",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-23",
+      "home": "Ath Bilbao",
+      "away": "Las Palmas",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-23",
+      "home": "Celta",
+      "away": "Villarreal",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-23",
+      "home": "Alaves",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-23",
+      "home": "Getafe",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-24",
+      "home": "Leganes",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-24",
+      "home": "Osasuna",
+      "away": "Sevilla",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-24",
+      "home": "Ath Madrid",
+      "away": "Vallecano",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-24",
+      "home": "Betis",
+      "away": "Valladolid",
+      "gh": 5,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-04-27",
+      "home": "Villarreal",
+      "away": "Espanol",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-02",
+      "home": "Vallecano",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-03",
+      "home": "Alaves",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-03",
+      "home": "Villarreal",
+      "away": "Osasuna",
+      "gh": 4,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-03",
+      "home": "Las Palmas",
+      "away": "Valencia",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-03",
+      "home": "Valladolid",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-04",
+      "home": "Real Madrid",
+      "away": "Celta",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-04",
+      "home": "Sevilla",
+      "away": "Leganes",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-04",
+      "home": "Espanol",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-04",
+      "home": "Sociedad",
+      "away": "Ath Bilbao",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-05",
+      "home": "Girona",
+      "away": "Mallorca",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-09",
+      "home": "Las Palmas",
+      "away": "Vallecano",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-10",
+      "home": "Valencia",
+      "away": "Getafe",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-10",
+      "home": "Celta",
+      "away": "Sevilla",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-10",
+      "home": "Girona",
+      "away": "Villarreal",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-10",
+      "home": "Mallorca",
+      "away": "Valladolid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-10",
+      "home": "Ath Madrid",
+      "away": "Sociedad",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-11",
+      "home": "Leganes",
+      "away": "Espanol",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-11",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "gh": 4,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-11",
+      "home": "Ath Bilbao",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-11",
+      "home": "Betis",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-13",
+      "home": "Valladolid",
+      "away": "Girona",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-13",
+      "home": "Sociedad",
+      "away": "Celta",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-13",
+      "home": "Sevilla",
+      "away": "Las Palmas",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-14",
+      "home": "Alaves",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-14",
+      "home": "Villarreal",
+      "away": "Leganes",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-14",
+      "home": "Real Madrid",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-15",
+      "home": "Vallecano",
+      "away": "Betis",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-15",
+      "home": "Osasuna",
+      "away": "Ath Madrid",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-15",
+      "home": "Espanol",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-15",
+      "home": "Getafe",
+      "away": "Ath Bilbao",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-18",
+      "home": "Ath Madrid",
+      "away": "Betis",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-18",
+      "home": "Barcelona",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-18",
+      "home": "Celta",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-18",
+      "home": "Las Palmas",
+      "away": "Leganes",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-18",
+      "home": "Mallorca",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-18",
+      "home": "Osasuna",
+      "away": "Espanol",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-18",
+      "home": "Sevilla",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-18",
+      "home": "Sociedad",
+      "away": "Girona",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-18",
+      "home": "Valencia",
+      "away": "Ath Bilbao",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-18",
+      "home": "Valladolid",
+      "away": "Alaves",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-23",
+      "home": "Betis",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-24",
+      "home": "Real Madrid",
+      "away": "Sociedad",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-24",
+      "home": "Espanol",
+      "away": "Las Palmas",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-24",
+      "home": "Leganes",
+      "away": "Valladolid",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-24",
+      "home": "Alaves",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-24",
+      "home": "Getafe",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-24",
+      "home": "Vallecano",
+      "away": "Mallorca",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-25",
+      "home": "Girona",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-25",
+      "home": "Villarreal",
+      "away": "Sevilla",
+      "gh": 4,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-05-25",
+      "home": "Ath Bilbao",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-15",
+      "home": "Girona",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-15",
+      "home": "Villarreal",
+      "away": "Oviedo",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-16",
+      "home": "Mallorca",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-16",
+      "home": "Alaves",
+      "away": "Levante",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-16",
+      "home": "Valencia",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-17",
+      "home": "Celta",
+      "away": "Getafe",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-17",
+      "home": "Ath Bilbao",
+      "away": "Sevilla",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-17",
+      "home": "Espanol",
+      "away": "Ath Madrid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-18",
+      "home": "Elche",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-19",
+      "home": "Real Madrid",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-22",
+      "home": "Betis",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-23",
+      "home": "Mallorca",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-23",
+      "home": "Ath Madrid",
+      "away": "Elche",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-23",
+      "home": "Levante",
+      "away": "Barcelona",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-24",
+      "home": "Osasuna",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-24",
+      "home": "Sociedad",
+      "away": "Espanol",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-24",
+      "home": "Villarreal",
+      "away": "Girona",
+      "gh": 5,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-24",
+      "home": "Oviedo",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-25",
+      "home": "Ath Bilbao",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-25",
+      "home": "Sevilla",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-27",
+      "home": "Celta",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-29",
+      "home": "Elche",
+      "away": "Levante",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-29",
+      "home": "Valencia",
+      "away": "Getafe",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-30",
+      "home": "Alaves",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-30",
+      "home": "Oviedo",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-30",
+      "home": "Girona",
+      "away": "Sevilla",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-30",
+      "home": "Real Madrid",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-31",
+      "home": "Celta",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-31",
+      "home": "Betis",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-31",
+      "home": "Espanol",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-08-31",
+      "home": "Vallecano",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-12",
+      "home": "Sevilla",
+      "away": "Elche",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-13",
+      "home": "Getafe",
+      "away": "Oviedo",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-13",
+      "home": "Sociedad",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-13",
+      "home": "Ath Bilbao",
+      "away": "Alaves",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-13",
+      "home": "Ath Madrid",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-14",
+      "home": "Celta",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-14",
+      "home": "Levante",
+      "away": "Betis",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-14",
+      "home": "Osasuna",
+      "away": "Vallecano",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-14",
+      "home": "Barcelona",
+      "away": "Valencia",
+      "gh": 6,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-15",
+      "home": "Espanol",
+      "away": "Mallorca",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-19",
+      "home": "Betis",
+      "away": "Sociedad",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-20",
+      "home": "Girona",
+      "away": "Levante",
+      "gh": 0,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-20",
+      "home": "Real Madrid",
+      "away": "Espanol",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-20",
+      "home": "Alaves",
+      "away": "Sevilla",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-20",
+      "home": "Villarreal",
+      "away": "Osasuna",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-20",
+      "home": "Valencia",
+      "away": "Ath Bilbao",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-21",
+      "home": "Vallecano",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-21",
+      "home": "Mallorca",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-21",
+      "home": "Elche",
+      "away": "Oviedo",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-21",
+      "home": "Barcelona",
+      "away": "Getafe",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-23",
+      "home": "Ath Bilbao",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-23",
+      "home": "Espanol",
+      "away": "Valencia",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-23",
+      "home": "Levante",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-23",
+      "home": "Sevilla",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-24",
+      "home": "Getafe",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-24",
+      "home": "Ath Madrid",
+      "away": "Vallecano",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-24",
+      "home": "Sociedad",
+      "away": "Mallorca",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-25",
+      "home": "Osasuna",
+      "away": "Elche",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-25",
+      "home": "Oviedo",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-26",
+      "home": "Girona",
+      "away": "Espanol",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-27",
+      "home": "Getafe",
+      "away": "Levante",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-27",
+      "home": "Ath Madrid",
+      "away": "Real Madrid",
+      "gh": 5,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-27",
+      "home": "Mallorca",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-27",
+      "home": "Villarreal",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-28",
+      "home": "Vallecano",
+      "away": "Sevilla",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-28",
+      "home": "Elche",
+      "away": "Celta",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-28",
+      "home": "Barcelona",
+      "away": "Sociedad",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-28",
+      "home": "Betis",
+      "away": "Osasuna",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-09-30",
+      "home": "Valencia",
+      "away": "Oviedo",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-03",
+      "home": "Osasuna",
+      "away": "Getafe",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-04",
+      "home": "Oviedo",
+      "away": "Levante",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-04",
+      "home": "Girona",
+      "away": "Valencia",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-04",
+      "home": "Ath Bilbao",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-04",
+      "home": "Real Madrid",
+      "away": "Villarreal",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-05",
+      "home": "Alaves",
+      "away": "Elche",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-05",
+      "home": "Sevilla",
+      "away": "Barcelona",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-05",
+      "home": "Espanol",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-05",
+      "home": "Sociedad",
+      "away": "Vallecano",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-05",
+      "home": "Celta",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-17",
+      "home": "Oviedo",
+      "away": "Espanol",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-18",
+      "home": "Sevilla",
+      "away": "Mallorca",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-18",
+      "home": "Barcelona",
+      "away": "Girona",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-18",
+      "home": "Villarreal",
+      "away": "Betis",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-18",
+      "home": "Ath Madrid",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-19",
+      "home": "Elche",
+      "away": "Ath Bilbao",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-19",
+      "home": "Celta",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-19",
+      "home": "Levante",
+      "away": "Vallecano",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-19",
+      "home": "Getafe",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-20",
+      "home": "Alaves",
+      "away": "Valencia",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-24",
+      "home": "Sociedad",
+      "away": "Sevilla",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-25",
+      "home": "Girona",
+      "away": "Oviedo",
+      "gh": 3,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-25",
+      "home": "Espanol",
+      "away": "Elche",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-25",
+      "home": "Ath Bilbao",
+      "away": "Getafe",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-25",
+      "home": "Valencia",
+      "away": "Villarreal",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-26",
+      "home": "Mallorca",
+      "away": "Levante",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-26",
+      "home": "Real Madrid",
+      "away": "Barcelona",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-26",
+      "home": "Osasuna",
+      "away": "Celta",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-26",
+      "home": "Vallecano",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-27",
+      "home": "Betis",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-10-31",
+      "home": "Getafe",
+      "away": "Girona",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-01",
+      "home": "Villarreal",
+      "away": "Vallecano",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-01",
+      "home": "Ath Madrid",
+      "away": "Sevilla",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-01",
+      "home": "Sociedad",
+      "away": "Ath Bilbao",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-01",
+      "home": "Real Madrid",
+      "away": "Valencia",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-02",
+      "home": "Levante",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-02",
+      "home": "Alaves",
+      "away": "Espanol",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-02",
+      "home": "Barcelona",
+      "away": "Elche",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-02",
+      "home": "Betis",
+      "away": "Mallorca",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-03",
+      "home": "Oviedo",
+      "away": "Osasuna",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-07",
+      "home": "Elche",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-08",
+      "home": "Girona",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-08",
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-08",
+      "home": "Ath Madrid",
+      "away": "Levante",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-08",
+      "home": "Espanol",
+      "away": "Villarreal",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-09",
+      "home": "Ath Bilbao",
+      "away": "Oviedo",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-09",
+      "home": "Vallecano",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-09",
+      "home": "Mallorca",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-09",
+      "home": "Valencia",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-09",
+      "home": "Celta",
+      "away": "Barcelona",
+      "gh": 2,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-21",
+      "home": "Valencia",
+      "away": "Levante",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-22",
+      "home": "Alaves",
+      "away": "Celta",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-22",
+      "home": "Barcelona",
+      "away": "Ath Bilbao",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-22",
+      "home": "Osasuna",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-22",
+      "home": "Villarreal",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-23",
+      "home": "Oviedo",
+      "away": "Vallecano",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-23",
+      "home": "Betis",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-23",
+      "home": "Getafe",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-23",
+      "home": "Elche",
+      "away": "Real Madrid",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-24",
+      "home": "Espanol",
+      "away": "Sevilla",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-28",
+      "home": "Getafe",
+      "away": "Elche",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-29",
+      "home": "Mallorca",
+      "away": "Osasuna",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-29",
+      "home": "Barcelona",
+      "away": "Alaves",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-29",
+      "home": "Levante",
+      "away": "Ath Bilbao",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-29",
+      "home": "Ath Madrid",
+      "away": "Oviedo",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-30",
+      "home": "Sociedad",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-30",
+      "home": "Sevilla",
+      "away": "Betis",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-30",
+      "home": "Celta",
+      "away": "Espanol",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-11-30",
+      "home": "Girona",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-01",
+      "home": "Vallecano",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-02",
+      "home": "Barcelona",
+      "away": "Ath Madrid",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-03",
+      "home": "Ath Bilbao",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-05",
+      "home": "Oviedo",
+      "away": "Mallorca",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-06",
+      "home": "Villarreal",
+      "away": "Getafe",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-06",
+      "home": "Alaves",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-06",
+      "home": "Betis",
+      "away": "Barcelona",
+      "gh": 3,
+      "ga": 5
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-06",
+      "home": "Ath Bilbao",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-07",
+      "home": "Elche",
+      "away": "Girona",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-07",
+      "home": "Valencia",
+      "away": "Sevilla",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-07",
+      "home": "Espanol",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-07",
+      "home": "Real Madrid",
+      "away": "Celta",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-08",
+      "home": "Osasuna",
+      "away": "Levante",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-12",
+      "home": "Sociedad",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-13",
+      "home": "Ath Madrid",
+      "away": "Valencia",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-13",
+      "home": "Mallorca",
+      "away": "Elche",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-13",
+      "home": "Barcelona",
+      "away": "Osasuna",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-13",
+      "home": "Getafe",
+      "away": "Espanol",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-14",
+      "home": "Sevilla",
+      "away": "Oviedo",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-14",
+      "home": "Celta",
+      "away": "Ath Bilbao",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-14",
+      "home": "Alaves",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-15",
+      "home": "Vallecano",
+      "away": "Betis",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-19",
+      "home": "Valencia",
+      "away": "Mallorca",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-20",
+      "home": "Oviedo",
+      "away": "Celta",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-20",
+      "home": "Levante",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-20",
+      "home": "Osasuna",
+      "away": "Alaves",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-20",
+      "home": "Real Madrid",
+      "away": "Sevilla",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-21",
+      "home": "Girona",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-21",
+      "home": "Villarreal",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-21",
+      "home": "Elche",
+      "away": "Vallecano",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-21",
+      "home": "Betis",
+      "away": "Getafe",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2025-12-22",
+      "home": "Ath Bilbao",
+      "away": "Espanol",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-02",
+      "home": "Vallecano",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-03",
+      "home": "Celta",
+      "away": "Valencia",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-03",
+      "home": "Osasuna",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-03",
+      "home": "Elche",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-03",
+      "home": "Espanol",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-04",
+      "home": "Sevilla",
+      "away": "Levante",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-04",
+      "home": "Real Madrid",
+      "away": "Betis",
+      "gh": 5,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-04",
+      "home": "Alaves",
+      "away": "Oviedo",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-04",
+      "home": "Mallorca",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-04",
+      "home": "Sociedad",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-09",
+      "home": "Getafe",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-10",
+      "home": "Oviedo",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-10",
+      "home": "Villarreal",
+      "away": "Alaves",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-10",
+      "home": "Girona",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-10",
+      "home": "Valencia",
+      "away": "Elche",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-11",
+      "home": "Vallecano",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-11",
+      "home": "Levante",
+      "away": "Espanol",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-12",
+      "home": "Sevilla",
+      "away": "Celta",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-16",
+      "home": "Espanol",
+      "away": "Girona",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-17",
+      "home": "Real Madrid",
+      "away": "Levante",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-17",
+      "home": "Mallorca",
+      "away": "Ath Bilbao",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-17",
+      "home": "Osasuna",
+      "away": "Oviedo",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-17",
+      "home": "Betis",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-18",
+      "home": "Getafe",
+      "away": "Valencia",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-18",
+      "home": "Ath Madrid",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-18",
+      "home": "Celta",
+      "away": "Vallecano",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-18",
+      "home": "Sociedad",
+      "away": "Barcelona",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-19",
+      "home": "Elche",
+      "away": "Sevilla",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-23",
+      "home": "Levante",
+      "away": "Elche",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-24",
+      "home": "Vallecano",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-24",
+      "home": "Valencia",
+      "away": "Espanol",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-24",
+      "home": "Sevilla",
+      "away": "Ath Bilbao",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-24",
+      "home": "Villarreal",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-25",
+      "home": "Ath Madrid",
+      "away": "Mallorca",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-25",
+      "home": "Barcelona",
+      "away": "Oviedo",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-25",
+      "home": "Sociedad",
+      "away": "Celta",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-25",
+      "home": "Alaves",
+      "away": "Betis",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-26",
+      "home": "Girona",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-30",
+      "home": "Espanol",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-31",
+      "home": "Oviedo",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-31",
+      "home": "Osasuna",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-31",
+      "home": "Levante",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-01-31",
+      "home": "Elche",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-01",
+      "home": "Real Madrid",
+      "away": "Vallecano",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-01",
+      "home": "Betis",
+      "away": "Valencia",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-01",
+      "home": "Getafe",
+      "away": "Celta",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-01",
+      "home": "Ath Bilbao",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-02",
+      "home": "Mallorca",
+      "away": "Sevilla",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-06",
+      "home": "Celta",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-07",
+      "home": "Barcelona",
+      "away": "Mallorca",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-07",
+      "home": "Sociedad",
+      "away": "Elche",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-08",
+      "home": "Alaves",
+      "away": "Getafe",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-08",
+      "home": "Ath Bilbao",
+      "away": "Levante",
+      "gh": 4,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-08",
+      "home": "Sevilla",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-08",
+      "home": "Ath Madrid",
+      "away": "Betis",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-08",
+      "home": "Valencia",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-09",
+      "home": "Villarreal",
+      "away": "Espanol",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-13",
+      "home": "Elche",
+      "away": "Osasuna",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-14",
+      "home": "Espanol",
+      "away": "Celta",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-14",
+      "home": "Getafe",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-14",
+      "home": "Sevilla",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-14",
+      "home": "Real Madrid",
+      "away": "Sociedad",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-15",
+      "home": "Oviedo",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-15",
+      "home": "Vallecano",
+      "away": "Ath Madrid",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-15",
+      "home": "Levante",
+      "away": "Valencia",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-15",
+      "home": "Mallorca",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-16",
+      "home": "Girona",
+      "away": "Barcelona",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-18",
+      "home": "Levante",
+      "away": "Villarreal",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-20",
+      "home": "Ath Bilbao",
+      "away": "Elche",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-21",
+      "home": "Sociedad",
+      "away": "Oviedo",
+      "gh": 3,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-21",
+      "home": "Betis",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-21",
+      "home": "Osasuna",
+      "away": "Real Madrid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-21",
+      "home": "Ath Madrid",
+      "away": "Espanol",
+      "gh": 4,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-22",
+      "home": "Getafe",
+      "away": "Sevilla",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-22",
+      "home": "Barcelona",
+      "away": "Levante",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-22",
+      "home": "Celta",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-22",
+      "home": "Villarreal",
+      "away": "Valencia",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-23",
+      "home": "Alaves",
+      "away": "Girona",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-27",
+      "home": "Levante",
+      "away": "Alaves",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-28",
+      "home": "Vallecano",
+      "away": "Ath Bilbao",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-28",
+      "home": "Barcelona",
+      "away": "Villarreal",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-28",
+      "home": "Mallorca",
+      "away": "Sociedad",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-02-28",
+      "home": "Oviedo",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-01",
+      "home": "Elche",
+      "away": "Espanol",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-01",
+      "home": "Valencia",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-01",
+      "home": "Betis",
+      "away": "Sevilla",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-01",
+      "home": "Girona",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-02",
+      "home": "Real Madrid",
+      "away": "Getafe",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-04",
+      "home": "Vallecano",
+      "away": "Oviedo",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-06",
+      "home": "Celta",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-07",
+      "home": "Osasuna",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-07",
+      "home": "Levante",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-07",
+      "home": "Ath Madrid",
+      "away": "Sociedad",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-07",
+      "home": "Ath Bilbao",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-08",
+      "home": "Villarreal",
+      "away": "Elche",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-08",
+      "home": "Getafe",
+      "away": "Betis",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-08",
+      "home": "Sevilla",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-08",
+      "home": "Valencia",
+      "away": "Alaves",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-09",
+      "home": "Espanol",
+      "away": "Oviedo",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-13",
+      "home": "Alaves",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-14",
+      "home": "Girona",
+      "away": "Ath Bilbao",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-14",
+      "home": "Ath Madrid",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-14",
+      "home": "Oviedo",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-14",
+      "home": "Real Madrid",
+      "away": "Elche",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-15",
+      "home": "Mallorca",
+      "away": "Espanol",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-15",
+      "home": "Barcelona",
+      "away": "Sevilla",
+      "gh": 5,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-15",
+      "home": "Betis",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-15",
+      "home": "Sociedad",
+      "away": "Osasuna",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-16",
+      "home": "Vallecano",
+      "away": "Levante",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-20",
+      "home": "Villarreal",
+      "away": "Sociedad",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-21",
+      "home": "Elche",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-21",
+      "home": "Espanol",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-21",
+      "home": "Levante",
+      "away": "Oviedo",
+      "gh": 4,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-21",
+      "home": "Osasuna",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-21",
+      "home": "Sevilla",
+      "away": "Valencia",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-22",
+      "home": "Barcelona",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-22",
+      "home": "Celta",
+      "away": "Alaves",
+      "gh": 3,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-22",
+      "home": "Ath Bilbao",
+      "away": "Betis",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-03-22",
+      "home": "Real Madrid",
+      "away": "Ath Madrid",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-03",
+      "home": "Vallecano",
+      "away": "Elche",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-04",
+      "home": "Sociedad",
+      "away": "Levante",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-04",
+      "home": "Mallorca",
+      "away": "Real Madrid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-04",
+      "home": "Betis",
+      "away": "Espanol",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-04",
+      "home": "Ath Madrid",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-05",
+      "home": "Getafe",
+      "away": "Ath Bilbao",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-05",
+      "home": "Valencia",
+      "away": "Celta",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-05",
+      "home": "Oviedo",
+      "away": "Sevilla",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-05",
+      "home": "Alaves",
+      "away": "Osasuna",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-06",
+      "home": "Girona",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-10",
+      "home": "Real Madrid",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-11",
+      "home": "Sociedad",
+      "away": "Alaves",
+      "gh": 3,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-11",
+      "home": "Elche",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-11",
+      "home": "Barcelona",
+      "away": "Espanol",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-11",
+      "home": "Sevilla",
+      "away": "Ath Madrid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-12",
+      "home": "Osasuna",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-12",
+      "home": "Mallorca",
+      "away": "Vallecano",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-12",
+      "home": "Celta",
+      "away": "Oviedo",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-12",
+      "home": "Ath Bilbao",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-13",
+      "home": "Levante",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-21",
+      "home": "Ath Bilbao",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-21",
+      "home": "Mallorca",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-21",
+      "home": "Girona",
+      "away": "Betis",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-21",
+      "home": "Real Madrid",
+      "away": "Alaves",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-22",
+      "home": "Elche",
+      "away": "Ath Madrid",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-22",
+      "home": "Sociedad",
+      "away": "Getafe",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-22",
+      "home": "Barcelona",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-23",
+      "home": "Levante",
+      "away": "Sevilla",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-23",
+      "home": "Vallecano",
+      "away": "Espanol",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-23",
+      "home": "Oviedo",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-24",
+      "home": "Betis",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-25",
+      "home": "Alaves",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-25",
+      "home": "Getafe",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-25",
+      "home": "Valencia",
+      "away": "Girona",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-25",
+      "home": "Ath Madrid",
+      "away": "Ath Bilbao",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-26",
+      "home": "Vallecano",
+      "away": "Sociedad",
+      "gh": 3,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-26",
+      "home": "Oviedo",
+      "away": "Elche",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-26",
+      "home": "Osasuna",
+      "away": "Sevilla",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-26",
+      "home": "Villarreal",
+      "away": "Celta",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-04-27",
+      "home": "Espanol",
+      "away": "Levante",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-01",
+      "home": "Girona",
+      "away": "Mallorca",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-02",
+      "home": "Villarreal",
+      "away": "Levante",
+      "gh": 5,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-02",
+      "home": "Valencia",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-02",
+      "home": "Alaves",
+      "away": "Ath Bilbao",
+      "gh": 2,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-02",
+      "home": "Osasuna",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-03",
+      "home": "Celta",
+      "away": "Elche",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-03",
+      "home": "Getafe",
+      "away": "Vallecano",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-03",
+      "home": "Betis",
+      "away": "Oviedo",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-03",
+      "home": "Espanol",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-04",
+      "home": "Sevilla",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-08",
+      "home": "Levante",
+      "away": "Osasuna",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-09",
+      "home": "Elche",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-09",
+      "home": "Sevilla",
+      "away": "Espanol",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-09",
+      "home": "Ath Madrid",
+      "away": "Celta",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-09",
+      "home": "Sociedad",
+      "away": "Betis",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-10",
+      "home": "Mallorca",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-10",
+      "home": "Ath Bilbao",
+      "away": "Valencia",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-10",
+      "home": "Oviedo",
+      "away": "Getafe",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-10",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-11",
+      "home": "Vallecano",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-12",
+      "home": "Celta",
+      "away": "Levante",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-12",
+      "home": "Betis",
+      "away": "Elche",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-12",
+      "home": "Osasuna",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-13",
+      "home": "Espanol",
+      "away": "Ath Bilbao",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-13",
+      "home": "Villarreal",
+      "away": "Sevilla",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-13",
+      "home": "Alaves",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-13",
+      "home": "Getafe",
+      "away": "Mallorca",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-14",
+      "home": "Valencia",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-14",
+      "home": "Girona",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-14",
+      "home": "Real Madrid",
+      "away": "Oviedo",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-17",
+      "home": "Ath Bilbao",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-17",
+      "home": "Ath Madrid",
+      "away": "Girona",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-17",
+      "home": "Elche",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-17",
+      "home": "Levante",
+      "away": "Mallorca",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-17",
+      "home": "Osasuna",
+      "away": "Espanol",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-17",
+      "home": "Oviedo",
+      "away": "Alaves",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-17",
+      "home": "Sevilla",
+      "away": "Real Madrid",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-17",
+      "home": "Sociedad",
+      "away": "Valencia",
+      "gh": 3,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-17",
+      "home": "Vallecano",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-17",
+      "home": "Barcelona",
+      "away": "Betis",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-23",
+      "home": "Alaves",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-23",
+      "home": "Betis",
+      "away": "Levante",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-23",
+      "home": "Celta",
+      "away": "Sevilla",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-23",
+      "home": "Espanol",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-23",
+      "home": "Getafe",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-23",
+      "home": "Girona",
+      "away": "Elche",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-23",
+      "home": "Mallorca",
+      "away": "Oviedo",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-23",
+      "home": "Real Madrid",
+      "away": "Ath Bilbao",
+      "gh": 4,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-23",
+      "home": "Valencia",
+      "away": "Barcelona",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-05-24",
+      "home": "Villarreal",
+      "away": "Ath Madrid",
+      "gh": 5,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-15",
+      "home": "Alaves",
+      "away": "Getafe",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-15",
+      "home": "Sevilla",
+      "away": "Vallecano",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-16",
+      "home": "Santander",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-16",
+      "home": "Espanol",
+      "away": "Levante",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-17",
+      "home": "La Coruna",
+      "away": "Elche",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-19",
+      "home": "Ath Madrid",
+      "away": "Malaga",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-20",
+      "home": "Vallecano",
+      "away": "Alaves",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-21",
+      "home": "Betis",
+      "away": "Sociedad",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-22",
+      "home": "Ath Bilbao",
+      "away": "Sevilla",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-22",
+      "home": "Valencia",
+      "away": "Celta",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-22",
+      "home": "Espanol",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-23",
+      "home": "Ath Madrid",
+      "away": "Villarreal",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-23",
+      "home": "Getafe",
+      "away": "Santander",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-23",
+      "home": "Elche",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 5
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-24",
+      "home": "Osasuna",
+      "away": "Levante",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-24",
+      "home": "Malaga",
+      "away": "La Coruna",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-25",
+      "home": "Valencia",
+      "away": "Betis",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-26",
+      "home": "Real Madrid",
+      "away": "Sociedad",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-27",
+      "home": "Celta",
+      "away": "Osasuna",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-27",
+      "home": "Barcelona",
+      "away": "Ath Bilbao",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-28",
+      "home": "Santander",
+      "away": "Elche",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-28",
+      "home": "Alaves",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-29",
+      "home": "Levante",
+      "away": "Betis",
+      "gh": 5,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-29",
+      "home": "Sociedad",
+      "away": "Espanol",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-29",
+      "home": "Sevilla",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-30",
+      "home": "Real Madrid",
+      "away": "Malaga",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-30",
+      "home": "La Coruna",
+      "away": "Valencia",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-30",
+      "home": "Celta",
+      "away": "Ath Bilbao",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-31",
+      "home": "Osasuna",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-08-31",
+      "home": "Barcelona",
+      "away": "Vallecano",
+      "gh": 5,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-03",
+      "home": "Sociedad",
+      "away": "Celta",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-04",
+      "home": "Betis",
+      "away": "Real Madrid",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-05",
+      "home": "Ath Bilbao",
+      "away": "Ath Madrid",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-05",
+      "home": "Vallecano",
+      "away": "Santander",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-05",
+      "home": "Villarreal",
+      "away": "La Coruna",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-06",
+      "home": "Valencia",
+      "away": "Barcelona",
+      "gh": 0,
+      "ga": 5
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-06",
+      "home": "Alaves",
+      "away": "Osasuna",
+      "gh": 5,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-06",
+      "home": "Malaga",
+      "away": "Levante",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-06",
+      "home": "Espanol",
+      "away": "Sevilla",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-07",
+      "home": "Getafe",
+      "away": "Celta",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-07",
+      "home": "Elche",
+      "away": "Sociedad",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-11",
+      "home": "Sevilla",
+      "away": "Valencia",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-12",
+      "home": "Santander",
+      "away": "Alaves",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-12",
+      "home": "Osasuna",
+      "away": "Espanol",
+      "gh": 0,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-12",
+      "home": "Ath Bilbao",
+      "away": "Elche",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-12",
+      "home": "Real Madrid",
+      "away": "Vallecano",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-13",
+      "home": "Celta",
+      "away": "Malaga",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-13",
+      "home": "Levante",
+      "away": "Barcelona",
+      "gh": 2,
+      "ga": 4
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-13",
+      "home": "Getafe",
+      "away": "La Coruna",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-13",
+      "home": "Sociedad",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-14",
+      "home": "Villarreal",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-15",
+      "home": "Vallecano",
+      "away": "Espanol",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-15",
+      "home": "Alaves",
+      "away": "Valencia",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-15",
+      "home": "Elche",
+      "away": "Real Madrid",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-16",
+      "home": "Ath Madrid",
+      "away": "Osasuna",
+      "gh": 4,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-16",
+      "home": "La Coruna",
+      "away": "Sevilla",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-16",
+      "home": "Barcelona",
+      "away": "Santander",
+      "gh": 7,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-17",
+      "home": "Betis",
+      "away": "Getafe",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-17",
+      "home": "Malaga",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-18",
+      "home": "Espanol",
+      "away": "Elche",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-19",
+      "home": "Osasuna",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-19",
+      "home": "Ath Bilbao",
+      "away": "Alaves",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-19",
+      "home": "Celta",
+      "away": "Santander",
+      "gh": 5,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-19",
+      "home": "Sevilla",
+      "away": "Barcelona",
+      "gh": 1,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-20",
+      "home": "Getafe",
+      "away": "Malaga",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-20",
+      "home": "Ath Madrid",
+      "away": "Real Madrid",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-20",
+      "home": "La Coruna",
+      "away": "Betis",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-20",
+      "home": "Villarreal",
+      "away": "Levante",
+      "gh": 3,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-09-20",
+      "home": "Valencia",
+      "away": "Sociedad",
+      "gh": 2,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-09",
+      "home": "Malaga",
+      "away": "Espanol",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-10",
+      "home": "Alaves",
+      "away": "Ath Madrid",
+      "gh": 1,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-10",
+      "home": "Barcelona",
+      "away": "Getafe",
+      "gh": 3,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-10",
+      "home": "Real Madrid",
+      "away": "Villarreal",
+      "gh": 1,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-11",
+      "home": "Elche",
+      "away": "Celta",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-11",
+      "home": "Sociedad",
+      "away": "La Coruna",
+      "gh": 3,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-11",
+      "home": "Betis",
+      "away": "Osasuna",
+      "gh": 5,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-11",
+      "home": "Santander",
+      "away": "Valencia",
+      "gh": 2,
+      "ga": 2
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-12",
+      "home": "Levante",
+      "away": "Sevilla",
+      "gh": 3,
+      "ga": 3
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-16",
+      "home": "La Coruna",
+      "away": "Levante",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-17",
+      "home": "Espanol",
+      "away": "Ath Madrid",
+      "gh": 0,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-17",
+      "home": "Villarreal",
+      "away": "Elche",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-17",
+      "home": "Betis",
+      "away": "Barcelona",
+      "gh": 2,
+      "ga": 5
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-17",
+      "home": "Valencia",
+      "away": "Ath Bilbao",
+      "gh": 0,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-18",
+      "home": "Osasuna",
+      "away": "Santander",
+      "gh": 2,
+      "ga": 0
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-18",
+      "home": "Celta",
+      "away": "Alaves",
+      "gh": 2,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-18",
+      "home": "Malaga",
+      "away": "Sociedad",
+      "gh": 2,
+      "ga": 5
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-18",
+      "home": "Real Madrid",
+      "away": "Sevilla",
+      "gh": 4,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-19",
+      "home": "Getafe",
+      "away": "Vallecano",
+      "gh": 1,
+      "ga": 1
+    },
+    {
+      "division": "SP1",
+      "date": "2026-10-21",
+      "home": "Levante",
+      "away": "Ath Bilbao",
+      "gh": 3,
+      "ga": 1
+    }
+  ]
+}

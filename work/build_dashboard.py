@@ -3,6 +3,7 @@ from datetime import date, datetime, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
 from coupons import coupon_for_round
+from prizes import evaluate_prizes
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'outputs/seguiment.json'
@@ -32,6 +33,7 @@ def build():
             previous['metrics']=metrics(previous['matches'], previous['forecast_at'])
         if not r.get('coupon'):
             r['coupon']=coupon_for_round(r)
+        r['prize_evaluation']=evaluate_prizes(r)
     total = sum(r['metrics']['n'] for r in data['rounds'])
     hits = sum(r['metrics']['hits'] for r in data['rounds'])
     data['aggregate_metrics'] = dict(n=total, hits=hits, accuracy=hits/total if total else None)
