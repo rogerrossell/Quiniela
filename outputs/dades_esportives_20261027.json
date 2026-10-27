@@ -1,0 +1,167 @@
+{
+  "season": "2026/27",
+  "official_coupon_number": 16,
+  "source": "https://www.loteriasyapuestas.es/es/la-quiniela/resultados/la-quiniela-resultados-del-25-de-octubre-de-2026",
+  "matches": [
+    {
+      "position": 1,
+      "home": "Rayo",
+      "away": "Elx",
+      "result": [
+        0,
+        3
+      ],
+      "sign": "2"
+    },
+    {
+      "position": 2,
+      "home": "València",
+      "away": "Villarreal",
+      "result": [
+        1,
+        2
+      ],
+      "sign": "2"
+    },
+    {
+      "position": 3,
+      "home": "Atlètic de Madrid",
+      "away": "Deportivo",
+      "result": [
+        1,
+        0
+      ],
+      "sign": "1"
+    },
+    {
+      "position": 4,
+      "home": "Athletic",
+      "away": "Getafe",
+      "result": [
+        4,
+        0
+      ],
+      "sign": "1"
+    },
+    {
+      "position": 5,
+      "home": "Celta",
+      "away": "Betis",
+      "result": [
+        0,
+        0
+      ],
+      "sign": "X"
+    },
+    {
+      "position": 6,
+      "home": "Reial Societat",
+      "away": "Llevant",
+      "result": [
+        2,
+        1
+      ],
+      "sign": "1"
+    },
+    {
+      "position": 7,
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "result": [
+        2,
+        0
+      ],
+      "sign": "1"
+    },
+    {
+      "position": 8,
+      "home": "Leganés",
+      "away": "Mallorca",
+      "result": [
+        1,
+        1
+      ],
+      "sign": "X"
+    },
+    {
+      "position": 9,
+      "home": "Almeria",
+      "away": "Oviedo",
+      "result": [
+        2,
+        2
+      ],
+      "sign": "X"
+    },
+    {
+      "position": 10,
+      "home": "Sabadell",
+      "away": "Tenerife",
+      "result": [
+        1,
+        1
+      ],
+      "sign": "X"
+    },
+    {
+      "position": 11,
+      "home": "Logroño (F)",
+      "away": "Badalona (F)",
+      "result": [
+        1,
+        0
+      ],
+      "sign": "1"
+    },
+    {
+      "position": 12,
+      "home": "Deportivo (F)",
+      "away": "Alabès (F)",
+      "result": [
+        2,
+        1
+      ],
+      "sign": "1"
+    },
+    {
+      "position": 13,
+      "home": "Eibar (F)",
+      "away": "Madrid CFF (F)",
+      "result": [
+        2,
+        2
+      ],
+      "sign": "X"
+    },
+    {
+      "position": 14,
+      "home": "Real Madrid (F)",
+      "away": "Tenerife (F)",
+      "result": [
+        3,
+        2
+      ],
+      "sign": "1"
+    }
+  ],
+  "pleno15": {
+    "home": "Barcelona",
+    "away": "Real Madrid",
+    "result": [
+      1,
+      2
+    ],
+    "score": "1-2"
+  },
+  "last_laliga_result": {
+    "home": "Sevilla",
+    "away": "Osasuna",
+    "result": [
+      2,
+      0
+    ],
+    "kickoff": "2026-10-26T21:00:00+01:00",
+    "status": "final",
+    "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10"
+  }
+}
