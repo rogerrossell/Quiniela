@@ -1,0 +1,295 @@
+{
+  "season": "2026/27",
+  "official_coupon_number": 18,
+  "deadline": "2026-10-31T14:00:00+01:00",
+  "deadline_source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/Aviso%20cierre%20La%20Quiniela%20jornada%2018%C2%AA%20y%20El%20QuiniGol%20jornada%2019%C2%AA%20de%2031%20Octubre%20-%201%20Noviembre%20de%202026.pdf",
+  "composition_source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/COMPOSICION%20DE%20BOLETOS%20JORNADAS%2018%20DE%20LA%20QUINIELA,%20ELIGE%208%20Y%2019%20DEL%20QUINIGOL%20.zip",
+  "matches": [
+    {
+      "position": 1,
+      "home": "Llevant",
+      "away": "Atlètic de Madrid",
+      "kickoff": "2026-10-31T14:00:00+01:00"
+    },
+    {
+      "position": 2,
+      "home": "Rayo",
+      "away": "Celta",
+      "kickoff": "2026-10-31T16:15:00+01:00"
+    },
+    {
+      "position": 3,
+      "home": "Betis",
+      "away": "Màlaga",
+      "kickoff": "2026-10-31T18:30:00+01:00"
+    },
+    {
+      "position": 4,
+      "home": "Barcelona",
+      "away": "Alabès",
+      "kickoff": "2026-10-31T21:00:00+01:00"
+    },
+    {
+      "position": 5,
+      "home": "Getafe",
+      "away": "Sevilla",
+      "kickoff": "2026-11-01T14:00:00+01:00"
+    },
+    {
+      "position": 6,
+      "home": "Racing",
+      "away": "Real Madrid",
+      "kickoff": "2026-11-01T16:15:00+01:00"
+    },
+    {
+      "position": 7,
+      "home": "Elx",
+      "away": "València",
+      "kickoff": "2026-11-01T18:30:00+01:00"
+    },
+    {
+      "position": 8,
+      "home": "Eibar",
+      "away": "Almeria",
+      "kickoff": "2026-10-31T16:15:00+01:00"
+    },
+    {
+      "position": 9,
+      "home": "Eldense",
+      "away": "Granada",
+      "kickoff": "2026-11-01T14:00:00+01:00"
+    },
+    {
+      "position": 10,
+      "home": "Burgos",
+      "away": "Castelló",
+      "kickoff": "2026-11-01T18:30:00+01:00"
+    },
+    {
+      "position": 11,
+      "home": "Alabès (F)",
+      "away": "Reial Societat (F)",
+      "kickoff": "2026-11-01T12:00:00+01:00"
+    },
+    {
+      "position": 12,
+      "home": "Madrid CFF (F)",
+      "away": "Deportivo (F)",
+      "kickoff": "2026-10-31T18:00:00+01:00"
+    },
+    {
+      "position": 13,
+      "home": "Sevilla (F)",
+      "away": "Real Madrid (F)",
+      "kickoff": "2026-11-01T19:00:00+01:00"
+    },
+    {
+      "position": 14,
+      "home": "Tenerife (F)",
+      "away": "Athletic (F)",
+      "kickoff": "2026-11-02T20:00:00+01:00"
+    }
+  ],
+  "pleno15": {
+    "home": "Athletic",
+    "away": "Reial Societat",
+    "kickoff": "2026-11-01T21:00:00+01:00"
+  },
+  "calendars": [
+    {
+      "competition": "sp1",
+      "round": 11,
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11",
+      "matches": [
+        {
+          "home": "Villarreal CF",
+          "away": "RCD Espanyol de Barcelona",
+          "kickoff": "2026-10-30T21:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Levante UD",
+          "away": "Atlético de Madrid",
+          "kickoff": "2026-10-31T14:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Rayo Vallecano",
+          "away": "Celta",
+          "kickoff": "2026-10-31T16:15:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Real Betis",
+          "away": "Málaga CF",
+          "kickoff": "2026-10-31T18:30:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "FC Barcelona",
+          "away": "Deportivo Alavés",
+          "kickoff": "2026-10-31T21:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Getafe CF",
+          "away": "Sevilla FC",
+          "kickoff": "2026-11-01T14:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "R. Racing Club",
+          "away": "Real Madrid",
+          "kickoff": "2026-11-01T16:15:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Elche CF",
+          "away": "Valencia CF",
+          "kickoff": "2026-11-01T18:30:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Athletic Club",
+          "away": "Real Sociedad",
+          "kickoff": "2026-11-01T21:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "RC Deportivo",
+          "away": "CA Osasuna",
+          "kickoff": "2026-11-02T21:00:00+01:00",
+          "status": "PreMatch"
+        }
+      ]
+    },
+    {
+      "competition": "sp2",
+      "round": 12,
+      "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12",
+      "matches": [
+        {
+          "home": "R. Sociedad B",
+          "away": "Girona FC",
+          "kickoff": "2026-10-31T14:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "SD Eibar",
+          "away": "UD Almería",
+          "kickoff": "2026-10-31T16:15:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Celta Fortuna",
+          "away": "Córdoba CF",
+          "kickoff": "2026-10-31T18:30:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Albacete BP",
+          "away": "CE Sabadell",
+          "kickoff": "2026-10-31T21:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "CD Eldense",
+          "away": "Granada CF",
+          "kickoff": "2026-11-01T14:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "AD Ceuta FC",
+          "away": "Real Sporting",
+          "kickoff": "2026-11-01T16:15:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Burgos CF",
+          "away": "CD Castellón",
+          "kickoff": "2026-11-01T18:30:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "CD Tenerife",
+          "away": "FC Andorra",
+          "kickoff": "2026-11-01T21:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Real Oviedo",
+          "away": "UD Las Palmas",
+          "kickoff": "2026-11-02T16:15:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Real Valladolid CF",
+          "away": "CD Leganés",
+          "kickoff": "2026-11-02T18:30:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "RCD Mallorca",
+          "away": "Cádiz CF",
+          "kickoff": "2026-11-02T21:00:00+01:00",
+          "status": "PreMatch"
+        }
+      ]
+    },
+    {
+      "competition": "f",
+      "round": 9,
+      "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-9",
+      "matches": [
+        {
+          "home": "Granada CF",
+          "away": "Atlético de Madrid",
+          "kickoff": "2026-10-31T12:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "VCF Femenino",
+          "away": "SD Eibar",
+          "kickoff": "2026-10-31T12:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "RCD Espanyol de Barcelona",
+          "away": "Logroño United",
+          "kickoff": "2026-10-31T16:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Madrid CFF",
+          "away": "Deportivo Abanca",
+          "kickoff": "2026-10-31T18:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Deportivo Alavés",
+          "away": "Real Sociedad",
+          "kickoff": "2026-11-01T12:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "FC Badalona Women",
+          "away": "FC Barcelona",
+          "kickoff": "2026-11-01T12:30:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Sevilla FC",
+          "away": "Real Madrid CF",
+          "kickoff": "2026-11-01T19:00:00+01:00",
+          "status": "PreMatch"
+        },
+        {
+          "home": "Costa Adeje Tenerife",
+          "away": "Athletic Club",
+          "kickoff": "2026-11-02T20:00:00+01:00",
+          "status": "PreMatch"
+        }
+      ]
+    }
+  ]
+}
