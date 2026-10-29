@@ -1,0 +1,68 @@
+{
+  "season": "2026/27",
+  "competition": "LALIGA EA SPORTS",
+  "round": 12,
+  "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+  "matches": [
+    {
+      "home": "Sevilla FC",
+      "away": "Deportivo Alavés",
+      "kickoff": "2026-11-06T21:00:00+01:00",
+      "status": "PreMatch"
+    },
+    {
+      "home": "Málaga CF",
+      "away": "R. Racing Club",
+      "kickoff": "2026-11-07T14:00:00+01:00",
+      "status": "PreMatch"
+    },
+    {
+      "home": "RCD Espanyol de Barcelona",
+      "away": "RC Deportivo",
+      "kickoff": "2026-11-07T16:15:00+01:00",
+      "status": "PreMatch"
+    },
+    {
+      "home": "CA Osasuna",
+      "away": "Athletic Club",
+      "kickoff": "2026-11-07T18:30:00+01:00",
+      "status": "PreMatch"
+    },
+    {
+      "home": "Valencia CF",
+      "away": "Real Madrid",
+      "kickoff": "2026-11-07T21:00:00+01:00",
+      "status": "PreMatch"
+    },
+    {
+      "home": "Elche CF",
+      "away": "Real Betis",
+      "kickoff": "2026-11-08T14:00:00+01:00",
+      "status": "PreMatch"
+    },
+    {
+      "home": "Real Sociedad",
+      "away": "Rayo Vallecano",
+      "kickoff": "2026-11-08T16:15:00+01:00",
+      "status": "PreMatch"
+    },
+    {
+      "home": "Celta",
+      "away": "Levante UD",
+      "kickoff": "2026-11-08T18:30:00+01:00",
+      "status": "PreMatch"
+    },
+    {
+      "home": "Villarreal CF",
+      "away": "Getafe CF",
+      "kickoff": "2026-11-08T18:30:00+01:00",
+      "status": "PreMatch"
+    },
+    {
+      "home": "Atlético de Madrid",
+      "away": "FC Barcelona",
+      "kickoff": "2026-11-08T21:00:00+01:00",
+      "status": "PreMatch"
+    }
+  ]
+}
