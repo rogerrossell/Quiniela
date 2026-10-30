@@ -13,6 +13,10 @@ def events_for(data):
             provisional=kind=='Anàlisi' and status=='pending_provisional'
             event_kind='Anàlisi provisional' if provisional else kind
             events.append(dict(round=r['number'],kind=event_kind,provisional=provisional,note=r.get('review_note','') if kind=='Anàlisi' else '',start=when.isoformat(),mac_ready=(when-timedelta(minutes=data['mac_ready_minutes'])).isoformat(),source=r['source'],first_match=r['first_match'],last_match=r['last_match'],status=status))
+        if r.get('pending_matches') and r.get('final_review_date') and r['review_status'] != 'completed':
+            day=date.fromisoformat(r['final_review_date'])
+            when=datetime.combine(day,datetime.min.time(),zone).replace(hour=data['execution_hour'])
+            events.append(dict(round=r['number'],kind='Anàlisi final',provisional=False,note=r.get('review_note',''),start=when.isoformat(),mac_ready=(when-timedelta(minutes=data['mac_ready_minutes'])).isoformat(),source=r.get('postponement_source',r['source']),first_match=r['first_match'],last_match=r['last_match'],status='pending'))
         if r.get('coupon_deadline_status') == 'pending' and r['forecast_status'] == 'completed':
             day=date.fromisoformat(r['first_match'])-timedelta(days=2)
             when=datetime.combine(day,datetime.min.time(),zone).replace(hour=data['execution_hour'])

@@ -7,7 +7,7 @@ const db=JSON.parse(document.getElementById('data').textContent);const $=s=>docu
 const date=s=>new Intl.DateTimeFormat('ca-ES',{dateStyle:'short',timeStyle:'short',timeZone:'Europe/Madrid'}).format(new Date(s));
 $('#round').innerHTML=db.rounds.map((r,i)=>`<option value="${i}">Jornada ${r.number} · ${esc(r.label)}</option>`).join('');
 function outcome(m){if(!m.result||m.status!=='final')return 'Pendent';const [a,b]=m.result;return a>b?'1':a<b?'2':'X'}
-function matchState(m){return m.status==='suspended'?'Suspès · nova data pendent':m.status==='final'&&m.result?'Final · '+m.result.join('–'):'Pendent';}
+function matchState(m){return m.status==='suspended'?(m.rescheduled_kickoff?'Represa programada · '+date(m.rescheduled_kickoff):'Suspès · nova data pendent'):m.status==='final'&&m.result?'Final · '+m.result.join('–'):'Pendent';}
 function monitoring(r){return r.monitoring_notice?`<div class="note"><strong>Seguiment de la jornada</strong><p>${esc(r.monitoring_notice)}</p>${(r.monitoring_sources||[]).map((s,i)=>`<a href="${esc(s)}" target="_blank" rel="noopener">Font del seguiment ${i+1}</a>`).join(' · ')}</div>`:'';}
 
 function condensed(c){const signs=c.matches.map((_,i)=>['1','X','2'].filter(s=>c.columns.some(col=>col.signs[i]===s)).join(''));const expanded=signs.reduce((n,s)=>n*s.length,1);return {signs,expanded,extra:expanded-c.columns.length};}
