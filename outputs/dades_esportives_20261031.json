@@ -1,0 +1,22 @@
+{
+  "season": "2026/27",
+  "round": 11,
+  "sources": {
+    "sp1": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11",
+    "sp2": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12",
+    "f": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-9"
+  },
+  "results": [
+    {
+      "home": "Villarreal CF",
+      "away": "RCD Espanyol de Barcelona",
+      "kickoff": "2026-10-30T21:00:00+01:00",
+      "status": "final",
+      "result": [
+        0,
+        1
+      ],
+      "source": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-villarreal-cf-rcd-espanyol-de-barcelona-11"
+    }
+  ]
+}
