@@ -1,0 +1,112 @@
+{
+  "season": "2026-27",
+  "postponement": {
+    "match_id": 103176,
+    "home": "Tenerife (F)",
+    "away": "Alabès (F)",
+    "original_kickoff": "2026-11-08T13:00:00+01:00",
+    "status": "postponed",
+    "rescheduled_kickoff": null,
+    "result": null,
+    "sports_source": "https://en.ligaf.es/match/udg-tenerife-femenino/deportivo-alaves-femenino/202723865/detail",
+    "official_coupon": 20,
+    "position": 14,
+    "coupon_source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/APLAZAMIENTO%20JORNADA%2020%20DE%20LA%20QUINIELA%207_8%20NOVIEMBRE%202026%20%28002%29.pdf",
+    "notice_date": "2026-11-05",
+    "coupon_resolution_status": "pending",
+    "possible_draw_from": "2026-11-08T22:00:00+01:00",
+    "draw_condition": "Si el partit no es pot jugar dins del termini de les normes 38 i 39.",
+    "checked_at": "2026-11-06T12:16:33.119163+01:00"
+  },
+  "upcoming_laliga_round": {
+    "number": 13,
+    "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-13",
+    "matches": [
+      {
+        "id": 102370,
+        "home": "Athletic Club",
+        "away": "RCD Espanyol de Barcelona",
+        "kickoff": "2026-11-20T21:00:00+01:00",
+        "status": "PreMatch",
+        "result": null
+      },
+      {
+        "id": 102369,
+        "home": "Deportivo Alavés",
+        "away": "RC Deportivo",
+        "kickoff": "2026-11-21T14:00:00+01:00",
+        "status": "PreMatch",
+        "result": null
+      },
+      {
+        "id": 102376,
+        "home": "Rayo Vallecano",
+        "away": "Valencia CF",
+        "kickoff": "2026-11-21T16:15:00+01:00",
+        "status": "PreMatch",
+        "result": null
+      },
+      {
+        "id": 102378,
+        "home": "Sevilla FC",
+        "away": "Real Betis",
+        "kickoff": "2026-11-21T18:30:00+01:00",
+        "status": "PreMatch",
+        "result": null
+      },
+      {
+        "id": 102377,
+        "home": "Real Madrid",
+        "away": "Celta",
+        "kickoff": "2026-11-21T21:00:00+01:00",
+        "status": "PreMatch",
+        "result": null
+      },
+      {
+        "id": 102371,
+        "home": "FC Barcelona",
+        "away": "Villarreal CF",
+        "kickoff": "2026-11-22T14:00:00+01:00",
+        "status": "PreMatch",
+        "result": null
+      },
+      {
+        "id": 102375,
+        "home": "R. Racing Club",
+        "away": "Real Sociedad",
+        "kickoff": "2026-11-22T16:15:00+01:00",
+        "status": "PreMatch",
+        "result": null
+      },
+      {
+        "id": 102374,
+        "home": "CA Osasuna",
+        "away": "Málaga CF",
+        "kickoff": "2026-11-22T18:30:00+01:00",
+        "status": "PreMatch",
+        "result": null
+      },
+      {
+        "id": 102372,
+        "home": "Getafe CF",
+        "away": "Atlético de Madrid",
+        "kickoff": "2026-11-22T21:00:00+01:00",
+        "status": "PreMatch",
+        "result": null
+      },
+      {
+        "id": 102373,
+        "home": "Levante UD",
+        "away": "Elche CF",
+        "kickoff": "2026-11-23T21:00:00+01:00",
+        "status": "PreMatch",
+        "result": null
+      }
+    ]
+  },
+  "selae_closing": {
+    "draw": 20,
+    "deadline": "2026-11-07T14:00:00+01:00",
+    "source": "https://www.loteriasyapuestas.es/es/juegos-disponibles-online?access=banner_central"
+  }
+}
