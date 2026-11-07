@@ -1,0 +1,30 @@
+{
+  "season": "2026-27",
+  "laliga_round": 12,
+  "results": [
+    {
+      "id": 102366,
+      "home": "Sevilla FC",
+      "away": "Deportivo Alavés",
+      "kickoff": "2026-11-06T21:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        0,
+        0
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-07T14:45:07.866771+01:00"
+    }
+  ],
+  "schedule_changes": [
+    {
+      "id": 103174,
+      "home": "Eibar (F)",
+      "away": "Reial Societat (F)",
+      "original_kickoff": "2026-11-07T17:15:00+01:00",
+      "kickoff": "2026-11-07T17:00:00+01:00",
+      "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10",
+      "verified_at": "2026-11-07T14:45:09.309645+01:00"
+    }
+  ]
+}
