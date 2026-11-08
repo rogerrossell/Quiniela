@@ -1,0 +1,273 @@
+{
+  "season": "2026-27",
+  "laliga_round": 12,
+  "new_finals": [
+    {
+      "id": 102363,
+      "home": "Málaga CF",
+      "away": "R. Racing Club",
+      "kickoff": "2026-11-07T14:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        2
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-08T14:44:23.353146+01:00"
+    },
+    {
+      "id": 102362,
+      "home": "RCD Espanyol de Barcelona",
+      "away": "RC Deportivo",
+      "kickoff": "2026-11-07T16:15:00+01:00",
+      "status": "FullTime",
+      "result": [
+        0,
+        0
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-08T14:44:23.353146+01:00"
+    },
+    {
+      "id": 102364,
+      "home": "CA Osasuna",
+      "away": "Athletic Club",
+      "kickoff": "2026-11-07T18:30:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        1
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-08T14:44:23.353146+01:00"
+    },
+    {
+      "id": 102367,
+      "home": "Valencia CF",
+      "away": "Real Madrid",
+      "kickoff": "2026-11-07T21:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        0,
+        3
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-08T14:44:23.353146+01:00"
+    },
+    {
+      "id": 102763,
+      "home": "Cádiz CF",
+      "away": "Real Oviedo",
+      "kickoff": "2026-11-07T16:15:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        2
+      ],
+      "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13",
+      "verified_at": "2026-11-08T14:44:24.375368+01:00"
+    },
+    {
+      "id": 103169,
+      "home": "Athletic Club",
+      "away": "Real Madrid CF",
+      "kickoff": "2026-11-07T16:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        1
+      ],
+      "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10",
+      "verified_at": "2026-11-08T14:44:26.579274+01:00"
+    },
+    {
+      "id": 103174,
+      "home": "SD Eibar",
+      "away": "Real Sociedad",
+      "kickoff": "2026-11-07T17:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        2
+      ],
+      "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10",
+      "verified_at": "2026-11-08T14:44:26.579274+01:00"
+    },
+    {
+      "id": 103172,
+      "home": "Logroño United",
+      "away": "Sevilla FC",
+      "kickoff": "2026-11-08T12:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        2,
+        2
+      ],
+      "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10",
+      "verified_at": "2026-11-08T14:44:26.579274+01:00"
+    }
+  ],
+  "official_coupon": {
+    "draw": 20,
+    "draw_date": "2026-11-08",
+    "source": "https://www.loteriasyapuestas.es/es/resultados",
+    "checked_at": "2026-11-08T14:46:56.872273+01:00",
+    "composed_rows": [
+      {
+        "position": 1,
+        "id": 102363,
+        "home": "Málaga (M)",
+        "away": "Racing de Santander (M)",
+        "status": "verified",
+        "result": [
+          1,
+          2
+        ],
+        "sign": "2"
+      },
+      {
+        "position": 2,
+        "id": 102364,
+        "home": "Osasuna (M)",
+        "away": "Athletic Club (M)",
+        "status": "verified",
+        "result": [
+          1,
+          1
+        ],
+        "sign": "X"
+      },
+      {
+        "position": 3,
+        "id": 102367,
+        "home": "Valencia (M)",
+        "away": "Real Madrid (M)",
+        "status": "verified",
+        "result": [
+          0,
+          3
+        ],
+        "sign": "2"
+      },
+      {
+        "position": 4,
+        "id": 102361,
+        "home": "Elche (M)",
+        "away": "Betis (M)",
+        "status": "pending",
+        "source_date": "08/11/2026",
+        "source_time": "14:00"
+      },
+      {
+        "position": 5,
+        "id": 102365,
+        "home": "Real Sociedad (M)",
+        "away": "Rayo Vallecano (M)",
+        "status": "pending",
+        "source_date": "08/11/2026",
+        "source_time": "16:15"
+      },
+      {
+        "position": 6,
+        "id": 102360,
+        "home": "Celta (M)",
+        "away": "Levante (M)",
+        "status": "pending",
+        "source_date": "08/11/2026",
+        "source_time": "18:30"
+      },
+      {
+        "position": 7,
+        "id": 102368,
+        "home": "Villarreal (M)",
+        "away": "Getafe (M)",
+        "status": "pending",
+        "source_date": "08/11/2026",
+        "source_time": "18:30"
+      },
+      {
+        "position": 8,
+        "id": 102763,
+        "home": "Cádiz (M)",
+        "away": "R. Oviedo (M)",
+        "status": "verified",
+        "result": [
+          1,
+          2
+        ],
+        "sign": "2"
+      },
+      {
+        "position": 9,
+        "id": 102766,
+        "home": "Girona (M)",
+        "away": "Almería (M)",
+        "status": "pending",
+        "source_date": "08/11/2026",
+        "source_time": "16:15"
+      },
+      {
+        "position": 10,
+        "id": 102771,
+        "home": "Sporting (M)",
+        "away": "R. Valladolid (M)",
+        "status": "pending",
+        "source_date": "08/11/2026",
+        "source_time": "18:30"
+      },
+      {
+        "position": 11,
+        "id": 103169,
+        "home": "Athletic Club (F)",
+        "away": "Real Madrid (F)",
+        "status": "verified",
+        "result": [
+          1,
+          1
+        ],
+        "sign": "X"
+      },
+      {
+        "position": 12,
+        "id": 103172,
+        "home": "Logroño (F)",
+        "away": "Sevilla (F)",
+        "status": "pending",
+        "source_date": "08/11/2026",
+        "source_time": "12:00"
+      },
+      {
+        "position": 13,
+        "id": 103174,
+        "home": "Eibar (F)",
+        "away": "Real Sociedad (F)",
+        "status": "verified",
+        "result": [
+          1,
+          2
+        ],
+        "sign": "2"
+      },
+      {
+        "position": 14,
+        "id": 103176,
+        "home": "Tenerife (F)",
+        "away": "Alavés (F)",
+        "status": "pending",
+        "source_date": "08/11/2026",
+        "source_time": "13:00"
+      },
+      {
+        "position": 15,
+        "id": 102359,
+        "home": "At. Madrid (M)",
+        "away": "Barcelona (M)",
+        "status": "pending",
+        "source_date": "08/11/2026",
+        "source_time": "21:00"
+      }
+    ],
+    "verified_sign_count": 6,
+    "pleno15_result_status": "pending"
+  }
+}
