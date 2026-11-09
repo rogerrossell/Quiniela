@@ -1,0 +1,454 @@
+{
+  "season": "2026-27",
+  "laliga_round": 12,
+  "sporting_finals": [
+    {
+      "id": 102366,
+      "home": "Sevilla FC",
+      "away": "Deportivo Alavés",
+      "kickoff": "2026-11-06T21:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        0,
+        0
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-09T11:31:09.227143+01:00"
+    },
+    {
+      "id": 102363,
+      "home": "Málaga CF",
+      "away": "R. Racing Club",
+      "kickoff": "2026-11-07T14:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        2
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-09T11:31:09.227143+01:00"
+    },
+    {
+      "id": 102362,
+      "home": "RCD Espanyol de Barcelona",
+      "away": "RC Deportivo",
+      "kickoff": "2026-11-07T16:15:00+01:00",
+      "status": "FullTime",
+      "result": [
+        0,
+        0
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-09T11:31:09.227143+01:00"
+    },
+    {
+      "id": 102364,
+      "home": "CA Osasuna",
+      "away": "Athletic Club",
+      "kickoff": "2026-11-07T18:30:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        1
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-09T11:31:09.227143+01:00"
+    },
+    {
+      "id": 102367,
+      "home": "Valencia CF",
+      "away": "Real Madrid",
+      "kickoff": "2026-11-07T21:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        0,
+        3
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-09T11:31:09.227143+01:00"
+    },
+    {
+      "id": 102361,
+      "home": "Elche CF",
+      "away": "Real Betis",
+      "kickoff": "2026-11-08T14:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        0,
+        2
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-09T11:31:09.227143+01:00"
+    },
+    {
+      "id": 102365,
+      "home": "Real Sociedad",
+      "away": "Rayo Vallecano",
+      "kickoff": "2026-11-08T16:15:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        0
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-09T11:31:09.227143+01:00"
+    },
+    {
+      "id": 102360,
+      "home": "Celta",
+      "away": "Levante UD",
+      "kickoff": "2026-11-08T18:30:00+01:00",
+      "status": "FullTime",
+      "result": [
+        0,
+        0
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-09T11:31:09.227143+01:00"
+    },
+    {
+      "id": 102368,
+      "home": "Villarreal CF",
+      "away": "Getafe CF",
+      "kickoff": "2026-11-08T18:30:00+01:00",
+      "status": "FullTime",
+      "result": [
+        2,
+        0
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-09T11:31:09.227143+01:00"
+    },
+    {
+      "id": 102359,
+      "home": "Atlético de Madrid",
+      "away": "FC Barcelona",
+      "kickoff": "2026-11-08T21:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        2
+      ],
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12",
+      "verified_at": "2026-11-09T11:31:09.227143+01:00"
+    },
+    {
+      "id": 102763,
+      "home": "Cádiz CF",
+      "away": "Real Oviedo",
+      "kickoff": "2026-11-07T16:15:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        2
+      ],
+      "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13",
+      "verified_at": "2026-11-09T11:31:11.681700+01:00"
+    },
+    {
+      "id": 102766,
+      "home": "Girona FC",
+      "away": "UD Almería",
+      "kickoff": "2026-11-08T16:15:00+01:00",
+      "status": "FullTime",
+      "result": [
+        0,
+        1
+      ],
+      "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13",
+      "verified_at": "2026-11-09T11:31:11.681700+01:00"
+    },
+    {
+      "id": 102771,
+      "home": "Real Sporting",
+      "away": "Real Valladolid CF",
+      "kickoff": "2026-11-08T18:30:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        2
+      ],
+      "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13",
+      "verified_at": "2026-11-09T11:31:11.681700+01:00"
+    },
+    {
+      "id": 103169,
+      "home": "Athletic Club",
+      "away": "Real Madrid CF",
+      "kickoff": "2026-11-07T16:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        1
+      ],
+      "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10",
+      "verified_at": "2026-11-09T11:31:11.315843+01:00"
+    },
+    {
+      "id": 103174,
+      "home": "SD Eibar",
+      "away": "Real Sociedad",
+      "kickoff": "2026-11-07T17:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        1,
+        2
+      ],
+      "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10",
+      "verified_at": "2026-11-09T11:31:11.315843+01:00"
+    },
+    {
+      "id": 103172,
+      "home": "Logroño United",
+      "away": "Sevilla FC",
+      "kickoff": "2026-11-08T12:00:00+01:00",
+      "status": "FullTime",
+      "result": [
+        2,
+        2
+      ],
+      "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10",
+      "verified_at": "2026-11-09T11:31:11.315843+01:00"
+    }
+  ],
+  "postponed": {
+    "id": 103176,
+    "status": "postponed",
+    "new_date": null,
+    "result": null,
+    "source": "https://en.ligaf.es/match/udg-tenerife-femenino/deportivo-alaves-femenino/202723865/detail"
+  },
+  "official_coupon": {
+    "draw": 20,
+    "draw_date": "2026-11-08",
+    "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026",
+    "draw_notice": "https://www.loteriasyapuestas.es/f/loterias/documentos/Quiniela/Notas%20de%20prensa/NOTA_DE_PRENSA_LA_QUINIELA_08_11_26.pdf",
+    "rows": [
+      {
+        "id": 102363,
+        "position": 1,
+        "home": "Málaga (M)",
+        "away": "Racing de Santander (M)",
+        "method": "played",
+        "sign": "2",
+        "result": [
+          1,
+          2
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 102364,
+        "position": 2,
+        "home": "Osasuna (M)",
+        "away": "Athletic Club (M)",
+        "method": "played",
+        "sign": "X",
+        "result": [
+          1,
+          1
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 102367,
+        "position": 3,
+        "home": "Valencia (M)",
+        "away": "Real Madrid (M)",
+        "method": "played",
+        "sign": "2",
+        "result": [
+          0,
+          3
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 102361,
+        "position": 4,
+        "home": "Elche (M)",
+        "away": "Betis (M)",
+        "method": "played",
+        "sign": "2",
+        "result": [
+          0,
+          2
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 102365,
+        "position": 5,
+        "home": "Real Sociedad (M)",
+        "away": "Rayo Vallecano (M)",
+        "method": "played",
+        "sign": "1",
+        "result": [
+          1,
+          0
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 102360,
+        "position": 6,
+        "home": "Celta (M)",
+        "away": "Levante (M)",
+        "method": "played",
+        "sign": "X",
+        "result": [
+          0,
+          0
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 102368,
+        "position": 7,
+        "home": "Villarreal (M)",
+        "away": "Getafe (M)",
+        "method": "played",
+        "sign": "1",
+        "result": [
+          2,
+          0
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 102763,
+        "position": 8,
+        "home": "Cádiz (M)",
+        "away": "R. Oviedo (M)",
+        "method": "played",
+        "sign": "2",
+        "result": [
+          1,
+          2
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 102766,
+        "position": 9,
+        "home": "Girona (M)",
+        "away": "Almería (M)",
+        "method": "played",
+        "sign": "2",
+        "result": [
+          0,
+          1
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 102771,
+        "position": 10,
+        "home": "Sporting (M)",
+        "away": "R. Valladolid (M)",
+        "method": "played",
+        "sign": "2",
+        "result": [
+          1,
+          2
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 103169,
+        "position": 11,
+        "home": "Athletic Club (F)",
+        "away": "Real Madrid (F)",
+        "method": "played",
+        "sign": "X",
+        "result": [
+          1,
+          1
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 103172,
+        "position": 12,
+        "home": "Logroño (F)",
+        "away": "Sevilla (F)",
+        "method": "played",
+        "sign": "X",
+        "result": [
+          2,
+          2
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 103174,
+        "position": 13,
+        "home": "Eibar (F)",
+        "away": "Real Sociedad (F)",
+        "method": "played",
+        "sign": "2",
+        "result": [
+          1,
+          2
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      },
+      {
+        "id": 103176,
+        "position": 14,
+        "home": "Tenerife (F)",
+        "away": "Alavés (F)",
+        "method": "draw",
+        "sign": "1",
+        "reported_value": "1-0",
+        "result": null,
+        "source": "https://www.loteriasyapuestas.es/f/loterias/documentos/Quiniela/Notas%20de%20prensa/NOTA_DE_PRENSA_LA_QUINIELA_08_11_26.pdf"
+      },
+      {
+        "id": 102359,
+        "position": 15,
+        "home": "At. Madrid (M)",
+        "away": "Barcelona (M)",
+        "method": "played",
+        "score": "1-2",
+        "result": [
+          1,
+          2
+        ],
+        "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026"
+      }
+    ],
+    "signs": [
+      "2",
+      "X",
+      "2",
+      "2",
+      "1",
+      "X",
+      "1",
+      "2",
+      "2",
+      "2",
+      "X",
+      "X",
+      "2",
+      "1"
+    ],
+    "prize_table": {
+      "status": "verified",
+      "source": "https://www.loteriasyapuestas.es/es/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-noviembre-de-2026",
+      "checked_at": "2026-11-09T11:48:56.369469+01:00",
+      "currency": "EUR",
+      "categories_cents": {
+        "10": 341,
+        "11": 1448,
+        "12": 11013,
+        "13": 136975,
+        "14": 9009900
+      },
+      "pleno15_cents": 164798655,
+      "pleno15_adds_to_14": true
+    },
+    "checked_at": "2026-11-09T11:48:56.369469+01:00"
+  }
+}
