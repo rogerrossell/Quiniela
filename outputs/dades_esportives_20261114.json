@@ -1,0 +1,15 @@
+{
+  "season": "2026-27",
+  "competition": "LALIGA HYPERMOTION",
+  "round": 13,
+  "calendar_changes": [
+    {
+      "id": 102769,
+      "home": "UD Las Palmas",
+      "away": "CD Eldense",
+      "old_kickoff": "2026-11-09T20:30:00+01:00",
+      "kickoff": "2026-11-09T21:00:00+01:00",
+      "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13"
+    }
+  ]
+}
