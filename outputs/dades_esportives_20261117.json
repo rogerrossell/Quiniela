@@ -1,0 +1,40 @@
+{
+  "season": "2026-27",
+  "competition": "LALIGA HYPERMOTION",
+  "round": 13,
+  "calendar_changes": [
+    {
+      "id": 102761,
+      "home": "FC Andorra",
+      "away": "RCD Mallorca",
+      "old_kickoff": "2026-11-08T14:00:00+01:00",
+      "calendar_kickoff": "2026-12-09T21:00:00+01:00",
+      "status": "postponed",
+      "new_date_status": "calendar_field_only",
+      "result": null,
+      "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13"
+    },
+    {
+      "id": 102764,
+      "home": "CD Castellón",
+      "away": "SD Eibar",
+      "old_kickoff": "2026-11-06T20:30:00+01:00",
+      "calendar_kickoff": "2026-12-09T21:00:00+01:00",
+      "status": "postponed",
+      "new_date_status": "calendar_field_only",
+      "result": null,
+      "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13"
+    },
+    {
+      "id": 102767,
+      "home": "Granada CF",
+      "away": "CD Tenerife",
+      "old_kickoff": "2026-11-07T21:00:00+01:00",
+      "calendar_kickoff": "2026-12-09T21:00:00+01:00",
+      "status": "postponed",
+      "new_date_status": "calendar_field_only",
+      "result": null,
+      "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13"
+    }
+  ]
+}
