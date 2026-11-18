@@ -1,0 +1,1575 @@
+{
+  "season": "2026-27",
+  "fixtures": {
+    "sp1": [
+      {
+        "id": 102370,
+        "home": "Athletic Club",
+        "away": "RCD Espanyol de Barcelona",
+        "home_slug": "athletic-club",
+        "away_slug": "rcd-espanyol",
+        "kickoff": "2026-11-20T21:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102369,
+        "home": "Deportivo Alavés",
+        "away": "RC Deportivo",
+        "home_slug": "d-alaves",
+        "away_slug": "rc-deportivo",
+        "kickoff": "2026-11-21T14:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102376,
+        "home": "Rayo Vallecano",
+        "away": "Valencia CF",
+        "home_slug": "rayo-vallecano",
+        "away_slug": "valencia-cf",
+        "kickoff": "2026-11-21T16:15:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102378,
+        "home": "Sevilla FC",
+        "away": "Real Betis",
+        "home_slug": "sevilla-fc",
+        "away_slug": "real-betis",
+        "kickoff": "2026-11-21T18:30:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102377,
+        "home": "Real Madrid",
+        "away": "Celta",
+        "home_slug": "real-madrid",
+        "away_slug": "rc-celta",
+        "kickoff": "2026-11-21T21:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102371,
+        "home": "FC Barcelona",
+        "away": "Villarreal CF",
+        "home_slug": "fc-barcelona",
+        "away_slug": "villarreal-cf",
+        "kickoff": "2026-11-22T14:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102375,
+        "home": "R. Racing Club",
+        "away": "Real Sociedad",
+        "home_slug": "r-racing-club",
+        "away_slug": "real-sociedad",
+        "kickoff": "2026-11-22T16:15:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102374,
+        "home": "CA Osasuna",
+        "away": "Málaga CF",
+        "home_slug": "c-a-osasuna",
+        "away_slug": "malaga-cf",
+        "kickoff": "2026-11-22T18:30:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102372,
+        "home": "Getafe CF",
+        "away": "Atlético de Madrid",
+        "home_slug": "getafe-cf",
+        "away_slug": "atletico-de-madrid",
+        "kickoff": "2026-11-22T21:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102373,
+        "home": "Levante UD",
+        "away": "Elche CF",
+        "home_slug": "levante-ud",
+        "away_slug": "elche-c-f",
+        "kickoff": "2026-11-23T21:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-13"
+      }
+    ],
+    "sp2": [
+      {
+        "id": 102783,
+        "home": "FC Andorra",
+        "away": "CD Leganés",
+        "home_slug": "fc-andorra",
+        "away_slug": "cd-leganes",
+        "kickoff": "2026-11-20T20:30:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-15"
+      },
+      {
+        "id": 102791,
+        "home": "CE Sabadell",
+        "away": "Granada CF",
+        "home_slug": "ce-sabadell",
+        "away_slug": "granada-cf",
+        "kickoff": "2026-11-21T14:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-15"
+      },
+      {
+        "id": 102790,
+        "home": "R. Sociedad B",
+        "away": "Cádiz CF",
+        "home_slug": "r-sociedad-b",
+        "away_slug": "cadiz-cf",
+        "kickoff": "2026-11-21T16:15:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-15"
+      },
+      {
+        "id": 102785,
+        "home": "CD Castellón",
+        "away": "CD Eldense",
+        "home_slug": "cd-castellon",
+        "away_slug": "eldense",
+        "kickoff": "2026-11-21T18:30:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-15"
+      },
+      {
+        "id": 102793,
+        "home": "CD Tenerife",
+        "away": "RCD Mallorca",
+        "home_slug": "cd-tenerife",
+        "away_slug": "rcd-mallorca",
+        "kickoff": "2026-11-21T21:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-15"
+      },
+      {
+        "id": 102788,
+        "home": "Córdoba CF",
+        "away": "Real Oviedo",
+        "home_slug": "cordoba-cf",
+        "away_slug": "real-oviedo",
+        "kickoff": "2026-11-22T14:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-15"
+      },
+      {
+        "id": 102792,
+        "home": "Real Sporting",
+        "away": "UD Las Palmas",
+        "home_slug": "real-sporting",
+        "away_slug": "ud-las-palmas",
+        "kickoff": "2026-11-22T16:15:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-15"
+      },
+      {
+        "id": 102786,
+        "home": "Celta Fortuna",
+        "away": "Real Valladolid CF",
+        "home_slug": "rc-celta-b",
+        "away_slug": "r-valladolid-cf",
+        "kickoff": "2026-11-22T18:30:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-15"
+      },
+      {
+        "id": 102789,
+        "home": "Girona FC",
+        "away": "SD Eibar",
+        "home_slug": "girona-fc",
+        "away_slug": "sd-eibar",
+        "kickoff": "2026-11-22T18:30:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-15"
+      },
+      {
+        "id": 102784,
+        "home": "Burgos CF",
+        "away": "Albacete BP",
+        "home_slug": "burgos",
+        "away_slug": "albacete-bp",
+        "kickoff": "2026-11-22T21:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-15"
+      },
+      {
+        "id": 102787,
+        "home": "AD Ceuta FC",
+        "away": "UD Almería",
+        "home_slug": "ad-ceuta-fc",
+        "away_slug": "ud-almeria",
+        "kickoff": "2026-11-23T20:30:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-15"
+      }
+    ],
+    "f": [
+      {
+        "id": 103185,
+        "home": "FC Badalona Women",
+        "away": "Deportivo Abanca",
+        "home_slug": "levante-las-planas-fc",
+        "away_slug": "deportivo-abanca",
+        "kickoff": "2026-11-21T12:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 103188,
+        "home": "SD Eibar",
+        "away": "Atlético de Madrid",
+        "home_slug": "sd-eibar-femenino",
+        "away_slug": "at-madrid-femenino",
+        "kickoff": "2026-11-21T17:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 103187,
+        "home": "Logroño United",
+        "away": "Deportivo Alavés",
+        "home_slug": "dux-logrono",
+        "away_slug": "d-alaves-femenino",
+        "kickoff": "2026-11-21T19:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 103190,
+        "home": "Granada CF",
+        "away": "Real Madrid CF",
+        "home_slug": "granada-cf-femenino",
+        "away_slug": "real-madrid-femenino",
+        "kickoff": "2026-11-22T12:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 103191,
+        "home": "Real Sociedad",
+        "away": "Sevilla FC",
+        "home_slug": "r-sociedad-femenino",
+        "away_slug": "sevilla-femenino",
+        "kickoff": "2026-11-22T12:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 103192,
+        "home": "Costa Adeje Tenerife",
+        "away": "Madrid CFF",
+        "home_slug": "ud-granadilla-tenerife-egatesa",
+        "away_slug": "madrid-cff",
+        "kickoff": "2026-11-22T17:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 103186,
+        "home": "FC Barcelona",
+        "away": "Athletic Club",
+        "home_slug": "fc-barcelona-femenino",
+        "away_slug": "athletic-femenino",
+        "kickoff": "2026-11-22T19:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 103189,
+        "home": "RCD Espanyol de Barcelona",
+        "away": "VCF Femenino",
+        "home_slug": "espanyol-femeni",
+        "away_slug": "vcf-femenino",
+        "kickoff": "2026-11-23T20:00:00+01:00",
+        "status": "PreMatch",
+        "score": null,
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-12"
+      }
+    ]
+  },
+  "recent_league_finals": {
+    "sp1": [
+      {
+        "id": 102331,
+        "home": "RC Deportivo",
+        "away": "Levante UD",
+        "kickoff": "2026-10-16T21:00:00+02:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 102332,
+        "home": "RCD Espanyol de Barcelona",
+        "away": "Atlético de Madrid",
+        "kickoff": "2026-10-17T14:00:00+02:00",
+        "score": [
+          0,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 102338,
+        "home": "Villarreal CF",
+        "away": "Elche CF",
+        "kickoff": "2026-10-17T16:15:00+02:00",
+        "score": [
+          0,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 102329,
+        "home": "Real Betis",
+        "away": "FC Barcelona",
+        "kickoff": "2026-10-17T18:30:00+02:00",
+        "score": [
+          2,
+          5
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 102337,
+        "home": "Valencia CF",
+        "away": "Athletic Club",
+        "kickoff": "2026-10-17T21:00:00+02:00",
+        "score": [
+          0,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 102335,
+        "home": "CA Osasuna",
+        "away": "R. Racing Club",
+        "kickoff": "2026-10-18T14:00:00+02:00",
+        "score": [
+          2,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 102330,
+        "home": "Celta",
+        "away": "Deportivo Alavés",
+        "kickoff": "2026-10-18T16:15:00+02:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 102334,
+        "home": "Málaga CF",
+        "away": "Real Sociedad",
+        "kickoff": "2026-10-18T18:30:00+02:00",
+        "score": [
+          2,
+          5
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 102336,
+        "home": "Real Madrid",
+        "away": "Sevilla FC",
+        "kickoff": "2026-10-18T21:00:00+02:00",
+        "score": [
+          4,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 102333,
+        "home": "Getafe CF",
+        "away": "Rayo Vallecano",
+        "kickoff": "2026-10-19T21:00:00+02:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 102339,
+        "home": "Deportivo Alavés",
+        "away": "Málaga CF",
+        "kickoff": "2026-10-23T21:00:00+02:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 102345,
+        "home": "Rayo Vallecano",
+        "away": "Elche CF",
+        "kickoff": "2026-10-24T14:00:00+02:00",
+        "score": [
+          0,
+          3
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 102344,
+        "home": "R. Racing Club",
+        "away": "RCD Espanyol de Barcelona",
+        "kickoff": "2026-10-24T16:15:00+02:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 102348,
+        "home": "Valencia CF",
+        "away": "Villarreal CF",
+        "kickoff": "2026-10-24T18:30:00+02:00",
+        "score": [
+          1,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 102341,
+        "home": "Atlético de Madrid",
+        "away": "RC Deportivo",
+        "kickoff": "2026-10-24T21:00:00+02:00",
+        "score": [
+          1,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 102340,
+        "home": "Athletic Club",
+        "away": "Getafe CF",
+        "kickoff": "2026-10-25T14:00:00+01:00",
+        "score": [
+          4,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 102342,
+        "home": "Celta",
+        "away": "Real Betis",
+        "kickoff": "2026-10-25T16:15:00+01:00",
+        "score": [
+          0,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 102346,
+        "home": "Real Sociedad",
+        "away": "Levante UD",
+        "kickoff": "2026-10-25T18:30:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 102343,
+        "home": "FC Barcelona",
+        "away": "Real Madrid",
+        "kickoff": "2026-10-25T21:00:00+01:00",
+        "score": [
+          1,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 102347,
+        "home": "Sevilla FC",
+        "away": "CA Osasuna",
+        "kickoff": "2026-10-26T21:00:00+01:00",
+        "score": [
+          2,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 102358,
+        "home": "Villarreal CF",
+        "away": "RCD Espanyol de Barcelona",
+        "kickoff": "2026-10-30T21:00:00+01:00",
+        "score": [
+          0,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102355,
+        "home": "Levante UD",
+        "away": "Atlético de Madrid",
+        "kickoff": "2026-10-31T14:00:00+01:00",
+        "score": [
+          0,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102357,
+        "home": "Rayo Vallecano",
+        "away": "Celta",
+        "kickoff": "2026-10-31T16:15:00+01:00",
+        "score": [
+          3,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102350,
+        "home": "Real Betis",
+        "away": "Málaga CF",
+        "kickoff": "2026-10-31T18:30:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102353,
+        "home": "FC Barcelona",
+        "away": "Deportivo Alavés",
+        "kickoff": "2026-10-31T21:00:00+01:00",
+        "score": [
+          6,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102354,
+        "home": "Getafe CF",
+        "away": "Sevilla FC",
+        "kickoff": "2026-11-01T14:00:00+01:00",
+        "score": [
+          3,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102356,
+        "home": "R. Racing Club",
+        "away": "Real Madrid",
+        "kickoff": "2026-11-01T16:15:00+01:00",
+        "score": [
+          0,
+          3
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102352,
+        "home": "Elche CF",
+        "away": "Valencia CF",
+        "kickoff": "2026-11-01T18:30:00+01:00",
+        "score": [
+          0,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102349,
+        "home": "Athletic Club",
+        "away": "Real Sociedad",
+        "kickoff": "2026-11-01T21:00:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102351,
+        "home": "RC Deportivo",
+        "away": "CA Osasuna",
+        "kickoff": "2026-11-02T21:00:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102366,
+        "home": "Sevilla FC",
+        "away": "Deportivo Alavés",
+        "kickoff": "2026-11-06T21:00:00+01:00",
+        "score": [
+          0,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102363,
+        "home": "Málaga CF",
+        "away": "R. Racing Club",
+        "kickoff": "2026-11-07T14:00:00+01:00",
+        "score": [
+          1,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102362,
+        "home": "RCD Espanyol de Barcelona",
+        "away": "RC Deportivo",
+        "kickoff": "2026-11-07T16:15:00+01:00",
+        "score": [
+          0,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102364,
+        "home": "CA Osasuna",
+        "away": "Athletic Club",
+        "kickoff": "2026-11-07T18:30:00+01:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102367,
+        "home": "Valencia CF",
+        "away": "Real Madrid",
+        "kickoff": "2026-11-07T21:00:00+01:00",
+        "score": [
+          0,
+          3
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102361,
+        "home": "Elche CF",
+        "away": "Real Betis",
+        "kickoff": "2026-11-08T14:00:00+01:00",
+        "score": [
+          0,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102365,
+        "home": "Real Sociedad",
+        "away": "Rayo Vallecano",
+        "kickoff": "2026-11-08T16:15:00+01:00",
+        "score": [
+          1,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102360,
+        "home": "Celta",
+        "away": "Levante UD",
+        "kickoff": "2026-11-08T18:30:00+01:00",
+        "score": [
+          0,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102368,
+        "home": "Villarreal CF",
+        "away": "Getafe CF",
+        "kickoff": "2026-11-08T18:30:00+01:00",
+        "score": [
+          2,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102359,
+        "home": "Atlético de Madrid",
+        "away": "FC Barcelona",
+        "kickoff": "2026-11-08T21:00:00+01:00",
+        "score": [
+          1,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-12"
+      }
+    ],
+    "sp2": [
+      {
+        "id": 102746,
+        "home": "Granada CF",
+        "away": "Real Valladolid CF",
+        "kickoff": "2026-10-23T20:30:00+02:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102744,
+        "home": "Córdoba CF",
+        "away": "SD Eibar",
+        "kickoff": "2026-10-24T14:00:00+02:00",
+        "score": [
+          2,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102747,
+        "home": "CD Leganés",
+        "away": "RCD Mallorca",
+        "kickoff": "2026-10-24T16:15:00+02:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102745,
+        "home": "Girona FC",
+        "away": "Celta Fortuna",
+        "kickoff": "2026-10-24T18:30:00+02:00",
+        "score": [
+          5,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102748,
+        "home": "UD Las Palmas",
+        "away": "R. Sociedad B",
+        "kickoff": "2026-10-24T18:30:00+02:00",
+        "score": [
+          1,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102740,
+        "home": "UD Almería",
+        "away": "Real Oviedo",
+        "kickoff": "2026-10-24T21:00:00+02:00",
+        "score": [
+          2,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102749,
+        "home": "CE Sabadell",
+        "away": "CD Tenerife",
+        "kickoff": "2026-10-25T14:00:00+01:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102739,
+        "home": "Albacete BP",
+        "away": "CD Eldense",
+        "kickoff": "2026-10-25T16:15:00+01:00",
+        "score": [
+          2,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102742,
+        "home": "Cádiz CF",
+        "away": "AD Ceuta FC",
+        "kickoff": "2026-10-25T16:15:00+01:00",
+        "score": [
+          3,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102743,
+        "home": "CD Castellón",
+        "away": "Real Sporting",
+        "kickoff": "2026-10-25T18:30:00+01:00",
+        "score": [
+          4,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102741,
+        "home": "FC Andorra",
+        "away": "Burgos CF",
+        "kickoff": "2026-10-26T20:30:00+01:00",
+        "score": [
+          2,
+          3
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 102758,
+        "home": "R. Sociedad B",
+        "away": "Girona FC",
+        "kickoff": "2026-10-31T14:00:00+01:00",
+        "score": [
+          1,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102754,
+        "home": "SD Eibar",
+        "away": "UD Almería",
+        "kickoff": "2026-10-31T16:15:00+01:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102752,
+        "home": "Celta Fortuna",
+        "away": "Córdoba CF",
+        "kickoff": "2026-10-31T18:30:00+01:00",
+        "score": [
+          2,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102750,
+        "home": "Albacete BP",
+        "away": "CE Sabadell",
+        "kickoff": "2026-10-31T21:00:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102755,
+        "home": "CD Eldense",
+        "away": "Granada CF",
+        "kickoff": "2026-11-01T14:00:00+01:00",
+        "score": [
+          0,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102753,
+        "home": "AD Ceuta FC",
+        "away": "Real Sporting",
+        "kickoff": "2026-11-01T16:15:00+01:00",
+        "score": [
+          0,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102751,
+        "home": "Burgos CF",
+        "away": "CD Castellón",
+        "kickoff": "2026-11-01T18:30:00+01:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102759,
+        "home": "CD Tenerife",
+        "away": "FC Andorra",
+        "kickoff": "2026-11-02T14:00:00+01:00",
+        "score": [
+          2,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102757,
+        "home": "Real Oviedo",
+        "away": "UD Las Palmas",
+        "kickoff": "2026-11-02T16:15:00+01:00",
+        "score": [
+          2,
+          3
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102760,
+        "home": "Real Valladolid CF",
+        "away": "CD Leganés",
+        "kickoff": "2026-11-02T18:30:00+01:00",
+        "score": [
+          4,
+          3
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102756,
+        "home": "RCD Mallorca",
+        "away": "Cádiz CF",
+        "kickoff": "2026-11-02T21:00:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-12"
+      },
+      {
+        "id": 102762,
+        "home": "Burgos CF",
+        "away": "Celta Fortuna",
+        "kickoff": "2026-11-07T14:00:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102763,
+        "home": "Cádiz CF",
+        "away": "Real Oviedo",
+        "kickoff": "2026-11-07T16:15:00+01:00",
+        "score": [
+          1,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102765,
+        "home": "Córdoba CF",
+        "away": "AD Ceuta FC",
+        "kickoff": "2026-11-07T18:30:00+01:00",
+        "score": [
+          3,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102768,
+        "home": "CD Leganés",
+        "away": "Albacete BP",
+        "kickoff": "2026-11-07T18:30:00+01:00",
+        "score": [
+          1,
+          3
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102766,
+        "home": "Girona FC",
+        "away": "UD Almería",
+        "kickoff": "2026-11-08T16:15:00+01:00",
+        "score": [
+          0,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102771,
+        "home": "Real Sporting",
+        "away": "Real Valladolid CF",
+        "kickoff": "2026-11-08T18:30:00+01:00",
+        "score": [
+          1,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102770,
+        "home": "CE Sabadell",
+        "away": "R. Sociedad B",
+        "kickoff": "2026-11-09T20:30:00+01:00",
+        "score": [
+          0,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102769,
+        "home": "UD Las Palmas",
+        "away": "CD Eldense",
+        "kickoff": "2026-11-09T21:00:00+01:00",
+        "score": [
+          2,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-13"
+      },
+      {
+        "id": 102777,
+        "home": "CD Leganés",
+        "away": "Burgos CF",
+        "kickoff": "2026-11-13T20:30:00+01:00",
+        "score": [
+          3,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-14"
+      },
+      {
+        "id": 102782,
+        "home": "Real Valladolid CF",
+        "away": "CD Castellón",
+        "kickoff": "2026-11-14T14:00:00+01:00",
+        "score": [
+          0,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-14"
+      },
+      {
+        "id": 102780,
+        "home": "R. Sociedad B",
+        "away": "Real Sporting",
+        "kickoff": "2026-11-14T16:15:00+01:00",
+        "score": [
+          2,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-14"
+      },
+      {
+        "id": 102773,
+        "home": "UD Almería",
+        "away": "FC Andorra",
+        "kickoff": "2026-11-14T18:30:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-14"
+      },
+      {
+        "id": 102778,
+        "home": "RCD Mallorca",
+        "away": "Córdoba CF",
+        "kickoff": "2026-11-14T18:30:00+01:00",
+        "score": [
+          3,
+          3
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-14"
+      },
+      {
+        "id": 102779,
+        "home": "Real Oviedo",
+        "away": "Girona FC",
+        "kickoff": "2026-11-14T21:00:00+01:00",
+        "score": [
+          1,
+          2
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-14"
+      },
+      {
+        "id": 102781,
+        "home": "CD Tenerife",
+        "away": "AD Ceuta FC",
+        "kickoff": "2026-11-15T14:00:00+01:00",
+        "score": [
+          2,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-14"
+      },
+      {
+        "id": 102776,
+        "home": "Granada CF",
+        "away": "UD Las Palmas",
+        "kickoff": "2026-11-15T16:15:00+01:00",
+        "score": [
+          1,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-14"
+      },
+      {
+        "id": 102774,
+        "home": "SD Eibar",
+        "away": "Cádiz CF",
+        "kickoff": "2026-11-15T18:30:00+01:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-14"
+      },
+      {
+        "id": 102775,
+        "home": "CD Eldense",
+        "away": "CE Sabadell",
+        "kickoff": "2026-11-15T18:30:00+01:00",
+        "score": [
+          2,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-14"
+      },
+      {
+        "id": 102772,
+        "home": "Albacete BP",
+        "away": "Celta Fortuna",
+        "kickoff": "2026-11-16T20:30:00+01:00",
+        "score": [
+          1,
+          0
+        ],
+        "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-14"
+      }
+    ],
+    "f": [
+      {
+        "id": 103154,
+        "home": "Atlético de Madrid",
+        "away": "VCF Femenino",
+        "kickoff": "2026-10-23T19:30:00+02:00",
+        "score": [
+          4,
+          0
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-8"
+      },
+      {
+        "id": 103153,
+        "home": "Athletic Club",
+        "away": "Sevilla FC",
+        "kickoff": "2026-10-24T12:00:00+02:00",
+        "score": [
+          0,
+          0
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-8"
+      },
+      {
+        "id": 103160,
+        "home": "Real Sociedad",
+        "away": "RCD Espanyol de Barcelona",
+        "kickoff": "2026-10-24T12:00:00+02:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-8"
+      },
+      {
+        "id": 103159,
+        "home": "Real Madrid CF",
+        "away": "Costa Adeje Tenerife",
+        "kickoff": "2026-10-24T16:00:00+02:00",
+        "score": [
+          3,
+          2
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-8"
+      },
+      {
+        "id": 103156,
+        "home": "Logroño United",
+        "away": "FC Badalona Women",
+        "kickoff": "2026-10-24T18:15:00+02:00",
+        "score": [
+          1,
+          0
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-8"
+      },
+      {
+        "id": 103155,
+        "home": "FC Barcelona",
+        "away": "Granada CF",
+        "kickoff": "2026-10-24T20:30:00+02:00",
+        "score": [
+          3,
+          0
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-8"
+      },
+      {
+        "id": 103157,
+        "home": "Deportivo Abanca",
+        "away": "Deportivo Alavés",
+        "kickoff": "2026-10-25T12:45:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-8"
+      },
+      {
+        "id": 103158,
+        "home": "SD Eibar",
+        "away": "Madrid CFF",
+        "kickoff": "2026-10-25T17:00:00+01:00",
+        "score": [
+          2,
+          2
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-8"
+      },
+      {
+        "id": 103164,
+        "home": "Granada CF",
+        "away": "Atlético de Madrid",
+        "kickoff": "2026-10-31T12:00:00+01:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 103168,
+        "home": "VCF Femenino",
+        "away": "SD Eibar",
+        "kickoff": "2026-10-31T12:00:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 103163,
+        "home": "RCD Espanyol de Barcelona",
+        "away": "Logroño United",
+        "kickoff": "2026-10-31T16:00:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 103165,
+        "home": "Madrid CFF",
+        "away": "Deportivo Abanca",
+        "kickoff": "2026-10-31T18:00:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 103161,
+        "home": "Deportivo Alavés",
+        "away": "Real Sociedad",
+        "kickoff": "2026-11-01T12:00:00+01:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 103162,
+        "home": "FC Badalona Women",
+        "away": "FC Barcelona",
+        "kickoff": "2026-11-01T12:30:00+01:00",
+        "score": [
+          0,
+          4
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 103166,
+        "home": "Sevilla FC",
+        "away": "Real Madrid CF",
+        "kickoff": "2026-11-01T19:00:00+01:00",
+        "score": [
+          1,
+          3
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 103167,
+        "home": "Costa Adeje Tenerife",
+        "away": "Athletic Club",
+        "kickoff": "2026-11-02T21:00:00+01:00",
+        "score": [
+          2,
+          0
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-9"
+      },
+      {
+        "id": 103175,
+        "home": "Granada CF",
+        "away": "RCD Espanyol de Barcelona",
+        "kickoff": "2026-11-07T12:00:00+01:00",
+        "score": [
+          0,
+          1
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 103169,
+        "home": "Athletic Club",
+        "away": "Real Madrid CF",
+        "kickoff": "2026-11-07T16:00:00+01:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 103174,
+        "home": "SD Eibar",
+        "away": "Real Sociedad",
+        "kickoff": "2026-11-07T17:00:00+01:00",
+        "score": [
+          1,
+          2
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 103172,
+        "home": "Logroño United",
+        "away": "Sevilla FC",
+        "kickoff": "2026-11-08T12:00:00+01:00",
+        "score": [
+          2,
+          2
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 103171,
+        "home": "FC Barcelona",
+        "away": "Madrid CFF",
+        "kickoff": "2026-11-08T16:00:00+01:00",
+        "score": [
+          5,
+          1
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 103170,
+        "home": "Atlético de Madrid",
+        "away": "FC Badalona Women",
+        "kickoff": "2026-11-09T19:00:00+01:00",
+        "score": [
+          3,
+          0
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 103173,
+        "home": "Deportivo Abanca",
+        "away": "VCF Femenino",
+        "kickoff": "2026-11-09T21:00:00+01:00",
+        "score": [
+          0,
+          2
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10"
+      },
+      {
+        "id": 103179,
+        "home": "RCD Espanyol de Barcelona",
+        "away": "Costa Adeje Tenerife",
+        "kickoff": "2026-11-14T12:00:00+01:00",
+        "score": [
+          1,
+          3
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 103177,
+        "home": "Deportivo Alavés",
+        "away": "SD Eibar",
+        "kickoff": "2026-11-14T18:00:00+01:00",
+        "score": [
+          2,
+          1
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 103181,
+        "home": "Real Madrid CF",
+        "away": "FC Badalona Women",
+        "kickoff": "2026-11-14T20:30:00+01:00",
+        "score": [
+          3,
+          3
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 103180,
+        "home": "Madrid CFF",
+        "away": "Logroño United",
+        "kickoff": "2026-11-15T12:00:00+01:00",
+        "score": [
+          2,
+          3
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 103182,
+        "home": "Real Sociedad",
+        "away": "Athletic Club",
+        "kickoff": "2026-11-15T12:00:00+01:00",
+        "score": [
+          1,
+          4
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 103183,
+        "home": "Sevilla FC",
+        "away": "Atlético de Madrid",
+        "kickoff": "2026-11-15T16:00:00+01:00",
+        "score": [
+          1,
+          2
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 103178,
+        "home": "Deportivo Abanca",
+        "away": "FC Barcelona",
+        "kickoff": "2026-11-15T18:00:00+01:00",
+        "score": [
+          1,
+          1
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-11"
+      },
+      {
+        "id": 103184,
+        "home": "VCF Femenino",
+        "away": "Granada CF",
+        "kickoff": "2026-11-15T18:15:00+01:00",
+        "score": [
+          0,
+          0
+        ],
+        "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-11"
+      }
+    ]
+  },
+  "table_sources": [
+    "https://www.laliga.com/laliga-easports/clasificacion",
+    "https://www.laliga.com/laliga-hypermotion/clasificacion",
+    "https://www.laliga.com/futbol-femenino/clasificacion"
+  ]
+}
