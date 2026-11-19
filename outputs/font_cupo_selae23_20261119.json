@@ -1,0 +1,100 @@
+{
+  "number": 23,
+  "season": "2026-27",
+  "period": "21–22 de novembre de 2026",
+  "source": "https://www.loteriasyapuestas.es/f/loterias/documentos/Quiniela/Calendarios/Proximas_jornadas_deportivas.pdf",
+  "page": 2,
+  "rows": [
+    {
+      "position": 1,
+      "home": "ALAVÉS (M)",
+      "away": "DEPORTIVO (M)",
+      "match_id": 102369
+    },
+    {
+      "position": 2,
+      "home": "RAYO VALLECANO (M)",
+      "away": "VALENCIA (M)",
+      "match_id": 102376
+    },
+    {
+      "position": 3,
+      "home": "REAL MADRID (M)",
+      "away": "CELTA (M)",
+      "match_id": 102377
+    },
+    {
+      "position": 4,
+      "home": "BARCELONA (M)",
+      "away": "VILLARREAL (M)",
+      "match_id": 102371
+    },
+    {
+      "position": 5,
+      "home": "RACING SANTANDER (M)",
+      "away": "REAL SOCIEDAD (M)",
+      "match_id": 102375
+    },
+    {
+      "position": 6,
+      "home": "OSASUNA (M)",
+      "away": "MÁLAGA (M)",
+      "match_id": 102374
+    },
+    {
+      "position": 7,
+      "home": "GETAFE (M)",
+      "away": "AT. MADRID (M)",
+      "match_id": 102372
+    },
+    {
+      "position": 8,
+      "home": "TENERIFE (M)",
+      "away": "MALLORCA (M)",
+      "match_id": 102793
+    },
+    {
+      "position": 9,
+      "home": "SPORTING (M)",
+      "away": "LAS PALMAS (M)",
+      "match_id": 102792
+    },
+    {
+      "position": 10,
+      "home": "GIRONA (M)",
+      "away": "EIBAR (M)",
+      "match_id": 102789
+    },
+    {
+      "position": 11,
+      "home": "EIBAR (F)",
+      "away": "AT. MADRID (F)",
+      "match_id": 103188
+    },
+    {
+      "position": 12,
+      "home": "GRANADA (F)",
+      "away": "REAL MADRID (F)",
+      "match_id": 103190
+    },
+    {
+      "position": 13,
+      "home": "REAL SOCIEDAD (F)",
+      "away": "SEVILLA (F)",
+      "match_id": 103191
+    },
+    {
+      "position": 14,
+      "home": "TENERIFE (F)",
+      "away": "MADRID CFF (F)",
+      "match_id": 103192
+    }
+  ],
+  "pleno15": {
+    "home": "SEVILLA (M)",
+    "away": "BETIS (M)",
+    "match_id": 102378
+  },
+  "deadline": "2026-11-21T14:00:00+01:00",
+  "deadline_source": "https://www.loteriasyapuestas.es/f/loterias/web_corporativa/Comunicacion/Avisos_de_interes/Aviso%20cierre%20La%20Quiniela%20jornada%2023%C2%AA%20y%20El%20QuiniGol%20jornada%2025%C2%AA%20de%2021%20-%2022%20de%20Noviembre%20de%202026.pdf"
+}
