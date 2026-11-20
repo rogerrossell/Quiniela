@@ -1,0 +1,109 @@
+{
+  "season": "2026-27",
+  "competition": "LALIGA EA SPORTS",
+  "round": 13,
+  "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-13",
+  "verified_at": "2026-11-20T09:59:32.313054+01:00",
+  "matches": [
+    {
+      "id": 102370,
+      "home": "Athletic Club",
+      "away": "RCD Espanyol de Barcelona",
+      "kickoff": "2026-11-20T21:00:00+01:00",
+      "status": "PreMatch",
+      "result": null
+    },
+    {
+      "id": 102369,
+      "home": "Deportivo Alavés",
+      "away": "RC Deportivo",
+      "kickoff": "2026-11-21T14:00:00+01:00",
+      "status": "PreMatch",
+      "result": null
+    },
+    {
+      "id": 102376,
+      "home": "Rayo Vallecano",
+      "away": "Valencia CF",
+      "kickoff": "2026-11-21T16:15:00+01:00",
+      "status": "PreMatch",
+      "result": null
+    },
+    {
+      "id": 102378,
+      "home": "Sevilla FC",
+      "away": "Real Betis",
+      "kickoff": "2026-11-21T18:30:00+01:00",
+      "status": "PreMatch",
+      "result": null
+    },
+    {
+      "id": 102377,
+      "home": "Real Madrid",
+      "away": "Celta",
+      "kickoff": "2026-11-21T21:00:00+01:00",
+      "status": "PreMatch",
+      "result": null
+    },
+    {
+      "id": 102371,
+      "home": "FC Barcelona",
+      "away": "Villarreal CF",
+      "kickoff": "2026-11-22T14:00:00+01:00",
+      "status": "PreMatch",
+      "result": null
+    },
+    {
+      "id": 102375,
+      "home": "R. Racing Club",
+      "away": "Real Sociedad",
+      "kickoff": "2026-11-22T16:15:00+01:00",
+      "status": "PreMatch",
+      "result": null
+    },
+    {
+      "id": 102374,
+      "home": "CA Osasuna",
+      "away": "Málaga CF",
+      "kickoff": "2026-11-22T18:30:00+01:00",
+      "status": "PreMatch",
+      "result": null
+    },
+    {
+      "id": 102372,
+      "home": "Getafe CF",
+      "away": "Atlético de Madrid",
+      "kickoff": "2026-11-22T21:00:00+01:00",
+      "status": "PreMatch",
+      "result": null
+    },
+    {
+      "id": 102373,
+      "home": "Levante UD",
+      "away": "Elche CF",
+      "kickoff": "2026-11-23T21:00:00+01:00",
+      "status": "PreMatch",
+      "result": null
+    }
+  ],
+  "postponed_fixtures": [
+    {
+      "id": 102326,
+      "home": "Rayo Vallecano",
+      "away": "Athletic Club",
+      "kickoff": "2026-12-09T20:00:00+01:00",
+      "status": "PreMatch",
+      "result": null,
+      "source": "https://www.laliga.com/laliga-easports/resultados/2026-27/jornada-8"
+    },
+    {
+      "id": 103176,
+      "home": "Costa Adeje Tenerife",
+      "away": "Deportivo Alavés",
+      "kickoff": "2026-12-16T20:00:00+01:00",
+      "status": "PreMatch",
+      "result": null,
+      "source": "https://www.laliga.com/futbol-femenino/resultados/2026-27/jornada-10"
+    }
+  ]
+}
